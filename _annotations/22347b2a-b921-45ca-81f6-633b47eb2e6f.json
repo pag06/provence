@@ -1,0 +1,57 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0310"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "body": [
+        {
+            "created": "2023-07-24T14:46:56.586Z",
+            "creator": {
+                "id": "Pigeo",
+                "name": "Pierre-Aur\u00e9lien Georges"
+            },
+            "modified": "2023-07-24T14:47:13.011Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Faux: montage de la lame sur le manche"
+        },
+        {
+            "created": "2023-07-24T14:47:18.963Z",
+            "creator": {
+                "id": "Pigeo",
+                "name": "Pierre-Aur\u00e9lien Georges"
+            },
+            "modified": "2023-07-24T14:47:19.477Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L100"
+        },
+        {
+            "created": "2023-07-24T14:54:01.374Z",
+            "creator": {
+                "id": "Pigeo",
+                "name": "Pierre-Aur\u00e9lien Georges"
+            },
+            "modified": "2023-07-25T11:08:01.948Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Dessin d'Etienne SVED"
+        }
+    ],
+    "id": "22347b2a-b921-45ca-81f6-633b47eb2e6f.json",
+    "motivation": "commenting",
+    "target": {
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+            "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1246.190185546875,352.8114013671875,1096.82763671875,654.617919921875"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0310"
+    },
+    "type": "Annotation"
+}

@@ -1,0 +1,56 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0310"
+order: 2
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "body": [
+        {
+            "created": "2023-07-24T14:47:47.616Z",
+            "creator": {
+                "id": "Pigeo",
+                "name": "Pierre-Aur\u00e9lien Georges"
+            },
+            "modified": "2023-07-24T14:47:53.117Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Faux : montage de la lame sur le manche"
+        },
+        {
+            "created": "2023-07-24T14:47:57.512Z",
+            "creator": {
+                "id": "Pigeo",
+                "name": "Pierre-Aur\u00e9lien Georges"
+            },
+            "modified": "2023-07-24T14:47:58.512Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L100"
+        },
+        {
+            "created": "2023-07-24T14:54:20.740Z",
+            "creator": {
+                "id": "Pigeo",
+                "name": "Pierre-Aur\u00e9lien Georges"
+            },
+            "modified": "2023-07-25T11:08:08.934Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Dessin d'Etienne SVED\n"
+        }
+    ],
+    "id": "00c937b2-193d-4ddb-823d-c88e13c2686a.json",
+    "motivation": "commenting",
+    "target": {
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+            "type": "Manifest"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2632.863525390625,1254.0423583984375 2632.8408203125,2091.70263671875 2021.5467529296875,2083.75927734375 1615.4249267578125,1963.9678955078125 1073.1912841796875,2052.944091796875 1073.9102783203125,1715.072265625 2278.65966796875,1251.0635986328125\"></polygon></svg>"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0310"
+    },
+    "type": "Annotation"
+}

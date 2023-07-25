@@ -1,0 +1,56 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0310"
+order: 3
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "body": [
+        {
+            "created": "2023-07-24T14:55:26.963Z",
+            "creator": {
+                "id": "Pigeo",
+                "name": "Pierre-Aur\u00e9lien Georges"
+            },
+            "modified": "2023-07-25T11:05:11.627Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "La faux \u00e0 moisson\n\nOutil et vocabulaire recueillis \u00e0 Saumane, Alpes-de-Haute-Provence (\u00e0 9 km au Nord-Est de L89)"
+        },
+        {
+            "created": "2023-07-24T14:56:40.077Z",
+            "creator": {
+                "id": "Pigeo",
+                "name": "Pierre-Aur\u00e9lien Georges"
+            },
+            "modified": "2023-07-25T11:08:18.397Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Dessin de J.P. DUPONT"
+        },
+        {
+            "created": "2023-07-25T11:04:45.577Z",
+            "creator": {
+                "id": "Pigeo",
+                "name": "Pierre-Aur\u00e9lien Georges"
+            },
+            "modified": "2023-07-25T11:04:46.046Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L8"
+        }
+    ],
+    "id": "4ea951d4-9fcb-4a0d-99b4-f1ea3a0af4e9.json",
+    "motivation": "commenting",
+    "target": {
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+            "type": "Manifest"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2421.5,260.1 2427.8,650.4 2656.5,650.2 2650.7,1839.4 2846.4,1839.4 2846.4,1371.9 3772.6,936.6 3775.5,258.7\"></polygon></svg>"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0310"
+    },
+    "type": "Annotation"
+}
