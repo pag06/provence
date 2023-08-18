@@ -3,62 +3,73 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0312"
 order: 6
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Corne de vache servant d'\u00e9tui\nSt Michel-l'Observatoire, Alpes-de-Hte-Provence (5km O. du point 100)\nLa languette ou le crochet permettent de fixer l'\u00e9tui \u00e0 la ceinture : on n'a pas relev\u00e9 de terme particulier pour ce crochet dans les localit\u00e9s ou ces objets ont \u00e9t\u00e9 recueillis.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-08-18T12:17:39.004Z",
-            "modified": "2023-08-18T12:18:24.848Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L100",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T12:18:32.836Z"
+            "modified": "2023-08-18T12:18:24.848Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Corne de vache servant d'\u00e9tui\nSt Michel-l'Observatoire, Alpes-de-Hte-Provence (5km O. du point 100)\nLa languette ou le crochet permettent de fixer l'\u00e9tui \u00e0 la ceinture : on n'a pas relev\u00e9 de terme particulier pour ce crochet dans les localit\u00e9s ou ces objets ont \u00e9t\u00e9 recueillis."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C191",
+            "created": "2023-08-18T12:18:32.836Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T12:18:36.064Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L100"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2436",
+            "created": "2023-08-18T12:18:36.064Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T12:18:42.947Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C191"
+        },
+        {
+            "created": "2023-08-18T12:18:42.947Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2436"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Dessin : J.P Dupont",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-18T12:52:20.811Z",
+            "modified": "2023-08-18T12:52:23.034Z"
         }
     ],
+    "id": "63495cbd-264d-49f5-bd09-b3edf5e32104.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0312",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1051.08544921875,1979.4273681640625 1604.182861328125,1997.463134765625 1628.23046875,2818.09130859375 1177.3359375,2806.0673828125\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0312"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "63495cbd-264d-49f5-bd09-b3edf5e32104.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
