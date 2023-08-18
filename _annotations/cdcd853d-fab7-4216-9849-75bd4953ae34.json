@@ -3,72 +3,83 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0311"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C188",
+            "created": "2023-08-18T11:53:12.685Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T11:53:12.685Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C188"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q3855",
+            "created": "2023-08-18T11:53:20.861Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T11:53:20.861Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q3855"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L130",
+            "created": "2023-08-18T11:53:23.108Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T11:53:23.108Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L130"
         },
         {
-            "type": "TextualBody",
-            "value": "Enclumette \u00e0 t\u00eate plate et marteau \u00e0 bouts ronds.\nEygui\u00e8res, Bouches-du-Rh\u00f4ne (point 130)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-08-18T11:53:25.389Z",
-            "modified": "2023-08-18T11:53:58.602Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q6393",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T11:54:12.837Z"
+            "modified": "2023-08-18T11:53:58.602Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Enclumette \u00e0 t\u00eate plate et marteau \u00e0 bouts ronds.\nEygui\u00e8res, Bouches-du-Rh\u00f4ne (point 130)"
+        },
+        {
+            "created": "2023-08-18T11:54:12.837Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q6393"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Dessin : J.P Dupont",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-18T12:50:48.820Z",
+            "modified": "2023-08-18T12:51:07.860Z"
         }
     ],
+    "id": "cdcd853d-fab7-4216-9849-75bd4953ae34.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0311",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1757.4869384765625,1288.0555419921875 1231.4432373046875,1291.0615234375 1231.4432373046875,1155.793212890625 1093.1689453125,1146.7752685546875 1069.1212158203125,244.986083984375 1760.492919921875,247.99203491210938\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0311"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "cdcd853d-fab7-4216-9849-75bd4953ae34.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
