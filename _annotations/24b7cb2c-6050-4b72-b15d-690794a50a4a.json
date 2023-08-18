@@ -3,62 +3,73 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0311"
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Enclumette \u00e0 t\u00eate \u00e9troite et \u00e0 rebord ; le marteau est plat.\nBanon, Alpes-de-Hte-Provence (point 89)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-08-18T12:00:22.718Z",
-            "modified": "2023-08-18T12:00:57.938Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L89",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T12:01:14.876Z"
+            "modified": "2023-08-18T12:00:57.938Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Enclumette \u00e0 t\u00eate \u00e9troite et \u00e0 rebord ; le marteau est plat.\nBanon, Alpes-de-Hte-Provence (point 89)"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C188",
+            "created": "2023-08-18T12:01:14.876Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T12:01:19.771Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L89"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q3855",
+            "created": "2023-08-18T12:01:19.771Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T12:01:28.575Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C188"
+        },
+        {
+            "created": "2023-08-18T12:01:28.575Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q3855"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Dessin : J.P Dupont",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-18T12:51:22.884Z",
+            "modified": "2023-08-18T12:51:24.795Z"
         }
     ],
+    "id": "24b7cb2c-6050-4b72-b15d-690794a50a4a.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0311",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"2211.3876953125,241.9801025390625 2653.264404296875,244.98606872558594 2635.228515625,1369.2166748046875 2385.7333984375,1363.2047119140625 2376.715576171875,1161.8050537109375 2226.41748046875,1164.81103515625\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0311"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "24b7cb2c-6050-4b72-b15d-690794a50a4a.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
