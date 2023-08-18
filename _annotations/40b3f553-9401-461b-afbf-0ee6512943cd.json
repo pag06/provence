@@ -3,62 +3,73 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0313"
 order: 5
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "R\u00e2teau pour r\u00e2teler le foin, ou le bl\u00e9 sur l'aire ; de m\u00eames dimensions que les pr\u00e9c\u00e9dents, mais don le manche forme un angle ferm\u00e9 avec la traverse, et dont les dents sont dispos\u00e9es de part et d'autre de la traverse.\nBoulbon, Bouches-du-Rh\u00f4ne (point 122)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-08-18T12:33:30.839Z",
-            "modified": "2023-08-18T12:34:01.454Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L122",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T12:34:07.583Z"
+            "modified": "2023-08-18T12:34:01.454Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "R\u00e2teau pour r\u00e2teler le foin, ou le bl\u00e9 sur l'aire ; de m\u00eames dimensions que les pr\u00e9c\u00e9dents, mais don le manche forme un angle ferm\u00e9 avec la traverse, et dont les dents sont dispos\u00e9es de part et d'autre de la traverse.\nBoulbon, Bouches-du-Rh\u00f4ne (point 122)"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C200",
+            "created": "2023-08-18T12:34:07.583Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T12:34:09.444Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L122"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8597",
+            "created": "2023-08-18T12:34:09.444Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T12:34:15.602Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C200"
+        },
+        {
+            "created": "2023-08-18T12:34:15.602Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8597"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Dessin : J.P Dupont",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-18T12:54:32.239Z",
+            "modified": "2023-08-18T12:54:35.482Z"
         }
     ],
+    "id": "40b3f553-9401-461b-afbf-0ee6512943cd.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0313",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"3816.572265625,949.8846435546875 3894.727294921875,991.9681396484375 3215.379638671875,1923.8170166015625 3564.0712890625,2092.15087890625 3323.59423828125,2422.80712890625 2620.19873046875,2074.115234375 2836.628173828125,1761.494873046875 3119.188720703125,1893.75732421875 3119.188720703125,1887.745361328125\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0313"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "40b3f553-9401-461b-afbf-0ee6512943cd.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
