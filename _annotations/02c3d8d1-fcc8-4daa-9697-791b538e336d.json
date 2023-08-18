@@ -3,63 +3,74 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0311"
 order: 6
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Le faucheur est en train de battre la faux ([...]) : l'enclumette est plant\u00e9e en terre jusqu'\u00e0 la garce, entre les genoux du faucheur.\nLe Fugeret, Alpes-de-Hte-privencce (5km au N. du point 93)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-08-18T12:03:22.909Z",
-            "modified": "2023-08-18T12:04:50.100Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L93",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T12:05:23.600Z"
+            "modified": "2023-08-18T12:04:50.100Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Le faucheur est en train de battre la faux ([...]) : l'enclumette est plant\u00e9e en terre jusqu'\u00e0 la garce, entre les genoux du faucheur.\nLe Fugeret, Alpes-de-Hte-privencce (5km au N. du point 93)"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4454???",
+            "created": "2023-08-18T12:05:23.600Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T12:06:16.396Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L93"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4474???",
+            "created": "2023-08-18T12:06:16.396Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T12:06:29.708Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4454???"
+        },
+        {
+            "created": "2023-08-18T12:06:29.708Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4474???"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Photo : Cl. Martel",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-18T12:49:50.899Z",
+            "modified": "2023-08-18T12:49:53.779Z"
         }
     ],
+    "id": "02c3d8d1-fcc8-4daa-9697-791b538e336d.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0311",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2713.383544921875,232.96221923828125,1223.427490234375,1214.4094848632812"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2713.383544921875,232.96221923828125,1223.427490234375,1214.4094848632812"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0311"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "02c3d8d1-fcc8-4daa-9697-791b538e336d.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
