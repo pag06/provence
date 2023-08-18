@@ -1,0 +1,64 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0314"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "R\u00e2teau \u00e0 deux bras \u00e0 traction humaine : ces r\u00e2teaux ont un tr\u00e8s longue traverse de 1,50m environ, et deux longs manches de 2m environ.\nR\u00e2teau \u00e0 traverse et \u00e0 dents m\u00e9talliques et \u00e0 manche de bois.\nSeyne-les-Alpes, Alpes-de-Haute-Provence\n",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-18T12:38:14.914Z",
+            "modified": "2023-08-18T12:39:06.516Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L55",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-18T12:39:33.235Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C200",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-18T12:39:35.382Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8597",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-18T12:39:45.800Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0314",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2881.717529296875,243.48306274414062 3945.828857421875,291.5784912109375 3879.697509765625,1698.36962890625 2484.93017578125,1548.0714111328125 2593.14501953125,1265.5108642578125 2779.5146484375,1253.4869384765625\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "43b0bd74-07ea-4ed1-a6b8-475c6fe322fc.json",
+    "motivation": "commenting"
+}
