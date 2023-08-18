@@ -3,62 +3,73 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0314"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "R\u00e2teau \u00e0 deux bras \u00e0 traction humaine : ces r\u00e2teaux ont un tr\u00e8s longue traverse de 1,50m environ, et deux longs manches de 2m environ.\n\nR\u00e2teau en bois\nBanon, Alpes-de-Haute-Provence",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-08-18T12:35:12.900Z",
-            "modified": "2023-08-18T12:37:26.975Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L89",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T12:37:20.592Z"
+            "modified": "2023-08-18T12:37:26.975Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "R\u00e2teau \u00e0 deux bras \u00e0 traction humaine : ces r\u00e2teaux ont un tr\u00e8s longue traverse de 1,50m environ, et deux longs manches de 2m environ.\n\nR\u00e2teau en bois\nBanon, Alpes-de-Haute-Provence"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8597",
+            "created": "2023-08-18T12:37:20.592Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T12:37:39.358Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L89"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C200",
+            "created": "2023-08-18T12:37:39.358Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T12:37:42.459Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8597"
+        },
+        {
+            "created": "2023-08-18T12:37:42.459Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C200"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Dessin : J.P Dupont",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-18T12:55:00.051Z",
+            "modified": "2023-08-18T12:55:01.824Z"
         }
     ],
+    "id": "9e706864-9a1d-43e8-96ce-c07295525b22.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0314",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1219.41943359375,244.98606872558594 2475.912353515625,235.96817016601562 2457.876708984375,1465.407470703125 996.9780883789062,1426.3299560546875 990.9661865234375,1161.8050537109375 1231.4432373046875,1158.7991943359375\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0314"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "9e706864-9a1d-43e8-96ce-c07295525b22.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
