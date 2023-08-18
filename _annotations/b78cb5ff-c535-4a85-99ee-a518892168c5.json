@@ -7,14 +7,14 @@ order: 2
     "body": [
         {
             "type": "TextualBody",
-            "value": "\u00c9tui en bois\nEyguieres, Bouches-du-Rh\u00f4ne (point 130)",
+            "value": "\u00c9tui en bois\nLa languette ou le crochet permettent de fixer l'\u00e9tui \u00e0 la ceinture : on n'a pas relev\u00e9 de terme particulier pour ce crochet dans les localit\u00e9s ou ces objets ont \u00e9t\u00e9 recueillis.\nEyguieres, Bouches-du-Rh\u00f4ne (point 130)",
             "purpose": "commenting",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
             "created": "2023-08-18T12:09:57.942Z",
-            "modified": "2023-08-18T12:10:22.787Z"
+            "modified": "2023-08-18T12:14:50.789Z"
         },
         {
             "type": "TextualBody",
