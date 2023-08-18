@@ -1,0 +1,67 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0314"
+order: 3
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "R\u00e2teau \u00e0 deux bras \u00e0 traction humaine : ces r\u00e2teaux ont un tr\u00e8s longue traverse de 1,50m environ, et deux longs manches de 2m environ.\nR\u00e2teau m\u00e9talliques \u00e0 deux bras sur roues, avec levier pour relever et abaisser les dents.\nLe Fugeret, Alpes-de-Haute-Provence",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-18T12:40:02.773Z",
+            "modified": "2023-08-18T12:40:50.725Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L93",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-18T12:43:37.623Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C200",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-18T12:43:40.178Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8597",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-18T12:43:43.378Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0314",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1174.3299560546875,1630.735595703125 2358.6796875,1651.77734375 2337.152427453743,2863.454462862942 1152.8026960084305,2842.412714816067\" /></svg>"
+        },
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "e3c81f01-e42e-4f1b-8aef-12cff88a7cbf.json",
+    "motivation": "commenting"
+}
