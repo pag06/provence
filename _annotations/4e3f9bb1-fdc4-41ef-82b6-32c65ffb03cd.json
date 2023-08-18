@@ -3,63 +3,74 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0312"
 order: 7
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Faucilles \u00e0 moisson \nNoyers-s/-Jabron, Alpes-de-Hte-Provence (point 71)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-08-18T12:19:13.101Z",
-            "modified": "2023-08-18T12:19:48.342Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L71",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T12:20:02.130Z"
+            "modified": "2023-08-18T12:19:48.342Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Faucilles \u00e0 moisson \nNoyers-s/-Jabron, Alpes-de-Hte-Provence (point 71)"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4458",
+            "created": "2023-08-18T12:20:02.130Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T12:20:08.358Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L71"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C192",
+            "created": "2023-08-18T12:20:08.358Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T12:20:15.882Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4458"
+        },
+        {
+            "created": "2023-08-18T12:20:15.882Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C192"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Photo : Cl. Martel",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-18T12:50:04.606Z",
+            "modified": "2023-08-18T12:50:07.078Z"
         }
     ],
+    "id": "4e3f9bb1-fdc4-41ef-82b6-32c65ffb03cd.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0312",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2737.431396484375,272.0397644042969,1169.320068359375,874.7355041503906"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2737.431396484375,272.0397644042969,1169.320068359375,874.7355041503906"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0312"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "4e3f9bb1-fdc4-41ef-82b6-32c65ffb03cd.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
