@@ -3,65 +3,76 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0312"
 order: 8
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "La faucille \u00e0 moisson : [...] et la faucille pour l'herbe : [...]\n\u00e0 Eyguieres, Bouches-du-Rh\u00f4ne (point 130)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-08-18T12:21:00.822Z",
-            "modified": "2023-08-18T12:21:43.743Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L130",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T12:21:48.123Z"
+            "modified": "2023-08-18T12:21:43.743Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "La faucille \u00e0 moisson : [...] et la faucille pour l'herbe : [...]\n\u00e0 Eyguieres, Bouches-du-Rh\u00f4ne (point 130)"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4458",
+            "created": "2023-08-18T12:21:48.123Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T12:22:01.268Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L130"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C192",
+            "created": "2023-08-18T12:22:01.268Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T12:22:04.865Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4458"
+        },
+        {
+            "created": "2023-08-18T12:22:04.865Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C192"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Photo : Cl. Martel",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-18T12:50:13.582Z",
+            "modified": "2023-08-18T12:50:15.594Z"
         }
     ],
+    "id": "6902eb6a-36be-4e99-bbed-813dc35f7da3.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0312",
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2959.87255859375,1291.0615234375 3684.309814453125,1306.0914306640625 3669.7110994815293,2009.7453424064552 2945.2738436221543,1994.7154351798927\" /></svg>"
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+            "type": "Manifest"
         },
         "renderedVia": {
             "name": "annotorious-tilted-box"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
-            "type": "Manifest"
-        }
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2959.87255859375,1291.0615234375 3684.309814453125,1306.0914306640625 3669.7110994815293,2009.7453424064552 2945.2738436221543,1994.7154351798927\" /></svg>"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0312"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "6902eb6a-36be-4e99-bbed-813dc35f7da3.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
