@@ -1,0 +1,63 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0311"
+order: 4
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Enclumette \u00e0 t\u00eate \u00e9troite et \u00e0 rebord ; le marteau est plat.\nBanon, Alpes-de-Hte-Provence (point 89)",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-18T12:02:05.125Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L89",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-18T12:02:09.137Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q3855",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-18T12:02:13.404Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C188",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-18T12:02:16.719Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0311",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1450.878662109375,1352.683837890625 1781.53466796875,1358.69580078125 1763.4989013671875,2795.546630859375 1090.1629638671875,2777.5107421875 1090.1629638671875,2116.19873046875 1486.9501953125,1905.78125\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "e972ee87-2124-47c6-b263-4a240ecd3d13.json",
+    "motivation": "commenting"
+}
