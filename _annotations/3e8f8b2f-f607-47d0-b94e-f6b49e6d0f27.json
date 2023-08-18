@@ -3,62 +3,73 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0312"
 order: 9
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Les doigtiers ([...]) en canne de Provence, prot\u00e8gent la main gauche du coupeur (ou la main droite, s'il est gaucher).\nCeux-ci proviennent de Thorame-Haute, Alpes-de-Hte-Provence (point 77)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-08-18T12:22:29.264Z",
-            "modified": "2023-08-18T12:23:31.631Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L77",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T12:23:46.470Z"
+            "modified": "2023-08-18T12:23:31.631Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Les doigtiers ([...]) en canne de Provence, prot\u00e8gent la main gauche du coupeur (ou la main droite, s'il est gaucher).\nCeux-ci proviennent de Thorame-Haute, Alpes-de-Hte-Provence (point 77)"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C192",
+            "created": "2023-08-18T12:23:46.470Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T12:23:50.305Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L77"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4458",
+            "created": "2023-08-18T12:23:50.305Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T12:23:53.945Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C192"
+        },
+        {
+            "created": "2023-08-18T12:23:53.945Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4458"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Dessin : J.P Dupont",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-18T12:52:29.315Z",
+            "modified": "2023-08-18T12:52:31.394Z"
         }
     ],
+    "id": "3e8f8b2f-f607-47d0-b94e-f6b49e6d0f27.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0312",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"2953.86083984375,2439.33984375 3170.2900390625,2445.351806640625 3467.880615234375,2213.892578125 3876.691650390625,2198.86279296875 3876.691650390625,2878.210693359375 2941.8369140625,2869.19287109375\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0312"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "3e8f8b2f-f607-47d0-b94e-f6b49e6d0f27.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
