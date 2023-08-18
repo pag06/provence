@@ -1,0 +1,64 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0311"
+order: 3
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Enclumette \u00e0 t\u00eate \u00e9troite et \u00e0 rebord ; le marteau est plat.\nBanon, Alpes-de-Hte-Provence (point 89)",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-18T12:00:22.718Z",
+            "modified": "2023-08-18T12:00:57.938Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L89",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-18T12:01:14.876Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C188",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-18T12:01:19.771Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q3855",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-18T12:01:28.575Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0311",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2211.3876953125,241.9801025390625 2653.264404296875,244.98606872558594 2635.228515625,1369.2166748046875 2385.7333984375,1363.2047119140625 2376.715576171875,1161.8050537109375 2226.41748046875,1164.81103515625\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "24b7cb2c-6050-4b72-b15d-690794a50a4a.json",
+    "motivation": "commenting"
+}
