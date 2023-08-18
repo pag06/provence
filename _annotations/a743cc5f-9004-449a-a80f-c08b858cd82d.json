@@ -1,0 +1,63 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0313"
+order: 3
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "R\u00e2teau de fenaison en bois dont la travers, qui mesure environ 1m\u00e8tre forme un angle droit avec le manche, assez long (de 2m\u00e8tres).\nSur ce r\u00e2teau, les dents sont dispos\u00e9s d'un seul c\u00f4t\u00e9 de la traverse.\nNoyers-s.-Jabron, Alpes-de-Hte-Provence (point 71)",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-18T12:30:35.075Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L71",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-18T12:30:39.610Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C200",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-18T12:30:41.566Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8597",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-18T12:30:45.218Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0313",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2677.31201171875,952.890625 2785.526611328125,982.9502563476562 2527.013671875,2095.156982421875 2917.7890625,2203.37158203125 2767.49072265625,2570.099365234375 1961.8924560546875,2323.610107421875 2088.14306640625,2035.0377197265625 2388.7392578125,2059.08544921875 2388.7392578125,2059.08544921875\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "a743cc5f-9004-449a-a80f-c08b858cd82d.json",
+    "motivation": "commenting"
+}
