@@ -37,6 +37,26 @@ order: 1
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Dessin d'Etienne SVED"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q4474",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-18T11:42:11.380Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C178",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-18T11:42:23.605Z"
         }
     ],
     "id": "22347b2a-b921-45ca-81f6-633b47eb2e6f.json",
