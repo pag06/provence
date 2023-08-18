@@ -1,0 +1,65 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0311"
+order: 6
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Le faucheur est en train de battre la faux ([...]) : l'enclumette est plant\u00e9e en terre jusqu'\u00e0 la garce, entre les genoux du faucheur.\nLe Fugeret, Alpes-de-Hte-privencce (5km au N. du point 93)",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-18T12:03:22.909Z",
+            "modified": "2023-08-18T12:04:50.100Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L93",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-18T12:05:23.600Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q4454???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-18T12:06:16.396Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q4474???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-18T12:06:29.708Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0311",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2713.383544921875,232.96221923828125,1223.427490234375,1214.4094848632812"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "02c3d8d1-fcc8-4daa-9697-791b538e336d.json",
+    "motivation": "commenting"
+}
