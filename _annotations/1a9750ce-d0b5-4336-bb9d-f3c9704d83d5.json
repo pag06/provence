@@ -3,65 +3,76 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0313"
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "R\u00e2teau pour r\u00e2teler le foin, ou le bl\u00e9 sur l'aire ; de m\u00eames dimensions que les pr\u00e9c\u00e9dents, mais don le manche forme un angle ferm\u00e9 avec la traverse, et dont les dents sont dispos\u00e9es de part et d'autre de la traverse.\nLa Chapelle-en-Valgaudemar, Hautes-Alpes (point 22)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-08-18T12:31:17.914Z",
-            "modified": "2023-08-18T12:32:43.143Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L22",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T12:32:52.950Z"
+            "modified": "2023-08-18T12:32:43.143Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "R\u00e2teau pour r\u00e2teler le foin, ou le bl\u00e9 sur l'aire ; de m\u00eames dimensions que les pr\u00e9c\u00e9dents, mais don le manche forme un angle ferm\u00e9 avec la traverse, et dont les dents sont dispos\u00e9es de part et d'autre de la traverse.\nLa Chapelle-en-Valgaudemar, Hautes-Alpes (point 22)"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C200",
+            "created": "2023-08-18T12:32:52.950Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T12:33:01.767Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L22"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8597",
+            "created": "2023-08-18T12:33:01.767Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T12:33:05.784Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C200"
+        },
+        {
+            "created": "2023-08-18T12:33:05.784Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8597"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Photo : Cl. Martel",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-18T12:54:38.713Z",
+            "modified": "2023-08-18T12:54:51.652Z"
         }
     ],
+    "id": "1a9750ce-d0b5-4336-bb9d-f3c9704d83d5.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0313",
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2983.92041015625,299.0934143066406 3690.32177734375,296.08746337890625 3692.318269955481,765.2651527065161 2985.916902767981,768.2711036342505\" /></svg>"
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+            "type": "Manifest"
         },
         "renderedVia": {
             "name": "annotorious-tilted-box"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
-            "type": "Manifest"
-        }
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2983.92041015625,299.0934143066406 3690.32177734375,296.08746337890625 3692.318269955481,765.2651527065161 2985.916902767981,768.2711036342505\" /></svg>"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0313"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "1a9750ce-d0b5-4336-bb9d-f3c9704d83d5.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
