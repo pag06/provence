@@ -1,0 +1,64 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0316"
+order: 5
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Navette et cordes.\nLa Chapelle-en-Valgaudemar, Hautes-Alpes (point 26)\n[...]\n\nLes navettes sont de petits morceaux de bois allong\u00e9s, de 115 \u00e0 25cm et perc\u00e9s de deux trous dans lesquels passe une extr\u00e9mit\u00e9 de la corde, bloqu\u00e9e par un n\u0153ud et o\u00f9 revient s'enfiler et se nouer l'autre extr\u00e9mit\u00e9 de la corde apr\u00e8s avoir fait le tour de la trousse.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-19T13:11:27.492Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L26",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-19T13:11:30.940Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2245",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-19T13:11:32.386Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C208",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-19T13:11:34.622Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0316",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1268.527587890625,1775.8529052734375,730.372802734375,195.4068603515625"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "ebdad89c-7212-4368-ab1b-c47c0ad301f8.json",
+    "motivation": "commenting"
+}
