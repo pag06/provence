@@ -1,0 +1,67 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0316"
+order: 7
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Sur la m\u00eame trousse on a utilis\u00e9 ici une navette plus petite, \u00e0 un seul trou et \u00e0 bout arrondi d'un c\u00f4t\u00e9 ; [...].\nCette navette maintient seulement le morceau de corde qui sert \u00e0 refermer le filet sur le foin pour lier la trousse : Serennes Alpes-de-Hte-Provence.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-19T13:15:29.795Z",
+            "modified": "2023-08-19T13:20:03.107Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C208",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-19T13:16:46.365Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2245",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-19T13:16:50.521Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-19T13:19:59.794Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0316",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2786.934326171875,1397.85302734375 3924.1376953125,1413.869873046875 3915.16673623233,2050.8120699990063 2777.963367091705,2034.7952242958813\" /></svg>"
+        },
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "18aaf348-e0b6-483e-a81e-935af91ca64d.json",
+    "motivation": "commenting"
+}
