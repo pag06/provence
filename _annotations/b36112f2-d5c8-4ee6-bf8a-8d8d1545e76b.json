@@ -1,0 +1,67 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0317"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Le m\u00e2t ou perche [...] autour duquel on entasse le foin est ici plant\u00e9 en terre et maintenu verticalement par des \u00e9tais ; mais on utilise plus fr\u00e9quemment une longue branche que l'on plante profond\u00e9ment dans le sol et que l'on cale par de grosses pierres.\n\nPhoto faite pendant la confection d'une meule de foin. (\u00e0 5km du point 100), Alpes-de-Hts-Provence.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-19T13:24:32.118Z",
+            "modified": "2023-08-19T13:27:02.634Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L100",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-19T13:27:07.900Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C220",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-19T13:27:56.910Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q7542",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-19T13:28:00.570Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0317",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1297.574462890625,287.069580078125 2349.661865234375,302.0993957519531 2334.1131658942586,1390.5086652716614 1282.0257635505086,1375.4788495978332\" /></svg>"
+        },
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "b36112f2-d5c8-4ee6-bf8a-8d8d1545e76b.json",
+    "motivation": "commenting"
+}
