@@ -1,0 +1,67 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0318"
+order: 3
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Araire manche-sep (terminologie de M. Jean-Brunhes Delamare et Andr\u00e9 G. Haudricourt : l'Homme et la Charrue, Gallimard NRF 1955), enti\u00e8rement en bois \u00e0 Beauregard, Dr\u00f4me (pr\u00e8s de Jaillans) [...]",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-19T13:44:00.519Z",
+            "modified": "2023-08-19T13:44:31.626Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-19T13:45:28.041Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C276",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-19T13:45:32.216Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q354",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-19T13:45:38.469Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0318",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"3129.709716796875,1501.97998046875 3851.140869140625,1514.0037841796875 3839.215560998925,2229.525178370014 3117.784408655175,2217.5013746590766\" /></svg>"
+        },
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "4c49df65-50a6-471f-9fb8-93cf9e07c403.json",
+    "motivation": "commenting"
+}
