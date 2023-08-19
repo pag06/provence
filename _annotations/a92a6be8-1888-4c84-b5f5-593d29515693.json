@@ -1,0 +1,57 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0315"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Le mulet ([...]), charg\u00e9 du b\u00e2t ([...]) sort de l'\u00e9curie ([...]).\n(Dans les maisons b\u00e2ties sur un terrain en pente, cette \u00e9curie se trouve parfois situ\u00e9e au-dessus du rez-de-chauss\u00e9e aux pi\u00e8ces vo\u00fbt\u00e9es et au-dessous de la grange situ\u00e9e sous la toiture ; on l'appelle alors [...])",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-19T12:49:36.075Z",
+            "modified": "2023-08-19T12:52:25.475Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L37",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-19T12:52:44.161Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-19T12:54:48.330Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0315",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1330.64013671875,326.1470947265625 2451.86474609375,338.17095947265625 2440.0602832665672,1438.9363541091668 1318.835673891567,1426.912489363073\" /></svg>"
+        },
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "a92a6be8-1888-4c84-b5f5-593d29515693.json",
+    "motivation": "commenting"
+}
