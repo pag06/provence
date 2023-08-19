@@ -7,14 +7,14 @@ order: 1
     "body": [
         {
             "type": "TextualBody",
-            "value": "Le m\u00e2t ou perche [...] autour duquel on entasse le foin est ici plant\u00e9 en terre et maintenu verticalement par des \u00e9tais ; mais on utilise plus fr\u00e9quemment une longue branche que l'on plante profond\u00e9ment dans le sol et que l'on cale par de grosses pierres.\n\nPhoto faite pendant la confection d'une meule de foin\u00e0 St Michel-l'Observatoire (\u00e0 5km du point 100), Alpes-de-Hts-Provence.",
+            "value": "Le m\u00e2t ou perche [...] autour duquel on entasse le foin est ici plant\u00e9 en terre et maintenu verticalement par des \u00e9tais ; mais on utilise plus fr\u00e9quemment une longue branche que l'on plante profond\u00e9ment dans le sol et que l'on cale par de grosses pierres.\n\nPhoto faite pendant la confection d'une meule de foin \u00e0 St \u00e0 St Michel-l'Observatoire (\u00e0 5km du point 100), Alpes-de-Hts-Provence.",
             "purpose": "commenting",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
             "created": "2023-08-19T13:24:32.118Z",
-            "modified": "2023-08-19T13:34:37.825Z"
+            "modified": "2023-08-19T13:34:58.368Z"
         },
         {
             "type": "TextualBody",
