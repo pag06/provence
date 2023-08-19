@@ -1,0 +1,37 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0316"
+order: 6
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "D\u00e9tail de la corde nou\u00e9e dans la navette. Cette navette est pointue aux deux extr\u00e9mit\u00e9s et perc\u00e9e de deux trous. C'est la [...].",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-19T13:12:42.766Z",
+            "modified": "2023-08-19T13:13:24.931Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0316",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2927.883544921875,260.6495666503906 3952.96826171875,273.463134765625 3939.8379066111606,1323.890792843406 2914.7531898142856,1311.0772247281716\" /></svg>"
+        },
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "491d538c-ceef-47c2-a847-884f020f8347.json",
+    "motivation": "commenting"
+}
