@@ -1,0 +1,64 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0318"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Araire manche-sep dont le manche et le sep constituent une seule pi\u00e8ce, travers\u00e9e par l'\u00e2ge. Cet araire est \u00e9quip\u00e9 d'un avant-train mais ne comporte pas de r\u00e9gulateur.\nLe soc est plat et assez large.\nVallouise, Hautes-Alpes (point 17)\n[...]",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-19T13:40:17.455Z",
+            "modified": "2023-08-19T13:41:45.498Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L17",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-19T13:41:50.988Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C276",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-19T13:41:55.743Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q354",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-19T13:41:59.493Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0318",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1213.407470703125,1279.0377197265625 1649.272216796875,1279.0377197265625 1673.3199462890625,921.3280029296875 2893.741455078125,924.3339233398438 3245.439208984375,572.6361694335938 3585.113037109375,581.654052734375 3573.08935546875,1140.7633056640625 3218.385498046875,1131.7454833984375 3206.361572265625,1411.3001708984375 2256.47705078125,1519.5147705078125 2250.465087890625,1835.14111328125 1204.3896484375,1793.0576171875\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "364710a1-d7e5-4497-9209-0b9a51a006fd.json",
+    "motivation": "commenting"
+}
