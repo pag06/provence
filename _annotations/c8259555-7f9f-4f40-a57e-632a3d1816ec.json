@@ -7,14 +7,14 @@ order: 3
     "body": [
         {
             "type": "TextualBody",
-            "value": "Les charges : [...] [...] maintenues par des cordes ou des fils de fer, servent \u00e0 la fois \u00e0 entasser le foin sur le sol et \u00e0 le prot\u00e9ger de l'\u00e9parpillement par le vent.\n\nPhoto faite pendant la confection d'une meule de foin. (\u00e0 5km du point 100), Alpes-de-Hts-Provence.",
+            "value": "Les charges : [...] [...] maintenues par des cordes ou des fils de fer, servent \u00e0 la fois \u00e0 entasser le foin sur le sol et \u00e0 le prot\u00e9ger de l'\u00e9parpillement par le vent.\n\nPhoto faite pendant la confection d'une meule de foin \u00e0 St Michel-l'Observatoire (\u00e0 5km du point 100), Alpes-de-Hts-Provence.",
             "purpose": "commenting",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
             "created": "2023-08-19T13:29:59.845Z",
-            "modified": "2023-08-19T13:31:03.984Z"
+            "modified": "2023-08-19T13:34:25.087Z"
         },
         {
             "type": "TextualBody",
