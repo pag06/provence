@@ -1,0 +1,67 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0317"
+order: 4
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Meules de foin \u00e0 Monieux, Vaucluse ( 6km SO. du point 81) : la perche est ici une longue branche. La meule situ\u00e9e au second plan, \u00e0 droite est recouverte d'un drap de jute : [...]",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-19T13:31:28.049Z",
+            "modified": "2023-08-19T13:32:24.846Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L81",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-19T13:32:34.280Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C220",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-19T13:32:45.775Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q6575",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-19T13:33:03.223Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0317",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1291.5625,1576.6280517578125 2337.637939453125,1594.6639404296875 2319.4430410804016,2649.961888721618 1273.3676016272768,2631.926000049743\" /></svg>"
+        },
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "2f415419-36fa-4332-817d-8b2fdaa1b7a9.json",
+    "motivation": "commenting"
+}
