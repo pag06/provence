@@ -1,0 +1,57 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0315"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "La trousse de foin ([...]), pesant environ 200kgs, a \u00e9t\u00e9 charg\u00e9e sur le b\u00e2t, et les fermiers tendent les cordes qui servent \u00e0 maintenir la trousse sur le b\u00e2t ; ces cordes sont appel\u00e9es [...].",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-19T12:56:18.790Z",
+            "modified": "2023-08-19T12:57:46.673Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L37",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-19T12:57:54.091Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-19T12:57:56.044Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0315",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2713.3837890625,404.3021545410156 3861.661865234375,422.33795166015625 3844.2446402544097,1531.233636177607 2695.9665640825347,1513.1978390584663\" /></svg>"
+        },
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "4d62400a-d145-43b2-bdeb-b7dfb3f6cc87.json",
+    "motivation": "commenting"
+}
