@@ -44,6 +44,17 @@ order: 4
                 "name": "Eulalie"
             },
             "created": "2023-08-19T13:11:10.301Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Illustration : J.P. Dupont",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-19T13:11:48.929Z",
+            "modified": "2023-08-19T13:11:50.947Z"
         }
     ],
     "target": {
