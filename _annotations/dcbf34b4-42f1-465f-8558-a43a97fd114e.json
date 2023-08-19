@@ -1,0 +1,57 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0315"
+order: 4
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Le fermier ram\u00e8ne le mulet \u00e0 la grange pour y vider la trousse. \nParfois, les trousses de foin sont charg\u00e9es \u00e0 dos d'homme ou transport\u00e9es sur des tra\u00eeneaux, et on les enveloppe dans un drap : [...].",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-19T13:03:27.984Z",
+            "modified": "2023-08-19T13:04:58.917Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L37",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-19T13:05:03.202Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-19T13:05:04.635Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0315",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2662.2822265625,1579.6341552734375 3795.530517578125,1603.681884765625 3770.523703558993,2782.1269957742747 2637.275412543368,2758.0792662820872\" /></svg>"
+        },
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "dcbf34b4-42f1-465f-8558-a43a97fd114e.json",
+    "motivation": "commenting"
+}
