@@ -1,0 +1,64 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0318"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Araire chambige\n(\u00e2ge - timon recourb\u00e9 et mancheron traversant la base de l'\u00e2ge)\nSaint-Trinit, Vaucluse [...]",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-19T13:36:48.639Z",
+            "modified": "2023-08-19T13:37:25.843Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-19T13:38:33.355Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q354",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-19T13:39:34.955Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C276",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-19T13:39:40.289Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0318",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1261.5029296875,205.90853881835938 3693.327880859375,229.9562530517578 3672.2861328125,611.7136840820312 3013.97998046875,608.7077026367188 2761.47900390625,882.2504272460938 1081.14501953125,858.2027587890625 1090.1629638671875,470.4333801269531 1222.4254150390625,461.41546630859375\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "f3d15324-4412-4dfe-a6be-c87cd42a4668.json",
+    "motivation": "commenting"
+}
