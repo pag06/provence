@@ -7,14 +7,14 @@ order: 1
     "body": [
         {
             "type": "TextualBody",
-            "value": "Araire chambige\n(\u00e2ge - timon recourb\u00e9 et mancheron traversant la base de l'\u00e2ge)\nSaint-Trinit, Vaucluse [...]",
+            "value": "Araire chambige (terminologie de M. Jean-Brunhes Delamare et Andr\u00e9 G. Haudricourt : l'Homme et la Charrue, Gallimard NRF 1955)\n(\u00e2ge - timon recourb\u00e9 et mancheron traversant la base de l'\u00e2ge)\nSaint-Trinit, Vaucluse [...]",
             "purpose": "commenting",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
             "created": "2023-08-19T13:36:48.639Z",
-            "modified": "2023-08-19T13:37:25.843Z"
+            "modified": "2023-08-19T13:43:23.533Z"
         },
         {
             "type": "TextualBody",
