@@ -1,0 +1,65 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0316"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C208",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-19T13:05:49.049Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2245",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-19T13:05:51.109Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Navette tr\u00e8s effil\u00e9e dont les trous sont de grandeur diff\u00e9rente.\n\nLes navettes sont de petits morceaux de bois allong\u00e9s, de 115 \u00e0 25cm et perc\u00e9s de deux trous dans lesquels passe une extr\u00e9mit\u00e9 de la corde, bloqu\u00e9e par un n\u0153ud et o\u00f9 revient s'enfiler et se nouer l'autre extr\u00e9mit\u00e9 de la corde apr\u00e8s avoir fait le tour de la trousse.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-19T13:05:56.234Z",
+            "modified": "2023-08-19T13:07:34.557Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-19T13:08:08.327Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0316",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1198.377685546875,509.5108947753906,589.1689453125,219.43539428710938"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "67f5d602-3206-41b0-9278-64613fa873ab.json",
+    "motivation": "commenting"
+}
