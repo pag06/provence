@@ -1,0 +1,57 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0317"
+order: 3
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Les charges : [...] [...] maintenues par des cordes ou des fils de fer, servent \u00e0 la fois \u00e0 entasser le foin sur le sol et \u00e0 le prot\u00e9ger de l'\u00e9parpillement par le vent.\n\nPhoto faite pendant la confection d'une meule de foin. (\u00e0 5km du point 100), Alpes-de-Hts-Provence.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-19T13:29:59.845Z",
+            "modified": "2023-08-19T13:31:03.984Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L100",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-19T13:30:50.398Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-19T13:31:01.656Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0317",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2722.4013671875,1477.431396484375 3780.500732421875,1489.4552001953125 3766.936887727415,2683.07876611319 2708.83752249304,2671.0549624022524\" /></svg>"
+        },
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "c8259555-7f9f-4f40-a57e-632a3d1816ec.json",
+    "motivation": "commenting"
+}
