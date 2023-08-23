@@ -45,6 +45,17 @@ order: 4
                 "name": "Eulalie"
             },
             "created": "2023-08-23T05:39:44.939Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Dessin : Etienne Sved",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-23T05:40:39.612Z",
+            "modified": "2023-08-23T05:40:47.758Z"
         }
     ],
     "target": {
