@@ -1,0 +1,64 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0319"
+order: 3
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Croquis de cet araire montrant l'agencement de ses diverses parties, et, en particulier, l'\u00e2ge travers\u00e9 par le mancheron et la tige du soc qui s'enfonce \u00e0 l'int\u00e9rieur du sep.\na) le sep [...]\nb) le soc [...]\nc) les ailes [...]\nd) le manche [...]\ne) l'\u00e2ge [...]\nf) l'\u00e9tan\u00e7on [...]\ng) le r\u00e9gulateur [...]",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-23T05:35:15.576Z",
+            "modified": "2023-08-23T05:37:14.281Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L137",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-23T05:37:21.548Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C276",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-23T05:37:25.694Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q354",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-23T05:37:29.644Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0319",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1127.84619140625,1539.5472412109375 2555.2587890625,1599.4385986328125 2472.076416015625,2571.010986328125 1051.3182373046875,2434.591552734375\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "88f58dc6-5db5-4d10-bdc2-fd509f8d60f0.json",
+    "motivation": "commenting"
+}
