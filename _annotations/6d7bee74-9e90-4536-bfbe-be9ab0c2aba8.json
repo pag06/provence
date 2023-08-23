@@ -1,0 +1,57 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0320"
+order: 6
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Dans le tombereau adapt\u00e9 \u00e0 la traction par un engin motoris\u00e9 : les bras ont \u00e9t\u00e9 sci\u00e9s et remplac\u00e9s par un timon : [...]\nLimans, Alpes-de-Hte-Provence",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-23T05:54:32.241Z",
+            "modified": "2023-08-23T05:55:25.961Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-23T05:55:54.293Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-23T05:55:55.732Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0320",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2849.2431640625,2271.8115234375 3920.63427734375,2281.79345703125 3914.031315931808,2990.509269619201 2842.640202650558,2980.527336025451\" /></svg>"
+        },
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "6d7bee74-9e90-4536-bfbe-be9ab0c2aba8.json",
+    "motivation": "commenting"
+}
