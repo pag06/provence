@@ -28,35 +28,34 @@ order: 3
             "value": "Dessin de J.P. DUPONT"
         },
         {
-            "created": "2023-07-25T11:04:45.577Z",
-            "creator": {
-                "id": "Pigeo",
-                "name": "Pierre-Aur\u00e9lien Georges"
-            },
-            "modified": "2023-07-25T11:04:46.046Z",
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L8"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4474",
+            "created": "2023-08-18T11:43:00.358Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T11:43:00.358Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4474"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C178",
+            "created": "2023-08-18T11:47:50.841Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T11:47:50.841Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C178"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L89",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-08-24T08:17:39.320Z"
         }
     ],
     "id": "4ea951d4-9fcb-4a0d-99b4-f1ea3a0af4e9.json",
