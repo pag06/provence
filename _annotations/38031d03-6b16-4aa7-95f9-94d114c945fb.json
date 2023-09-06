@@ -1,0 +1,57 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0310"
+order: 8
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Le gros gerbier de 100 \u00e0 120 gerbes de bl\u00e9 assembl\u00e9 sur le champ \u00e0 La Chapelle-en-Valgaudemar, Hautes-Alpes (point 22) : [...]\nCe type de gerbier peut aller jusqu'\u00e0 200 gerbes selon les cas.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-06T19:42:58.363Z",
+            "modified": "2023-09-06T19:44:07.838Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L22",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-06T19:44:10.687Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5106",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-06T19:44:19.877Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0310",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2809.890869140625,2580.329345703125 3759.9287109375,2584.239013671875 3756.1797984411687,3495.2137474774063 2806.1419566442937,3491.3040795086563\" /></svg>"
+        },
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "38031d03-6b16-4aa7-95f9-94d114c945fb.json",
+    "motivation": "commenting"
+}
