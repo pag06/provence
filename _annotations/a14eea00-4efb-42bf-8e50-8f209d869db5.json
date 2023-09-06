@@ -35,6 +35,17 @@ order: 1
                 "name": "Eulalie"
             },
             "created": "2023-09-06T19:55:25.780Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Photo ancienne, auteur anonyme",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-06T20:09:42.220Z",
+            "modified": "2023-09-06T20:09:44.613Z"
         }
     ],
     "target": {
