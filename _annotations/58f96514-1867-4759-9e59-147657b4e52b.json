@@ -35,6 +35,17 @@ order: 7
                 "name": "Eulalie"
             },
             "created": "2023-09-06T19:42:40.143Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Carte postale ancienne, auteur anonyme",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-06T19:47:50.793Z",
+            "modified": "2023-09-06T19:47:53.500Z"
         }
     ],
     "target": {
