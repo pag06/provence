@@ -1,0 +1,44 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0083"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "[...]",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-06T19:10:33.272Z",
+            "modified": "2023-09-06T19:10:34.806Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L34",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-06T19:10:38.242Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0083",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"600.7611083984375,1824.984375 743.9811401367188,1678.313232421875 1330.6656494140625,1655.8812255859375 1320.3123779296875,1845.69091796875 1009.7147216796875,1880.2017822265625 966.576171875,1919.88916015625 951.0462646484375,2035.5006103515625 599.0355224609375,1892.280517578125\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "1cdd0ef2-8d99-455a-b5f5-775209450c04.json",
+    "motivation": "commenting"
+}
