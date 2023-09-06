@@ -1,0 +1,57 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0311"
+order: 4
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Rouleau tronconique en ciment, imit\u00e9 des rouleaux en pierre. Trois \u00e9videments all\u00e8gent l'ensemble. Montfort, Alpes-de-Hte-Provence, [\u2026]",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-06T20:03:13.184Z",
+            "modified": "2023-09-06T20:03:51.902Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-06T20:03:58.286Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9035",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-06T20:04:02.490Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0311",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2839.935546875,1600.1739501953125 3973.725830078125,1598.001953125 3975.1905458446777,2362.588851731124 2841.4002626415527,2364.7608488014366\" /></svg>"
+        },
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "2592b7fc-1814-4065-b026-9ab5f7a73f80.json",
+    "motivation": "commenting"
+}
