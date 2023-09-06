@@ -1,0 +1,54 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0190"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "D\u00e9tail du piquage des faisceaux de seigle de la ronce.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-06T19:21:35.261Z",
+            "modified": "2023-09-06T19:21:52.847Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-06T19:22:28.926Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-06T19:22:31.041Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0190",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"3652.621337890625,639.1476440429688 4099.5048828125,549.0780639648438 4400.8916015625,604.5054931640625 4529.06787109375,677.2539672851562 4785.41943359375,684.1824340820312 4795.81201171875,1283.4915771484375 3663.013916015625,1262.706298828125 3680.3349609375,743.0740966796875\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "dc91f798-d1de-4d61-bb42-7530280ad8a8.json",
+    "motivation": "commenting"
+}
