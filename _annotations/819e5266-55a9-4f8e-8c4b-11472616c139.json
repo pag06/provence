@@ -1,0 +1,57 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0311"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Rouleau en pierre-de-Banon \u00e0 cannelures : Ongles, Alpes-de-Hte-Provence (canton de St-Etienne-les-Orgues, point 87)\nlong. 60cm\ndiam\u00e8tre face large : 150cm\ndiam\u00e8tre face \u00e9troite : 120cm\n[...]",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-06T19:56:11.945Z",
+            "modified": "2023-09-06T19:57:38.675Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L87",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-06T19:57:44.703Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9035",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-06T19:57:50.771Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0311",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"3531.701904296875,111.74468994140625 5079.3955078125,99.79338073730469 5089.569309147531,1417.2998547780383 3541.875705631906,1429.2511639821398\" /></svg>"
+        },
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "819e5266-55a9-4f8e-8c4b-11472616c139.json",
+    "motivation": "commenting"
+}
