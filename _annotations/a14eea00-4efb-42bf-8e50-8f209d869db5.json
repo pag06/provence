@@ -1,0 +1,47 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0311"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Foulaison aux rouleaux vers 1910 \u00e0 Mane, Alpes-de-Hte-Provence (canton de Forcalquier, point 100). On remarque la forme circulaire de l'air\u00e9e et la r\u00e9serve de gerbes ensil\u00e9es en gerbier. Chaque cheval est attel\u00e9 \u00e0 un brancard courbe entrainant un rouleau en pierre vive. Le guidage du premier cheval se fait au moyen d'un \"tourniquet\". Le cheval est entrain\u00e9 par le premier au moyen d'une cordelette attach\u00e9e au premier rouleau. (Le personnage \u00e0 canotier semble \u00eatre un figurant, \u00e0 cause de sa tenue, mais aussi parce que la technique du tourniquet rend cette pr\u00e9sence inutile, sinon g\u00eanante.)\n-l'air\u00e9e : [...]\n-les gerbiers sur l'aire : [...]\n-le rouleau : [...]",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-06T19:50:18.667Z",
+            "modified": "2023-09-06T19:54:43.257Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L100",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-06T19:54:47.627Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0311",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1499.9801025390625,1438.33935546875 3531.70166015625,1432.36376953125 3527.896443871051,138.57600731057778 1496.1748862538632,144.55159324807778\" /></svg>"
+        },
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "a14eea00-4efb-42bf-8e50-8f209d869db5.json",
+    "motivation": "commenting"
+}
