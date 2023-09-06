@@ -7,24 +7,34 @@ order: 1
     "body": [
         {
             "type": "TextualBody",
-            "value": "L'\u00e9chelier",
+            "value": "L'escabeau",
             "purpose": "commenting",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
             "created": "2023-09-06T19:14:41.800Z",
-            "modified": "2023-09-06T19:14:43.875Z"
+            "modified": "2023-09-06T19:16:35.842Z"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q3623",
+            "value": "Q4133",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-06T19:14:58.063Z"
+            "created": "2023-09-06T19:16:42.653Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-06T19:16:45.717Z"
         }
     ],
     "target": {
