@@ -1,0 +1,47 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0170"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Pressoir pour huile de noix \u00e0 Glandage (Dr\u00f4me)\n1. le pressoir : [...]\n2. le rouleau : [...]",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-06T19:18:55.783Z",
+            "modified": "2023-09-06T19:19:39.519Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8282",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-06T19:19:57.203Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0170",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"3562.5517578125,223.44186401367188 4937.84521484375,226.9060821533203 4935.672237441642,1089.5773929441696 3560.3787804103918,1086.1131748045211\" /></svg>"
+        },
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "6b54029c-f082-4367-8f15-274cb5b85de5.json",
+    "motivation": "commenting"
+}
