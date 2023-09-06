@@ -1,0 +1,57 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0310"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Petits gerberons d'avoine de 7 \u00e0 10 gerbes, que l'on a redress\u00e9es pour les faire s\u00e9cher \u00e0 Barret-le-Bas, Hautes-Alpes (point 58) appel\u00e9es : [...]",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-06T19:32:51.327Z",
+            "modified": "2023-09-06T19:33:38.911Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L58",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-06T19:33:46.581Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5106",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-06T19:34:43.963Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0310",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1626.06640625,172.09877014160156 2567.2314453125,182.85494995117188 2556.5667453346687,1116.015509641229 1615.4017062721687,1105.2593298316588\" /></svg>"
+        },
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "a964dcef-13cd-4e7f-82d8-7b16adcde65a.json",
+    "motivation": "commenting"
+}
