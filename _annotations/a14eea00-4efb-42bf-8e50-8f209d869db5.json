@@ -25,6 +25,16 @@ order: 1
                 "name": "Eulalie"
             },
             "created": "2023-09-06T19:54:47.627Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9035",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-06T19:55:25.780Z"
         }
     ],
     "target": {
