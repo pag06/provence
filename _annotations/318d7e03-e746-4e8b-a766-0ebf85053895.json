@@ -25,6 +25,16 @@ order: 3
                 "name": "Eulalie"
             },
             "created": "2023-09-06T20:00:17.775Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L100???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-06T20:01:24.180Z"
         }
     ],
     "target": {
