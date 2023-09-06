@@ -35,6 +35,17 @@ order: 2
                 "name": "Eulalie"
             },
             "created": "2023-09-06T19:57:50.771Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Photo : Pierre Gallocher",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-06T20:09:50.825Z",
+            "modified": "2023-09-06T20:09:53.263Z"
         }
     ],
     "target": {
