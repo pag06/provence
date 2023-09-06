@@ -1,0 +1,57 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0310"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Gerberons de bl\u00e9 de 30 \u00e0 40 gerbes \u00e0 Barret-le-Bas ; bien que de dimensions moyennes, ce type de gerbier est appel\u00e9 [...] (Ce nom est donn\u00e9 le plus souvent ailleurs \u00e0 des gerbiers beaucoup plus gros).",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-06T19:35:17.627Z",
+            "modified": "2023-09-06T19:36:13.614Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L58",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-06T19:36:21.190Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5106",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-06T19:36:25.962Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0310",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2832.0927734375,190.1322784423828 3767.315673828125,202.3175811767578 3755.2885940684614,1125.3968563704157 2820.0656936778364,1113.2115536360407\" /></svg>"
+        },
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "454d7f0e-6f02-4560-ab8c-b1b12b41c3cf.json",
+    "motivation": "commenting"
+}
