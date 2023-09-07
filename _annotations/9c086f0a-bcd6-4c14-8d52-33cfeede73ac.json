@@ -7,14 +7,14 @@ order: 1
     "body": [
         {
             "type": "TextualBody",
-            "value": "Sc\u00e8ne de battage \u00e0 Forcalquier, Alpes-de-Hte-Provence (point 100) : \n-les rouleaux : [\u2026]\n-le m\u00e2t au centre de l'aire : [\u2026]\n-le tourniquet : [\u2026]\n-retourner l'air\u00e9e : [\u2026]",
+            "value": "Sc\u00e8ne de battage \u00e0 Forcalquier, Alpes-de-Hte-Provence (point L100) : \n-les rouleaux : [\u2026]\n-le m\u00e2t au centre de l'aire : [\u2026]\n-le tourniquet : [\u2026]\n-retourner l'air\u00e9e : [\u2026]",
             "purpose": "commenting",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
             "created": "2023-09-07T17:42:01.317Z",
-            "modified": "2023-09-07T17:43:30.600Z"
+            "modified": "2023-09-07T17:53:27.446Z"
         },
         {
             "type": "TextualBody",
