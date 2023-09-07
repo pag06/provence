@@ -1,0 +1,57 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0315"
+order: 3
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Semoir \u00e0 fond en forme de haricot (afin d'\u00eatre bien maintenu sur la hanche) \u00e0 Giers, hameau de St-Didier-en-Devoluy (canton de St-Etienne-en-Devoluy, point L29) : [...]",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-07T18:25:54.105Z",
+            "modified": "2023-09-07T18:26:58.771Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L29",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-07T18:27:02.421Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9330",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-07T18:27:27.433Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0315",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2617.427001953125,293.40447998046875 3480.90869140625,293.40447998046875 3480.90869140625,971.6409912109375 2617.427001953125,971.6409912109375\"></polygon></svg>"
+        },
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "b194bdd2-89cd-47cc-8b46-9253f0503dce.json",
+    "motivation": "commenting"
+}
