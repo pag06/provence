@@ -3,66 +3,66 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0310"
 order: 6
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "La gerbe de paille de seigle assembl\u00e9e pour la confection des toitures de chaume \u00e0 La-Roche-des-Arnauds, Hautes-Alpes (point 38)  : [...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-06T19:40:04.518Z",
-            "modified": "2023-09-06T19:40:49.709Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-07T17:54:13.947Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "La gerbe de paille de seigle assembl\u00e9e pour la confection des toitures de chaume \u00e0 La-Roche-des-Arnauds, Hautes-Alpes (point L38)  : [...]"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-06T19:40:54.625Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L38",
+            "type": "TextualBody",
+            "value": "L38"
+        },
+        {
+            "created": "2023-09-06T19:40:57.663Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-06T19:40:54.625Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q5106",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-06T19:40:57.663Z"
+            "type": "TextualBody",
+            "value": "Q5106"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Claude Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-06T19:47:38.068Z",
-            "modified": "2023-09-06T19:47:40.386Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-06T19:47:40.386Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Claude Martel"
         }
     ],
+    "id": "ebf6dadd-80dc-4383-8395-5a4a6da28de7.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0310",
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"4044.53125,1192.3743896484375 4955.3837890625,1204.5596923828125 4937.451092571882,2545.0304617004645 4026.5985535093823,2532.8451589660895\" /></svg>"
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
         },
         "renderedVia": {
             "name": "annotorious-tilted-box"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
-            "type": "Manifest"
-        }
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"4044.53125,1192.3743896484375 4955.3837890625,1204.5596923828125 4937.451092571882,2545.0304617004645 4026.5985535093823,2532.8451589660895\" /></svg>"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0310"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "ebf6dadd-80dc-4383-8395-5a4a6da28de7.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
