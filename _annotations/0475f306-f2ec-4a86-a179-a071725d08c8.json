@@ -1,0 +1,64 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0313"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "La planche \u00e0 battre la gerbe \u00e0 Auzet, Alpes-de-Hte-Provence (canton de Seyne, point L55) ; long. de la planche 95cm.\n[...]",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-07T17:51:47.899Z",
+            "modified": "2023-09-07T17:52:41.128Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L55",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-07T17:52:42.572Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C360",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-07T17:53:16.029Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-07T17:53:17.584Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0313",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1491.0166015625,141.02537536621094 1494.0045166015625,1649.87744140625 2904.25830078125,1622.987060546875 3017.795654296875,846.1522827148438 2411.26708984375,132.06190490722656\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "0475f306-f2ec-4a86-a179-a071725d08c8.json",
+    "motivation": "commenting"
+}
