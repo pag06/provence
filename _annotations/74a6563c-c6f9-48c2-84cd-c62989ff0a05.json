@@ -3,66 +3,66 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0311"
 order: 7
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Petit rouleau \u00e0 bras au Lavercq, Alpes-de-Hte-Provence, canton du Lauzet (point 49). Le manche a perdu la tringle qui r\u00e9glait la traction de l'engin par un ou deux hommes.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-06T20:08:12.862Z",
-            "modified": "2023-09-06T20:09:16.321Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-07T17:55:20.193Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Petit rouleau \u00e0 bras au Lavercq, Alpes-de-Hte-Provence, canton du Lauzet (point L49). Le manche a perdu la tringle qui r\u00e9glait la traction de l'engin par un ou deux hommes."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-06T20:09:18.971Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
+            "type": "TextualBody",
+            "value": "L???"
+        },
+        {
+            "created": "2023-09-06T20:09:23.877Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-06T20:09:18.971Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q9035",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-06T20:09:23.877Z"
+            "type": "TextualBody",
+            "value": "Q9035"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Claude Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-06T20:10:24.889Z",
-            "modified": "2023-09-06T20:10:27.025Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-06T20:10:27.025Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Claude Martel"
         }
     ],
+    "id": "74a6563c-c6f9-48c2-84cd-c62989ff0a05.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0311",
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"4036.714111328125,2045.4364013671875 5074.935546875,2045.4364013671875 5074.935546875,3444.212158203125 4036.714111328125,3444.212158203125\" /></svg>"
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
         },
         "renderedVia": {
             "name": "annotorious-tilted-box"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
-            "type": "Manifest"
-        }
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"4036.714111328125,2045.4364013671875 5074.935546875,2045.4364013671875 5074.935546875,3444.212158203125 4036.714111328125,3444.212158203125\" /></svg>"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0311"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "74a6563c-c6f9-48c2-84cd-c62989ff0a05.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
