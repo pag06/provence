@@ -35,6 +35,17 @@ order: 3
                 "name": "Eulalie"
             },
             "created": "2023-09-07T18:16:55.334Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Photo : Claude Martel",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-07T18:22:09.379Z",
+            "modified": "2023-09-07T18:22:11.745Z"
         }
     ],
     "target": {
