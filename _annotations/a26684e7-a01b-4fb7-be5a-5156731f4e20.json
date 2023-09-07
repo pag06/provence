@@ -1,0 +1,57 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0313"
+order: 4
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Pierre \u00e0 battre en ardoise au Casset-en-Valgaudemar, Hautes-Alpes (hameau de la Chapelle-en-Valgaudemar, point L22 appel\u00e9e : [...]\nOn bat la gerbe avec le gourdin pos\u00e9 \u00e0 c\u00f4t\u00e9 : [...]\nL'action de battre se dit : [...]",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-07T17:59:11.351Z",
+            "modified": "2023-09-07T18:00:31.876Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L22",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-07T18:00:35.177Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-07T18:01:10.559Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0313",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"4073.236328125,156.5420379638672 5039.5400390625,142.73770141601562 5052.555017271838,1053.7863199322544 4086.251306334337,1067.590656480106\" /></svg>"
+        },
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "a26684e7-a01b-4fb7-be5a-5156731f4e20.json",
+    "motivation": "commenting"
+}
