@@ -3,66 +3,66 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0310"
 order: 7
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Les grands gerbiers sur les aires publiques \u00e0 Sisteron, Alpes-de-Hte-Provence (point 68) attendant d'\u00eatre battus vers la fin du si\u00e8cle dernier appel\u00e9s : [...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-06T19:41:41.085Z",
-            "modified": "2023-09-06T19:42:28.041Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-07T17:54:22.506Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Les grands gerbiers sur les aires publiques \u00e0 Sisteron, Alpes-de-Hte-Provence (point L68) attendant d'\u00eatre battus vers la fin du si\u00e8cle dernier appel\u00e9s : [...]"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-06T19:42:33.560Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L68",
+            "type": "TextualBody",
+            "value": "L68"
+        },
+        {
+            "created": "2023-09-06T19:42:40.143Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-06T19:42:33.560Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q5106",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-06T19:42:40.143Z"
+            "type": "TextualBody",
+            "value": "Q5106"
         },
         {
-            "type": "TextualBody",
-            "value": "Carte postale ancienne, auteur anonyme",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-06T19:47:50.793Z",
-            "modified": "2023-09-06T19:47:53.500Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-06T19:47:53.500Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Carte postale ancienne, auteur anonyme"
         }
     ],
+    "id": "58f96514-1867-4759-9e59-147657b4e52b.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0310",
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1391.1793212890625,2505.341796875 2746.79541015625,2511.4345703125 2742.386549525051,3492.387245893816 1386.7704606578636,3486.294472456316\" /></svg>"
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
         },
         "renderedVia": {
             "name": "annotorious-tilted-box"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
-            "type": "Manifest"
-        }
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1391.1793212890625,2505.341796875 2746.79541015625,2511.4345703125 2742.386549525051,3492.387245893816 1386.7704606578636,3486.294472456316\" /></svg>"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0310"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "58f96514-1867-4759-9e59-147657b4e52b.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
