@@ -1,0 +1,47 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0312"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Sc\u00e8ne de battage \u00e0 Forcalquier, Alpes-de-Hte-Provence (point 100) : \n-les rouleaux : [\u2026]\n-le m\u00e2t au centre de l'aire : [\u2026]\n-le tourniquet : [\u2026]\n-retourner l'air\u00e9e : [\u2026]",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-07T17:42:01.317Z",
+            "modified": "2023-09-07T17:43:30.600Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L100",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-07T17:43:12.495Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0312",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2662.244384765625,194.80624389648438 4592.3798828125,215.7210235595703 4577.905731803576,1551.4784695595613 2647.7702337567007,1530.5636898964754\" /></svg>"
+        },
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "9c086f0a-bcd6-4c14-8d52-33cfeede73ac.json",
+    "motivation": "commenting"
+}
