@@ -1,0 +1,54 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0314"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Vannage du bl\u00e9 au crible \u00e0 Sault-de-Vaucluse : on jetait les grains et les d\u00e9bris rest\u00e9s sur l'aire dans le crible suspendu que l'on agitait d'un mouvement rotatif. Les mauvaises graines et la terre tombaient vers le bord du crible par le mouvement rotatif, alors que la balle restait au milieu et \u00e9tait enlev\u00e9e \u00e0 la main.\n-les grains et les d\u00e9bris : [\u2026]\n-le sac, sous le crible : [\u2026]\n-la balle du bl\u00e9 : [\u2026]",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-07T18:11:11.500Z",
+            "modified": "2023-09-07T18:13:19.517Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L81",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-07T18:13:25.731Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2947",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-07T18:13:40.643Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0314",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"3196.4677734375,155.96450805664062 4610.904296875,161.34259033203125 4627.03857421875,908.8966064453125 4196.7919921875,1591.91357421875 3266.3828125,1312.253173828125\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "d4d63cba-924f-4695-bdca-eea4d906464d.json",
+    "motivation": "commenting"
+}
