@@ -38,14 +38,14 @@ order: 6
         },
         {
             "type": "TextualBody",
-            "value": "Photo : id",
+            "value": "id",
             "purpose": "identifying",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
             "created": "2023-09-07T18:36:27.558Z",
-            "modified": "2023-09-07T18:36:34.853Z"
+            "modified": "2023-09-07T18:36:52.418Z"
         }
     ],
     "target": {
