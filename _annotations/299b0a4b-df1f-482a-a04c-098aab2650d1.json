@@ -1,0 +1,54 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0319"
+order: 4
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "[...] \nBarles, Alpes-de-Hte-Provence\nLong de l'outil : 35cm. ; largeur du talon : 12cm.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T07:11:33.200Z",
+            "modified": "2023-09-08T07:12:08.388Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T07:12:29.746Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T07:12:31.346Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0319",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2210.49853515625,1774.8585205078125 1708.5438232421875,3286.698486328125 1678.6656494140625,3394.26025390625 2533.183837890625,3430.114013671875 2688.55078125,1709.1263427734375 2353.914306640625,1571.6864013671875 2312.084716796875,1709.1263427734375\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "299b0a4b-df1f-482a-a04c-098aab2650d1.json",
+    "motivation": "commenting"
+}
