@@ -35,6 +35,17 @@ order: 7
                 "name": "Eulalie"
             },
             "created": "2023-09-08T18:11:12.493Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Dessin : Marcel Gaillard",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T18:13:53.983Z",
+            "modified": "2023-09-08T18:13:56.232Z"
         }
     ],
     "target": {
