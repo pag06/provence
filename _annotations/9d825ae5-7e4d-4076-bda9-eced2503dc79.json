@@ -1,0 +1,54 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0325"
+order: 5
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "[...]\nSault. C'est la serpe \u00e0 bois \u00e0 un seul tranchant. Le manche est termin\u00e9 par un crochet pour le suspendre, mais qui \u00e9vite aussi que l'outil n'\u00e9chappe \u00e0 la main lorsque l'on frappe fortement. Comme pour l'outil pr\u00e9c\u00e9dent, le manche, g\u00e9n\u00e9ralement en bois, est ici en rondelles de cuir.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T18:07:06.091Z",
+            "modified": "2023-09-08T18:08:08.415Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L81",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T18:08:10.768Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9382",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T18:08:24.867Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0325",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"3696.501220703125,1413.3995361328125 4116.05615234375,1421.0977783203125 4158.396484375,1421.0977783203125 4146.84912109375,2090.845947265625 4085.262939453125,2121.638916015625 4085.262939453125,2483.45703125 3785.031005859375,2498.853515625\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "9d825ae5-7e4d-4076-bda9-eced2503dc79.json",
+    "motivation": "commenting"
+}
