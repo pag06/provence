@@ -1,0 +1,55 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0323"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Cueillette de la lavande \u00e0 Simiane, Alpes-de-Hte-Provence, (canton de Banon, point L89). Les cueilleurs et les cueilleuses sont munis d'un sac en toile pendu \u00e0 l'\u00e9paule en bandouli\u00e8re. A droite, on attache les trousses dans des draps en jute.\n-les cueilleurs : [\u2026]\n-le sac pour cueillir : [\u2026]\n-les trousses : [\u2026]\n-le drap : [\u2026]",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T17:20:56.864Z",
+            "modified": "2023-09-08T17:22:36.796Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L89",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T17:22:53.511Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T17:23:37.987Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0323",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1738.3004150390625,266.19293212890625,1881.0687255859375,1056.5855102539062"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "1b642f72-844d-481d-9fdd-11603ccd484d.json",
+    "motivation": "commenting"
+}
