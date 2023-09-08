@@ -3,52 +3,63 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0322"
 order: 5
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Le couteau-scie pliant pour la taille et la cueillette \u00e0 Manosque, Alpes-de-Hte-Provence (point 113) [...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T17:11:44.821Z",
-            "modified": "2023-09-08T17:12:23.532Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L113",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-08T17:13:35.322Z"
+            "modified": "2023-09-08T17:12:23.532Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Le couteau-scie pliant pour la taille et la cueillette \u00e0 Manosque, Alpes-de-Hte-Provence (point 113) [...]"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
+            "created": "2023-09-08T17:13:35.322Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-08T17:13:53.309Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L113"
+        },
+        {
+            "created": "2023-09-08T17:13:53.309Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q???"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Dessin : Marcel Gaillard",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T17:20:23.943Z",
+            "modified": "2023-09-08T17:20:26.775Z"
         }
     ],
+    "id": "19d8aae3-bd63-4d77-bf61-d86ecc68c19f.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0322",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"4035.224365234375,1779.0667724609375 4620.2919921875,2448.81494140625 4651.0849609375,3403.3984375 4196.8876953125,3399.54931640625 3958.241943359375,1925.33349609375\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0322"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "19d8aae3-bd63-4d77-bf61-d86ecc68c19f.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
