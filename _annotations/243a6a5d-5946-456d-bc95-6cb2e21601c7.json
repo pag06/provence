@@ -1,0 +1,54 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0325"
+order: 6
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "[...]\nLes Dourbes, canton de Digne, Alpes-de-Hte-Provence. Outil utilis\u00e9 pour creuser les troncs d'arbre en goutti\u00e8res servant \u00e0 recueillir les eaux toitures, et en gorges sali\u00e8res destin\u00e9es \u00e0 contenir le sel que l'on donne aux moutons. Outils : 31 cm ; largeur gouge : 5cm.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T18:08:45.358Z",
+            "modified": "2023-09-08T18:10:13.820Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T18:10:18.989Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T18:10:20.965Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0325",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1925.902587890625,2167.82861328125 2045.2255859375,2183.22509765625 2206.888916015625,3391.85107421875 1610.274169921875,3384.15283203125\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "243a6a5d-5946-456d-bc95-6cb2e21601c7.json",
+    "motivation": "commenting"
+}
