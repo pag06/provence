@@ -7,14 +7,14 @@ order: 4
     "body": [
         {
             "type": "TextualBody",
-            "value": "La serpette \u00e0 vigne \u00e0 Apt. Long. : 28cm.[...]",
+            "value": "La serpette \u00e0 vigne qui sert \u00e9galement \u00e0 tailler les oliviers \u00e0 Apt. Long. : 35 cm.[...]",
             "purpose": "commenting",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
             "created": "2023-09-08T17:09:25.136Z",
-            "modified": "2023-09-08T17:09:44.330Z"
+            "modified": "2023-09-08T17:11:07.835Z"
         },
         {
             "type": "TextualBody",
