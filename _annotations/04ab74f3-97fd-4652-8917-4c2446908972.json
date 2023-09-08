@@ -1,0 +1,57 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0316"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Moulin \u00e0 eau de Rocheron, commune d'Ongles, Alpes-de-Hte-Provence (canton de St-Etienne-les-Orgues, point L87) : syst\u00e8me de levage, de d\u00e9placement et de retournement de la meule tournante en vue de son aff\u00fbtage p\u00e9riodique.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T06:22:36.616Z",
+            "modified": "2023-09-08T06:24:21.432Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L87",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T06:24:25.039Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q6798",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T06:25:01.217Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0316",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1398.39404296875,185.8427734375 2339.559326171875,194.80624389648438 2330.824834309866,1111.928751808944 1389.659551106741,1102.9652813499597\" /></svg>"
+        },
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "04ab74f3-97fd-4652-8917-4c2446908972.json",
+    "motivation": "commenting"
+}
