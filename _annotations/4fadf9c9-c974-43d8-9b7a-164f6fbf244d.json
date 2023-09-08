@@ -1,0 +1,54 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0319"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L109",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T07:07:56.888Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q7723",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T07:07:59.029Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "[...] : \nSaignon, Vaucluse (canton d'Apt) : contrairement \u00e0 l'outil pr\u00e9c\u00e9dent, c'est un outil \u00e0 lame \u00e9chancr\u00e9e, \u00e0 rapprocher de la pioche. Haut : 37,5cm. poids : 1,500K",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T07:08:01.744Z",
+            "modified": "2023-09-08T07:08:59.669Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0319",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2991.892822265625,145.2399139404297 4010.58154296875,135.3975067138672 4049.951171875,1518.255126953125 2652.329833984375,1646.2064208984375 2883.62646484375,420.82720947265625\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "4fadf9c9-c974-43d8-9b7a-164f6fbf244d.json",
+    "motivation": "commenting"
+}
