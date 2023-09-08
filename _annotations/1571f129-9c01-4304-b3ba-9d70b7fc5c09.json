@@ -1,0 +1,55 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0324"
+order: 6
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Distillation de la lavande vers 1905 en Haute-Provence. On voit 4 alambics vides pour remplacer ceux qui sont en service, la r\u00e9serve de bois, \u00e0 droite, pour entretenir le foyer.\nLes serpentins de refroidissement de la vapeur sont maintenus au frais dans des tonneaux de bois recevant l'eau d'une source par une canalisation a\u00e9rienne desservant la batterie des 5 alambics. Ces alambics en cuivre rouge, mesuraient 1m25 de haut et 85cm de diam\u00e8tre.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T17:55:33.822Z",
+            "modified": "2023-09-08T17:58:00.295Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T17:58:06.728Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T17:58:09.026Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0324",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=3520.370849609375,2730.21337890625,1487.801025390625,755.404296875"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "1571f129-9c01-4304-b3ba-9d70b7fc5c09.json",
+    "motivation": "commenting"
+}
