@@ -3,52 +3,63 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0322"
 order: 6
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "La serpette \u00e0 vigne \u00e0 Apt Long. 28cm [...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T17:14:34.840Z",
-            "modified": "2023-09-08T17:15:29.369Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L109",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-08T17:15:34.360Z"
+            "modified": "2023-09-08T17:15:29.369Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "La serpette \u00e0 vigne \u00e0 Apt Long. 28cm [...]"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9385",
+            "created": "2023-09-08T17:15:34.360Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-08T17:15:41.620Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L109"
+        },
+        {
+            "created": "2023-09-08T17:15:41.620Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9385"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Dessin : Marcel Gaillard",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T17:20:29.035Z",
+            "modified": "2023-09-08T17:20:31.826Z"
         }
     ],
+    "id": "9fd8f931-8f0e-4072-9f14-40eef6398362.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0322",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1452.4599609375,2418.021728515625 2641.84033203125,2402.625244140625 2599.5,3303.321044921875 2187.643310546875,3307.170166015625 2199.190673828125,3476.53173828125 2191.492431640625,3480.380859375 1560.2354736328125,3488.0791015625\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0322"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "9fd8f931-8f0e-4072-9f14-40eef6398362.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
