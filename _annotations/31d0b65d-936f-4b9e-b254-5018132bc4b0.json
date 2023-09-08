@@ -7,14 +7,14 @@ order: 8
     "body": [
         {
             "type": "TextualBody",
-            "value": "Vigne sur \u00e9chalas \u00e0 Chatrillan, Dr\u00f4me, avec \u00e9chalas de diff\u00e9rentes tailles. Les gros piquets en t\u00eate de raie s'appellent [...]\nLes piques plus courtes au milieu [...]",
+            "value": "Vigne en espalier \u00e0 Chabrillan, Dr\u00f4me, (point L28) ",
             "purpose": "commenting",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
             "created": "2023-09-08T16:48:29.539Z",
-            "modified": "2023-09-08T16:49:27.830Z"
+            "modified": "2023-09-08T16:52:49.720Z"
         },
         {
             "type": "TextualBody",
