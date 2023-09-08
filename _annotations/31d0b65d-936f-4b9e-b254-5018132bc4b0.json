@@ -1,0 +1,55 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0321"
+order: 8
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Vigne sur \u00e9chalas \u00e0 Chatrillan, Dr\u00f4me, avec \u00e9chalas de diff\u00e9rentes tailles. Les gros piquets en t\u00eate de raie s'appellent [...]\nLes piques plus courtes au milieu [...]",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T16:48:29.539Z",
+            "modified": "2023-09-08T16:49:27.830Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T16:51:33.480Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q10714",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T16:51:36.437Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0321",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2882.745849609375,2436.273193359375,896.347900390625,872.445068359375"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "31d0b65d-936f-4b9e-b254-5018132bc4b0.json",
+    "motivation": "commenting"
+}
