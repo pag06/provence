@@ -15,6 +15,26 @@ order: 7
             },
             "created": "2023-09-08T16:36:25.027Z",
             "modified": "2023-09-08T16:37:22.521Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T16:38:54.693Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T16:38:56.921Z"
         }
     ],
     "target": {
