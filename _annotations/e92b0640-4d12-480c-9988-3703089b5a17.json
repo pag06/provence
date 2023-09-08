@@ -45,6 +45,17 @@ order: 6
                 "name": "Eulalie"
             },
             "created": "2023-09-08T16:36:15.491Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Photo : J.C. Bouvier",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T16:40:21.551Z",
+            "modified": "2023-09-08T16:40:24.575Z"
         }
     ],
     "target": {
