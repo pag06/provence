@@ -35,6 +35,17 @@ order: 6
                 "name": "Eulalie"
             },
             "created": "2023-09-08T17:58:09.026Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Carte postale ancienne, collection \"Alpes de Lumi\u00e8re\"",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T17:58:16.461Z",
+            "modified": "2023-09-08T17:58:33.137Z"
         }
     ],
     "target": {
