@@ -1,0 +1,35 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0320"
+order: 7
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "S\u00e9choir \u00e0 prunes fait d'une \"\u00e9chelle\u00e9 en verne supportant un treillis de tiges d'osier fendues, \u00e0 Champtercier, Alpes-de-Hte-Provence. Long. : 0,95, larg. : 0,74 [...]",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T16:36:25.027Z",
+            "modified": "2023-09-08T16:37:22.521Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0320",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2509.99462890625,2534.901611328125,1378.23876953125,929.19970703125"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "dcf42648-dc9e-4fe0-8720-078537cf0e95.json",
+    "motivation": "commenting"
+}
