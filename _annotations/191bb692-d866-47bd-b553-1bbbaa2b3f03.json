@@ -1,0 +1,55 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0325"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "[...]\nA villars, Vaucluse (canton d'Apt, point L109) : outil \u00e9quilibr\u00e9 autour de son manche et destin\u00e9 \u00e0 couper les ch\u00eanes verts et les oliviers. L'ouvrier frappe avec le tranchant ou la t\u00eate pour faire \u00e9clater le bois trop dur pour \u00eatre coup\u00e9, vers la souche. Poids : 3kgs 600 ; haut : 37cm.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T18:02:31.227Z",
+            "modified": "2023-09-08T18:03:54.112Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L169",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T18:03:57.675Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T18:04:00.789Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0325",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2830.447509765625,145.1121063232422,723.635986328125,1208.6260070800781"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "191bb692-d866-47bd-b553-1bbbaa2b3f03.json",
+    "motivation": "commenting"
+}
