@@ -3,53 +3,64 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0322"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Le s\u00e9cateur pour tailler \u00e0 Apt. Long. 20cm. [...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T17:05:48.336Z",
-            "modified": "2023-09-08T17:06:02.319Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L109",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-08T17:06:05.787Z"
+            "modified": "2023-09-08T17:06:02.319Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Le s\u00e9cateur pour tailler \u00e0 Apt. Long. 20cm. [...]"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
+            "created": "2023-09-08T17:06:05.787Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-08T17:06:28.434Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L109"
+        },
+        {
+            "created": "2023-09-08T17:06:28.434Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q???"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Dessin : Marcel Gaillard",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T17:20:08.176Z",
+            "modified": "2023-09-08T17:20:10.725Z"
         }
     ],
+    "id": "2b2dfabb-3d93-45a4-b4f8-d1009dac40cb.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0322",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3723.445068359375,220.1700897216797,577.368896484375,1166.2855987548828"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3723.445068359375,220.1700897216797,577.368896484375,1166.2855987548828"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0322"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "2b2dfabb-3d93-45a4-b4f8-d1009dac40cb.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
