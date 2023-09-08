@@ -1,0 +1,57 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0316"
+order: 4
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Moulin \u00e0 Glandage, Dr\u00f4me (point L33) : en heut, le \"bonnet \u00e0 grains\" au-dessous duquel la meule (invisible) est enferm\u00e9e dans une caisse roude en bois.\n-le bonnet \u00e0 grains : [\u2026]\n-la meule : [\u2026]\n-la caisse en bois : [\u2026]",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T06:27:23.370Z",
+            "modified": "2023-09-08T06:28:55.333Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L33",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T06:29:00.999Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q6798",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T06:29:03.502Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0316",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"4066.618408203125,187.66146850585938 5022.3037109375,187.66146850585938 5022.3037109375,1608.1572265625 4066.618408203125,1608.1572265625\"></polygon></svg>"
+        },
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "ef1721c3-a01c-4e44-b64a-f4dc253ab64f.json",
+    "motivation": "commenting"
+}
