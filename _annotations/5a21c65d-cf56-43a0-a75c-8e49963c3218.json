@@ -1,0 +1,54 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0318"
+order: 4
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "[...] \u00e0 Mazan, Vaucluse, hauteur : 41cm. ; tranchant",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T07:02:37.809Z",
+            "modified": "2023-09-08T07:03:00.731Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T07:03:24.134Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8597",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T07:03:28.458Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0318",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"4341.701171875,420.6858825683594 4927.3154296875,420.6858825683594 4915.36376953125,3420.463134765625 4114.62646484375,3372.657958984375 4174.38330078125,2356.797119140625 4449.26318359375,2356.797119140625\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "5a21c65d-cf56-43a0-a75c-8e49963c3218.json",
+    "motivation": "commenting"
+}
