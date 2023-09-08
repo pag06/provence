@@ -35,6 +35,17 @@ order: 2
                 "name": "Eulalie"
             },
             "created": "2023-09-08T17:26:01.848Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Photo : Guy Barrol",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T17:41:22.153Z",
+            "modified": "2023-09-08T17:41:34.068Z"
         }
     ],
     "target": {
