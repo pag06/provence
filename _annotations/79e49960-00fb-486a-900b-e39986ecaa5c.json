@@ -1,0 +1,57 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0316"
+order: 6
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "La roue \u00e0 aubes du moulin de Glandage, avec la tige de r\u00e9glage de la vanne (c) et la tige de r\u00e9glage de la meule (h) directement reli\u00e9e au levier f.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T06:34:59.666Z",
+            "modified": "2023-09-08T06:35:42.684Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L33",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T06:35:51.350Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q6798",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T06:35:54.760Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0316",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2962.294677734375,2525.760498046875 4241.80712890625,2501.154541015625 4259.903649098345,3442.175566097578 2980.3911979264703,3466.781523128828\" /></svg>"
+        },
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "79e49960-00fb-486a-900b-e39986ecaa5c.json",
+    "motivation": "commenting"
+}
