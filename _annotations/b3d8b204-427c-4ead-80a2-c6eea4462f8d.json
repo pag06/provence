@@ -1,0 +1,54 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0319"
+order: 3
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "[...] \nCarpentras, Vaucluse. Outil avec t\u00eate de frappe pour casser les mottes. Haut. 38cm., de face et de profil",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T07:09:58.346Z",
+            "modified": "2023-09-08T07:10:41.147Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T07:10:55.794Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T07:11:01.862Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0319",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"4156.359375,137.32470703125 5076.24560546875,131.7496337890625 5098.5458984375,1620.2928466796875 4758.466796875,1603.567626953125 4797.4921875,1698.34375 5059.5205078125,1977.09716796875 5092.97119140625,3231.487548828125 4139.63427734375,3142.286376953125\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "b3d8b204-427c-4ead-80a2-c6eea4462f8d.json",
+    "motivation": "commenting"
+}
