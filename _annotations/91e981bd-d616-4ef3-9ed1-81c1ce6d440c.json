@@ -1,0 +1,54 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0322"
+order: 3
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Le couteau scie utilis\u00e9 pour le jardin ou la vigne \u00e0 Apt, Vaucluse [...]",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T17:07:06.876Z",
+            "modified": "2023-09-08T17:07:24.763Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L109",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T17:07:28.840Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9245",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T17:08:23.054Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0322",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"4381.64599609375,266.359619140625 4955.166015625,262.5104675292969 4943.61865234375,1856.0491943359375 4666.4814453125,1906.087890625 4635.6884765625,2048.505615234375 4474.02490234375,2036.9581298828125\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "91e981bd-d616-4ef3-9ed1-81c1ce6d440c.json",
+    "motivation": "commenting"
+}
