@@ -7,14 +7,14 @@ order: 4
     "body": [
         {
             "type": "TextualBody",
-            "value": "[...] \nBarles, Alpes-de-Hte-Provence\nLong de l'outil : 35cm. ; largeur du talon : 12cm.",
+            "value": "[...] \nBarles, Alpes-de-Hte-Provence\nLong de l'outil : 35cm. ; largeur du talon : 12cm.\nTous ces outils utilis\u00e9 aujourd'hui dans les travaux de jardinage l'\u00e9taient autrefois \u00e9galement dans les travaux des champs, et pourraient illustrer les cartes du volume 1",
             "purpose": "commenting",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
             "created": "2023-09-08T07:11:33.200Z",
-            "modified": "2023-09-08T07:12:08.388Z"
+            "modified": "2023-09-08T07:17:38.411Z"
         },
         {
             "type": "TextualBody",
