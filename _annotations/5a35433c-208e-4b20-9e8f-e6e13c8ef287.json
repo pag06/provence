@@ -1,0 +1,54 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0322"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Instrument \u00e0 soufrer la vigne \u00e0 Apt, Vaucluse (point L109) appel\u00e9 : [...]\nOn tient l'extr\u00e9mit\u00e9 de la poign\u00e9e de bois et on secoue rapidement de haut en bas. Long. 46cm.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T17:04:05.571Z",
+            "modified": "2023-09-08T17:05:05.790Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L100",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T17:05:09.608Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T17:05:28.101Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0322",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1437.0634765625,154.7349090576172 3423.213134765625,181.67880249023438 3427.062255859375,1136.2623291015625 1448.61083984375,913.0130004882812\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "5a35433c-208e-4b20-9e8f-e6e13c8ef287.json",
+    "motivation": "commenting"
+}
