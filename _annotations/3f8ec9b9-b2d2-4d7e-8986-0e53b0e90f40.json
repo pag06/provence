@@ -1,0 +1,55 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0317"
+order: 3
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Jarre de Biot photographi\u00e9e \u00e0 Limans, Alpes-de-Hte-Provence. R\u00e9pandues dans toute la r\u00e9gion, ces jarres destin\u00e9es \u00e0 la conservation de l'huile \u00e9taient entrpos\u00e9es dans un endroit frais : la \"gerlerie\"\n-la jarre \u00e0 Biot (Alpes-Maritimes) :[\u2026]\n-la jarre \u00e0 Limans : [\u2026]\n-la \"gerlerie\" : [\u2026]",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T06:44:19.867Z",
+            "modified": "2023-09-08T06:46:14.417Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T06:46:56.041Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T06:47:13.895Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0317",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=3774.422607421875,377.0947265625,1314.600830078125,1379.8292236328125"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "3f8ec9b9-b2d2-4d7e-8986-0e53b0e90f40.json",
+    "motivation": "commenting"
+}
