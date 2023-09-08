@@ -19,22 +19,22 @@ order: 8
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-08T16:38:30.243Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
             "value": "Q???",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
             "created": "2023-09-08T16:38:44.430Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L78",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T16:39:27.260Z"
         }
     ],
     "target": {
