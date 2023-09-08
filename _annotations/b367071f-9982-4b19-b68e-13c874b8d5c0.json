@@ -1,0 +1,54 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0319"
+order: 6
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "[...]\nMarseille (pont L162) : outil : 36cm. ; tranchant : 47mm\nTous ces outils utilis\u00e9 aujourd'hui dans les travaux de jardinage l'\u00e9taient autrefois \u00e9galement dans les travaux des champs, et pourraient illustrer les cartes du volume 1",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T07:14:35.050Z",
+            "modified": "2023-09-08T07:16:40.704Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L162",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T07:16:49.461Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T07:16:51.927Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0319",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"3817.948974609375,1595.5889892578125 4050.999267578125,1637.4185791015625 3656.606201171875,3125.35595703125 4307.9521484375,3214.99072265625 4272.0986328125,3358.40625 3345.872314453125,3430.114013671875 3817.948974609375,1667.296875 3823.924560546875,1613.5159912109375\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "b367071f-9982-4b19-b68e-13c874b8d5c0.json",
+    "motivation": "commenting"
+}
