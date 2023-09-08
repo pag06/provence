@@ -35,6 +35,17 @@ order: 3
                 "name": "Eulalie"
             },
             "created": "2023-09-08T17:31:39.575Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Photo : Jack Burot, Simiane",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T17:42:24.210Z",
+            "modified": "2023-09-08T17:42:37.696Z"
         }
     ],
     "target": {
