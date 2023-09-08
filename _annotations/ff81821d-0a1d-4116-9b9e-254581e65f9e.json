@@ -38,14 +38,14 @@ order: 2
         },
         {
             "type": "TextualBody",
-            "value": "Photo : Guy Barrol",
+            "value": "Photo : Guy Barruol",
             "purpose": "identifying",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
             "created": "2023-09-08T17:41:22.153Z",
-            "modified": "2023-09-08T17:41:34.068Z"
+            "modified": "2023-09-08T17:42:14.364Z"
         }
     ],
     "target": {
