@@ -1,0 +1,54 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0325"
+order: 3
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "[...]\nSault, Vaucluse (point L81) : outil servant \u00e0 couper les souches. Poids : environ 1kg ; haut : 31 cm. On l'appelle parfois : [...]",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T18:04:31.677Z",
+            "modified": "2023-09-08T18:05:10.653Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L81",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T18:05:13.695Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-08T18:05:15.992Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0325",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"3877.41015625,60.43130111694336 5001.35546875,68.12955474853516 4932.07080078125,1161.28173828125 4847.39013671875,1222.8677978515625 4793.50244140625,1346.039794921875 3915.9013671875,1361.436279296875\"></polygon></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "b029efe6-c318-48da-9663-ac0757d5cb51.json",
+    "motivation": "commenting"
+}
