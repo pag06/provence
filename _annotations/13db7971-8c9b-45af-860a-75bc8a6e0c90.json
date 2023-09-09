@@ -42,7 +42,7 @@ order: 2
         "selector": {
             "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1673.2740478515625,1276.399169921875,932.2015380859375,938.17724609375"
+            "value": "xywh=3155.235595703125,415.9053649902344,1768.793212890625,1398.3023986816406"
         },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
