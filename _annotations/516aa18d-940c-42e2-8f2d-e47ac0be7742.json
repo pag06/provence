@@ -3,53 +3,64 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0327"
 order: 5
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Tari\u00e8re et taret \u00e0 Noyers-sur-Jabror (point L71) : [...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-09T14:52:03.366Z",
-            "modified": "2023-09-09T14:52:39.865Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L71",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-09T14:52:45.883Z"
+            "modified": "2023-09-09T14:52:39.865Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Tari\u00e8re et taret \u00e0 Noyers-sur-Jabror (point L71) : [...]"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9785",
+            "created": "2023-09-09T14:52:45.883Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-09T14:53:06.694Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L71"
+        },
+        {
+            "created": "2023-09-09T14:53:06.694Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9785"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-09T14:59:31.062Z",
+            "modified": "2023-09-09T14:59:33.853Z"
         }
     ],
+    "id": "516aa18d-940c-42e2-8f2d-e47ac0be7742.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0327",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1541.8096923828125,2250.430419921875,944.1529541015625,920.25048828125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1541.8096923828125,2250.430419921875,944.1529541015625,920.25048828125"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0327"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "516aa18d-940c-42e2-8f2d-e47ac0be7742.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
