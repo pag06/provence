@@ -3,52 +3,63 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0327"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Rabot \u00e0 moulure pour les fen\u00eatres \u00e0 Avignon, Vaucluse : [...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-09T14:47:42.860Z",
-            "modified": "2023-09-09T14:48:00.186Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L???",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-09T14:48:25.161Z"
+            "modified": "2023-09-09T14:48:00.186Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Rabot \u00e0 moulure pour les fen\u00eatres \u00e0 Avignon, Vaucluse : [...]"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8466",
+            "created": "2023-09-09T14:48:25.161Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-09T14:48:38.376Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L???"
+        },
+        {
+            "created": "2023-09-09T14:48:38.376Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8466"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Dessin : Marcel Gaillard",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-09T14:58:26.733Z",
+            "modified": "2023-09-09T14:58:29.642Z"
         }
     ],
+    "id": "ba1c681e-869a-45a5-b354-1dbb7d1934dd.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0327",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1649.3714599609375,750.5418701171875 2683.1591796875,1156.8861083984375 2719.01318359375,1652.865234375 1846.56787109375,1599.0843505859375\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0327"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "ba1c681e-869a-45a5-b354-1dbb7d1934dd.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
