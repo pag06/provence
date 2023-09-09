@@ -1,0 +1,55 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0239"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Autrefois, les chasseurs montaient dans l'arbre non sans pein pour aller fixer les \"cimeaux\", [...]. Le terme signifiait aussi bien des grives empaill\u00e9es ou sculpt\u00e9es dans le bois que la tige fix\u00e9e au sommet des arbres qui la supportaient et au pied de laquelle ils avaient leur \"agachon\" ([...]) et leurs \"appelants\" ([...]), grives en cage. Depuis la derni\u00e8re guerre sont apprus des proc\u00e9d\u00e9s plus \u00e9volu\u00e9s (tiges t\u00e9lescopiques, longues barres de bois basculantes et command\u00e9es par un cabestan \u00e0 manivelle comme sur la figure.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-09T15:27:40.547Z",
+            "modified": "2023-09-09T15:30:09.323Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-09T15:30:13.740Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-09T15:30:15.381Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0239",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=260.03240966796875,1376.7901611328125,1102.5077514648438,1204.6912841796875"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "f5649d44-829c-457c-817f-160b64f5ed4a.json",
+    "motivation": "commenting"
+}
