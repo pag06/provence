@@ -35,6 +35,17 @@ order: 3
                 "name": "Eulalie"
             },
             "created": "2023-09-09T14:37:15.461Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-09T14:45:36.418Z",
+            "modified": "2023-09-09T14:45:38.854Z"
         }
     ],
     "target": {
