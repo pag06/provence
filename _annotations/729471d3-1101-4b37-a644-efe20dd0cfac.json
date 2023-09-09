@@ -3,52 +3,63 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0327"
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Rabot \u00e0 rainurer \u00e0 Saignon, Vaucluse (canton d'Apt) ",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-09T14:51:25.022Z",
-            "modified": "2023-09-09T14:51:40.622Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L109",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-09T14:51:43.657Z"
+            "modified": "2023-09-09T14:51:40.622Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Rabot \u00e0 rainurer \u00e0 Saignon, Vaucluse (canton d'Apt) "
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8466",
+            "created": "2023-09-09T14:51:43.657Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-09T14:51:52.038Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L109"
+        },
+        {
+            "created": "2023-09-09T14:51:52.038Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8466"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-09T14:58:03.156Z",
+            "modified": "2023-09-09T14:58:06.073Z"
         }
     ],
+    "id": "729471d3-1101-4b37-a644-efe20dd0cfac.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0327",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"2987.91748046875,1784.32958984375 3991.826904296875,1730.5487060546875 4123.291015625,2489.45654296875 2629.37841796875,2549.213134765625 2623.402587890625,2196.649658203125 2862.4287109375,2083.1123046875 2981.941650390625,2071.160888671875\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0327"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "729471d3-1101-4b37-a644-efe20dd0cfac.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
