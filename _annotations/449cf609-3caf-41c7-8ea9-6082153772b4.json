@@ -25,6 +25,27 @@ order: 1
                 "name": "Eulalie"
             },
             "created": "2023-09-09T15:11:05.120Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q825",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-09T15:12:53.089Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Dessin: Pierre Martel",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-09T15:13:21.710Z",
+            "modified": "2023-09-09T15:13:28.911Z"
         }
     ],
     "target": {
