@@ -35,6 +35,17 @@ order: 1
                 "name": "Eulalie"
             },
             "created": "2023-09-09T15:17:10.411Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Photo coll. A. Cotte",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-09T15:17:25.169Z",
+            "modified": "2023-09-09T15:17:34.208Z"
         }
     ],
     "target": {
