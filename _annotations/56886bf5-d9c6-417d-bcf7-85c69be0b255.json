@@ -35,6 +35,17 @@ order: 7
                 "name": "Eulalie"
             },
             "created": "2023-09-10T07:09:00.211Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Carte postale ancienne",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-10T07:11:26.905Z",
+            "modified": "2023-09-10T07:11:36.782Z"
         }
     ],
     "target": {
@@ -42,7 +53,7 @@ order: 7
         "selector": {
             "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1559.744384765625,2549.66552734375,1556.822998046875,897.2822265625"
+            "value": "xywh=1559.744384765625,2549.66552734375,1545.359375,939.625732421875"
         },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
