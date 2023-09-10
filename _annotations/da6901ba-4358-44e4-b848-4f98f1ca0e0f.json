@@ -3,63 +3,63 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0316"
 order: 5
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Croquis de montage de la roue \u00e0 aubes au sous-sol et des meules, \u00e0 l'\u00e9tage au-dessus.\nA. Syst\u00e8me de commande de l'ouverture de la vanne pour mettre en route et r\u00e9gler la vitesse de la roue \u00e0 aubes : \n  a : meule dormant (fixe)\n  b : meule tournante : [\u2026]\n  c : tige de commande de la vanne qui r\u00e8gle le d\u00e9bit de l'eau \n  d : vanne :[\u2026]\n  e : roue \u00e0 aube : [\u2026] ; [\u2026] \u00e0 Glandage\nB. Syst\u00e8me de r\u00e9glage de l'espacement entre les deux meules pour rapprocher les meules, on disait [\u2026]\n  f, g : leviers en bois destin\u00e9s \u00e0 d\u00e9multiplier les manoeuvres de r\u00e9glage. Ci-contre, au moulin de Glandage, il n'y a que le levier f ; au moulin d'Ongles, le levier suppl\u00e9mentaire g, permet un r\u00e9glage plus pr\u00e9cis.\n  h : tige m\u00e9tallique de levage \u00e0 vis",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T06:29:51.080Z",
-            "modified": "2023-09-08T06:34:25.255Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-08T06:34:25.255Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Croquis de montage de la roue \u00e0 aubes au sous-sol et des meules, \u00e0 l'\u00e9tage au-dessus.\nA. Syst\u00e8me de commande de l'ouverture de la vanne pour mettre en route et r\u00e9gler la vitesse de la roue \u00e0 aubes : \n  a : meule dormant (fixe)\n  b : meule tournante : [\u2026]\n  c : tige de commande de la vanne qui r\u00e8gle le d\u00e9bit de l'eau \n  d : vanne :[\u2026]\n  e : roue \u00e0 aube : [\u2026] ; [\u2026] \u00e0 Glandage\nB. Syst\u00e8me de r\u00e9glage de l'espacement entre les deux meules pour rapprocher les meules, on disait [\u2026]\n  f, g : leviers en bois destin\u00e9s \u00e0 d\u00e9multiplier les manoeuvres de r\u00e9glage. Ci-contre, au moulin de Glandage, il n'y a que le levier f ; au moulin d'Ongles, le levier suppl\u00e9mentaire g, permet un r\u00e9glage plus pr\u00e9cis.\n  h : tige m\u00e9tallique de levage \u00e0 vis"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-08T06:34:42.729Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-08T06:34:39.898Z"
+            "type": "TextualBody",
+            "value": "Q6798"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q6798",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-08T06:34:42.729Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Relev\u00e9s et croquis : documentation \"Alpes de Lumi\u00e8res\"",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T06:38:31.453Z",
-            "modified": "2023-09-08T06:38:34.180Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-08T06:38:34.180Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Relev\u00e9s et croquis : documentation \"Alpes de Lumi\u00e8res\""
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L33",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-10T05:53:48.485Z"
         }
     ],
+    "id": "da6901ba-4358-44e4-b848-4f98f1ca0e0f.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0316",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"2814.65869140625,2018.876708984375 2814.65869140625,2156.67041015625 2927.84619140625,2156.67041015625 2937.688720703125,3475.552490234375 1279.2437744140625,3475.552490234375 1338.298095703125,2496.2333984375 1372.74658203125,2048.404052734375\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0316"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "da6901ba-4358-44e4-b848-4f98f1ca0e0f.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
