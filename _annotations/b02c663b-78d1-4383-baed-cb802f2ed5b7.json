@@ -3,63 +3,63 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0312"
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Tourniquet pour un cheval avec un reste de cordelette ; de profil et de face. \nlong. 48cm. De Lagarde-d'Apt, Vaucluse (canton d'Apt, point 109) [\u2026]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-07T17:48:50.298Z",
-            "modified": "2023-09-07T17:49:57.903Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-07T17:49:57.903Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Tourniquet pour un cheval avec un reste de cordelette ; de profil et de face. \nlong. 48cm. De Lagarde-d'Apt, Vaucluse (canton d'Apt, point 109) [\u2026]"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-07T17:50:08.148Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-07T17:50:03.234Z"
+            "type": "TextualBody",
+            "value": "Q???"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-07T17:50:08.148Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Dessin : Marcel Gaillard",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-07T17:51:02.532Z",
-            "modified": "2023-09-07T17:51:04.741Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-07T17:51:04.741Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Dessin : Marcel Gaillard"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L109",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-10T05:49:58.480Z"
         }
     ],
+    "id": "b02c663b-78d1-4383-baed-cb802f2ed5b7.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0312",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"3488.21875,1690.426513671875 4469.4306640625,1679.2763671875 4469.4306640625,1902.279052734375 4748.18408203125,1907.8541259765625 4776.0595703125,1690.426513671875 4982.3369140625,1673.7012939453125 4948.88623046875,3480.0234375 3543.96923828125,3480.0234375\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
-            "type": "Manifest"
-        }
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0312"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "b02c663b-78d1-4383-baed-cb802f2ed5b7.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
