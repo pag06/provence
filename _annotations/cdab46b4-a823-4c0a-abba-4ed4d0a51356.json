@@ -1,0 +1,55 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0304"
+order: 6
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "\"Le champ de foire\" c\u00e9l\u00e8bre march\u00e9 de Sisteron (Alpes-de-Hte-Provence), avec ses enclos pastoraux install\u00e9s la veille de la foire, vers 1910. (cp d'\u00e9poque). Les \"agneaux de Sisteron\", \u00e9lev\u00e9s sur les vastes parcours secs des Prealpes du Sud sont tr\u00e8s renomm\u00e9s pour la qualit\u00e9 de leur viande.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-10T06:13:29.331Z",
+            "modified": "2023-09-10T06:15:24.589Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L68",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-10T06:15:40.839Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-10T06:15:47.916Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0304",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=3417.189208984375,1499.10888671875,1595.499267578125,974.03125"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "cdab46b4-a823-4c0a-abba-4ed4d0a51356.json",
+    "motivation": "commenting"
+}
