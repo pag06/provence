@@ -3,66 +3,66 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0311"
 order: 5
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Rouleau cylindrique en bois de ch\u00eane, \u00e0 4 rang\u00e9es de 8 cha\u00eenes jouant, entournant, un r\u00f4le de batteurs. Le-Revest-des-Brousses (canton de Forcalquier)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-06T20:04:55.059Z",
-            "modified": "2023-09-06T20:06:07.830Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-06T20:06:07.830Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Rouleau cylindrique en bois de ch\u00eane, \u00e0 4 rang\u00e9es de 8 cha\u00eenes jouant, entournant, un r\u00f4le de batteurs. Le-Revest-des-Brousses (canton de Forcalquier)"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-06T20:06:19.899Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L100???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-06T20:06:14.291Z"
+            "type": "TextualBody",
+            "value": "Q9035"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9035",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-06T20:06:19.899Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-06T20:10:10.925Z",
-            "modified": "2023-09-06T20:10:13.746Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-06T20:10:13.746Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L100",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-10T05:50:22.288Z"
         }
     ],
+    "id": "7376cc70-ad8a-4aa7-becf-6f3f1d4d4427.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0311",
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2820.387451171875,3442.0400390625 1517.18017578125,3442.0400390625 1517.18017578125,2379.92626953125 2820.387451171875,2379.92626953125\" /></svg>"
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
         },
         "renderedVia": {
             "name": "annotorious-tilted-box"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
-            "type": "Manifest"
-        }
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2820.387451171875,3442.0400390625 1517.18017578125,3442.0400390625 1517.18017578125,2379.92626953125 2820.387451171875,2379.92626953125\" /></svg>"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0311"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "7376cc70-ad8a-4aa7-becf-6f3f1d4d4427.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
