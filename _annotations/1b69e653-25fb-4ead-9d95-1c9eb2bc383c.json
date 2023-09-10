@@ -3,66 +3,66 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0315"
 order: 6
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Agriculteur \u00e0 Vallouise utilisant encore pour certains travaux d\u00e9licats l'araire en bois et le panier en paille tress\u00e9e:\n-l'araire : [\u2026]\n- panier en paille sans anse : [\u2026]\n-panier avec deux anses (non repr\u00e9sent\u00e9) : [\u2026]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-07T18:33:22.626Z",
-            "modified": "2023-09-07T18:34:40.066Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-07T18:34:40.066Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Agriculteur \u00e0 Vallouise utilisant encore pour certains travaux d\u00e9licats l'araire en bois et le panier en paille tress\u00e9e:\n-l'araire : [\u2026]\n- panier en paille sans anse : [\u2026]\n-panier avec deux anses (non repr\u00e9sent\u00e9) : [\u2026]"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-07T18:35:04.557Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-07T18:34:44.502Z"
+            "type": "TextualBody",
+            "value": "Q7290"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q7290",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-07T18:35:04.557Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "id",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-07T18:36:27.558Z",
-            "modified": "2023-09-07T18:36:52.418Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-07T18:36:52.418Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "id"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L17",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-10T05:52:47.016Z"
         }
     ],
+    "id": "1b69e653-25fb-4ead-9d95-1c9eb2bc383c.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0315",
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"3811.42724609375,1750.474853515625 5114.119140625,1762.4261474609375 5098.439227148919,3471.5378374343964 3795.7473326176687,3459.586543489084\" /></svg>"
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
         },
         "renderedVia": {
             "name": "annotorious-tilted-box"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
-            "type": "Manifest"
-        }
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"3811.42724609375,1750.474853515625 5114.119140625,1762.4261474609375 5098.439227148919,3471.5378374343964 3795.7473326176687,3459.586543489084\" /></svg>"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0315"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "1b69e653-25fb-4ead-9d95-1c9eb2bc383c.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
