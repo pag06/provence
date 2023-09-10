@@ -3,64 +3,64 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0317"
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Scourtirs moderne en nylon ou polypropyl\u00e8ne au moulin \u00e0 huile de Craison, Alpes-de-Hte-Provence (canton de M\u00e9es, point L90) [...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T06:47:23.814Z",
-            "modified": "2023-09-08T06:48:32.070Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-10T05:54:47.552Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Scourtins moderne en nylon ou polypropyl\u00e8ne au moulin \u00e0 huile de Craison, Alpes-de-Hte-Provence (canton de M\u00e9es, point L90) [...]"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-08T06:48:35.083Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L90",
+            "type": "TextualBody",
+            "value": "L90"
+        },
+        {
+            "created": "2023-09-08T06:48:47.938Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-08T06:48:35.083Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-08T06:48:47.938Z"
+            "type": "TextualBody",
+            "value": "Q???"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Claude Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T06:56:43.258Z",
-            "modified": "2023-09-08T06:56:46.091Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-08T06:56:46.091Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Claude Martel"
         }
     ],
+    "id": "b42d03bb-5273-4cbc-9db0-b32a45dc4ea9.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0317",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1898.31640625,1091.7105712890625,1481.961669921875,878.4207763671875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1898.31640625,1091.7105712890625,1481.961669921875,878.4207763671875"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0317"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "b42d03bb-5273-4cbc-9db0-b32a45dc4ea9.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
