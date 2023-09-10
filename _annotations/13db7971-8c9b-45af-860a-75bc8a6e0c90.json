@@ -3,64 +3,64 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0326"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "La masse en bois, le plot et le coin \u00e0 Ongles, Alpes-de-Hte-Provence. (canton de St-Etienne-les-Orgues).\n-la masse : [\u2026]\n-le plot : [\u2026]\n-les coins : [\u2026]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-09T14:34:08.399Z",
-            "modified": "2023-09-09T14:35:11.950Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-09T14:35:11.950Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "La masse en bois, le plot et le coin \u00e0 Ongles, Alpes-de-Hte-Provence. (canton de St-Etienne-les-Orgues).\n-la masse : [\u2026]\n-le plot : [\u2026]\n-les coins : [\u2026]"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-09T14:35:48.060Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-09T14:35:21.001Z"
+            "type": "TextualBody",
+            "value": "Q6402???"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q6402???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-09T14:35:48.060Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-09T14:45:41.459Z",
-            "modified": "2023-09-09T14:45:43.955Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-09T14:45:43.955Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L87",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-10T06:03:34.742Z"
         }
     ],
+    "id": "13db7971-8c9b-45af-860a-75bc8a6e0c90.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0326",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3155.235595703125,415.9053649902344,1768.793212890625,1398.3023986816406"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3155.235595703125,415.9053649902344,1768.793212890625,1398.3023986816406"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0326"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "13db7971-8c9b-45af-860a-75bc8a6e0c90.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
