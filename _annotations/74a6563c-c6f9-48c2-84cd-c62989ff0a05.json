@@ -17,16 +17,6 @@ order: 7
             "value": "Petit rouleau \u00e0 bras au Lavercq, Alpes-de-Hte-Provence, canton du Lauzet (point L49). Le manche a perdu la tringle qui r\u00e9glait la traction de l'engin par un ou deux hommes."
         },
         {
-            "created": "2023-09-06T20:09:18.971Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
             "created": "2023-09-06T20:09:23.877Z",
             "creator": {
                 "id": "ej7320",
@@ -46,6 +36,16 @@ order: 7
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Claude Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L49",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-10T05:46:33.994Z"
         }
     ],
     "id": "74a6563c-c6f9-48c2-84cd-c62989ff0a05.json",
