@@ -45,6 +45,17 @@ order: 6
                 "name": "Eulalie"
             },
             "created": "2023-09-11T05:47:11.297Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Photo : coll. Vedel",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-11T05:49:42.153Z",
+            "modified": "2023-09-11T05:49:54.281Z"
         }
     ],
     "target": {
