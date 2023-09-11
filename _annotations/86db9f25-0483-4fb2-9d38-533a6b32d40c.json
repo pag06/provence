@@ -35,6 +35,17 @@ order: 2
                 "name": "Eulalie"
             },
             "created": "2023-09-11T05:53:58.441Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Photo : J.N. Pelen, 1966",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-11T05:59:43.167Z",
+            "modified": "2023-09-11T05:59:49.632Z"
         }
     ],
     "target": {
