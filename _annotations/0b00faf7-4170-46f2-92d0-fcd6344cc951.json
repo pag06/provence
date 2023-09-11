@@ -35,6 +35,17 @@ order: 1
                 "name": "Eulalie"
             },
             "created": "2023-09-11T05:52:29.123Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Phot : J. Lefran\u00e7ois, vers 1900",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-11T05:59:15.088Z",
+            "modified": "2023-09-11T05:59:29.298Z"
         }
     ],
     "target": {
