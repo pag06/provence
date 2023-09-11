@@ -35,6 +35,17 @@ order: 2
                 "name": "Eulalie"
             },
             "created": "2023-09-11T14:57:03.383Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Carte postale vers 1905",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-11T15:04:14.930Z",
+            "modified": "2023-09-11T15:04:22.109Z"
         }
     ],
     "target": {
