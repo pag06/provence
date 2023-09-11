@@ -1,0 +1,65 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0307"
+order: 5
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "L'\u00e9levage des caprins seuls se pratique de fa\u00e7on traditionnelle en Haute-Provence (Dr\u00f4me, Alpes-de-Hte-Provence, Haut-Var) depuis les temps les plus anciens. Il a\u00e9t\u00e9 en recul au profit de l'\u00e9levage des ovins, m\u00eame si les chevriers r\u00e9cemment install\u00e9s dans cette r\u00e9gion ont remis \u00e0 l'honneur la production du fromage de ch\u00e8vre. Troupeau de ch\u00e8vre \u00e0 Man en 1955.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-11T05:43:39.417Z",
+            "modified": "2023-09-11T05:45:13.282Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q10344",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-11T05:45:39.911Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-11T05:45:51.141Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2250",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-11T05:46:04.086Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0307",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=3392.305908203125,2244.67529296875,1616.980712890625,1140.746826171875"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "7ebc3e02-51bc-4bbc-b782-9f4a9ebb2ae2.json",
+    "motivation": "commenting"
+}
