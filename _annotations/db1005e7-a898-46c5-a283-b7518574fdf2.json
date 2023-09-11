@@ -1,0 +1,55 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0305"
+order: 3
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Panneau embl\u00e9matique d'une manade de Haute-Crau : peinture du \"peintre Camarguais\" J.Marignan, repr\u00e9sentant les tauraux vedettes de la manade. Au premier plan, \"Lou Garri\" avec ses cornes en forme de lyre en l'escoussure (marque du propri\u00e9taire dessin\u00e9e selon une entaille particuli\u00e8re) \u00e0 l'oreille droite.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-11T05:26:58.382Z",
+            "modified": "2023-09-11T05:28:43.952Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-11T05:28:49.319Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-11T05:28:50.758Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0305",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1418.2027587890625,2267.32861328125,1551.9683837890625,1056.58544921875"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "db1005e7-a898-46c5-a283-b7518574fdf2.json",
+    "motivation": "commenting"
+}
