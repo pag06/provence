@@ -1,0 +1,55 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0309"
+order: 6
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Bergerie en pierre s\u00e8che de Chapelane-le-Haut, \u00e0 La Rochegiron (Alpes-de-Hte-Provence), situ\u00e9e \u00e0 1 400m d'altitude sur les troupeaux s\u00e9journent de d\u00e9but juin \u00e0 fin octobre. Le chemin \u00e0 trois orni\u00e8res porte la marque du temps o\u00f9 l'on circulait encore avec des charrettes \u00e0 chevaux.",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-11T14:47:27.546Z",
+            "modified": "2023-09-11T14:48:28.654Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-11T14:49:06.778Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-11T14:49:07.933Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0309",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1522.1292724609375,2333.148681640625,1015.0150146484375,1018.47900390625"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "84a72d36-629b-4275-841a-3fb187674c4d.json",
+    "motivation": "commenting"
+}
