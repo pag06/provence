@@ -35,6 +35,17 @@ order: 6
                 "name": "Eulalie"
             },
             "created": "2023-09-11T15:02:34.403Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Photo : G. Barruol",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-11T15:05:05.397Z",
+            "modified": "2023-09-11T15:05:13.606Z"
         }
     ],
     "target": {
