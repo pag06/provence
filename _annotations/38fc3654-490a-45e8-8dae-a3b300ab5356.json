@@ -1,0 +1,55 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0309"
+order: 5
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Bergerie dans une combe de la Montagne de Lure, \u00e0 St-Etienne-les-Orgues (Alpes-de-Hte-Provence). L'ensemble de ces constructions (maison des bergers \u00e0 gauche et bergerie \u00e0 droite) s'appelle aussi [...]. Les murs sont cr\u00e9pis au mortier et les toitures sont en tuiles. ",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-11T14:45:10.028Z",
+            "modified": "2023-09-11T14:46:13.594Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L87",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-11T14:46:25.361Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-11T14:46:26.735Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0309",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2987.4921875,1181.2972412109375,1732.107421875,1108.5487060546875"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "38fc3654-490a-45e8-8dae-a3b300ab5356.json",
+    "motivation": "commenting"
+}
