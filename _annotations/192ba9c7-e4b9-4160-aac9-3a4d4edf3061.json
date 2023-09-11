@@ -35,6 +35,17 @@ order: 1
                 "name": "Eulalie"
             },
             "created": "2023-09-11T14:55:32.257Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Carte postale vers 1910",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-11T15:04:03.368Z",
+            "modified": "2023-09-11T15:04:09.965Z"
         }
     ],
     "target": {
