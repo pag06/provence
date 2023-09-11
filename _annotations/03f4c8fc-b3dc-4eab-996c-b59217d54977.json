@@ -45,6 +45,17 @@ order: 2
                 "name": "Eulalie"
             },
             "created": "2023-09-11T05:39:30.299Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Phot : J.F. Letavernier",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-11T05:48:32.251Z",
+            "modified": "2023-09-11T05:48:40.709Z"
         }
     ],
     "target": {
