@@ -35,6 +35,17 @@ order: 7
                 "name": "Eulalie"
             },
             "created": "2023-09-11T05:59:01.105Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Photo : PNRC",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-11T06:00:22.162Z",
+            "modified": "2023-09-11T06:00:24.471Z"
         }
     ],
     "target": {
