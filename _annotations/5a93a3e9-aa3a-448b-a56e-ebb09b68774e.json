@@ -7,14 +7,14 @@ order: 2
     "body": [
         {
             "type": "TextualBody",
-            "value": "Assemblage des cl\u00f4tures par enture en paume",
+            "value": "ENCLOS A VACHES \u00e0 Seyne-les-Alpes : D\u00e9tails des assemblages de cl\u00f4tures\nAssemblage des cl\u00f4tures par enture en paume",
             "purpose": "commenting",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
             "created": "2023-09-12T14:31:55.269Z",
-            "modified": "2023-09-12T14:32:10.305Z"
+            "modified": "2023-09-12T14:32:35.251Z"
         },
         {
             "type": "TextualBody",
