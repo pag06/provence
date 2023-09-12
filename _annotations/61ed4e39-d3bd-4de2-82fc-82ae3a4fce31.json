@@ -1,0 +1,55 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0312"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "\"Le Cadet\" b\u00e9lier pilote du troupeau d'une ferme de St-Etienne-les-Orgues en estive au sommet de la Montagne de Lure (1966). Le collier ([...]) supporte une grosse sonnaille du genre \"redon\" : [...]",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-12T05:43:27.646Z",
+            "modified": "2023-09-12T05:44:43.325Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L87",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-12T05:44:46.158Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9514",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-12T05:45:16.977Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0312",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1389.4306640625,225.87960815429688,1387.54638671875,1333.7654113769531"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "61ed4e39-d3bd-4de2-82fc-82ae3a4fce31.json",
+    "motivation": "commenting"
+}
