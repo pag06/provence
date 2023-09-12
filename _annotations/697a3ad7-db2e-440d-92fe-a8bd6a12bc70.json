@@ -1,0 +1,55 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0315"
+order: 8
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Cairns de sommet : limites de paturages \u00e9difi\u00e9es par les bergers en montagne et correspondant souvent aussi \u00e0 des limites de communes ou m\u00eame de cantons comme c'est le cas ici : [...]\n[...] tron\u00e7onnique au sommet du Sambuguet \u00e0 l'Hospitalet",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-12T14:42:01.970Z",
+            "modified": "2023-09-12T14:42:27.391Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-12T14:42:32.903Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-12T14:42:34.398Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0315",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1463.237548828125,2315.82763671875,1520.790283203125,1039.264404296875"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "697a3ad7-db2e-440d-92fe-a8bd6a12bc70.json",
+    "motivation": "commenting"
+}
