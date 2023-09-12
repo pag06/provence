@@ -35,6 +35,17 @@ order: 8
                 "name": "Eulalie"
             },
             "created": "2023-09-12T14:56:59.218Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Photo : J.F. Letavernier, 1967",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-12T14:59:19.361Z",
+            "modified": "2023-09-12T14:59:26.059Z"
         }
     ],
     "target": {
