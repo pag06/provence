@@ -35,6 +35,17 @@ order: 5
                 "name": "Eulalie"
             },
             "created": "2023-09-12T05:50:37.051Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Photo : F. X. Emery",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-12T05:53:49.138Z",
+            "modified": "2023-09-12T05:53:51.278Z"
         }
     ],
     "target": {
