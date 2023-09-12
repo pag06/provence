@@ -35,6 +35,17 @@ order: 4
                 "name": "Eulalie"
             },
             "created": "2023-09-12T05:59:56.875Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Photo : Guy Barruol, 1950",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-12T06:04:49.981Z",
+            "modified": "2023-09-12T06:05:00.457Z"
         }
     ],
     "target": {
