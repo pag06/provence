@@ -1,0 +1,55 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0320"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Le \"saigneur\" [...] attend le cochon. La place du couteau \u00e0 saigner ([...]) entre ses dents, n'est pas celle d'une pose humoristique prise pour le photographe : quand le saigneur doit lib\u00e9rer ses deux mains, il tient effectivement le couteau dans sa bouche, comme on le voit par exemple sur la photo n\u00b0 9\nValsaintes (commune de Simiane, Alpes-de-Hte-Provence)",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-13T05:37:32.769Z",
+            "modified": "2023-09-13T05:39:26.977Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-13T05:39:59.787Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9126",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-13T05:40:13.431Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0320",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1432.455322265625,306.5509338378906,1210.0693359375,838.9815368652344"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "fc5dd810-1192-4b61-9557-7b112bf684f2.json",
+    "motivation": "commenting"
+}
