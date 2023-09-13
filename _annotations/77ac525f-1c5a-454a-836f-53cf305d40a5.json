@@ -7,14 +7,14 @@ order: 2
     "body": [
         {
             "type": "TextualBody",
-            "value": "Le cochon [...] sort de sa loge ([...]) attach\u00e9 par la patte arri\u00e8re ; la corde qui le maintient servira \u00e0 lui tirer les pattes pour le maintenir solidement.",
+            "value": "Le cochon [...] sort de sa loge ([...]) attach\u00e9 par la patte arri\u00e8re ; la corde qui le maintient servira \u00e0 lui tirer les pattes pour le maintenir solidement.\nValsaintes (commune de Simiane, Alpes-de-Hte-Provence)",
             "purpose": "commenting",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
             "created": "2023-09-13T05:40:43.755Z",
-            "modified": "2023-09-13T05:41:48.625Z"
+            "modified": "2023-09-13T05:46:00.320Z"
         },
         {
             "type": "TextualBody",
