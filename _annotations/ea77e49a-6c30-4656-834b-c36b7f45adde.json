@@ -35,6 +35,17 @@ order: 3
                 "name": "Eulalie"
             },
             "created": "2023-09-13T05:05:57.907Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Photo : Mus\u00e9e de la Chaussure et d'Ethnographie R\u00e9gionale de Romans",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-13T05:16:42.023Z",
+            "modified": "2023-09-13T05:16:44.629Z"
         }
     ],
     "target": {
