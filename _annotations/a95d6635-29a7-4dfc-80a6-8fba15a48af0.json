@@ -35,6 +35,17 @@ order: 1
                 "name": "Eulalie"
             },
             "created": "2023-09-13T05:18:21.512Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel\nColl. Alpes de Lumi\u00e8re",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-13T05:35:01.218Z",
+            "modified": "2023-09-13T05:35:23.496Z"
         }
     ],
     "target": {
