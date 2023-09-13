@@ -35,6 +35,17 @@ order: 5
                 "name": "Eulalie"
             },
             "created": "2023-09-13T05:28:10.488Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Coll. et photo du Mus\u00e9e de Romans, Dr\u00f4me",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-13T05:34:45.616Z",
+            "modified": "2023-09-13T05:34:48.030Z"
         }
     ],
     "target": {
