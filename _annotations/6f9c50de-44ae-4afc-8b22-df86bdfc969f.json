@@ -47,20 +47,15 @@ order: 2
             "created": "2023-09-13T05:20:47.896Z"
         },
         {
-            "purpose": "geotagging",
-            "type": "Feature",
-            "geometry": {
-                "type": "Point",
-                "coordinates": [
-                    16,
-                    48
-                ]
-            },
+            "type": "TextualBody",
+            "value": "Photo : J.C. Bouvier, 1964",
+            "purpose": "identifying",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-13T05:21:04.185Z"
+            "created": "2023-09-13T05:36:45.785Z",
+            "modified": "2023-09-13T05:36:53.462Z"
         }
     ],
     "target": {
