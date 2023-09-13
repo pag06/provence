@@ -35,6 +35,17 @@ order: 3
                 "name": "Eulalie"
             },
             "created": "2023-09-13T05:25:19.212Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Photo : J.C. Bouvier, \u00e0 Jaillans, Dr\u00f4me, en 1965",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-13T05:33:44.957Z",
+            "modified": "2023-09-13T05:34:12.054Z"
         }
     ],
     "target": {
