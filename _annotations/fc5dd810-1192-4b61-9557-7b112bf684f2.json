@@ -35,6 +35,17 @@ order: 1
                 "name": "Eulalie"
             },
             "created": "2023-09-13T05:40:13.431Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Photo : Jack Buriot",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-13T05:51:45.460Z",
+            "modified": "2023-09-13T05:52:03.325Z"
         }
     ],
     "target": {
