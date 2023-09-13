@@ -14,6 +14,26 @@ order: 4
                 "name": "Eulalie"
             },
             "created": "2023-09-13T05:58:50.736Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Saloir servant d'abord de r\u00e9cipient pour saler la viande que l'on suspend ensuite en position de garde-manger pour la conserver. St-Didier-du-Biion (Hautes-Alpes)",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-13T05:59:04.110Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9165",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-13T05:59:11.900Z"
         }
     ],
     "target": {
