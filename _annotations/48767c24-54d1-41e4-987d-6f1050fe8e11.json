@@ -1,0 +1,55 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0320"
+order: 5
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Apr\u00e8s que l'ensemble des soies aient \u00e9t\u00e9 enlev\u00e9es, on sort le cochon du [...] pour le coucher sur une \u00e9chelle ([...]) o\u00f9 on termine le raclage au couteau autour des oreilles, des pattes, de la queue, tout en continuant \u00e0 le rincer \u00e0 l'eau ti\u00e8de.\nValsaintes (commune de Simiane, Alpes-de-Hte-Provence)",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-13T05:46:38.604Z",
+            "modified": "2023-09-13T05:47:45.929Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-13T05:47:49.418Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q1548",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-13T05:48:01.922Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0320",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2410.443603515625,1439.8106689453125,1280.352783203125,845.5159912109375"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "48767c24-54d1-41e4-987d-6f1050fe8e11.json",
+    "motivation": "commenting"
+}
