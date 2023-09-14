@@ -35,6 +35,17 @@ order: 6
                 "name": "Eulalie"
             },
             "created": "2023-09-14T17:42:02.503Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel, 1979",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-14T17:45:45.807Z",
+            "modified": "2023-09-14T17:45:52.757Z"
         }
     ],
     "target": {
