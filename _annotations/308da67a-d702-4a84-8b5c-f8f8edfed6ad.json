@@ -35,6 +35,17 @@ order: 7
                 "name": "Eulalie"
             },
             "created": "2023-09-14T17:43:24.754Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Photo : P.Garcin",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-14T17:46:20.117Z",
+            "modified": "2023-09-14T17:46:27.205Z"
         }
     ],
     "target": {
