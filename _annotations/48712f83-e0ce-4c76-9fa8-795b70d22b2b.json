@@ -1,0 +1,55 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0326"
+order: 7
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "La l\u00e8que [...], assomoir \u00e0 grives, pi\u00e8ges tr\u00e8s utilis\u00e9 en Provence et Haute-Provence, constitu\u00e9 d'une dalle en pierre maintenue en \u00e9quilibre instable par un \u00e9chaffaudage astucieux de baguettes se disloquant d\u00e8s l'arriv\u00e9e de l'oiseau. La pierre verticale s'appelle ici [...], la grosse pierre de chaque c\u00f4t\u00e9: [...] ; les deux petites pierres sous la [...] : [...] ; le b\u00e2ton vertical est [...] et les b\u00e2tons horizontaux : [...]\nA Bouvi\u00e8res (Dr\u00f4me).",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-14T17:22:18.682Z",
+            "modified": "2023-09-14T17:24:31.541Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-14T17:24:46.344Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-14T17:24:55.043Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0326",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=2869.708740234375,2475.181396484375,1039.264404296875,1011.55078125"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "48712f83-e0ce-4c76-9fa8-795b70d22b2b.json",
+    "motivation": "commenting"
+}
