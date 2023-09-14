@@ -3,53 +3,64 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0323"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Rucher \"primitif\", dans la vall\u00e9e du Jabron, pr\u00e8s de Sisteron. Les ruches-troncs sont align\u00e9es au soleil, au milieu des buis, des gen\u00eats et de colonies d'une papilionac\u00e9e tr\u00e8s mellif\u00e8re, le Dorycne, bien connu des apiculteurs sous le nom de \"faux thym\", et m\u00eame cultiv\u00e9 parfois par eux \u00e0 proximit\u00e9 des ruchers. Les ruches reposent sur des \"lauses\" [...], et sont aussi couvertes de lauses. ",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T05:28:16.871Z",
-            "modified": "2023-09-14T05:30:07.587Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9058",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-14T05:30:36.103Z"
+            "modified": "2023-09-14T05:30:07.587Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Rucher \"primitif\", dans la vall\u00e9e du Jabron, pr\u00e8s de Sisteron. Les ruches-troncs sont align\u00e9es au soleil, au milieu des buis, des gen\u00eats et de colonies d'une papilionac\u00e9e tr\u00e8s mellif\u00e8re, le Dorycne, bien connu des apiculteurs sous le nom de \"faux thym\", et m\u00eame cultiv\u00e9 parfois par eux \u00e0 proximit\u00e9 des ruchers. Les ruches reposent sur des \"lauses\" [...], et sont aussi couvertes de lauses. "
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L68",
+            "created": "2023-09-14T05:30:36.103Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-14T05:30:53.808Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9058"
+        },
+        {
+            "created": "2023-09-14T05:30:53.808Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L68"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Photo : Guy Barruol, vers 1950",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-14T05:46:29.837Z",
+            "modified": "2023-09-14T05:46:45.724Z"
         }
     ],
+    "id": "b7fda3c4-031b-406f-b6d4-bbd83e3362e4.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0323",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1529.2608642578125,56.46990966796875,1500.4862060546875,1040.6597290039062"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1529.2608642578125,56.46990966796875,1500.4862060546875,1040.6597290039062"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0323"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "b7fda3c4-031b-406f-b6d4-bbd83e3362e4.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
