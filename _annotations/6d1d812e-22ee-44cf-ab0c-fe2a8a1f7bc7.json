@@ -7,14 +7,34 @@ order: 2
     "body": [
         {
             "type": "TextualBody",
-            "value": "Capes \u00e0 grives ",
+            "value": "Capes \u00e0 grives [...] au moment des nettoyages et r\u00e9vision d'octobre avant les premiers \"passages\" de grives de novembre. Les grives vivantes sont prises les premiers jours au moyen de \"varguettes\" [...] (gluaux, baguettes d'am\u00e9lanchier ou de sureau, enduites de glu). On gardera comme \"appelants\" toutes celles qui chantent bien et on mangera les autres, les muettes [..]. Chaque grive a sa cage, avec sa mangeoire remplie de figues s\u00e9ches hach\u00e9es et sa petite cruche en terre cuite [...] que le chasseur remplit r\u00e9guli\u00e8rement car l'eau est indispensable \u00e0 l'oiseau pour chanter.",
             "purpose": "commenting",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
             "created": "2023-09-14T07:54:49.679Z",
-            "modified": "2023-09-14T07:54:54.270Z"
+            "modified": "2023-09-14T17:14:03.897Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-14T17:14:08.748Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q1647",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-14T17:14:57.996Z"
         }
     ],
     "target": {
