@@ -3,64 +3,64 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0322"
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Ruche-tronc, ruche creus\u00e9e dans un tron d'arbre, type avec planche de visite lat\u00e9rale.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T05:18:31.433Z",
-            "modified": "2023-09-14T05:18:56.260Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-14T05:18:56.260Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Ruche-tronc, ruche creus\u00e9e dans un tron d'arbre, type avec planche de visite lat\u00e9rale."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-14T05:19:02.696Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-14T05:19:02.696Z"
+            "type": "TextualBody",
+            "value": "L???"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9057",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-14T05:19:05.611Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Coll. P. Bresc",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T05:26:30.681Z",
-            "modified": "2023-09-14T05:27:30.270Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-14T05:27:30.270Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Coll. P. Bresc"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9058",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-14T05:31:58.071Z"
         }
     ],
+    "id": "daab925e-7338-4fff-8842-a7d3de5e681b.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0322",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1484.781494140625,1340.3175048828125,1039.763427734375,1165.2520751953125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
-        }
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1484.781494140625,1340.3175048828125,1039.763427734375,1165.2520751953125"
+        },
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0322"
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "daab925e-7338-4fff-8842-a7d3de5e681b.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
