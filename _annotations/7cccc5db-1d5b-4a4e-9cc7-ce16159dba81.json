@@ -35,6 +35,17 @@ order: 8
                 "name": "Eulalie"
             },
             "created": "2023-09-14T05:55:28.293Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel\nBoulins donn\u00e9s \u00e0 Alpes de Lumi\u00e8re par les propri\u00e9taires et d\u00e9pos\u00e9s au Conservatoire Ethnologique de la Haute Provence \u00e0 Salagon, Mane (Alpes-de-Hte-Provence)",
+            "purpose": "identifying",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-14T06:00:24.253Z",
+            "modified": "2023-09-14T06:00:26.691Z"
         }
     ],
     "target": {
