@@ -1,0 +1,55 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0326"
+order: 5
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Arbre \u00e0 cimeaux [...], faux arbres plac\u00e9 au dessus d'un fourr\u00e9 de gen\u00e9vrier pour servir de perchoir facile aux grives \u00e0 la recherche de grains de geni\u00e8vre. On plante un tronc d'arbre mort dans le sol et on le garnit de branches basculantes sur lesquelles on fixe les cimeaux [...], grives empaill\u00e9es ou en bois. St-Christol (Vaucluse), 1965",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-14T17:19:20.602Z",
+            "modified": "2023-09-14T17:20:56.808Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-14T17:21:12.026Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-14T17:21:13.151Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0326",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=4009.435302734375,1446.3095703125,921.481201171875,890.30322265625"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "acb5fe36-2e68-4e33-9eac-d2508db80f20.json",
+    "motivation": "commenting"
+}
