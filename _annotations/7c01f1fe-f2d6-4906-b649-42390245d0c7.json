@@ -1,0 +1,55 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0326"
+order: 6
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Autre \"aubret\" en position rabattue. \nSt-Christol (Vaucluse), en 1965",
+            "purpose": "commenting",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-14T17:21:31.501Z",
+            "modified": "2023-09-14T17:22:08.485Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-14T17:21:50.173Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q???",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "created": "2023-09-14T17:21:51.553Z"
+        }
+    ],
+    "target": {
+        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0326",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=4068.3271484375,2617.214111328125,935.337890625,872.982177734375"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "7c01f1fe-f2d6-4906-b649-42390245d0c7.json",
+    "motivation": "commenting"
+}
