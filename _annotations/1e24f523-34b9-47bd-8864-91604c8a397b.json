@@ -3,63 +3,66 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0321"
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L???",
+            "created": "2023-09-13T05:58:50.736Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-13T05:58:50.736Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L???"
         },
         {
-            "type": "TextualBody",
-            "value": "Saloir servant d'abord de r\u00e9cipient pour saler la viande que l'on suspend ensuite en position de garde-manger pour la conserver. St-Didier-du-Biion (Hautes-Alpes)",
+            "created": "2023-09-13T05:59:04.110Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Saloir servant d'abord de r\u00e9cipient pour saler la viande que l'on suspend ensuite en position de garde-manger pour la conserver. St-Didier-du-Biion (Hautes-Alpes)"
+        },
+        {
+            "created": "2023-09-13T05:59:11.900Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-13T05:59:04.110Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q9165",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-13T05:59:11.900Z"
+            "type": "TextualBody",
+            "value": "Q9165"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel",
-            "purpose": "identifying",
+            "created": "2023-09-13T06:03:48.319Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-13T06:03:48.319Z",
-            "modified": "2023-09-13T06:03:50.561Z"
+            "modified": "2023-09-13T06:03:50.561Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel"
         }
     ],
+    "id": "1e24f523-34b9-47bd-8864-91604c8a397b.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0321",
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0321",
+            "type": "Canvas"
+        },
         "selector": {
             "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2835.538330078125,1321.2166748046875,991.958251953125,997.9337158203125"
-        },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
-            "type": "Manifest"
+            "value": "xywh=2835.538330078125,1337.960205078125,975.4130859375,981.190185546875"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "1e24f523-34b9-47bd-8864-91604c8a397b.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
