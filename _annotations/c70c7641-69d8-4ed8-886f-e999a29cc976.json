@@ -37,30 +37,33 @@ order: 3
             "value": "Q9165"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel",
-            "purpose": "identifying",
+            "created": "2023-09-13T06:03:44.105Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-13T06:03:44.105Z",
-            "modified": "2023-09-13T06:03:46.611Z"
+            "modified": "2023-09-13T06:03:46.611Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel"
         }
     ],
     "id": "c70c7641-69d8-4ed8-886f-e999a29cc976.json",
     "motivation": "commenting",
     "target": {
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0321",
+            "type": "Canvas"
         },
         "selector": {
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
             "type": "FragmentSelector",
-            "value": "xywh=1534.8907470703125,1322.704345703125,1257.8590087890625,996.54345703125"
-        },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0321"
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1534.8907470703125,1326.2279052734375,1239.8814697265625,993.0198974609375"
+        }
     },
     "type": "Annotation"
 }
