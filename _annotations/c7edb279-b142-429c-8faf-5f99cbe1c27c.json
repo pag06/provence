@@ -3,64 +3,67 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0321"
 order: 6
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Jarres \u00e0 salaisons pour conserver principalement les saucisses \u00e0 Jaillans (Dr\u00f4me) : [...]. (On peut aussi y conserver le lait)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-13T06:01:10.400Z",
-            "modified": "2023-09-13T06:01:38.382Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-13T06:01:38.382Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Jarres \u00e0 salaisons pour conserver principalement les saucisses \u00e0 Jaillans (Dr\u00f4me) : [...]. (On peut aussi y conserver le lait)"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-13T06:01:49.677Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L7",
+            "type": "TextualBody",
+            "value": "L7"
+        },
+        {
+            "created": "2023-09-13T06:02:00.094Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-13T06:01:49.677Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-13T06:02:00.094Z"
+            "type": "TextualBody",
+            "value": "Q???"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : J.C. Bouvier, 1966",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-13T06:04:15.162Z",
-            "modified": "2023-09-13T06:04:19.497Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-13T06:04:19.497Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : J.C. Bouvier, 1966"
         }
     ],
+    "id": "c7edb279-b142-429c-8faf-5f99cbe1c27c.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0321",
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0321",
+            "type": "Canvas"
+        },
         "selector": {
             "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1538.8218994140625,2340.065185546875,1063.6658935546875,997.933837890625"
-        },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
-            "type": "Manifest"
+            "value": "xywh=1562.471435546875,2372.02001953125,1013.658935546875,934.7861328125"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "c7edb279-b142-429c-8faf-5f99cbe1c27c.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
