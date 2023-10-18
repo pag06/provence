@@ -3,64 +3,67 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0321"
 order: 7
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Croc \u00e0 salaison tir\u00e9 d'une branche de pin sylvestre \u00e0 Montfuron (Vaucluse) , en 1966.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-13T06:02:14.945Z",
-            "modified": "2023-09-13T06:02:50.937Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-13T06:02:50.937Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Croc \u00e0 salaison tir\u00e9 d'une branche de pin sylvestre \u00e0 Montfuron (Vaucluse) , en 1966."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-13T06:03:03.818Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
+            "type": "TextualBody",
+            "value": "L???"
+        },
+        {
+            "created": "2023-09-13T06:03:06.611Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-13T06:03:03.818Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-13T06:03:06.611Z"
+            "type": "TextualBody",
+            "value": "Q???"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-13T06:03:56.557Z",
-            "modified": "2023-09-13T06:03:59.062Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-13T06:03:59.062Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel"
         }
     ],
+    "id": "f0474df6-f6ff-4702-936b-6244334333f8.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0321",
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0321",
+            "type": "Canvas"
+        },
         "selector": {
             "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3357.541748046875,2435.013916015625,947.131103515625,931.79296875"
-        },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
-            "type": "Manifest"
+            "value": "xywh=3411.595458984375,2468.419921875,861.756103515625,847.14990234375"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "f0474df6-f6ff-4702-936b-6244334333f8.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
