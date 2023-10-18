@@ -37,30 +37,33 @@ order: 2
             "value": "L???"
         },
         {
-            "type": "TextualBody",
-            "value": "Coll. J. Valon",
-            "purpose": "identifying",
+            "created": "2023-09-13T06:04:36.122Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-13T06:04:36.122Z",
-            "modified": "2023-09-13T06:04:43.371Z"
+            "modified": "2023-09-13T06:04:43.371Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Coll. J. Valon"
         }
     ],
     "id": "0fb92a02-fffd-45be-9445-9c29b4fe137f.json",
     "motivation": "commenting",
     "target": {
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0321",
+            "type": "Canvas"
         },
         "selector": {
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
             "type": "FragmentSelector",
-            "value": "xywh=3603.844970703125,54.24492645263672,1439.102783203125,1238.9397659301758"
-        },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0321"
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=3633.607177734375,81.79379272460938,1378.809814453125,1197.6948547363281"
+        }
     },
     "type": "Annotation"
 }
