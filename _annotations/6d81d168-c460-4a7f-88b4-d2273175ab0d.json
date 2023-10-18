@@ -3,64 +3,67 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0321"
 order: 5
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Saloir, conque en bois dans laquelle on roule la viande dans le sel avant de l'en recouvrir pendant plusieurs jours. [...] Revest-du-Bion (Alpes-de-Hte-Provence) 1964",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-13T05:59:42.224Z",
-            "modified": "2023-09-13T06:00:44.983Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-13T06:00:44.983Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Saloir, conque en bois dans laquelle on roule la viande dans le sel avant de l'en recouvrir pendant plusieurs jours. [...] Revest-du-Bion (Alpes-de-Hte-Provence) 1964"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-13T06:00:47.794Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
+            "type": "TextualBody",
+            "value": "L???"
+        },
+        {
+            "created": "2023-09-13T06:00:51.163Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-13T06:00:47.794Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q9165",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-13T06:00:51.163Z"
+            "type": "TextualBody",
+            "value": "Q9165"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-13T06:03:52.377Z",
-            "modified": "2023-09-13T06:03:54.518Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-13T06:03:54.518Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel"
         }
     ],
+    "id": "6d81d168-c460-4a7f-88b4-d2273175ab0d.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0321",
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0321",
+            "type": "Canvas"
+        },
         "selector": {
             "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3881.27734375,1315.240966796875,1153.30078125,991.958251953125"
-        },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
-            "type": "Manifest"
+            "value": "xywh=3893.594482421875,1320.385498046875,1118.822509765625,984.44677734375"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "6d81d168-c460-4a7f-88b4-d2273175ab0d.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
