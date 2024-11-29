@@ -3,66 +3,73 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0320"
 order: 6
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Dans le tombereau adapt\u00e9 \u00e0 la traction par un engin motoris\u00e9 : les bras ont \u00e9t\u00e9 sci\u00e9s et remplac\u00e9s par un timon : [...]\nLimans, Alpes-de-Hte-Provence",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-08-23T05:54:32.241Z",
-            "modified": "2023-08-23T05:55:25.961Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-29T15:10:30.640Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Transport du fumier\nDans le tombereau adapt\u00e9 \u00e0 la traction par un engin motoris\u00e9 : les bras ont \u00e9t\u00e9 sci\u00e9s et remplac\u00e9s par un timon : [lu tu\u0303ba\u0280\u02c8\u025bw]\nLimans, Alpes-de-Hte-Provence"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-08-23T05:55:54.293Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
+            "type": "TextualBody",
+            "value": "L???"
+        },
+        {
+            "created": "2023-08-23T05:55:55.732Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-23T05:55:54.293Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-08-23T05:55:55.732Z"
+            "type": "TextualBody",
+            "value": "Q???"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Cl. Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-08-23T05:56:41.794Z",
-            "modified": "2023-08-23T05:56:43.525Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-08-23T05:56:43.525Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Cl. Martel"
         }
     ],
+    "id": "6d7bee74-9e90-4536-bfbe-be9ab0c2aba8.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0320",
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2849.2431640625,2271.8115234375 3920.63427734375,2281.79345703125 3914.031315931808,2990.509269619201 2842.640202650558,2980.527336025451\" /></svg>"
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+            "type": "Manifest"
         },
         "renderedVia": {
             "name": "annotorious-tilted-box"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
-            "type": "Manifest"
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2849.2431640625,2271.8115234375 3920.63427734375,2281.79345703125 3914.031315931808,2990.509269619201 2842.640202650558,2980.527336025451\" /></svg>"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0320",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "6d7bee74-9e90-4536-bfbe-be9ab0c2aba8.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
