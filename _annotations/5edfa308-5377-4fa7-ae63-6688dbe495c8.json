@@ -56,6 +56,16 @@ order: 3
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Cl. Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2523",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-29T12:40:12.942Z"
         }
     ],
     "id": "5edfa308-5377-4fa7-ae63-6688dbe495c8.json",
