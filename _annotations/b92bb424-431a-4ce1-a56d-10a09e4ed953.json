@@ -8,12 +8,13 @@ order: 7
         {
             "created": "2023-08-18T12:07:13.871Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Le faucheur est en train de battre la faux ([...]) : l'enclumette est plant\u00e9e en terre jusqu'\u00e0 la garce, entre les genoux du faucheur.\nLe Fugeret, Alpes-de-Hte-privencce (5km au N. du point 93)"
+            "value": "Le faucheur est en train de battre la faux ([e\u0303nt\u0283apl\u02c8a])\nL'enclumette est plant\u00e9e en terre jusqu'\u00e0 la garce, entre les genoux du faucheur.\nLe Fugeret, Alpes-de-Hte-provence (5km au N. du point 93)",
+            "modified": "2024-11-29T10:09:49.295Z"
         },
         {
             "created": "2023-08-18T12:07:19.483Z",
@@ -26,35 +27,55 @@ order: 7
             "value": "L93"
         },
         {
-            "created": "2023-08-18T12:07:27.844Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q4454???"
-        },
-        {
-            "created": "2023-08-18T12:07:32.418Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q4474???"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Photo : Cl. Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-08-18T12:49:57.176Z",
-            "modified": "2023-08-18T12:49:59.744Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-08-18T12:49:59.744Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Cl. Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q4474",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-29T10:10:03.744Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q4454",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-29T10:10:14.532Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q997",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-29T10:10:25.396Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q131",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-29T10:10:33.810Z"
         }
     ],
     "id": "b92bb424-431a-4ce1-a56d-10a09e4ed953.json",
@@ -69,7 +90,14 @@ order: 7
             "type": "FragmentSelector",
             "value": "xywh=3083.1171875,1642.7593994140625,814.6162109375,1154.2901611328125"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0311"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0311",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
