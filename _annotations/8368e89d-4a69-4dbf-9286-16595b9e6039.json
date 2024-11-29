@@ -28,15 +28,35 @@ order: 11
             "value": "Illustration : J.P. Dupont"
         },
         {
-            "type": "TextualBody",
-            "value": "Sans localisation",
-            "purpose": "identifying",
+            "created": "2024-11-29T12:35:01.127Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-29T12:35:01.127Z",
-            "modified": "2024-11-29T12:35:09.723Z"
+            "modified": "2024-11-29T12:35:09.723Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Sans localisation"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C208",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-29T12:35:28.741Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2245",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-29T12:35:34.228Z"
         }
     ],
     "id": "8368e89d-4a69-4dbf-9286-16595b9e6039.json",
