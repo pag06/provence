@@ -3,73 +3,80 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0318"
 order: 5
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Araire dental : le soc et le sep enti\u00e8rement m\u00e9talliques ne forment qu'une seule pi\u00e8ce ; le sep est courb\u00e9 \u00e0 angle droit en un dental dans lequel s'articulent s\u00e9par\u00e9ment, le manche et l'\u00e2ge. Cet araire est \u00e9galement muni d'un r\u00e9gulateur et d'un avant-train.\nSt Paul-s/-Ubaye, Alpes de Hte-Provence ( ? km NE du point 53)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-08-19T13:47:52.108Z",
-            "modified": "2023-08-19T13:50:07.498Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-29T14:41:19.850Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Araire dental\nLe soc et le sep enti\u00e8rement m\u00e9talliques ne forment qu'une seule pi\u00e8ce ; le sep est courb\u00e9 \u00e0 angle droit en un dental dans lequel s'articulent s\u00e9par\u00e9ment, le manche et l'\u00e2ge. Cet araire est \u00e9galement muni d'un r\u00e9gulateur et d'un avant-train.\nSt Paul-s/-Ubaye, Alpes de Hte-Provence (au NE du point 53)"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-08-19T13:50:58.820Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L53",
+            "type": "TextualBody",
+            "value": "L53"
+        },
+        {
+            "created": "2023-08-19T13:51:01.242Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-19T13:50:58.820Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q354",
+            "type": "TextualBody",
+            "value": "Q354"
+        },
+        {
+            "created": "2023-08-19T13:51:05.620Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-19T13:51:01.242Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "C276",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-08-19T13:51:05.620Z"
+            "type": "TextualBody",
+            "value": "C276"
         },
         {
-            "type": "TextualBody",
-            "value": "Illustration : J.P. Dupont",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-08-19T13:51:35.102Z",
-            "modified": "2023-08-19T13:51:37.483Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-08-19T13:51:37.483Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Illustration : J.P. Dupont"
         }
     ],
+    "id": "a3fc0dbb-1651-4364-864b-693ca4e2620e.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0318",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"2303.0693359375,1556.08740234375 2315.09326171875,1847.6658935546875 2510.48095703125,1853.6778564453125 2507.47509765625,2860.67578125 3694.830810546875,2869.693603515625 3694.830810546875,2692.341796875 3923.2841796875,2686.329833984375 3905.248291015625,2391.745361328125 2880.214599609375,2382.7275390625 2886.2265625,1544.0634765625\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0318",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "a3fc0dbb-1651-4364-864b-693ca4e2620e.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
