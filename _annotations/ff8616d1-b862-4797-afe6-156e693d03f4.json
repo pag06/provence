@@ -58,14 +58,25 @@ order: 2
             "value": "Dessin : J.P Dupont"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q10231",
+            "created": "2024-11-29T10:28:15.529Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-29T10:28:15.529Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q10231"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Q3269",
+            "purpose": "tagging",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-29T10:31:41.133Z",
+            "modified": "2024-11-29T10:31:43.924Z"
         }
     ],
     "id": "ff8616d1-b862-4797-afe6-156e693d03f4.json",
