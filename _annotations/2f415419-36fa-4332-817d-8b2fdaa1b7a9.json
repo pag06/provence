@@ -3,76 +3,93 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0317"
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Meules de foin \u00e0 Monieux, Vaucluse ( 6km SO. du point 81) : la perche est ici une longue branche. La meule situ\u00e9e au second plan, \u00e0 droite est recouverte d'un drap de jute : [...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-08-19T13:31:28.049Z",
-            "modified": "2023-08-19T13:32:24.846Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-29T14:26:26.237Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Meules de foin \n\u00c0 Monieux, Vaucluse ( 6km SO. du point 81) : la perche est ici une longue branche. La meule situ\u00e9e au second plan, \u00e0 droite est recouverte d'un drap de jute : [lu bur'as]"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-08-19T13:32:34.280Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L81",
+            "type": "TextualBody",
+            "value": "L81"
+        },
+        {
+            "created": "2023-08-19T13:32:45.775Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-19T13:32:34.280Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "C220",
+            "type": "TextualBody",
+            "value": "C220"
+        },
+        {
+            "created": "2023-08-19T13:33:03.223Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-19T13:32:45.775Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q6575",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-08-19T13:33:03.223Z"
+            "type": "TextualBody",
+            "value": "Q6575"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Cl. Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-08-19T13:35:32.994Z",
-            "modified": "2023-08-19T13:35:34.655Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-08-19T13:35:34.655Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Cl. Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q7542",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-29T14:26:43.438Z"
         }
     ],
+    "id": "2f415419-36fa-4332-817d-8b2fdaa1b7a9.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0317",
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1291.5625,1576.6280517578125 2337.637939453125,1594.6639404296875 2319.4430410804016,2649.961888721618 1273.3676016272768,2631.926000049743\" /></svg>"
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+            "type": "Manifest"
         },
         "renderedVia": {
             "name": "annotorious-tilted-box"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
-            "type": "Manifest"
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1291.5625,1576.6280517578125 2337.637939453125,1594.6639404296875 2319.4430410804016,2649.961888721618 1273.3676016272768,2631.926000049743\" /></svg>"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0317",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "2f415419-36fa-4332-817d-8b2fdaa1b7a9.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
