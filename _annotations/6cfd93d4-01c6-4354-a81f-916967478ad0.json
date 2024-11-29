@@ -47,15 +47,15 @@ order: 2
             "value": "C188"
         },
         {
-            "type": "TextualBody",
-            "value": "Dessin : J.P Dupont",
-            "purpose": "identifying",
+            "created": "2023-08-18T12:51:17.908Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T12:51:17.908Z",
-            "modified": "2023-08-18T12:51:19.896Z"
+            "modified": "2023-08-18T12:51:19.896Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Dessin : J.P Dupont"
         }
     ],
     "id": "6cfd93d4-01c6-4354-a81f-916967478ad0.json",
@@ -69,7 +69,14 @@ order: 2
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1781.53466796875,241.9801025390625 2157.2802734375,247.99203491210938 2175.31591796875,1297.073486328125 1874.7196044921875,1288.0555419921875 1880.7314453125,1035.5545654296875 1781.53466796875,1035.5545654296875\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0311"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0311",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
