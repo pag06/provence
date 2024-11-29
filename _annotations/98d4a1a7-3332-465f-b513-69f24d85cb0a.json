@@ -8,13 +8,13 @@ order: 4
         {
             "created": "2023-08-18T12:12:08.333Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-18T12:13:48.608Z",
+            "modified": "2024-11-29T10:15:07.601Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "\u00c9tui en fer galvanis\u00e9\nLe Revest-du-Bion, Alpes-de-Hte-Provence (13km O. du point 100)\nLa languette ou le crochet permettent de fixer l'\u00e9tui \u00e0 la ceinture : on n'a pas relev\u00e9 de terme particulier pour ce crochet dans les localit\u00e9s ou ces objets ont \u00e9t\u00e9 recueillis."
+            "value": "\u00c9tui en fer galvanis\u00e9 (coffin)\nLe Revest-du-Bion, Alpes-de-Hte-Provence (13km O. du point 100)\nLa languette ou le crochet permettent de fixer l'\u00e9tui \u00e0 la ceinture : on n'a pas relev\u00e9 de terme particulier pour ce crochet dans les localit\u00e9s ou ces objets ont \u00e9t\u00e9 recueillis."
         },
         {
             "created": "2023-08-18T12:13:56.114Z",
@@ -47,15 +47,15 @@ order: 4
             "value": "Q2436"
         },
         {
-            "type": "TextualBody",
-            "value": "Dessin : J.P Dupont",
-            "purpose": "identifying",
+            "created": "2023-08-18T12:52:05.321Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T12:52:05.321Z",
-            "modified": "2023-08-18T12:52:07.528Z"
+            "modified": "2023-08-18T12:52:07.528Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Dessin : J.P Dupont"
         }
     ],
     "id": "98d4a1a7-3332-465f-b513-69f24d85cb0a.json",
@@ -69,7 +69,14 @@ order: 4
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"2439.8408203125,1351.180908203125 2436.8349609375,2093.654052734375 2061.08935546875,2102.671875 2052.071533203125,1444.36572265625 2127.220458984375,1381.240478515625\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0312"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0312",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
