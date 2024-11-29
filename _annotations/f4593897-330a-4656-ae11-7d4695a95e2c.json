@@ -3,66 +3,73 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0320"
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Dans une caisse-traineau : [...]\n\u00e0 Seynes-les-Alpes, Alpes-de-Hte-Provence",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-08-23T05:49:16.092Z",
-            "modified": "2023-08-23T05:50:03.449Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-29T15:05:33.214Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Transport du fumier\nDans une caisse-traineau : [la lj\u02c8\u025bj\u00e6]\n\u00e0 Seynes-les-Alpes, Alpes-de-Hte-Provence"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-08-23T05:50:19.084Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L55",
+            "type": "TextualBody",
+            "value": "L55"
+        },
+        {
+            "created": "2023-08-23T05:50:20.941Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-23T05:50:19.084Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-08-23T05:50:20.941Z"
+            "type": "TextualBody",
+            "value": "Q???"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Cl. Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-08-23T05:56:46.711Z",
-            "modified": "2023-08-23T05:56:49.159Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-08-23T05:56:49.159Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Cl. Martel"
         }
     ],
+    "id": "f4593897-330a-4656-ae11-7d4695a95e2c.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0320",
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1129.5455322265625,2214.1435546875 2166.128173828125,2221.682373046875 2160.9186153077235,2937.9932954264063 1124.335973706161,2930.4544770670313\" /></svg>"
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+            "type": "Manifest"
         },
         "renderedVia": {
             "name": "annotorious-tilted-box"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
-            "type": "Manifest"
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1129.5455322265625,2214.1435546875 2166.128173828125,2221.682373046875 2160.9186153077235,2937.9932954264063 1124.335973706161,2930.4544770670313\" /></svg>"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0320",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "f4593897-330a-4656-ae11-7d4695a95e2c.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
