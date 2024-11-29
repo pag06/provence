@@ -3,66 +3,93 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0317"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Des branches mortes et des fagots de bois sec servent ainsi \u00e0 la meule pour l'isoler du sol, et de l'humidit\u00e9.\n\nPhoto faite pendant la confection d'une meule de foin. (\u00e0 5km du point 100), Alpes-de-Hts-Provence.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-08-19T13:28:37.962Z",
-            "modified": "2023-08-19T13:29:05.029Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-29T14:24:59.199Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Meule de foin avec m\u00e2t\nDes branches mortes et des fagots de bois sec servent ainsi \u00e0 la meule pour l'isoler du sol, et de l'humidit\u00e9.\nPhoto faite pendant la confection d'une meule de foin. (\u00e0 5km du point 100), Alpes-de-Hts-Provence."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-08-19T13:29:08.709Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L100",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-08-19T13:29:08.709Z"
+            "type": "TextualBody",
+            "value": "L100"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-08-19T13:29:10.670Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Photo : Cl. Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-08-19T13:35:36.684Z",
-            "modified": "2023-08-19T13:35:38.883Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-08-19T13:35:38.883Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Cl. Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q6575",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-29T14:25:13.585Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q7542",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-29T14:25:21.308Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C220",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-29T14:25:26.859Z"
         }
     ],
+    "id": "bdd9e706-e9b0-455d-a7a1-487992640a63.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0317",
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2746.44921875,305.1053466796875 3831.602294921875,317.12921142578125 3819.236543927747,1433.1375010909728 2734.083467755872,1421.113636344879\" /></svg>"
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+            "type": "Manifest"
         },
         "renderedVia": {
             "name": "annotorious-tilted-box"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
-            "type": "Manifest"
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2746.44921875,305.1053466796875 3831.602294921875,317.12921142578125 3819.236543927747,1433.1375010909728 2734.083467755872,1421.113636344879\" /></svg>"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0317",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "bdd9e706-e9b0-455d-a7a1-487992640a63.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
