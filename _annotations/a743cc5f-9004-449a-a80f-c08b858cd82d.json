@@ -11,10 +11,10 @@ order: 3
                 "id": "pag06",
                 "name": "pag06"
             },
+            "modified": "2024-11-29T10:27:19.647Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "R\u00e2teau de fenaison en bois \nLa traverse, qui mesure environ 1 m\u00e8tre forme un angle droit avec le manche, assez long (de 2 m\u00e8tres).\nSur ce r\u00e2teau, les dents sont dispos\u00e9es d'un seul c\u00f4t\u00e9 de la traverse.",
-            "modified": "2024-11-29T10:27:19.647Z"
+            "value": "R\u00e2teau de fenaison en bois \nLa traverse, qui mesure environ 1 m\u00e8tre forme un angle droit avec le manche, assez long (de 2 m\u00e8tres).\nSur ce r\u00e2teau, les dents sont dispos\u00e9es d'un seul c\u00f4t\u00e9 de la traverse."
         },
         {
             "created": "2023-08-18T12:30:39.610Z",
@@ -56,6 +56,16 @@ order: 3
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Dessin : J.P Dupont"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q10231",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-29T10:28:26.406Z"
         }
     ],
     "id": "a743cc5f-9004-449a-a80f-c08b858cd82d.json",
