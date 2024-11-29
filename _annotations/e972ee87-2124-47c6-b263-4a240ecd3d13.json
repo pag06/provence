@@ -8,12 +8,13 @@ order: 4
         {
             "created": "2023-08-18T12:02:05.125Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Enclumette \u00e0 t\u00eate \u00e9troite et \u00e0 rebord ; le marteau est plat.\nBanon, Alpes-de-Hte-Provence (point 89)"
+            "value": "Enclumette \u00e0 t\u00eate \u00e9troite et \u00e0 rebord ; le marteau est plat.",
+            "modified": "2024-11-29T10:03:14.653Z"
         },
         {
             "created": "2023-08-18T12:02:09.137Z",
@@ -46,15 +47,15 @@ order: 4
             "value": "C188"
         },
         {
-            "type": "TextualBody",
-            "value": "Dessin : J.P Dupont",
-            "purpose": "identifying",
+            "created": "2023-08-18T12:51:27.444Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T12:51:27.444Z",
-            "modified": "2023-08-18T12:51:29.565Z"
+            "modified": "2023-08-18T12:51:29.565Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Dessin : J.P Dupont"
         }
     ],
     "id": "e972ee87-2124-47c6-b263-4a240ecd3d13.json",
@@ -68,7 +69,14 @@ order: 4
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1450.878662109375,1352.683837890625 1781.53466796875,1358.69580078125 1763.4989013671875,2795.546630859375 1090.1629638671875,2777.5107421875 1090.1629638671875,2116.19873046875 1486.9501953125,1905.78125\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0311"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0311",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
