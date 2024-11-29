@@ -27,16 +27,6 @@ order: 2
             "value": "L22"
         },
         {
-            "created": "2023-08-23T05:46:41.121Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q???"
-        },
-        {
             "created": "2023-08-23T05:56:27.263Z",
             "creator": {
                 "id": "ej7320",
@@ -46,6 +36,16 @@ order: 2
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Cl. Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q1438",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-29T15:01:48.256Z"
         }
     ],
     "id": "493fba37-504b-4012-a647-6ac74969d09a.json",
