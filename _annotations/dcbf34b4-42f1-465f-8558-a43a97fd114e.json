@@ -3,66 +3,73 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0315"
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Le fermier ram\u00e8ne le mulet \u00e0 la grange pour y vider la trousse. \nParfois, les trousses de foin sont charg\u00e9es \u00e0 dos d'homme ou transport\u00e9es sur des tra\u00eeneaux, et on les enveloppe dans un drap : [...].",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-08-19T13:03:27.984Z",
-            "modified": "2023-08-19T13:04:58.917Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-29T11:30:12.708Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Chargement et transport du foin \u00e0 dos de mulet\n\u00c0 Serennes, Alpes-de-Hte-Provence, \u00e0 5 km au S du point 37\nLe fermier ram\u00e8ne le mulet \u00e0 la grange pour y vider la trousse. \nParfois, les trousses de foin sont charg\u00e9es \u00e0 dos d'homme ou transport\u00e9es sur des tra\u00eeneaux, et on les enveloppe dans un drap : [...]."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-08-19T13:05:03.202Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L37",
+            "type": "TextualBody",
+            "value": "L37"
+        },
+        {
+            "created": "2023-08-19T13:05:04.635Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-19T13:05:03.202Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-08-19T13:05:04.635Z"
+            "type": "TextualBody",
+            "value": "Q???"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Cl. Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-08-19T13:05:09.199Z",
-            "modified": "2023-08-19T13:05:11.495Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-08-19T13:05:11.495Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Cl. Martel"
         }
     ],
+    "id": "dcbf34b4-42f1-465f-8558-a43a97fd114e.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0315",
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2662.2822265625,1579.6341552734375 3795.530517578125,1603.681884765625 3770.523703558993,2782.1269957742747 2637.275412543368,2758.0792662820872\" /></svg>"
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+            "type": "Manifest"
         },
         "renderedVia": {
             "name": "annotorious-tilted-box"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
-            "type": "Manifest"
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2662.2822265625,1579.6341552734375 3795.530517578125,1603.681884765625 3770.523703558993,2782.1269957742747 2637.275412543368,2758.0792662820872\" /></svg>"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0315",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "dcbf34b4-42f1-465f-8558-a43a97fd114e.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
