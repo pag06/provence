@@ -39,33 +39,29 @@ order: 11
             "value": "Sans localisation"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C208",
+            "created": "2024-11-29T12:35:28.741Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-29T12:35:28.741Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C208"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2245",
+            "created": "2024-11-29T12:35:34.228Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-29T12:35:34.228Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2245"
         }
     ],
     "id": "8368e89d-4a69-4dbf-9286-16595b9e6039.json",
     "motivation": "commenting",
     "target": {
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1159.270751953125,360.5049133300781 2669.150146484375,360.5049133300781 2656.426513671875,1179.0631103515625 1994.7938232421875,1157.85693359375 1956.622802734375,767.6633911132812 1150.7882080078125,797.35205078125\"></polygon></svg>"
-        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
@@ -73,6 +69,10 @@ order: 11
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0316",
             "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1159.3,360.5 2669.2,360.5 2656.4,1179.1 1994.8,1157.9 1952.4,812.2 1150.8,797.4\"></polygon></svg>"
         }
     },
     "type": "Annotation"
