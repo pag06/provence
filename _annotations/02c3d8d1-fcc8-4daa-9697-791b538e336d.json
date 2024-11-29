@@ -11,10 +11,10 @@ order: 6
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-29T10:04:18.442Z",
+            "modified": "2024-11-29T10:08:56.509Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Le faucheur est en train de battre la faux ([e\u0303nt\u0283apl\u02c8a]) : l'enclumette est plant\u00e9e en terre jusqu'\u00e0 la garce, entre les genoux du faucheur.\nLe Fugeret, Alpes-de-Hte-privencce (5km au N. du point 93)"
+            "value": "Le faucheur est en train de battre la faux ([e\u0303nt\u0283apl\u02c8a])\nL'enclumette est plant\u00e9e en terre jusqu'\u00e0 la garce, entre les genoux du faucheur.\nLe Fugeret, Alpes-de-Hte-provence (5km au N. du point 93)"
         },
         {
             "created": "2023-08-18T12:05:23.600Z",
@@ -38,44 +38,44 @@ order: 6
             "value": "Photo : Cl. Martel"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4474",
+            "created": "2024-11-29T10:04:53.555Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-29T10:04:53.555Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4474"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4454",
+            "created": "2024-11-29T10:06:08.127Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-29T10:06:08.127Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4454"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q997",
+            "created": "2024-11-29T10:06:25.667Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-29T10:06:25.667Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q997"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q131",
+            "created": "2024-11-29T10:06:56.701Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-29T10:06:56.701Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q131"
         }
     ],
     "id": "02c3d8d1-fcc8-4daa-9697-791b538e336d.json",
