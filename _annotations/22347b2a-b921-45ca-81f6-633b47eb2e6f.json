@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-07-24T14:46:56.586Z",
             "creator": {
-                "id": "Pigeo",
-                "name": "Pierre-Aur\u00e9lien Georges"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-07-24T14:47:13.011Z",
+            "modified": "2024-11-29T09:47:11.789Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Faux: montage de la lame sur le manche"
+            "value": "Faux: montage de la lame sur le manche\na : lame [la l\u02c8am\u0254]\nb : tranchant [lu fj\u02c8ew]\nc : dos [la kw\u02c8ast\u0254]\nd : manche [lu f\u0254wt\u0283j\u02c8\u025ba]\ne : anneau [l an\u02c8ew]\nf : coin [lu ku\u0272\u02c8e]"
         },
         {
             "created": "2023-07-24T14:47:18.963Z",
@@ -39,24 +39,24 @@ order: 1
             "value": "Dessin d'Etienne SVED"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4474",
+            "created": "2023-08-18T11:42:11.380Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T11:42:11.380Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4474"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C178",
+            "created": "2023-08-18T11:42:23.605Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T11:42:23.605Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C178"
         }
     ],
     "id": "22347b2a-b921-45ca-81f6-633b47eb2e6f.json",
@@ -71,7 +71,14 @@ order: 1
             "type": "FragmentSelector",
             "value": "xywh=1246.190185546875,352.8114013671875,1096.82763671875,654.617919921875"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0310"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0310",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
