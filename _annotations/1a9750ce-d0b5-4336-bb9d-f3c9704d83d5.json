@@ -58,14 +58,24 @@ order: 4
             "value": "Photo : Cl. Martel"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q10231",
+            "created": "2024-11-29T10:34:46.749Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-29T10:34:46.749Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q10231"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q3269",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-29T10:35:00.406Z"
         }
     ],
     "id": "1a9750ce-d0b5-4336-bb9d-f3c9704d83d5.json",
