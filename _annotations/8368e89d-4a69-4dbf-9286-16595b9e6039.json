@@ -1,0 +1,37 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0316"
+order: 11
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "Navettes",
+            "purpose": "commenting",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-29T12:33:20.953Z",
+            "modified": "2024-11-29T12:33:23.466Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0316",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1159.270751953125,360.5049133300781 2669.150146484375,360.5049133300781 2656.426513671875,1179.0631103515625 1994.7938232421875,1157.85693359375 1956.622802734375,767.6633911132812 1150.7882080078125,797.35205078125\"></polygon></svg>"
+        }
+    },
+    "id": "8368e89d-4a69-4dbf-9286-16595b9e6039.json",
+    "motivation": "commenting"
+}
