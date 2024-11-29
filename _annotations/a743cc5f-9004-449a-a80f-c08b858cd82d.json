@@ -58,14 +58,14 @@ order: 3
             "value": "Dessin : J.P Dupont"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q10231",
+            "created": "2024-11-29T10:28:26.406Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-29T10:28:26.406Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q10231"
         }
     ],
     "id": "a743cc5f-9004-449a-a80f-c08b858cd82d.json",
