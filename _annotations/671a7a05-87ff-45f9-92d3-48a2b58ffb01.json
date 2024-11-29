@@ -3,74 +3,101 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0316"
 order: 10
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "D\u00e9tails des noeuds par lesquels on attache la corde sur la navette\nLa Chappelle-en-Valgaudemar, Hautes-Alpes (point 26)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-08-19T13:22:03.150Z",
-            "modified": "2023-08-19T13:22:42.248Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-29T12:47:06.524Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Navette et corde\nD\u00e9tails des noeuds par lesquels on attache la corde sur la navette"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-08-19T13:22:46.999Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L26",
+            "type": "TextualBody",
+            "value": "L26"
+        },
+        {
+            "created": "2023-08-19T13:22:57.143Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-19T13:22:46.999Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "C209",
+            "type": "TextualBody",
+            "value": "C209"
+        },
+        {
+            "created": "2023-08-19T13:23:04.534Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-19T13:22:57.143Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q6952",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-08-19T13:23:04.534Z"
+            "type": "TextualBody",
+            "value": "Q6952"
         },
         {
-            "type": "TextualBody",
-            "value": "Illustration : J.P. Dupont",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-08-19T13:23:51.587Z",
-            "modified": "2023-08-19T13:23:53.917Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-08-19T13:23:53.917Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Illustration : J.P. Dupont"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2245",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-29T12:48:04.579Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2623",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-29T12:48:11.138Z"
         }
     ],
+    "id": "671a7a05-87ff-45f9-92d3-48a2b58ffb01.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0316",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3046.408935546875,2080.175048828125,791.2373046875,756"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3046.408935546875,2080.175048828125,791.2373046875,756"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0316",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "671a7a05-87ff-45f9-92d3-48a2b58ffb01.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
