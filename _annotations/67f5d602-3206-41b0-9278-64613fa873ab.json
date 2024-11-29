@@ -48,15 +48,15 @@ order: 1
             "value": "Illustration : J.P. Dupont"
         },
         {
-            "type": "TextualBody",
-            "value": "Sans localisation",
-            "purpose": "identifying",
+            "created": "2024-11-29T12:30:45.482Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-29T12:30:45.482Z",
-            "modified": "2024-11-29T12:30:55.124Z"
+            "modified": "2024-11-29T12:30:55.124Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Sans localisation"
         }
     ],
     "id": "67f5d602-3206-41b0-9278-64613fa873ab.json",
