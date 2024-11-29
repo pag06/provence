@@ -11,20 +11,10 @@ order: 4
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-29T10:42:23.507Z",
+            "modified": "2024-11-29T10:45:04.730Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Grand r\u00e2teau \u00e0 traction animale \nLa largeur varie de 1m50 \u00e0 1m50 selon les cas.\nLa Roche-des-Arnauds, Hautes-Alpes"
-        },
-        {
-            "created": "2023-08-18T12:46:00.698Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L48"
+            "value": "Grand r\u00e2teau \u00e0 traction animale \nLa largeur varie de 1m50 \u00e0 1m50 selon les cas."
         },
         {
             "created": "2023-08-18T12:46:05.180Z",
@@ -56,6 +46,16 @@ order: 4
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Cl. Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L38",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-29T10:45:14.587Z"
         }
     ],
     "id": "7dca4c6e-c708-464e-91ef-baf99993e842.json",
