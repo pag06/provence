@@ -11,10 +11,10 @@ order: 5
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-29T15:08:06.792Z",
+            "modified": "2024-11-29T15:09:35.453Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Transport du fumier\nDans le tombereau : [lu tu\u0303ba\u0280\u02c8\u025bw]\n\u00e0 Saint-Trinit, Vaucluse"
+            "value": "Transport du fumier\nDans le tombereau : [lu tu\u0303ba\u0280\u02c8\u025bw]\n\u00e0 Saint-Trinit, Vaucluse (\u00e0 l'E du point 81)"
         },
         {
             "created": "2023-08-23T05:56:37.593Z",
@@ -28,24 +28,24 @@ order: 5
             "value": "Photo : Cl. Martel"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L81",
+            "created": "2024-11-29T15:08:44.300Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-29T15:08:44.300Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L81"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q10044",
+            "created": "2024-11-29T15:09:05.856Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-29T15:09:05.856Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q10044"
         }
     ],
     "id": "37813670-ec2d-4d14-9d24-b84de10c5262.json",
