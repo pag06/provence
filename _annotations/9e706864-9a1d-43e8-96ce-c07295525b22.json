@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-08-18T12:35:12.900Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-18T12:37:26.975Z",
+            "modified": "2024-11-29T10:36:49.499Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "R\u00e2teau \u00e0 deux bras \u00e0 traction humaine : ces r\u00e2teaux ont un tr\u00e8s longue traverse de 1,50m environ, et deux longs manches de 2m environ.\n\nR\u00e2teau en bois\nBanon, Alpes-de-Haute-Provence"
+            "value": "R\u00e2teau en bois \u00e0 deux bras, \u00e0 traction humaine\nCe r\u00e2teau a un tr\u00e8s longue traverse de 1,50m environ, et deux longs manches de 2m environ."
         },
         {
             "created": "2023-08-18T12:37:20.592Z",
@@ -47,15 +47,15 @@ order: 1
             "value": "C200"
         },
         {
-            "type": "TextualBody",
-            "value": "Dessin : J.P Dupont",
-            "purpose": "identifying",
+            "created": "2023-08-18T12:55:00.051Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T12:55:00.051Z",
-            "modified": "2023-08-18T12:55:01.824Z"
+            "modified": "2023-08-18T12:55:01.824Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Dessin : J.P Dupont"
         }
     ],
     "id": "9e706864-9a1d-43e8-96ce-c07295525b22.json",
@@ -69,7 +69,14 @@ order: 1
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1219.41943359375,244.98606872558594 2475.912353515625,235.96817016601562 2457.876708984375,1465.407470703125 996.9780883789062,1426.3299560546875 990.9661865234375,1161.8050537109375 1231.4432373046875,1158.7991943359375\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0314"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0314",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
