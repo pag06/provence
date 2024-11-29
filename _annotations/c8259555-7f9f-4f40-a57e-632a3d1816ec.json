@@ -11,10 +11,10 @@ order: 3
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-29T14:27:24.961Z",
+            "modified": "2024-11-29T14:27:55.121Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Meules de foin et perches\nLes charges : [...] [...] maintenues par des cordes ou des fils de fer, servent \u00e0 la fois \u00e0 entasser le foin sur le sol et \u00e0 le prot\u00e9ger de l'\u00e9parpillement par le vent.\n\nPhoto faite pendant la confection d'une meule de foin \u00e0 St Michel-l'Observatoire (\u00e0 5km du point 100), Alpes-de-Hts-Provence."
+            "value": "Meules de foin et perches\nLes charges : [les p'\u025bs] [les p\u02c8\u025bjr\u0153] maintenues par des cordes ou des fils de fer, servent \u00e0 la fois \u00e0 entasser le foin sur le sol et \u00e0 le prot\u00e9ger de l'\u00e9parpillement par le vent.\n\nPhoto faite pendant la confection d'une meule de foin \u00e0 St Michel-l'Observatoire (\u00e0 5km du point 100), Alpes-de-Hts-Provence."
         },
         {
             "created": "2023-08-19T13:30:50.398Z",
@@ -27,16 +27,6 @@ order: 3
             "value": "L100"
         },
         {
-            "created": "2023-08-19T13:31:01.656Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q???"
-        },
-        {
             "created": "2023-08-19T13:35:21.856Z",
             "creator": {
                 "id": "ej7320",
@@ -46,6 +36,36 @@ order: 3
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Cl. Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q6575",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-29T14:28:13.098Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q7542",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-29T14:28:19.436Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C220",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-29T14:28:24.615Z"
         }
     ],
     "id": "c8259555-7f9f-4f40-a57e-632a3d1816ec.json",
