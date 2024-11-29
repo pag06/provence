@@ -11,20 +11,10 @@ order: 6
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-29T15:10:30.640Z",
+            "modified": "2024-11-29T15:11:53.362Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Transport du fumier\nDans le tombereau adapt\u00e9 \u00e0 la traction par un engin motoris\u00e9 : les bras ont \u00e9t\u00e9 sci\u00e9s et remplac\u00e9s par un timon : [lu tu\u0303ba\u0280\u02c8\u025bw]\nLimans, Alpes-de-Hte-Provence"
-        },
-        {
-            "created": "2023-08-23T05:55:54.293Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
+            "value": "Transport du fumier\nDans le tombereau adapt\u00e9 \u00e0 la traction par un engin motoris\u00e9 : les bras ont \u00e9t\u00e9 sci\u00e9s et remplac\u00e9s par un timon : [lu tu\u0303ba\u0280\u02c8\u025bw]\nLimans, Alpes-de-Hte-Provence (\u00e0 l'est de Forqualquier, point 100)"
         },
         {
             "created": "2023-08-23T05:56:41.794Z",
@@ -38,14 +28,24 @@ order: 6
             "value": "Photo : Cl. Martel"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q10044",
+            "created": "2024-11-29T15:10:49.802Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-29T15:10:49.802Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q10044"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L100",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-29T15:12:02.138Z"
         }
     ],
     "id": "6d7bee74-9e90-4536-bfbe-be9ab0c2aba8.json",
