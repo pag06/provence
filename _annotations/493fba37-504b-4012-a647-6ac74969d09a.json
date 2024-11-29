@@ -3,66 +3,73 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0320"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Sur un brancard de bois pos\u00e9 sur les \u00e9paules de deux porteurs : [...]\u00e0 la Chapelle-en-Valgaudemar, Hautes-Alpes",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-08-23T05:43:42.681Z",
-            "modified": "2023-08-23T05:44:22.759Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-29T15:01:00.169Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Transport du fumier\nSur un brancard de bois pos\u00e9 sur les \u00e9paules de deux porteurs : [lu pw\u0254\u0280taf\u02c8aj] \u00e0 la Chapelle-en-Valgaudemar, Hautes-Alpes"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-08-23T05:44:32.465Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L22",
+            "type": "TextualBody",
+            "value": "L22"
+        },
+        {
+            "created": "2023-08-23T05:46:41.121Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-23T05:44:32.465Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-08-23T05:46:41.121Z"
+            "type": "TextualBody",
+            "value": "Q???"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Cl. Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-08-23T05:56:27.263Z",
-            "modified": "2023-08-23T05:56:30.227Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-08-23T05:56:30.227Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Cl. Martel"
         }
     ],
+    "id": "493fba37-504b-4012-a647-6ac74969d09a.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0320",
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1966.247802734375,896.8892211914062 2666.9775390625,902.8783569335938 2661.1935818513507,1579.602175856689 1960.4638455232255,1573.6130401145015\" /></svg>"
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+            "type": "Manifest"
         },
         "renderedVia": {
             "name": "annotorious-tilted-box"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
-            "type": "Manifest"
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1966.247802734375,896.8892211914062 2666.9775390625,902.8783569335938 2661.1935818513507,1579.602175856689 1960.4638455232255,1573.6130401145015\" /></svg>"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0320",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "493fba37-504b-4012-a647-6ac74969d09a.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
