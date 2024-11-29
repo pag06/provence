@@ -15,6 +15,17 @@ order: 11
             "purpose": "commenting",
             "type": "TextualBody",
             "value": "Navette\nNavettes tr\u00e8s effil\u00e9es dont les trous sont de grandeur diff\u00e9rente.\n\nLes navettes sont de petits morceaux de bois allong\u00e9s, de 115 \u00e0 25cm et perc\u00e9s de deux trous dans lesquels passe une extr\u00e9mit\u00e9 de la corde, bloqu\u00e9e par un n\u0153ud et o\u00f9 revient s'enfiler et se nouer l'autre extr\u00e9mit\u00e9 de la corde apr\u00e8s avoir fait le tour de la trousse."
+        },
+        {
+            "type": "TextualBody",
+            "value": "Illustration : J.P. Dupont",
+            "purpose": "identifying",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-29T12:34:46.434Z",
+            "modified": "2024-11-29T12:34:52.522Z"
         }
     ],
     "id": "8368e89d-4a69-4dbf-9286-16595b9e6039.json",
