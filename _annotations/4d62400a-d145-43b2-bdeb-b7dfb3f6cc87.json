@@ -11,10 +11,10 @@ order: 2
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-29T11:27:38.727Z",
+            "modified": "2024-11-29T11:28:09.047Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Chargement et transport du foin \u00e0 dos de mulet\n\u00c0 Serennes, Alpes-de-Hte-Provence, \u00e0 5 km au S du point 37\nLa trousse de foin ([...]), pesant environ 200kgs, a \u00e9t\u00e9 charg\u00e9e sur le b\u00e2t, et les fermiers tendent les cordes qui servent \u00e0 maintenir la trousse sur le b\u00e2t ; ces cordes sont appel\u00e9es [...]."
+            "value": "Chargement et transport du foin \u00e0 dos de mulet\n\u00c0 Serennes, Alpes-de-Hte-Provence, \u00e0 5 km au S du point 37\nLa trousse de foin ([t\u0280\u02c8usa]), pesant environ 200kgs, a \u00e9t\u00e9 charg\u00e9e sur le b\u00e2t, et les fermiers tendent les cordes qui servent \u00e0 maintenir la trousse sur le b\u00e2t ; ces cordes sont appel\u00e9es [...]."
         },
         {
             "created": "2023-08-19T12:57:54.091Z",
