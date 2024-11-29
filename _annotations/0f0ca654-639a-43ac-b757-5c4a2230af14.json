@@ -17,16 +17,6 @@ order: 3
             "value": "\u00c9tui en zinc\nLa languette ou le crochet permettent de fixer l'\u00e9tui \u00e0 la ceinture : on n'a pas relev\u00e9 de terme particulier pour ce crochet dans les localit\u00e9s ou ces objets ont \u00e9t\u00e9 recueillis."
         },
         {
-            "created": "2023-08-18T12:11:33.884Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
             "created": "2023-08-18T12:11:42.879Z",
             "creator": {
                 "id": "ej7320",
@@ -47,15 +37,26 @@ order: 3
             "value": "Q2436"
         },
         {
-            "type": "TextualBody",
-            "value": "Dessin : J.P Dupont",
-            "purpose": "identifying",
+            "created": "2023-08-18T12:52:10.189Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T12:52:10.189Z",
-            "modified": "2023-08-18T12:52:12.011Z"
+            "modified": "2023-08-18T12:52:12.011Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Dessin : J.P Dupont"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Sans localisation",
+            "purpose": "identifying",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-29T10:14:10.494Z",
+            "modified": "2024-11-29T10:14:20.116Z"
         }
     ],
     "id": "0f0ca654-639a-43ac-b757-5c4a2230af14.json",
@@ -70,7 +71,14 @@ order: 3
             "type": "FragmentSelector",
             "value": "xywh=1589.1529541015625,1378.2344970703125,324.6441650390625,676.3419189453125"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0312"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0312",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
