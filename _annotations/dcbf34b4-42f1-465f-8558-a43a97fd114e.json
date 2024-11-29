@@ -11,10 +11,10 @@ order: 4
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-29T11:30:53.950Z",
+            "modified": "2024-11-29T11:31:10.659Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Chargement et transport du foin \u00e0 dos de mulet\n\u00c0 Serennes, Alpes-de-Hte-Provence, \u00e0 5 km au S du point 37\nLe fermier ram\u00e8ne le mulet \u00e0 la grange pour y vider la trousse. \nParfois, les trousses de foin sont charg\u00e9es \u00e0 dos d'homme ou transport\u00e9es sur des tra\u00eeneaux, et on les enveloppe dans un drap : [l \u025bstame\u0272a]."
+            "value": "Chargement et transport du foin \u00e0 dos de mulet\n\u00c0 Serennes, Alpes-de-Hte-Provence, \u00e0 5 km au S du point 37\nLe fermier ram\u00e8ne le mulet \u00e0 la grange pour y vider la trousse. \nParfois, les trousses de foin sont charg\u00e9es \u00e0 dos d'homme ou transport\u00e9es sur des tra\u00eeneaux, et on les enveloppe dans un drap : [l \u025bstam\u02c8e\u0272a]."
         },
         {
             "created": "2023-08-19T13:05:03.202Z",
@@ -27,16 +27,6 @@ order: 4
             "value": "L37"
         },
         {
-            "created": "2023-08-19T13:05:04.635Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q???"
-        },
-        {
             "created": "2023-08-19T13:05:09.199Z",
             "creator": {
                 "id": "ej7320",
@@ -46,6 +36,46 @@ order: 4
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Cl. Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q10350",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-29T11:31:37.736Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C207",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-29T11:31:46.132Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q11075",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-29T11:31:53.781Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C206",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-29T11:31:59.126Z"
         }
     ],
     "id": "dcbf34b4-42f1-465f-8558-a43a97fd114e.json",
