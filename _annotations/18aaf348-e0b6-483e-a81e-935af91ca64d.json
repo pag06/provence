@@ -11,10 +11,10 @@ order: 7
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-29T12:45:36.721Z",
+            "modified": "2024-11-29T12:46:24.817Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Navette\nSur la m\u00eame trousse on a utilis\u00e9 ici une navette plus petite, \u00e0 un seul trou et \u00e0 bout arrondi d'un c\u00f4t\u00e9 ; [lu takul\u02c8u\u0303n].\nCette navette maintient seulement le morceau de corde qui sert \u00e0 refermer le filet sur le foin pour lier la trousse.\nSerennes Alpes-de-Hte-Provence."
+            "value": "Sur la m\u00eame trousse on a utilis\u00e9 ici une navette plus petite, \u00e0 un seul trou et \u00e0 bout arrondi d'un c\u00f4t\u00e9 ; [...].\nCette navette maintient seulement le morceau de corde qui sert \u00e0 refermer le filet sur le foin pour lier la trousse : Serennes Alpes-de-Hte-Provence (\u00e0 5 km au S du point 37)"
         },
         {
             "created": "2023-08-19T13:16:46.365Z",
@@ -37,16 +37,6 @@ order: 7
             "value": "Q2245"
         },
         {
-            "created": "2023-08-19T13:19:59.794Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
             "created": "2023-08-19T13:23:23.895Z",
             "creator": {
                 "id": "ej7320",
@@ -56,6 +46,16 @@ order: 7
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Cl. Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L37",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-29T12:46:12.933Z"
         }
     ],
     "id": "18aaf348-e0b6-483e-a81e-935af91ca64d.json",
