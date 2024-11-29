@@ -3,73 +3,80 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0319"
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Croquis de cet araire montrant l'agencement de ses diverses parties, et, en particulier, l'\u00e2ge travers\u00e9 par le mancheron et la tige du soc qui s'enfonce \u00e0 l'int\u00e9rieur du sep.\na) le sep [...]\nb) le soc [...]\nc) les ailes [...]\nd) le manche [...]\ne) l'\u00e2ge [...]\nf) l'\u00e9tan\u00e7on [...]\ng) le r\u00e9gulateur [...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-08-23T05:35:15.576Z",
-            "modified": "2023-08-23T05:37:14.281Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-29T14:46:49.966Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Araire (croquis)\nCroquis de cet araire montrant l'agencement de ses diverses parties, et, en particulier, l'\u00e2ge travers\u00e9 par le mancheron et la tige du soc qui s'enfonce \u00e0 l'int\u00e9rieur du sep.\na) le sep [\u028eu pw\u02c8\u0254\u0280t\u0254 \u0280\u02c8\u025bj\u0254]\nb) le soc [la \u0280\u02c8ej\u0254]\nc) les ailes [liz \u02c8al\u0254]\nd) le manche [lu manet\u02c8u]\ne) l'\u00e2ge [la ka\u0303b\u02c8et\u0254]\nf) l'\u00e9tan\u00e7on [la te\u0303nd\u02c8ij\u0254]\ng) le r\u00e9gulateur [lu \u0280e\u0261ylat\u02c8u\u0280]"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-08-23T05:37:21.548Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L137",
+            "type": "TextualBody",
+            "value": "L137"
+        },
+        {
+            "created": "2023-08-23T05:37:25.694Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-23T05:37:21.548Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "C276",
+            "type": "TextualBody",
+            "value": "C276"
+        },
+        {
+            "created": "2023-08-23T05:37:29.644Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-23T05:37:25.694Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q354",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-08-23T05:37:29.644Z"
+            "type": "TextualBody",
+            "value": "Q354"
         },
         {
-            "type": "TextualBody",
-            "value": "Dessin : Etienne Sved",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-08-23T05:40:26.017Z",
-            "modified": "2023-08-23T05:40:36.005Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-08-23T05:40:36.005Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Dessin : Etienne Sved"
         }
     ],
+    "id": "88f58dc6-5db5-4d10-bdc2-fd509f8d60f0.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0319",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1127.84619140625,1539.5472412109375 2555.2587890625,1599.4385986328125 2472.076416015625,2571.010986328125 1051.3182373046875,2434.591552734375\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0319",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "88f58dc6-5db5-4d10-bdc2-fd509f8d60f0.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
