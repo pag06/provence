@@ -8,13 +8,13 @@ order: 6
         {
             "created": "2023-08-18T12:17:39.004Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-18T12:18:24.848Z",
+            "modified": "2024-11-29T10:16:17.393Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Corne de vache servant d'\u00e9tui\nSt Michel-l'Observatoire, Alpes-de-Hte-Provence (5km O. du point 100)\nLa languette ou le crochet permettent de fixer l'\u00e9tui \u00e0 la ceinture : on n'a pas relev\u00e9 de terme particulier pour ce crochet dans les localit\u00e9s ou ces objets ont \u00e9t\u00e9 recueillis."
+            "value": "Corne de vache servant d'\u00e9tui (coffin) [la b'an\u0254]\nSt Michel-l'Observatoire, Alpes-de-Hte-Provence (5km O. du point 100)\nLa languette ou le crochet permettent de fixer l'\u00e9tui \u00e0 la ceinture : on n'a pas relev\u00e9 de terme particulier pour ce crochet dans les localit\u00e9s ou ces objets ont \u00e9t\u00e9 recueillis."
         },
         {
             "created": "2023-08-18T12:18:32.836Z",
@@ -47,15 +47,15 @@ order: 6
             "value": "Q2436"
         },
         {
-            "type": "TextualBody",
-            "value": "Dessin : J.P Dupont",
-            "purpose": "identifying",
+            "created": "2023-08-18T12:52:20.811Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T12:52:20.811Z",
-            "modified": "2023-08-18T12:52:23.034Z"
+            "modified": "2023-08-18T12:52:23.034Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Dessin : J.P Dupont"
         }
     ],
     "id": "63495cbd-264d-49f5-bd09-b3edf5e32104.json",
@@ -69,7 +69,14 @@ order: 6
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1051.08544921875,1979.4273681640625 1604.182861328125,1997.463134765625 1628.23046875,2818.09130859375 1177.3359375,2806.0673828125\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0312"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0312",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
