@@ -72,7 +72,7 @@ order: 11
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1159.3,360.5 2669.2,360.5 2660.7,1104.8 2016,1096.4 1952.4,812.2 1150.8,797.4\"></polygon></svg>"
+            "value": "<svg><polygon points=\"1159.3,360.5 2652.2,459.1 2660.7,1104.8 2016,1096.4 1952.4,812.2 1150.8,797.4\"></polygon></svg>"
         }
     },
     "type": "Annotation"
