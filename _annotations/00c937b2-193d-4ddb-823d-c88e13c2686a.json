@@ -11,10 +11,10 @@ order: 2
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-29T09:49:15.128Z",
+            "modified": "2024-11-29T09:54:14.306Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Faux : montage de la lame sur le manche\na : lame [la l\u02c8am\u0254]\nb : tranchant [lu fj\u02c8ew]\nc : dos [la kw\u02c8ast\u0254]\nd : manche [lu f\u0254wt\u0283j\u02c8\u025ba]\ne : anneau [l an\u02c8ew]\nf : coin [lu ku\u0272\u02c8e]"
+            "value": "Faux : montage de la lame sur le manche\na : lame [la l\u02c8am\u0254]\nb : tranchant [lu fj\u02c8ew]\nc : dos [la kw\u02c8ast\u0254]\nd : manche [lu f\u0254wt\u0283j\u02c8\u025ba]\ne : anneau [l an\u02c8ew]\nf : coin [lu ku\u0272\u02c8e]\ng : virole [la vir\u02c8\u0254l\u0254]"
         },
         {
             "created": "2023-07-24T14:47:57.512Z",
@@ -59,64 +59,64 @@ order: 2
             "value": "C178"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5899",
+            "created": "2024-11-29T09:50:04.339Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-29T09:50:04.339Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5899"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q10193",
+            "created": "2024-11-29T09:50:10.809Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-29T09:50:10.809Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q10193"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q3512",
+            "created": "2024-11-29T09:50:16.659Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-29T09:50:16.659Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q3512"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q6275",
+            "created": "2024-11-29T09:50:23.534Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-29T09:50:23.534Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q6275"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q268",
+            "created": "2024-11-29T09:50:40.522Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-29T09:50:40.522Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q268"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2461",
+            "created": "2024-11-29T09:50:52.197Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-29T09:50:52.197Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2461"
         }
     ],
     "id": "00c937b2-193d-4ddb-823d-c88e13c2686a.json",
