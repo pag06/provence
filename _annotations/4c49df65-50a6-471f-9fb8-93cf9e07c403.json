@@ -17,16 +17,6 @@ order: 3
             "value": "Araire manche-sep\nEnti\u00e8rement en bois ,\u00e0 Beauregard, Dr\u00f4me (pr\u00e8s de Jaillans) \n(terminologie de M. Jean-Brunhes Delamare et Andr\u00e9 G. Haudricourt : l'Homme et la Charrue, Gallimard NRF 1955)"
         },
         {
-            "created": "2023-08-19T13:45:28.041Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
             "created": "2023-08-19T13:45:32.216Z",
             "creator": {
                 "id": "ej7320",
@@ -56,6 +46,16 @@ order: 3
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Jean-Claude Bouvier"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L7",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-29T14:37:46.389Z"
         }
     ],
     "id": "4c49df65-50a6-471f-9fb8-93cf9e07c403.json",
