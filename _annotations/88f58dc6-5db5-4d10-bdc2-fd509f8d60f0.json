@@ -58,64 +58,64 @@ order: 3
             "value": "Dessin : Etienne Sved"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9345",
+            "created": "2024-11-29T14:47:17.961Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-29T14:47:17.961Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9345"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9459",
+            "created": "2024-11-29T14:47:28.069Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-29T14:47:28.069Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9459"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q6273",
+            "created": "2024-11-29T14:48:05.662Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-29T14:48:05.662Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q6273"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q79",
+            "created": "2024-11-29T14:48:13.866Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-29T14:48:13.866Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q79"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4218",
+            "created": "2024-11-29T14:48:23.760Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-29T14:48:23.760Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4218"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8730",
+            "created": "2024-11-29T14:48:33.603Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-29T14:48:33.603Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8730"
         }
     ],
     "id": "88f58dc6-5db5-4d10-bdc2-fd509f8d60f0.json",
