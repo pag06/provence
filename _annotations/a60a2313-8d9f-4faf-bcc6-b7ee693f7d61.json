@@ -3,73 +3,80 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0319"
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Croquis de cette charrue :\na) le sep [...]\nb) le soc [...]\nc) le versoir [...]\nd) les mancherons [...]\ne) l'\u00e2ge [...]\nf) l'avant-train [...]\ng) le r\u00e9gulateur [...]\nh) le coutre [...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-08-23T05:38:13.445Z",
-            "modified": "2023-08-23T05:39:27.005Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-29T14:51:02.662Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Charrue (croquis)\na) le sep [\u00a0la \u0280\u02c8\u025bj\u0254]\nb) le soc [la t\u02c8\u0254l\u0254]\nc) le versoir [lu versw\u02c8a\u0280]\nd) les mancherons [les menet\u02c8u\u0303n]\ne) l'\u00e2ge [la ka\u0303b\u02c8et\u0254]\nf) l'avant-train\ng) le r\u00e9gulateur [lu \u0280e\u0261ylat\u02c8u\u0280]\nh) le coutre [lu kut\u02c8\u025bw]"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-08-23T05:39:39.389Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L100",
+            "type": "TextualBody",
+            "value": "L100"
+        },
+        {
+            "created": "2023-08-23T05:39:42.275Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-23T05:39:39.389Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "C277",
+            "type": "TextualBody",
+            "value": "C277"
+        },
+        {
+            "created": "2023-08-23T05:39:44.939Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-23T05:39:42.275Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q2088",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-08-23T05:39:44.939Z"
+            "type": "TextualBody",
+            "value": "Q2088"
         },
         {
-            "type": "TextualBody",
-            "value": "Dessin : Etienne Sved",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-08-23T05:40:39.612Z",
-            "modified": "2023-08-23T05:40:47.758Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-08-23T05:40:47.758Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Dessin : Etienne Sved"
         }
     ],
+    "id": "a60a2313-8d9f-4faf-bcc6-b7ee693f7d61.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0319",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"3719.814697265625,1695.9302978515625 3696.5234375,2388.00927734375 3466.939697265625,2388.00927734375 3470.266845703125,2640.884033203125 2502.02197265625,2650.865966796875 2568.568115234375,1865.6226806640625\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0319",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "a60a2313-8d9f-4faf-bcc6-b7ee693f7d61.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
