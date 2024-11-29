@@ -3,74 +3,81 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0310"
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "La petite faux \nOutil et vocabulaire recueillies \u00e0 Istres, Bouches-du-Rh\u00f4ne (point 145)\nCette faux \u00e0 lame courte sert g\u00e9n\u00e9ralement \u00e0 faucher l'herbe des talus ou des ruisseaux, on l'appelle [...] au point 145 ; et ailleurs [...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-08-18T11:44:53.712Z",
-            "modified": "2023-08-18T11:47:17.140Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-29T10:00:13.476Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "La petite faux \nOutil et vocabulaire recueillies \u00e0 Istres, Bouches-du-Rh\u00f4ne (point 145)\nCette faux \u00e0 lame courte sert g\u00e9n\u00e9ralement \u00e0 faucher l'herbe des talus ou des ruisseaux, on l'appelle [daj\u02c8u\u0303] au point 145 ; et ailleurs [daj\u02c8\u025bt\u0254]"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-08-18T11:47:26.629Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L145",
+            "type": "TextualBody",
+            "value": "L145"
+        },
+        {
+            "created": "2023-08-18T11:47:33.550Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T11:47:26.629Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "C178",
+            "type": "TextualBody",
+            "value": "C178"
+        },
+        {
+            "created": "2023-08-18T11:47:39.846Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T11:47:33.550Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q4474",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-08-18T11:47:39.846Z"
+            "type": "TextualBody",
+            "value": "Q4474"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Etienne SVED",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-08-18T11:48:11.028Z",
-            "modified": "2023-08-18T11:48:27.620Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-08-18T11:48:27.620Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Etienne SVED"
         }
     ],
+    "id": "78800215-14f6-42c7-a0eb-e5ad442f6dca.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0310",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2837.118896484375,1400.579345703125,1091.164794921875,1475.92822265625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2837.118896484375,1400.579345703125,1091.164794921875,1475.92822265625"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0310",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "78800215-14f6-42c7-a0eb-e5ad442f6dca.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
