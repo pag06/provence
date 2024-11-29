@@ -27,16 +27,6 @@ order: 1
             "value": "L7"
         },
         {
-            "created": "2023-08-23T05:42:57.595Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q???"
-        },
-        {
             "created": "2023-08-23T05:56:00.952Z",
             "creator": {
                 "id": "ej7320",
@@ -46,6 +36,16 @@ order: 1
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Dessin : Etienne Sved"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5559",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-29T14:59:48.121Z"
         }
     ],
     "id": "2fbecb05-28ec-46a3-bcd5-769389ebf715.json",
