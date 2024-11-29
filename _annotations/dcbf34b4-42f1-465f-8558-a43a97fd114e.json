@@ -38,44 +38,44 @@ order: 4
             "value": "Photo : Cl. Martel"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q10350",
+            "created": "2024-11-29T11:31:37.736Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-29T11:31:37.736Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q10350"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C207",
+            "created": "2024-11-29T11:31:46.132Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-29T11:31:46.132Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C207"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q11075",
+            "created": "2024-11-29T11:31:53.781Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-29T11:31:53.781Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q11075"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C206",
+            "created": "2024-11-29T11:31:59.126Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-29T11:31:59.126Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C206"
         }
     ],
     "id": "dcbf34b4-42f1-465f-8558-a43a97fd114e.json",
