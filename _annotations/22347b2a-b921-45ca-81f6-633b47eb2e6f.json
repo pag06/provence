@@ -59,64 +59,64 @@ order: 1
             "value": "C178"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5899",
+            "created": "2024-11-29T09:47:47.819Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-29T09:47:47.819Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5899"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q10193",
+            "created": "2024-11-29T09:47:55.692Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-29T09:47:55.692Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q10193"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q3512",
+            "created": "2024-11-29T09:48:02.136Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-29T09:48:02.136Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q3512"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q6275",
+            "created": "2024-11-29T09:48:09.651Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-29T09:48:09.651Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q6275"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q268",
+            "created": "2024-11-29T09:48:17.089Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-29T09:48:17.089Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q268"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2461",
+            "created": "2024-11-29T09:48:24.011Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-29T09:48:24.011Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2461"
         }
     ],
     "id": "22347b2a-b921-45ca-81f6-633b47eb2e6f.json",
