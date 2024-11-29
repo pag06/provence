@@ -3,66 +3,73 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0317"
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Les charges : [...] [...] maintenues par des cordes ou des fils de fer, servent \u00e0 la fois \u00e0 entasser le foin sur le sol et \u00e0 le prot\u00e9ger de l'\u00e9parpillement par le vent.\n\nPhoto faite pendant la confection d'une meule de foin \u00e0 St Michel-l'Observatoire (\u00e0 5km du point 100), Alpes-de-Hts-Provence.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-08-19T13:29:59.845Z",
-            "modified": "2023-08-19T13:34:25.087Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-29T14:27:24.961Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Meules de foin et perches\nLes charges : [...] [...] maintenues par des cordes ou des fils de fer, servent \u00e0 la fois \u00e0 entasser le foin sur le sol et \u00e0 le prot\u00e9ger de l'\u00e9parpillement par le vent.\n\nPhoto faite pendant la confection d'une meule de foin \u00e0 St Michel-l'Observatoire (\u00e0 5km du point 100), Alpes-de-Hts-Provence."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-08-19T13:30:50.398Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L100",
+            "type": "TextualBody",
+            "value": "L100"
+        },
+        {
+            "created": "2023-08-19T13:31:01.656Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-19T13:30:50.398Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-08-19T13:31:01.656Z"
+            "type": "TextualBody",
+            "value": "Q???"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Cl. Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-08-19T13:35:21.856Z",
-            "modified": "2023-08-19T13:35:24.435Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-08-19T13:35:24.435Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Cl. Martel"
         }
     ],
+    "id": "c8259555-7f9f-4f40-a57e-632a3d1816ec.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0317",
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2722.4013671875,1477.431396484375 3780.500732421875,1489.4552001953125 3766.936887727415,2683.07876611319 2708.83752249304,2671.0549624022524\" /></svg>"
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+            "type": "Manifest"
         },
         "renderedVia": {
             "name": "annotorious-tilted-box"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
-            "type": "Manifest"
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2722.4013671875,1477.431396484375 3780.500732421875,1489.4552001953125 3766.936887727415,2683.07876611319 2708.83752249304,2671.0549624022524\" /></svg>"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0317",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "c8259555-7f9f-4f40-a57e-632a3d1816ec.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
