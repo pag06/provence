@@ -3,76 +3,83 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0318"
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Araire manche-sep (terminologie de M. Jean-Brunhes Delamare et Andr\u00e9 G. Haudricourt : l'Homme et la Charrue, Gallimard NRF 1955), enti\u00e8rement en bois \u00e0 Beauregard, Dr\u00f4me (pr\u00e8s de Jaillans) [...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-08-19T13:44:00.519Z",
-            "modified": "2023-08-19T13:44:31.626Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-29T14:37:13.566Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Araire manche-sep\nEnti\u00e8rement en bois ,\u00e0 Beauregard, Dr\u00f4me (pr\u00e8s de Jaillans) \n(terminologie de M. Jean-Brunhes Delamare et Andr\u00e9 G. Haudricourt : l'Homme et la Charrue, Gallimard NRF 1955)"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-08-19T13:45:28.041Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
+            "type": "TextualBody",
+            "value": "L???"
+        },
+        {
+            "created": "2023-08-19T13:45:32.216Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-19T13:45:28.041Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "C276",
+            "type": "TextualBody",
+            "value": "C276"
+        },
+        {
+            "created": "2023-08-19T13:45:38.469Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-19T13:45:32.216Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q354",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-08-19T13:45:38.469Z"
+            "type": "TextualBody",
+            "value": "Q354"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Jean-Claude Bouvier",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-08-19T13:52:07.100Z",
-            "modified": "2023-08-19T13:52:09.722Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-08-19T13:52:09.722Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Jean-Claude Bouvier"
         }
     ],
+    "id": "4c49df65-50a6-471f-9fb8-93cf9e07c403.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0318",
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"3129.709716796875,1501.97998046875 3851.140869140625,1514.0037841796875 3839.215560998925,2229.525178370014 3117.784408655175,2217.5013746590766\" /></svg>"
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+            "type": "Manifest"
         },
         "renderedVia": {
             "name": "annotorious-tilted-box"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
-            "type": "Manifest"
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"3129.709716796875,1501.97998046875 3851.140869140625,1514.0037841796875 3839.215560998925,2229.525178370014 3117.784408655175,2217.5013746590766\" /></svg>"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0318",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "4c49df65-50a6-471f-9fb8-93cf9e07c403.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
