@@ -3,73 +3,80 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0310"
 order: 5
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Montage de la lame sur le manche : \nOutil et vocabulaire recueillis \u00e0 Forcalquier, Alpes-de-Hte-Provence (point 100)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-08-18T11:48:57.896Z",
-            "modified": "2023-08-18T11:49:44.163Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-29T09:53:16.926Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Montage de la lame sur le manche : \nFaux: montage de la lame sur le manche\na : lame [la l\u02c8am\u0254]\nb : tranchant [lu fj\u02c8ew]\nc : dos [la kw\u02c8ast\u0254]\nd : manche [lu f\u0254wt\u0283j\u02c8\u025ba]\ne : anneau [l an\u02c8ew]\nf : coin [lu ku\u0272\u02c8e]\ng : virole [la vir\u02c8\u0254l\u0254]"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-08-18T11:49:50.860Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L100",
+            "type": "TextualBody",
+            "value": "L100"
+        },
+        {
+            "created": "2023-08-18T11:49:55.453Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T11:49:50.860Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q4474",
+            "type": "TextualBody",
+            "value": "Q4474"
+        },
+        {
+            "created": "2023-08-18T11:49:57.664Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T11:49:55.453Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "C178",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-08-18T11:49:57.664Z"
+            "type": "TextualBody",
+            "value": "C178"
         },
         {
-            "type": "TextualBody",
-            "value": "Dessin : Etienne SVED",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-08-18T11:50:04.417Z",
-            "modified": "2023-08-18T11:50:13.600Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-08-18T11:50:13.600Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Dessin : Etienne SVED"
         }
     ],
+    "id": "fad36f5c-131a-4f47-b5cc-fc9e06a1bb1a.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0310",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1254.3284912109375,2042.0269775390625 1266.352294921875,2868.667236328125 2721.239013671875,2874.678955078125 2255.314453125,2011.9674072265625\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0310",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "fad36f5c-131a-4f47-b5cc-fc9e06a1bb1a.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
