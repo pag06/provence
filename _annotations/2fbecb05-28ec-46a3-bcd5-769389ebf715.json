@@ -38,14 +38,24 @@ order: 1
             "value": "Dessin : Etienne Sved"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5559",
+            "created": "2024-11-29T14:59:48.121Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-29T14:59:48.121Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5559"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "C261",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-29T15:02:14.869Z"
         }
     ],
     "id": "2fbecb05-28ec-46a3-bcd5-769389ebf715.json",
