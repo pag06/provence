@@ -3,76 +3,94 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0316"
 order: 6
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "D\u00e9tail de la corde nou\u00e9e dans la navette. Cette navette est pointue aux deux extr\u00e9mit\u00e9s et perc\u00e9e de deux trous. C'est la [...].",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-08-19T13:12:42.766Z",
-            "modified": "2023-08-19T13:13:24.931Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-29T12:43:23.031Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Navette et corde\nD\u00e9tail de la corde nou\u00e9e dans la navette. Cette navette est pointue aux deux extr\u00e9mit\u00e9s et perc\u00e9e de deux trous. C'est la [la tak'ula]."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L???",
+            "created": "2023-08-19T13:14:51.254Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-19T13:14:48.887Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2623"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2623",
+            "created": "2023-08-19T13:14:53.219Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-19T13:14:51.254Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C208"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C208",
+            "created": "2023-08-19T13:23:17.639Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-19T13:14:53.219Z"
+            "modified": "2023-08-19T13:23:19.295Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Cl. Martel"
         },
         {
             "type": "TextualBody",
-            "value": "Photo : Cl. Martel",
+            "value": "Sans localisation",
             "purpose": "identifying",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-08-19T13:23:17.639Z",
-            "modified": "2023-08-19T13:23:19.295Z"
+            "created": "2024-11-29T12:43:30.319Z",
+            "modified": "2024-11-29T12:43:37.706Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2245",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-29T12:43:56.108Z"
         }
     ],
+    "id": "491d538c-ceef-47c2-a847-884f020f8347.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0316",
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2927.883544921875,260.6495666503906 3952.96826171875,273.463134765625 3939.8379066111606,1323.890792843406 2914.7531898142856,1311.0772247281716\" /></svg>"
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+            "type": "Manifest"
         },
         "renderedVia": {
             "name": "annotorious-tilted-box"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
-            "type": "Manifest"
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2927.883544921875,260.6495666503906 3952.96826171875,273.463134765625 3939.8379066111606,1323.890792843406 2914.7531898142856,1311.0772247281716\" /></svg>"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0316",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "491d538c-ceef-47c2-a847-884f020f8347.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
