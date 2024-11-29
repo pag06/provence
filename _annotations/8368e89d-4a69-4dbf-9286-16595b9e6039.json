@@ -4,21 +4,26 @@ order: 11
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Navettes",
-            "purpose": "commenting",
+            "created": "2024-11-29T12:33:20.953Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-29T12:33:20.953Z",
-            "modified": "2024-11-29T12:33:23.466Z"
+            "modified": "2024-11-29T12:34:25.804Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Navette\nNavettes tr\u00e8s effil\u00e9es dont les trous sont de grandeur diff\u00e9rente.\n\nLes navettes sont de petits morceaux de bois allong\u00e9s, de 115 \u00e0 25cm et perc\u00e9s de deux trous dans lesquels passe une extr\u00e9mit\u00e9 de la corde, bloqu\u00e9e par un n\u0153ud et o\u00f9 revient s'enfiler et se nouer l'autre extr\u00e9mit\u00e9 de la corde apr\u00e8s avoir fait le tour de la trousse."
         }
     ],
+    "id": "8368e89d-4a69-4dbf-9286-16595b9e6039.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1159.270751953125,360.5049133300781 2669.150146484375,360.5049133300781 2656.426513671875,1179.0631103515625 1994.7938232421875,1157.85693359375 1956.622802734375,767.6633911132812 1150.7882080078125,797.35205078125\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
@@ -26,12 +31,7 @@ order: 11
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0316",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1159.270751953125,360.5049133300781 2669.150146484375,360.5049133300781 2656.426513671875,1179.0631103515625 1994.7938232421875,1157.85693359375 1956.622802734375,767.6633911132812 1150.7882080078125,797.35205078125\"></polygon></svg>"
         }
     },
-    "id": "8368e89d-4a69-4dbf-9286-16595b9e6039.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
