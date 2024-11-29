@@ -8,12 +8,13 @@ order: 3
         {
             "created": "2023-08-18T12:30:35.075Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "R\u00e2teau de fenaison en bois dont la travers, qui mesure environ 1m\u00e8tre forme un angle droit avec le manche, assez long (de 2m\u00e8tres).\nSur ce r\u00e2teau, les dents sont dispos\u00e9s d'un seul c\u00f4t\u00e9 de la traverse.\nNoyers-s.-Jabron, Alpes-de-Hte-Provence (point 71)"
+            "value": "R\u00e2teau de fenaison en bois \nLa traverse, qui mesure environ 1 m\u00e8tre forme un angle droit avec le manche, assez long (de 2 m\u00e8tres).\nSur ce r\u00e2teau, les dents sont dispos\u00e9es d'un seul c\u00f4t\u00e9 de la traverse.",
+            "modified": "2024-11-29T10:27:19.647Z"
         },
         {
             "created": "2023-08-18T12:30:39.610Z",
@@ -46,15 +47,15 @@ order: 3
             "value": "Q8597"
         },
         {
-            "type": "TextualBody",
-            "value": "Dessin : J.P Dupont",
-            "purpose": "identifying",
+            "created": "2023-08-18T12:54:27.030Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T12:54:27.030Z",
-            "modified": "2023-08-18T12:54:29.629Z"
+            "modified": "2023-08-18T12:54:29.629Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Dessin : J.P Dupont"
         }
     ],
     "id": "a743cc5f-9004-449a-a80f-c08b858cd82d.json",
@@ -68,7 +69,14 @@ order: 3
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"2677.31201171875,952.890625 2785.526611328125,982.9502563476562 2527.013671875,2095.156982421875 2917.7890625,2203.37158203125 2767.49072265625,2570.099365234375 1961.8924560546875,2323.610107421875 2088.14306640625,2035.0377197265625 2388.7392578125,2059.08544921875 2388.7392578125,2059.08544921875\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0313"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0313",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
