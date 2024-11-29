@@ -56,6 +56,36 @@ order: 4
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Dessin : Etienne Sved"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9346",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-29T14:53:04.155Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9459",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-29T14:53:15.801Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q10645",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-11-29T14:53:26.075Z"
         }
     ],
     "id": "a60a2313-8d9f-4faf-bcc6-b7ee693f7d61.json",
