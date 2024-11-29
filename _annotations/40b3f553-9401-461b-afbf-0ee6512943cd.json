@@ -11,10 +11,10 @@ order: 5
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-29T10:30:30.879Z",
+            "modified": "2024-11-29T10:34:04.547Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "R\u00e2teau pour r\u00e2teler le foin, ou le bl\u00e9 sur l'aire\nLa traverse, qui mesure environ 1 m\u00e8tre forme un angle droit avec le manche, assez long (de 2 m\u00e8tres).\nLe manche forme un angle ferm\u00e9 avec la traverse, et les dents sont dispos\u00e9es de part et d'autre de la traverse."
+            "value": "R\u00e2teau pour r\u00e2teler le foin, ou le bl\u00e9 sur l'aire\nLa traverse mesure environ 1 m\u00e8tre forme un angle ferm\u00e9 avec le manche, assez long (de 2 m\u00e8tres) et les dents sont dispos\u00e9es de part et d'autre de la traverse."
         },
         {
             "created": "2023-08-18T12:34:07.583Z",
@@ -68,15 +68,15 @@ order: 5
             "value": "Q10231"
         },
         {
-            "type": "TextualBody",
-            "value": "Q3269",
-            "purpose": "tagging",
+            "created": "2024-11-29T10:32:02.163Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-29T10:32:02.163Z",
-            "modified": "2024-11-29T10:32:04.932Z"
+            "modified": "2024-11-29T10:32:04.932Z",
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q3269"
         }
     ],
     "id": "40b3f553-9401-461b-afbf-0ee6512943cd.json",
