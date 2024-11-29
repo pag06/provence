@@ -3,76 +3,83 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0318"
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Araire chambige (terminologie de M. Jean-Brunhes Delamare et Andr\u00e9 G. Haudricourt : l'Homme et la Charrue, Gallimard NRF 1955) \u00e0 Varages Var (19km \u00e0 l'est du point 137) [...] \n(voir planche suivante pour d\u00e9tails sur cet araire).",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-08-19T13:45:55.267Z",
-            "modified": "2023-08-19T13:46:58.800Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-29T14:40:10.347Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Araire chambige [l ar'ajre]\n\u00c0 Varages Var (19km \u00e0 l'est du point 137)\n(terminologie de M. Jean-Brunhes Delamare et Andr\u00e9 G. Haudricourt : l'Homme et la Charrue, Gallimard NRF 1955)"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-08-19T13:47:03.656Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L137",
+            "type": "TextualBody",
+            "value": "L137"
+        },
+        {
+            "created": "2023-08-19T13:47:06.733Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-19T13:47:03.656Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "C276",
+            "type": "TextualBody",
+            "value": "C276"
+        },
+        {
+            "created": "2023-08-19T13:47:08.424Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-19T13:47:06.733Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q354",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-08-19T13:47:08.424Z"
+            "type": "TextualBody",
+            "value": "Q354"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Gallocher",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-08-19T13:51:46.051Z",
-            "modified": "2023-08-19T13:52:24.409Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-08-19T13:52:24.409Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Gallocher"
         }
     ],
+    "id": "985be2c1-78c7-4251-bdb9-7edaf8c0d084.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0318",
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1139.7613525390625,1877.7257080078125 2513.48681640625,1892.7554931640625 2502.9281749198653,2857.8175032260947 1129.2027110526778,2842.7877180698447\" /></svg>"
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+            "type": "Manifest"
         },
         "renderedVia": {
             "name": "annotorious-tilted-box"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
-            "type": "Manifest"
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1139.7613525390625,1877.7257080078125 2513.48681640625,1892.7554931640625 2502.9281749198653,2857.8175032260947 1129.2027110526778,2842.7877180698447\" /></svg>"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0318",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "985be2c1-78c7-4251-bdb9-7edaf8c0d084.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
