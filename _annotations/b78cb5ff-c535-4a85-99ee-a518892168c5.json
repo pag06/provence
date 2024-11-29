@@ -8,13 +8,13 @@ order: 2
         {
             "created": "2023-08-18T12:09:57.942Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-18T12:14:50.789Z",
+            "modified": "2024-11-29T10:13:22.435Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "\u00c9tui en bois\nLa languette ou le crochet permettent de fixer l'\u00e9tui \u00e0 la ceinture : on n'a pas relev\u00e9 de terme particulier pour ce crochet dans les localit\u00e9s ou ces objets ont \u00e9t\u00e9 recueillis.\nEyguieres, Bouches-du-Rh\u00f4ne (point 130)"
+            "value": "\u00c9tui en bois (coffin)\nLa languette ou le crochet permettent de fixer l'\u00e9tui \u00e0 la ceinture : on n'a pas relev\u00e9 de terme particulier pour ce crochet dans les localit\u00e9s ou ces objets ont \u00e9t\u00e9 recueillis.\nEyguieres, Bouches-du-Rh\u00f4ne (point 130)"
         },
         {
             "created": "2023-08-18T12:10:29.699Z",
@@ -47,15 +47,15 @@ order: 2
             "value": "Q2436"
         },
         {
-            "type": "TextualBody",
-            "value": "Dessin : J.P Dupont",
-            "purpose": "identifying",
+            "created": "2023-08-18T12:52:00.188Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T12:52:00.188Z",
-            "modified": "2023-08-18T12:52:02.399Z"
+            "modified": "2023-08-18T12:52:02.399Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Dessin : J.P Dupont"
         }
     ],
     "id": "b78cb5ff-c535-4a85-99ee-a518892168c5.json",
@@ -69,7 +69,14 @@ order: 2
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1922.81494140625,389.2723388671875 1940.850830078125,1236.9542236328125 2445.852783203125,1233.9482421875 2421.804931640625,254.00396728515625\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0312"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0312",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
