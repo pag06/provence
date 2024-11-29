@@ -3,63 +3,70 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0320"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "\u00c0 dos d'homme, dans une hotte \u00e0 fumier : [...]\n\u00e0 Jaillans, Dr\u00f4me.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-08-23T05:41:47.821Z",
-            "modified": "2023-08-23T05:42:17.859Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-29T14:57:56.687Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Transport du fumier\n\u00c0 dos d'homme, dans une hotte \u00e0 fumier : [l \u02c8an\u025b]\n\u00e0 Jaillans, Dr\u00f4me."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-08-23T05:42:46.444Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L7",
+            "type": "TextualBody",
+            "value": "L7"
+        },
+        {
+            "created": "2023-08-23T05:42:57.595Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-23T05:42:46.444Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-08-23T05:42:57.595Z"
+            "type": "TextualBody",
+            "value": "Q???"
         },
         {
-            "type": "TextualBody",
-            "value": "Dessin : Etienne Sved",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-08-23T05:56:00.952Z",
-            "modified": "2023-08-23T05:56:11.044Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-08-23T05:56:11.044Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Dessin : Etienne Sved"
         }
     ],
+    "id": "2fbecb05-28ec-46a3-bcd5-769389ebf715.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0320",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1180.6666259765625,620.6666259765625 1945.9998779296875,620.6666259765625 1920.333251953125,1677.6666259765625 1012.6666259765625,1663.6666259765625 1012.6666259765625,1078 1127,1068.6666259765625\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0320",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "2fbecb05-28ec-46a3-bcd5-769389ebf715.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
