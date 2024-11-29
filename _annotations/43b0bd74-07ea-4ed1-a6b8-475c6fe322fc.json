@@ -8,13 +8,13 @@ order: 2
         {
             "created": "2023-08-18T12:38:14.914Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-08-18T12:39:06.516Z",
+            "modified": "2024-11-29T10:39:11.640Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "R\u00e2teau \u00e0 deux bras \u00e0 traction humaine : ces r\u00e2teaux ont un tr\u00e8s longue traverse de 1,50m environ, et deux longs manches de 2m environ.\nR\u00e2teau \u00e0 traverse et \u00e0 dents m\u00e9talliques et \u00e0 manche de bois.\nSeyne-les-Alpes, Alpes-de-Haute-Provence\n"
+            "value": "R\u00e2teau \u00e0 deux bras \u00e0 traction humaine\n\u00c0 traverse et \u00e0 dents m\u00e9talliques et \u00e0 manche de bois.\nCe r\u00e2teau a un tr\u00e8s longue traverse de 1,50m environ, et deux longs manches de 2m environ.\n\nSeyne-les-Alpes, Alpes-de-Haute-Provence\n"
         },
         {
             "created": "2023-08-18T12:39:33.235Z",
@@ -47,15 +47,15 @@ order: 2
             "value": "Q8597"
         },
         {
-            "type": "TextualBody",
-            "value": "Dessin : J.P Dupont",
-            "purpose": "identifying",
+            "created": "2023-08-18T12:55:04.529Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-18T12:55:04.529Z",
-            "modified": "2023-08-18T12:55:07.557Z"
+            "modified": "2023-08-18T12:55:07.557Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Dessin : J.P Dupont"
         }
     ],
     "id": "43b0bd74-07ea-4ed1-a6b8-475c6fe322fc.json",
@@ -69,7 +69,14 @@ order: 2
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"2881.717529296875,243.48306274414062 3945.828857421875,291.5784912109375 3879.697509765625,1698.36962890625 2484.93017578125,1548.0714111328125 2593.14501953125,1265.5108642578125 2779.5146484375,1253.4869384765625\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0314"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0314",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
