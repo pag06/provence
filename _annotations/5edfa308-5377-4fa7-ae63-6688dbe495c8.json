@@ -3,76 +3,83 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0316"
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Navette et cordes.\nLa Chapelle-en-Valgaudemar, Hautes-Alpes (point 26)\n[...]\n\nLes navettes sont de petits morceaux de bois allong\u00e9s, de 115 \u00e0 25cm et perc\u00e9s de deux trous dans lesquels passe une extr\u00e9mit\u00e9 de la corde, bloqu\u00e9e par un n\u0153ud et o\u00f9 revient s'enfiler et se nouer l'autre extr\u00e9mit\u00e9 de la corde apr\u00e8s avoir fait le tour de la trousse.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-08-19T13:09:08.248Z",
-            "modified": "2023-08-19T13:09:50.164Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-29T12:38:42.381Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Navette et cordes [l atak\u02c8u]\n\nLes navettes sont de petits morceaux de bois allong\u00e9s, de 115 \u00e0 25cm et perc\u00e9s de deux trous dans lesquels passe une extr\u00e9mit\u00e9 de la corde, bloqu\u00e9e par un n\u0153ud et o\u00f9 revient s'enfiler et se nouer l'autre extr\u00e9mit\u00e9 de la corde apr\u00e8s avoir fait le tour de la trousse."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-08-19T13:09:58.380Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L26",
+            "type": "TextualBody",
+            "value": "L26"
+        },
+        {
+            "created": "2023-08-19T13:10:01.763Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-19T13:09:58.380Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q2245",
+            "type": "TextualBody",
+            "value": "Q2245"
+        },
+        {
+            "created": "2023-08-19T13:10:05.540Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-19T13:10:01.763Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "C208",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-08-19T13:10:05.540Z"
+            "type": "TextualBody",
+            "value": "C208"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Cl. Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-08-19T13:12:15.419Z",
-            "modified": "2023-08-19T13:12:17.518Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-08-19T13:12:17.518Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Cl. Martel"
         }
     ],
+    "id": "5edfa308-5377-4fa7-ae63-6688dbe495c8.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0316",
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1175.6292724609375,856.4801025390625 1902.7987060546875,866.0902709960938 1892.9351273029733,1612.4344174239911 1165.7656937092233,1602.8242489669599\" /></svg>"
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+            "type": "Manifest"
         },
         "renderedVia": {
             "name": "annotorious-tilted-box"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
-            "type": "Manifest"
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1175.6292724609375,856.4801025390625 1902.7987060546875,866.0902709960938 1892.9351273029733,1612.4344174239911 1165.7656937092233,1602.8242489669599\" /></svg>"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0316",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "5edfa308-5377-4fa7-ae63-6688dbe495c8.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
