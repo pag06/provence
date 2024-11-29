@@ -11,10 +11,10 @@ order: 1
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-11-29T10:48:44.781Z",
+            "modified": "2024-11-29T11:11:41.768Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Le mulet ([lu m\u02c8yu]), charg\u00e9 du b\u00e2t ([lu b\u02c8ast]) sort de l'\u00e9curie ([l est\u02c8able]).\n(Dans les maisons b\u00e2ties sur un terrain en pente, cette \u00e9curie se trouve parfois situ\u00e9e au-dessus du rez-de-chauss\u00e9e aux pi\u00e8ces vo\u00fbt\u00e9es et au-dessous de la grange situ\u00e9e sous la toiture ; on l'appelle alors [la me\u02c8ana]).\n\u00c0 Serennes, Alpes-de-Hte-Provence, \u00e0 5 km au S du point 37"
+            "value": "Chargement et transport du foin \u00e0 dos de mulet\n\u00c0 Serennes, Alpes-de-Hte-Provence, \u00e0 5 km au S du point 37\nLe mulet ([lu m\u02c8yu]), charg\u00e9 du b\u00e2t ([lu b\u02c8ast]) sort de l'\u00e9curie ([l est\u02c8able]).\n(Dans les maisons b\u00e2ties sur un terrain en pente, cette \u00e9curie se trouve parfois situ\u00e9e au-dessus du rez-de-chauss\u00e9e aux pi\u00e8ces vo\u00fbt\u00e9es et au-dessous de la grange situ\u00e9e sous la toiture ; on l'appelle alors [la me\u02c8ana])."
         },
         {
             "created": "2023-08-19T12:52:44.161Z",
@@ -38,64 +38,64 @@ order: 1
             "value": "Photo : Cl. Martel"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q929",
+            "created": "2024-11-29T10:53:37.043Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-29T10:53:37.043Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q929"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C106",
+            "created": "2024-11-29T10:53:46.278Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-29T10:53:46.278Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C106"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q3711",
+            "created": "2024-11-29T10:53:54.023Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-29T10:53:54.023Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q3711"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C1058",
+            "created": "2024-11-29T10:54:00.197Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-29T10:54:00.197Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C1058"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q6839",
+            "created": "2024-11-29T10:54:07.997Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-29T10:54:07.997Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q6839"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C1038",
+            "created": "2024-11-29T10:54:14.526Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-11-29T10:54:14.526Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C1038"
         }
     ],
     "id": "a92a6be8-1888-4c84-b5f5-593d29515693.json",
