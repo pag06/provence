@@ -3,55 +3,62 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0315"
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Des navettes de bois ([\u2026]) arr\u00eatent les noeuds des cordes (voir d\u00e9tails planche suivante). \nIci, la trousse est maintenue par un filet de corde \u00e0 larges mailles : [\u2026], dont une corde assez longue (7 \u00e0 10m) sert \u00e0 lier la trousse dans le sens de la longueur. Cette corde se nomme [\u2026].",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-08-19T12:59:17.291Z",
-            "modified": "2023-08-19T13:00:57.469Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-11-29T11:12:08.754Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Chargement et transport du foin \u00e0 dos de mulet\n\u00c0 Serennes, Alpes-de-Hte-Provence, \u00e0 5 km au S du point 37\nDes navettes de bois ([\u2026]) arr\u00eatent les noeuds des cordes (voir d\u00e9tails planche suivante). \nIci, la trousse est maintenue par un filet de corde \u00e0 larges mailles : [\u2026], dont une corde assez longue (7 \u00e0 10m) sert \u00e0 lier la trousse dans le sens de la longueur. Cette corde se nomme [\u2026]."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L37",
+            "created": "2023-08-19T13:01:10.965Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-19T13:01:10.965Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L37"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
+            "created": "2023-08-19T13:01:13.513Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-19T13:01:13.513Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q???"
         }
     ],
+    "id": "fd3e7ff9-9ef4-422e-922b-51da0623fd8b.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0315",
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1309.598388671875,1558.59228515625 2481.92431640625,1582.6400146484375 2456.7696856931516,2808.927336165798 1284.4437579587766,2784.8796066736104\" /></svg>"
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+            "type": "Manifest"
         },
         "renderedVia": {
             "name": "annotorious-tilted-box"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
-            "type": "Manifest"
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1309.598388671875,1558.59228515625 2481.92431640625,1582.6400146484375 2456.7696856931516,2808.927336165798 1284.4437579587766,2784.8796066736104\" /></svg>"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0315",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "fd3e7ff9-9ef4-422e-922b-51da0623fd8b.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
