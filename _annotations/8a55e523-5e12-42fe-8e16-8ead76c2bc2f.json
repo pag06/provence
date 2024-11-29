@@ -3,73 +3,81 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0316"
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Navette et cordes.\nLa Chapelle-en-Valgaudemar, Hautes-Alpes (point 26)\n[...]\n\nLes navettes sont de petits morceaux de bois allong\u00e9s, de 115 \u00e0 25cm et perc\u00e9s de deux trous dans lesquels passe une extr\u00e9mit\u00e9 de la corde, bloqu\u00e9e par un n\u0153ud et o\u00f9 revient s'enfiler et se nouer l'autre extr\u00e9mit\u00e9 de la corde apr\u00e8s avoir fait le tour de la trousse.",
+            "created": "2023-08-19T13:11:01.053Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
             "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Navette \nLes navettes sont de petits morceaux de bois allong\u00e9s, de 115 \u00e0 25cm et perc\u00e9s de deux trous dans lesquels passe une extr\u00e9mit\u00e9 de la corde, bloqu\u00e9e par un n\u0153ud et o\u00f9 revient s'enfiler et se nouer l'autre extr\u00e9mit\u00e9 de la corde apr\u00e8s avoir fait le tour de la trousse.",
+            "modified": "2024-11-29T12:40:54.460Z"
+        },
+        {
+            "created": "2023-08-19T13:11:05.972Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-19T13:11:01.053Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L26",
+            "type": "TextualBody",
+            "value": "L26"
+        },
+        {
+            "created": "2023-08-19T13:11:08.164Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-19T13:11:05.972Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q2245",
+            "type": "TextualBody",
+            "value": "Q2245"
+        },
+        {
+            "created": "2023-08-19T13:11:10.301Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-08-19T13:11:08.164Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "C208",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-08-19T13:11:10.301Z"
+            "type": "TextualBody",
+            "value": "C208"
         },
         {
-            "type": "TextualBody",
-            "value": "Illustration : J.P. Dupont",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-08-19T13:11:48.929Z",
-            "modified": "2023-08-19T13:11:50.947Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-08-19T13:11:50.947Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Illustration : J.P. Dupont"
         }
     ],
+    "id": "8a55e523-5e12-42fe-8e16-8ead76c2bc2f.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0316",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2040.5445556640625,1324.175048828125,647.0845947265625,156.966064453125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2040.5445556640625,1324.175048828125,647.0845947265625,156.966064453125"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP1/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP1/canvas/ALP_1_0316",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "8a55e523-5e12-42fe-8e16-8ead76c2bc2f.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
