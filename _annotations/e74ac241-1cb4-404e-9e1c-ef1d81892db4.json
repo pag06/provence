@@ -3,63 +3,70 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0319"
 order: 5
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Le pic \u00e0 Apt (hameau du Ch\u00eane) de 35cm de long [...]\nTous ces outils utilis\u00e9 aujourd'hui dans les travaux de jardinage l'\u00e9taient autrefois \u00e9galement dans les travaux des champs, et pourraient illustrer les cartes du volume 1",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T07:13:12.237Z",
-            "modified": "2023-09-08T07:17:32.595Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-02T15:12:04.816Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Le pic \u00e0 Apt (hameau du Ch\u00eane) [lu pi]\n35cm de long "
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-08T07:13:35.703Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L109",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-08T07:13:35.703Z"
+            "type": "TextualBody",
+            "value": "L109"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-08T07:14:07.033Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Dessin : Marcel Gaillard",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T07:18:08.992Z",
-            "modified": "2023-09-08T07:18:11.508Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-08T07:18:11.508Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Dessin : Marcel Gaillard"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5562",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T15:12:16.369Z"
         }
     ],
+    "id": "e74ac241-1cb4-404e-9e1c-ef1d81892db4.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0319",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"3429.531494140625,1744.9803466796875 2909.64990234375,3137.30712890625 3519.166259765625,3406.21142578125 2467.45166015625,3370.357666015625 3059.041259765625,1858.5177001953125 3178.55419921875,1780.834228515625 3226.359375,1619.4915771484375\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0319",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "e74ac241-1cb4-404e-9e1c-ef1d81892db4.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
