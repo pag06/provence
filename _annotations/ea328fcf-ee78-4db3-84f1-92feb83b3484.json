@@ -17,16 +17,6 @@ order: 3
             "value": "Balance romaine qui servait - entre autres usage - \u00e0 peser les trousses de fleurs de lavande, \u00e0 Lagarde d'Apt, Vaucluse, car le coupeur est pay\u00e9 au poids de fleurs coup\u00e9es. [lu p\u025bs, la rum\u02c8ana]"
         },
         {
-            "created": "2023-09-08T17:49:37.672Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q???"
-        },
-        {
             "created": "2023-09-08T17:59:31.622Z",
             "creator": {
                 "id": "ej7320",
@@ -46,6 +36,16 @@ order: 3
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "L109"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q789",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T17:24:19.414Z"
         }
     ],
     "id": "ea328fcf-ee78-4db3-84f1-92feb83b3484.json",
