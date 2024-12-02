@@ -3,63 +3,70 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0323"
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Deux mod\u00e8les de faucilles \u00e0 lavande (mod\u00e8le ordinaire) \u00e0 Apt et Lagarde d'Apt [...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T17:36:44.388Z",
-            "modified": "2023-09-08T17:38:08.282Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-02T17:16:21.408Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Deux mod\u00e8les de faucilles \u00e0 lavande (mod\u00e8le ordinaire) \u00e0 Apt et Lagarde d'Apt [la f\u0254ws\u02c8ij\u0254]"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-08T17:38:13.086Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L109",
+            "type": "TextualBody",
+            "value": "L109"
+        },
+        {
+            "created": "2023-09-08T17:38:45.901Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-08T17:38:13.086Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q4458",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-08T17:38:45.901Z"
+            "type": "TextualBody",
+            "value": "Q4458"
         },
         {
-            "type": "TextualBody",
-            "value": "Dessin : Marcel Gaillard",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T17:42:50.572Z",
-            "modified": "2023-09-08T17:42:52.498Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-08T17:42:52.498Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Dessin : Marcel Gaillard"
         }
     ],
+    "id": "a0f6fbb2-1cec-45de-a452-cac218270d8a.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0323",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1704.7,2427.8 3207.6,2430.8 3234.5,3458.6 2705.7,3452.6 2532.3,3180.7 2347,3443.6 1740.6,3380.9\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0323",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "a0f6fbb2-1cec-45de-a452-cac218270d8a.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
