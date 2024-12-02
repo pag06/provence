@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0320"
 order: 8
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Autres mod\u00e8les de s\u00e9choir \u00e0 pruneaux en noisetier tress\u00e9 en viorne (m\u00eame localit\u00e9) ; diam : 0,90",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T16:37:48.516Z",
-            "modified": "2023-09-08T16:38:23.663Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-02T15:34:37.960Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Autres mod\u00e8les de s\u00e9choir \u00e0 pruneaux en noisetier tress\u00e9 en viorne (Champtercier)\ndiam : 0,90 m"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-08T16:39:27.260Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "Q???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-08T16:38:44.430Z"
+            "type": "TextualBody",
+            "value": "L78"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L78",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-08T16:39:27.260Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Photo : Claude Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T16:41:05.624Z",
-            "modified": "2023-09-08T16:41:07.957Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-08T16:41:07.957Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Claude Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2360",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T15:34:55.137Z"
         }
     ],
+    "id": "a81bec82-8e44-408b-9532-80bd4258ba5a.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0320",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3963.814453125,2557.13134765625,946.9833984375,911.416015625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3963.814453125,2557.13134765625,946.9833984375,911.416015625"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0320",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "a81bec82-8e44-408b-9532-80bd4258ba5a.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
