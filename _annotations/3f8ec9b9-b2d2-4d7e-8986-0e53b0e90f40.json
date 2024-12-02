@@ -11,30 +11,10 @@ order: 3
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-12-02T14:24:44.591Z",
+            "modified": "2024-12-02T14:28:37.412Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Jarre de Biot photographi\u00e9e \u00e0 Limans, Alpes-de-Hte-Provence. R\u00e9pandues dans toute la r\u00e9gion, ces jarres destin\u00e9es \u00e0 la conservation de l'huile \u00e9taient entrpos\u00e9es dans un endroit frais : la \"gerlerie\"\n-la jarre \u00e0 Biot (Alpes-Maritimes) :[la d\u0292\u02c8a\u0280\u0254 de bj\u02c8\u0254t]\n-la jarre \u00e0 Limans : [la d\u0292\u02c8\u025b\u0280l\u0254]\n-la \"gerlerie\" : [la d\u0292\u025b\u0280larj\u02c8\u025b]"
-        },
-        {
-            "created": "2023-09-08T06:46:56.041Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
-            "created": "2023-09-08T06:47:13.895Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q???"
+            "value": "Jarre de Biot (Alpes-Maritimes) photographi\u00e9e \u00e0 Limans, Alpes-de-Hte-Provence. R\u00e9pandues dans toute la r\u00e9gion, ces jarres destin\u00e9es \u00e0 la conservation de l'huile \u00e9taient entrpos\u00e9es dans un endroit frais : la \"gerlerie\"\n-la jarre \u00e0 Biot : [la d\u0292\u02c8a\u0280\u0254 de bj\u02c8\u0254t]\n-la jarre \u00e0 Limans : [la d\u0292\u02c8\u025b\u0280l\u0254]\n-la \"gerlerie\" : [la d\u0292\u025b\u0280larj\u02c8\u025b]"
         },
         {
             "created": "2023-09-08T06:56:31.909Z",
@@ -46,6 +26,36 @@ order: 3
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Pierre Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q11531",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T14:27:43.131Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8653",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T14:27:50.819Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L100",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T14:27:54.262Z"
         }
     ],
     "id": "3f8ec9b9-b2d2-4d7e-8986-0e53b0e90f40.json",
