@@ -28,34 +28,44 @@ order: 4
             "value": "Dessin : Marcel Gaillard"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5562",
+            "created": "2024-12-02T15:07:43.525Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-02T15:07:43.525Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5562"
+        },
+        {
+            "created": "2024-12-02T15:11:13.677Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L69"
+        },
+        {
+            "created": "2024-12-02T15:11:16.656Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L64"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L69",
+            "value": "Q7723",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-02T15:11:13.677Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L64",
-            "creator": {
-                "id": "pag06",
-                "name": "pag06"
-            },
-            "created": "2024-12-02T15:11:16.656Z"
+            "created": "2024-12-02T15:14:27.171Z"
         }
     ],
     "id": "299b0a4b-df1f-482a-a04c-098aab2650d1.json",
