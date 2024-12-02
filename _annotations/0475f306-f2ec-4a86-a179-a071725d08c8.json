@@ -37,14 +37,14 @@ order: 1
             "value": "C360"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q969",
+            "created": "2024-12-02T12:58:46.224Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-02T12:58:46.224Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q969"
         }
     ],
     "id": "0475f306-f2ec-4a86-a179-a071725d08c8.json",
