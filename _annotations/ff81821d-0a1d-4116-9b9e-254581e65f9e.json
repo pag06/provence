@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0323"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Coupeur professionnel \u00e0 Ferrassi\u00e8res, Dr\u00f4me (canton de Sedron, point L67), muni de la faucille \u00e0 rebattre et d'un petit drap de toile nou\u00e9 aux quatre coins et pass\u00e9 sur l'\u00e9paule.\n-la faucille \u00e0 rebattre : [\u2026]\n-le drap de cueillette : [\u2026]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T17:24:42.814Z",
-            "modified": "2023-09-08T17:25:53.722Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-02T17:13:15.713Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Coupeur professionnel de lavande \u00e0 Ferrassi\u00e8res, Dr\u00f4me (canton de Sedron, point L67)\nMuni de la faucille \u00e0 rebattre et d'un petit drap de toile nou\u00e9 aux quatre coins et pass\u00e9 sur l'\u00e9paule.\n-la faucille \u00e0 rebattre : [la \u0280askl\u02c8et\u0254]\n-le drap de cueillette : [lu bu\u0280as\u02c8u\u0303\u207f]"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-08T17:25:59.136Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L67",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-08T17:25:59.136Z"
+            "type": "TextualBody",
+            "value": "L67"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-08T17:26:01.848Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Photo : Guy Barruol",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T17:41:22.153Z",
-            "modified": "2023-09-08T17:42:14.364Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-08T17:42:14.364Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Guy Barruol"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5944",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T17:13:30.004Z"
         }
     ],
+    "id": "ff81821d-0a1d-4116-9b9e-254581e65f9e.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0323",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3764.752197265625,248.5871124267578,1332.570068359375,1858.4277801513672"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3764.752197265625,248.5871124267578,1332.570068359375,1858.4277801513672"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0323",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "ff81821d-0a1d-4116-9b9e-254581e65f9e.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
