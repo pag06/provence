@@ -8,13 +8,13 @@ order: 2
         {
             "created": "2023-09-06T19:56:11.945Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-07T17:54:51.256Z",
+            "modified": "2024-12-02T12:10:25.849Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Rouleau en pierre-de-Banon \u00e0 cannelures : Ongles, Alpes-de-Hte-Provence (canton de St-Etienne-les-Orgues, point L87)\nlong. 60cm\ndiam\u00e8tre face large : 150cm\ndiam\u00e8tre face \u00e9troite : 120cm\n[...]"
+            "value": "Rouleau en pierre-de-Banon \u00e0 cannelures : Ongles, Alpes-de-Hte-Provence (canton de St-Etienne-les-Orgues, point L87) : [lu \u0280ul\u02c8ew]\nlong. : 60 cm\ndiam\u00e8tre face large : 150 cm\ndiam\u00e8tre face \u00e9troite : 120 cm"
         },
         {
             "created": "2023-09-06T19:57:44.703Z",
@@ -62,7 +62,14 @@ order: 2
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"3531.701904296875,111.74468994140625 5079.3955078125,99.79338073730469 5089.569309147531,1417.2998547780383 3541.875705631906,1429.2511639821398\" /></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0311"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0311",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
