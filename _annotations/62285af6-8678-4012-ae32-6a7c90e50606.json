@@ -3,52 +3,59 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0318"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "R\u00e2teau en bois \u00e0 Brantes, Vaucluse : [...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T06:57:41.963Z",
-            "modified": "2023-09-08T06:57:53.163Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-02T14:48:51.584Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "R\u00e2teau en bois \u00e0 Brantes, Vaucluse : [lu \u0280ast\u02c8\u025bw]"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8597",
+            "created": "2023-09-08T06:58:24.329Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-08T06:58:24.329Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8597"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L???",
+            "created": "2023-09-08T06:59:04.201Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-08T06:59:04.201Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L???"
         }
     ],
+    "id": "62285af6-8678-4012-ae32-6a7c90e50606.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0318",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"2900.6728515625,285.03857421875 3086.216796875,285.03857421875 3091.594970703125,543.186767578125 3562.177490234375,559.3209838867188 3562.177490234375,1126.7091064453125 2360.175048828125,1124.0201416015625 2403.199951171875,717.9745483398438\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0318",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "62285af6-8678-4012-ae32-6a7c90e50606.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
