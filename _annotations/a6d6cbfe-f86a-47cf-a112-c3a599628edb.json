@@ -27,14 +27,14 @@ order: 2
             "value": "L162"
         },
         {
-            "created": "2023-09-08T07:00:22.188Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "Q8597"
+            "purpose": "tagging",
+            "value": "Q7723",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T14:57:23.909Z"
         }
     ],
     "id": "a6d6cbfe-f86a-47cf-a112-c3a599628edb.json",
