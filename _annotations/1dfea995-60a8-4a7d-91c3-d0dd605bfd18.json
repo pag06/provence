@@ -3,66 +3,73 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0314"
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Tarare \u00e0 Banon, Alpes-de-Hte-Provence (point L89) : \nSes diff\u00e9rentes parties:\n-la tr\u00e9mie : [\u2026]\n-les manivelles : [\u2026]\n-les pales : [\u2026]\n-le brancard : [\u2026]\nVanner au tarare se dit [...], pour le premier passage et [...] pour le deuxi\u00e8me passage.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-07T18:14:30.523Z",
-            "modified": "2023-09-07T18:16:35.340Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-02T13:41:17.555Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Tarare \u00e0 Banon, Alpes-de-Hte-Provence (point L89) : \nSes diff\u00e9rentes parties:\n- la tr\u00e9mie : [\u2026]\n-l es manivelles : [\u2026]\n- les pales : [\u2026]\n- le brancard : [\u2026]\nVanner au tarare se dit [...], pour le premier passage et [...] pour le deuxi\u00e8me passage."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-07T18:16:08.187Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L89",
+            "type": "TextualBody",
+            "value": "L89"
+        },
+        {
+            "created": "2023-09-07T18:16:55.334Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-07T18:16:08.187Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q9778",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-07T18:16:55.334Z"
+            "type": "TextualBody",
+            "value": "Q9778"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Claude Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-07T18:22:09.379Z",
-            "modified": "2023-09-07T18:22:11.745Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-07T18:22:11.745Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Claude Martel"
         }
     ],
+    "id": "1dfea995-60a8-4a7d-91c3-d0dd605bfd18.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0314",
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1398.39404296875,1652.865234375 2838.526123046875,1652.865234375 2838.526123046875,2668.72607421875 1398.39404296875,2668.72607421875\" /></svg>"
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
         },
         "renderedVia": {
             "name": "annotorious-tilted-box"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
-            "type": "Manifest"
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1398.39404296875,1652.865234375 2838.526123046875,1652.865234375 2838.526123046875,2668.72607421875 1398.39404296875,2668.72607421875\" /></svg>"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0314",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "1dfea995-60a8-4a7d-91c3-d0dd605bfd18.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
