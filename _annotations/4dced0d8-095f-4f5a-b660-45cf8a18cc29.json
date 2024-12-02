@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0317"
 order: 7
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Comporte avec couvecle pour la conservation de l'huile, avec deux trous dans le couvercle : l'un pour l'entonnoir, l'autre pour la sortie de l'air au moment du remplissage. Ce r\u00e9cipient porte le m\u00eame nom que le pr\u00e9c\u00e9dent. Hauteur du mod\u00e8le : 87cm.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T06:54:12.489Z",
-            "modified": "2023-09-08T06:55:24.963Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-02T14:45:27.815Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Comporte avec couvecle pour la conservation de l'huile  [la ku\u0280n\u02c8yd\u0254]\nAvec deux trous dans le couvercle : l'un pour l'entonnoir, l'autre pour la sortie de l'air au moment du remplissage.\nHauteur du mod\u00e8le : 87 cm."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-08T06:55:27.693Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
+            "type": "TextualBody",
+            "value": "L???"
+        },
+        {
+            "created": "2023-09-08T06:55:29.904Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-08T06:55:27.693Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-08T06:55:29.904Z"
+            "type": "TextualBody",
+            "value": "Q???"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Claude Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T06:56:58.909Z",
-            "modified": "2023-09-08T06:57:01.444Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-08T06:57:01.444Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Claude Martel"
         }
     ],
+    "id": "4dced0d8-095f-4f5a-b660-45cf8a18cc29.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0317",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3930.0380859375,1979.0948486328125,1213.05712890625,1481.9615478515625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3930.0380859375,1979.0948486328125,1213.05712890625,1481.9615478515625"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0317",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "4dced0d8-095f-4f5a-b660-45cf8a18cc29.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
