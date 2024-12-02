@@ -3,66 +3,73 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0311"
 order: 6
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Rouloeau cylindrique en ciment \u00e0 4 rang\u00e9es de batteurs de fer. Utilis\u00e9 dans les Alpes-de-Hte-Provence (Revest-des-Brousses), fabriqu\u00e9 \u00e0 Mirabel-aux-Baronnies (Dr\u00f4me)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-06T20:06:46.813Z",
-            "modified": "2023-09-06T20:07:41.102Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-02T12:16:29.217Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Rouloeau cylindrique en ciment \u00e0 4 rang\u00e9es de batteurs de fer. \nUtilis\u00e9 dans les Alpes-de-Hte-Provence (Revest-des-Brousses) [\u00e0 l'O. de Forcalquier], fabriqu\u00e9 \u00e0 Mirabel-aux-Baronnies (Dr\u00f4me)"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-06T20:07:50.169Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-06T20:07:44.755Z"
+            "type": "TextualBody",
+            "value": "Q9035"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9035",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-06T20:07:50.169Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-06T20:10:16.621Z",
-            "modified": "2023-09-06T20:10:18.945Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-06T20:10:18.945Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L100",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T12:16:39.139Z"
         }
     ],
+    "id": "c4bbe8a7-c4e4-4b56-a65d-92f9edbe981e.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0311",
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2970.256103515625,2597.12744140625 3884.673095703125,2594.955322265625 3886.685359490816,3442.0765348244736 2972.268367303316,3444.2486539650986\" /></svg>"
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
         },
         "renderedVia": {
             "name": "annotorious-tilted-box"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
-            "type": "Manifest"
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2970.256103515625,2597.12744140625 3884.673095703125,2594.955322265625 3886.685359490816,3442.0765348244736 2972.268367303316,3444.2486539650986\" /></svg>"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0311",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "c4bbe8a7-c4e4-4b56-a65d-92f9edbe981e.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
