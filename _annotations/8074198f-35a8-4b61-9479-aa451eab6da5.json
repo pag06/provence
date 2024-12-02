@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0321"
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Vigne \u00e9tablie sur fil de fer, avec un rameau de chaque c\u00f4t\u00e9 du pied, on dit [...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T16:45:06.007Z",
-            "modified": "2023-09-08T16:45:28.110Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-02T16:24:49.082Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Vigne \u00e9tablie sur fil de fer, avec un rameau de chaque c\u00f4t\u00e9 du pied, on dit [esti\u0280a y\u0303 v\u02c8ize ; esti\u0280\u02c8a dus v\u02c8ize]"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-08T16:45:34.309Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q10714???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-08T16:45:53.153Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Photo : Claude Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T16:54:19.315Z",
-            "modified": "2023-09-08T16:54:22.315Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-08T16:54:22.315Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Claude Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L92",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T16:25:04.520Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9195",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T16:26:58.077Z"
         }
     ],
+    "id": "8074198f-35a8-4b61-9479-aa451eab6da5.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0321",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1681.6400146484375,1342.7288818359375,950.1285400390625,902.3233642578125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1681.6400146484375,1342.7288818359375,950.1285400390625,902.3233642578125"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0321",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "8074198f-35a8-4b61-9479-aa451eab6da5.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
