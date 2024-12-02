@@ -3,66 +3,73 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0315"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Double-d\u00e9calitre \u00e0 Cord\u00e9ac, Is\u00e8re (point L18) rempla\u00e7ant le mod\u00e8le courant en boissellerie : [...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-07T18:24:13.910Z",
-            "modified": "2023-09-07T18:25:00.625Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-02T13:53:49.147Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Double-d\u00e9calitre \u00e0 Cord\u00e9ac, Is\u00e8re (point L18) rempla\u00e7ant le mod\u00e8le courant en boissellerie : [lu kart\u02c8aw]"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-07T18:25:09.750Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L18",
+            "type": "TextualBody",
+            "value": "L18"
+        },
+        {
+            "created": "2023-09-07T18:25:24.209Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-07T18:25:09.750Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q3147",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-07T18:25:24.209Z"
+            "type": "TextualBody",
+            "value": "Q3147"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Claude Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-07T18:35:56.170Z",
-            "modified": "2023-09-07T18:35:58.672Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-07T18:35:58.672Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Claude Martel"
         }
     ],
+    "id": "2e4ad79d-fa9d-4d97-b052-bc1b8f71ecd7.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0315",
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1697.1766357421875,1016.4583740234375 2961.027099609375,1010.4827270507812 2966.2271240996106,2110.2888893254258 1702.3766602324233,2116.264536298082\" /></svg>"
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
         },
         "renderedVia": {
             "name": "annotorious-tilted-box"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
-            "type": "Manifest"
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1697.1766357421875,1016.4583740234375 2961.027099609375,1010.4827270507812 2966.2271240996106,2110.2888893254258 1702.3766602324233,2116.264536298082\" /></svg>"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0315",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "2e4ad79d-fa9d-4d97-b052-bc1b8f71ecd7.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
