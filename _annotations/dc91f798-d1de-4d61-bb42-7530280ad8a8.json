@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-09-06T19:21:35.261Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-06T19:21:52.847Z",
+            "modified": "2024-12-02T10:09:06.592Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "D\u00e9tail du piquage des faisceaux de seigle de la ronce."
+            "value": "D\u00e9tail du piquage des faisceaux de seigle de la ronce.\nDans nos r\u00e9gions, la ronce \u00e9tait utilis\u00e9e pour assembler les faisceaux de paille de seigle, selon la technique de vannerie dite \"de paille \u00e0 brin cousu\" et en faire divers ustensiles de la vie rurale."
         },
         {
             "created": "2023-09-06T19:22:28.926Z",
@@ -40,6 +40,10 @@ order: 1
     "id": "dc91f798-d1de-4d61-bb42-7530280ad8a8.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"3681.1,633 4099.5,549.1 4400.9,604.5 4529.1,677.3 4785.4,684.2 4795.8,1283.5 3663,1262.7 3680.3,743.1\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
@@ -47,10 +51,6 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0190",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"3681.1,633 4099.5,549.1 4400.9,604.5 4529.1,677.3 4785.4,684.2 4795.8,1283.5 3663,1262.7 3680.3,743.1\"></polygon></svg>"
         }
     },
     "type": "Annotation"
