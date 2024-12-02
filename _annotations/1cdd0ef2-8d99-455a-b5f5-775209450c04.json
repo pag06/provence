@@ -45,6 +45,17 @@ order: 1
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "C401"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Dessin : Marcel Gaillard",
+            "purpose": "identifying",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T10:39:03.085Z",
+            "modified": "2024-12-02T10:39:08.180Z"
         }
     ],
     "id": "1cdd0ef2-8d99-455a-b5f5-775209450c04.json",
