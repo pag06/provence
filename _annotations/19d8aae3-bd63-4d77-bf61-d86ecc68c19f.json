@@ -8,13 +8,13 @@ order: 5
         {
             "created": "2023-09-08T17:11:44.821Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-08T17:12:23.532Z",
+            "modified": "2024-12-02T17:03:04.548Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Le couteau-scie pliant pour la taille et la cueillette \u00e0 Manosque, Alpes-de-Hte-Provence (point 113) [...]"
+            "value": "Le couteau-scie pliant pour la taille et la cueillette \u00e0 Manosque, Alpes-de-Hte-Provence (point 113) [lu sar'e plegad'is]"
         },
         {
             "created": "2023-09-08T17:13:35.322Z",
@@ -38,14 +38,14 @@ order: 5
             "value": "Dessin : Marcel Gaillard"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9727",
+            "created": "2024-12-02T17:02:22.692Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-02T17:02:22.692Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9727"
         }
     ],
     "id": "19d8aae3-bd63-4d77-bf61-d86ecc68c19f.json",
