@@ -3,66 +3,83 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0310"
 order: 9
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Le n\u0153ud de paille qui lie la gerbe dans la m\u00eame localit\u00e9.\nLe n\u0153ud : [...]\nLa gerbe : [...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-06T19:45:03.302Z",
-            "modified": "2023-09-06T19:45:45.569Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-02T12:04:29.891Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Le n\u0153ud de paille qui lie la gerbe\nLe n\u0153ud : [lu lja\u0303\u207f]\nLa gerbe : [la dz\u02c8\u025brba]"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-06T19:45:55.330Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L22",
+            "type": "TextualBody",
+            "value": "L22"
+        },
+        {
+            "created": "2023-09-06T19:46:04.444Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-06T19:45:55.330Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q5106",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-06T19:46:04.444Z"
+            "type": "TextualBody",
+            "value": "Q5106"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Claude Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-06T19:47:33.375Z",
-            "modified": "2023-09-06T19:47:35.534Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-06T19:47:35.534Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Claude Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q6039",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T12:05:04.804Z"
         }
     ],
+    "id": "e57eaa8c-32b4-4766-b19b-a51ed9de639d.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0310",
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"4031.278076171875,2631.126953125 4954.74169921875,2631.126953125 4954.74169921875,3474.866943359375 4031.278076171875,3474.866943359375\" /></svg>"
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
         },
         "renderedVia": {
             "name": "annotorious-tilted-box"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
-            "type": "Manifest"
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"4031.278076171875,2631.126953125 4954.74169921875,2631.126953125 4954.74169921875,3474.866943359375 4031.278076171875,3474.866943359375\" /></svg>"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0310",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "e57eaa8c-32b4-4766-b19b-a51ed9de639d.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
