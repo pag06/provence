@@ -17,16 +17,6 @@ order: 3
             "value": "[lu bi\u0261\u02c8\u0254] \u00e0 Embrun (Hautes-Alpes)"
         },
         {
-            "created": "2023-09-08T07:02:05.838Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
             "created": "2023-09-08T07:02:12.066Z",
             "creator": {
                 "id": "ej7320",
@@ -35,6 +25,16 @@ order: 3
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q8597"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L36",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T14:54:13.057Z"
         }
     ],
     "id": "4fa6971a-c574-480d-9d66-78a83aa7eca7.json",
