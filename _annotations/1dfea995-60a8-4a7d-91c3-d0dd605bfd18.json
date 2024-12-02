@@ -46,6 +46,36 @@ order: 3
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Claude Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q10263",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T13:45:37.453Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q6318",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T13:45:43.673Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q7257",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T13:45:53.449Z"
         }
     ],
     "id": "1dfea995-60a8-4a7d-91c3-d0dd605bfd18.json",
