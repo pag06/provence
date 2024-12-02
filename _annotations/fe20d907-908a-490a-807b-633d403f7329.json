@@ -3,63 +3,70 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0314"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Crible en peau d'\u00e2ne \u00e0 Sault-de-Vaucluse (point L81) diam.55cm [\u2026]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-07T18:10:06.146Z",
-            "modified": "2023-09-07T18:10:33.577Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-02T13:35:12.243Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Crible en peau d'\u00e2ne \u00e0 Sault-de-Vaucluse (point L81) [lu d\u0280\u02c8aj]\ndiam. 55 cm"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-07T18:10:39.435Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L81",
+            "type": "TextualBody",
+            "value": "L81"
+        },
+        {
+            "created": "2023-09-07T18:10:54.166Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-07T18:10:39.435Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q2947",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-07T18:10:54.166Z"
+            "type": "TextualBody",
+            "value": "Q2947"
         },
         {
-            "type": "TextualBody",
-            "value": "Dessin : Marcel Gaillard",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-07T18:21:33.834Z",
-            "modified": "2023-09-07T18:21:42.953Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-07T18:21:42.953Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Dessin : Marcel Gaillard"
         }
     ],
+    "id": "fe20d907-908a-490a-807b-633d403f7329.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0314",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1373.29638671875,155.96450805664062 3099.662109375,155.96450805664062 3153.44287109375,1505.8642578125 2271.436767578125,1629.5601806640625 1566.907470703125,1565.023193359375 1341.02783203125,1161.666748046875\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0314",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "fe20d907-908a-490a-807b-633d403f7329.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
