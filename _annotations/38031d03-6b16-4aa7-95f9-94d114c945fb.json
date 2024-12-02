@@ -8,13 +8,13 @@ order: 8
         {
             "created": "2023-09-06T19:42:58.363Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-07T17:54:31.863Z",
+            "modified": "2024-12-02T12:01:33.079Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Le gros gerbier de 100 \u00e0 120 gerbes de bl\u00e9 assembl\u00e9 sur le champ \u00e0 La Chapelle-en-Valgaudemar, Hautes-Alpes (point L22) : [...]\nCe type de gerbier peut aller jusqu'\u00e0 200 gerbes selon les cas."
+            "value": "Le gros gerbier de 100 \u00e0 120 gerbes de bl\u00e9 assembl\u00e9 sur le champ \u00e0 La Chapelle-en-Valgaudemar, Hautes-Alpes [lu dz\u025brbj\u02c8e]\nCe type de gerbier peut aller jusqu'\u00e0 200 gerbes selon les cas."
         },
         {
             "created": "2023-09-06T19:44:10.687Z",
@@ -46,6 +46,16 @@ order: 8
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Claude Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9815",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T12:01:46.844Z"
         }
     ],
     "id": "38031d03-6b16-4aa7-95f9-94d114c945fb.json",
@@ -62,7 +72,14 @@ order: 8
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"2809.890869140625,2580.329345703125 3759.9287109375,2584.239013671875 3756.1797984411687,3495.2137474774063 2806.1419566442937,3491.3040795086563\" /></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0310"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0310",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
