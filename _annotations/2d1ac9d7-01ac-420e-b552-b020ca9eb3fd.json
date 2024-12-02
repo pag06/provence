@@ -8,13 +8,13 @@ order: 2
         {
             "created": "2023-09-06T19:17:02.094Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-06T19:17:08.282Z",
+            "modified": "2024-12-02T09:59:19.812Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "L'\u00e9chelier, \u00e9chelle pointue"
+            "value": "L'\u00e9chelier\nType : \u00e9chelle pointue"
         },
         {
             "created": "2023-09-06T19:17:15.015Z",
@@ -27,15 +27,15 @@ order: 2
             "value": "Q3623"
         },
         {
-            "type": "TextualBody",
-            "value": "Sans localisation",
-            "purpose": "identifying",
+            "created": "2024-12-02T09:58:35.187Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-02T09:58:35.187Z",
-            "modified": "2024-12-02T09:58:45.204Z"
+            "modified": "2024-12-02T09:58:45.204Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Sans localisation"
         }
     ],
     "id": "2d1ac9d7-01ac-420e-b552-b020ca9eb3fd.json",
