@@ -3,66 +3,73 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0314"
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Le van \u00e0 N\u00e9vache, Hautes-Alpes (opint L5) : [...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-07T18:17:10.588Z",
-            "modified": "2023-09-07T18:17:40.349Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-02T13:47:08.328Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Le van \u00e0 N\u00e9vache, Hautes-Alpes (opint L5) : [lu va\u0303tw\u02c8\u025b]"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-07T18:17:47.008Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L5",
+            "type": "TextualBody",
+            "value": "L5"
+        },
+        {
+            "created": "2023-09-07T18:18:26.131Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-07T18:17:47.008Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q10469",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-07T18:18:26.131Z"
+            "type": "TextualBody",
+            "value": "Q10469"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Claude Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-07T18:22:14.499Z",
-            "modified": "2023-09-07T18:22:16.420Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-07T18:22:16.420Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Claude Martel"
         }
     ],
+    "id": "a5d839f9-1f54-4917-ad49-481881859d1c.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0314",
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1646.3836669921875,2677.689697265625 2599.5,2680.677490234375 2596.9706140015974,3487.5604077503513 1643.8542809937849,3484.5726147816013\" /></svg>"
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
         },
         "renderedVia": {
             "name": "annotorious-tilted-box"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
-            "type": "Manifest"
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1646.3836669921875,2677.689697265625 2599.5,2680.677490234375 2596.9706140015974,3487.5604077503513 1643.8542809937849,3484.5726147816013\" /></svg>"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0314",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "a5d839f9-1f54-4917-ad49-481881859d1c.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
