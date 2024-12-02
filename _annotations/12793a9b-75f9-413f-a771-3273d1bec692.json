@@ -17,26 +17,6 @@ order: 6
             "value": "Comporte de bois sans couvercle dans laquelle on laissait reposer l'huile m\u00e9lang\u00e9e \u00e0 l'eau apr\u00e8s la pression : [la ku\u0280n\u02c8yd\u0254]\nOn ajoutait parfois du sel au m\u00e9lange huile-eau pour acc\u00e9l\u00e9rer la d\u00e9cantation. On enlevait ensuite l'huile qui montait \u00e0 la surface avec la \"feuille\", sorte de po\u00eale \u00e0 long manche ; on disait, en fran\u00e7ais r\u00e9gional \"cueillir l'huile\".\nHauteur : 87cm."
         },
         {
-            "created": "2023-09-08T06:53:33.605Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
-            "created": "2023-09-08T06:53:53.661Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q???"
-        },
-        {
             "created": "2023-09-08T06:56:48.970Z",
             "creator": {
                 "id": "ej7320",
@@ -46,6 +26,27 @@ order: 6
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Claude Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8653",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T14:43:26.957Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Sans localisation",
+            "purpose": "identifying",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T14:43:30.286Z",
+            "modified": "2024-12-02T14:43:39.320Z"
         }
     ],
     "id": "12793a9b-75f9-413f-a771-3273d1bec692.json",
