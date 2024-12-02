@@ -3,66 +3,83 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0315"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Panier-semoir confectionn\u00e9 par M. Louis Roux, agriculteur \u00e0 Vallouise, Hautes-Alpes( point L17) : [...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-07T18:22:58.026Z",
-            "modified": "2023-09-07T18:23:28.691Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-07T18:23:28.691Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Panier-semoir confectionn\u00e9 par M. Louis Roux, agriculteur \u00e0 Vallouise, Hautes-Alpes( point L17) : [...]"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-07T18:23:39.009Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L17",
+            "type": "TextualBody",
+            "value": "L17"
+        },
+        {
+            "created": "2023-09-07T18:23:55.837Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-07T18:23:39.009Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q7290",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-07T18:23:55.837Z"
+            "type": "TextualBody",
+            "value": "Q7290"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-07T18:35:21.619Z",
-            "modified": "2023-09-07T18:35:24.823Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-07T18:35:24.823Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9330",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T13:48:28.176Z"
         }
     ],
+    "id": "275e1e78-1800-4e86-a4db-eac335306d01.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0315",
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1682.237548828125,290.4166564941406 2584.56103515625,293.4045104980469 2582.186575086215,1010.4847579733772 1679.8630887580896,1007.496903969471\" /></svg>"
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
         },
         "renderedVia": {
             "name": "annotorious-tilted-box"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
-            "type": "Manifest"
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1682.237548828125,290.4166564941406 2584.56103515625,293.4045104980469 2582.186575086215,1010.4847579733772 1679.8630887580896,1007.496903969471\" /></svg>"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0315",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "275e1e78-1800-4e86-a4db-eac335306d01.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
