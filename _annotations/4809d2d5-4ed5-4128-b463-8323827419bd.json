@@ -17,26 +17,6 @@ order: 2
             "value": "Tourniquet en bois pour un cheval \u00e0 Bonnieux, Vaucluse [Lu tu\u0280nikl\u02c8e]"
         },
         {
-            "created": "2023-09-07T17:46:30.788Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
-            "created": "2023-09-07T17:46:34.579Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q???"
-        },
-        {
             "created": "2023-09-07T17:50:35.568Z",
             "creator": {
                 "id": "ej7320",
@@ -46,6 +26,26 @@ order: 2
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Dessin : Marcel Gaillard"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L109",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T12:49:11.385Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q969",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T12:49:18.242Z"
         }
     ],
     "id": "4809d2d5-4ed5-4128-b463-8323827419bd.json",
