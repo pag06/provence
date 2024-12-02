@@ -17,26 +17,6 @@ order: 5
             "value": "Essencier (\u00e0 lavande) en cuivre \u00e0 Lagarde, contenant 4kg 300 d'essence. \nC'est dans ce r\u00e9cipient, fabriqu\u00e9 selon le principe du \"vase florentin\" que l'essence est s\u00e9par\u00e9e de l'eau."
         },
         {
-            "created": "2023-09-08T17:55:04.497Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
-            "created": "2023-09-08T17:55:06.308Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q???"
-        },
-        {
             "created": "2023-09-08T17:59:40.611Z",
             "creator": {
                 "id": "ej7320",
@@ -46,6 +26,26 @@ order: 5
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Dessin : Marcel Gaillard"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L109",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T17:27:25.242Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5944",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T17:27:32.010Z"
         }
     ],
     "id": "1b754d31-95ff-4bb8-864f-1dcfdc899c82.json",
