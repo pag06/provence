@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-09-08T17:20:56.864Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-08T17:22:36.796Z",
+            "modified": "2024-12-02T17:08:09.995Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Cueillette de la lavande \u00e0 Simiane, Alpes-de-Hte-Provence, (canton de Banon, point L89). Les cueilleurs et les cueilleuses sont munis d'un sac en toile pendu \u00e0 l'\u00e9paule en bandouli\u00e8re. A droite, on attache les trousses dans des draps en jute.\n-les cueilleurs : [\u2026]\n-le sac pour cueillir : [\u2026]\n-les trousses : [\u2026]\n-le drap : [\u2026]"
+            "value": "Cueillette de la lavande \u00e0 Simiane, Alpes-de-Hte-Provence, (canton de Banon, point L89). \nLes cueilleurs et les cueilleuses sont munis d'un sac en toile pendu \u00e0 l'\u00e9paule en bandouli\u00e8re. A droite, on attache les trousses dans des draps en jute.\n-les cueilleurs : [les kup\u02c8aj\u0280e]\n-le sac pour cueillir : [lu saket\u02c8u\u0303\u207f]\n-les trousses : [les t\u0280\u02c8us\u0153]\n-le drap : [lu bu\u0280\u02c8as]"
         },
         {
             "created": "2023-09-08T17:22:53.511Z",
@@ -37,30 +37,33 @@ order: 1
             "value": "Q???"
         },
         {
-            "type": "TextualBody",
-            "value": "Carte postale ancienne ; collection \"Alpes de Lumi\u00e8res\"",
-            "purpose": "identifying",
+            "created": "2023-09-08T17:40:57.987Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-08T17:40:57.987Z",
-            "modified": "2023-09-08T17:41:16.195Z"
+            "modified": "2023-09-08T17:41:16.195Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Carte postale ancienne ; collection \"Alpes de Lumi\u00e8res\""
         }
     ],
     "id": "1b642f72-844d-481d-9fdd-11603ccd484d.json",
     "motivation": "commenting",
     "target": {
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0323",
+            "type": "Canvas"
         },
         "selector": {
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
             "type": "FragmentSelector",
-            "value": "xywh=1738.3004150390625,266.19293212890625,1881.0687255859375,1056.5855102539062"
-        },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0323"
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1817.0343017578125,268.264892578125,1881.0687255859375,1056.5855102539062"
+        }
     },
     "type": "Annotation"
 }
