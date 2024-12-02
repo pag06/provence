@@ -46,6 +46,16 @@ order: 1
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Pierre Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5616",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T11:50:04.810Z"
         }
     ],
     "id": "a964dcef-13cd-4e7f-82d8-7b16adcde65a.json",
