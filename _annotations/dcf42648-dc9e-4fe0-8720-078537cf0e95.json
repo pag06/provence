@@ -17,16 +17,6 @@ order: 7
             "value": "S\u00e9choir \u00e0 prunes fait d'une \"\u00e9chelle\" en verne [aulne] supportant un treillis de tiges d'osier fendues, \u00e0 Champtercier, Alpes-de-Hte-Provence [lu sek\u02c8ajre]\nLong. : 0,95 m, larg. : 0,74 m"
         },
         {
-            "created": "2023-09-08T16:38:56.921Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q???"
-        },
-        {
             "created": "2023-09-08T16:39:20.145Z",
             "creator": {
                 "id": "ej7320",
@@ -46,6 +36,16 @@ order: 7
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Claude Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2360",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T15:33:37.541Z"
         }
     ],
     "id": "dcf42648-dc9e-4fe0-8720-078537cf0e95.json",
