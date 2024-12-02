@@ -3,55 +3,62 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0316"
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Moulin \u00e0 Glandage, Dr\u00f4me (point L33) : en heut, le \"bonnet \u00e0 grains\" au-dessous duquel la meule (invisible) est enferm\u00e9e dans une caisse roude en bois.\n-le bonnet \u00e0 grains : [\u2026]\n-la meule : [\u2026]\n-la caisse en bois : [\u2026]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T06:27:23.370Z",
-            "modified": "2023-09-08T06:28:55.333Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-02T14:02:53.816Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Moulin \u00e0 Glandage, Dr\u00f4me (point L33) : en heut, le \"bonnet \u00e0 grains\" au-dessous duquel la meule (invisible) est enferm\u00e9e dans une caisse roude en bois.\n-le bonnet \u00e0 grains : [la bat\u0283\u02c8as\u0254] = 2\n-la meule : [la mw\u02c8\u0254r\u0254]\n-la caisse en bois : [la t\u0283as\u02c8\u0254r\u0254] = 1"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L33",
+            "created": "2023-09-08T06:29:00.999Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-08T06:29:00.999Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L33"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q6798",
+            "created": "2023-09-08T06:29:03.502Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-08T06:29:03.502Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q6798"
         }
     ],
+    "id": "ef1721c3-a01c-4e44-b64a-f4dc253ab64f.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0316",
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"4066.618408203125,187.66146850585938 5022.3037109375,187.66146850585938 5022.3037109375,1608.1572265625 4066.618408203125,1608.1572265625\"></polygon></svg>"
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
         },
         "renderedVia": {
             "name": "annotorious-tilted-box"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
-            "type": "Manifest"
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"4066.618408203125,187.66146850585938 5022.3037109375,187.66146850585938 5022.3037109375,1608.1572265625 4066.618408203125,1608.1572265625\"></polygon></svg>"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0316",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "ef1721c3-a01c-4e44-b64a-f4dc253ab64f.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
