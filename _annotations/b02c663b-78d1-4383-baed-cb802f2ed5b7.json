@@ -11,10 +11,10 @@ order: 4
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-12-02T12:55:08.660Z",
+            "modified": "2024-12-02T12:56:48.870Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Tourniquet pour un cheval avec un reste de cordelette, \u00e0 Lagarde-d'Apt, Vaucluse (canton d'Apt, point 109) [lu tu\u0280nikl\u02c8e]\nDe profil et de face. \nlong. 48 cm."
+            "value": "Technique de battage : tourniquet pour un cheval avec un reste de cordelette, \u00e0 Lagarde-d'Apt, Vaucluse (canton d'Apt, point 109) [lu tu\u0280nikl\u02c8e]\nDe profil et de face. \nlong. 48 cm."
         },
         {
             "created": "2023-09-07T17:51:02.532Z",
@@ -38,14 +38,14 @@ order: 4
             "value": "L109"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q969",
+            "created": "2024-12-02T12:55:22.073Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-02T12:55:22.073Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q969"
         }
     ],
     "id": "b02c663b-78d1-4383-baed-cb802f2ed5b7.json",
