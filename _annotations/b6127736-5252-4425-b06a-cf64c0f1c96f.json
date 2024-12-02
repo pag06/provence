@@ -3,66 +3,73 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0316"
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Coupe \u00e0 l'int\u00e9rieur du m\u00eame moulin montrant l'ensemble du dispositif.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T06:26:19.645Z",
-            "modified": "2023-09-08T06:26:37.599Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-02T13:59:55.396Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Coupe \u00e0 l'int\u00e9rieur du Moulin \u00e0 eau de Rocheron, commune d'Ongles, Alpes-de-Hte-Provence (canton de St-Etienne-les-Orgues, point L87),  montrant l'ensemble du dispositif."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-08T06:26:41.285Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L87",
+            "type": "TextualBody",
+            "value": "L87"
+        },
+        {
+            "created": "2023-09-08T06:26:45.056Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-08T06:26:41.285Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q6798",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-08T06:26:45.056Z"
+            "type": "TextualBody",
+            "value": "Q6798"
         },
         {
-            "type": "TextualBody",
-            "value": "Relev\u00e9s et croquis : documentation \"Alpes de Lumi\u00e8res\"",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T06:37:58.907Z",
-            "modified": "2023-09-08T06:38:21.920Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-08T06:38:21.920Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Relev\u00e9s et croquis : documentation \"Alpes de Lumi\u00e8res\""
         }
     ],
+    "id": "b6127736-5252-4425-b06a-cf64c0f1c96f.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0316",
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2398.513427734375,175.37026977539062 4001.458251953125,184.0583038330078 3992.7904443943735,1783.2713330963056 2389.8456201756235,1774.5832990386884\"></polygon></svg>"
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
         },
         "renderedVia": {
             "name": "annotorious-tilted-box"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
-            "type": "Manifest"
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2398.513427734375,175.37026977539062 4001.458251953125,184.0583038330078 3992.7904443943735,1783.2713330963056 2389.8456201756235,1774.5832990386884\"></polygon></svg>"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0316",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "b6127736-5252-4425-b06a-cf64c0f1c96f.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
