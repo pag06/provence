@@ -17,16 +17,6 @@ order: 1
             "value": "D\u00e9tail du piquage des faisceaux de seigle de la ronce.\nDans nos r\u00e9gions, la ronce \u00e9tait utilis\u00e9e pour assembler les faisceaux de paille de seigle, selon la technique de vannerie dite \"de paille \u00e0 brin cousu\" et en faire divers ustensiles de la vie rurale."
         },
         {
-            "created": "2023-09-06T19:22:28.926Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
             "created": "2023-09-06T19:22:31.041Z",
             "creator": {
                 "id": "ej7320",
@@ -35,6 +25,17 @@ order: 1
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q???"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Sans localisation",
+            "purpose": "identifying",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T10:09:25.573Z",
+            "modified": "2024-12-02T10:09:36.209Z"
         }
     ],
     "id": "dc91f798-d1de-4d61-bb42-7530280ad8a8.json",
