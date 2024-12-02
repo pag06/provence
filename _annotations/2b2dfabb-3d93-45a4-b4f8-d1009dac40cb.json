@@ -8,13 +8,13 @@ order: 2
         {
             "created": "2023-09-08T17:05:48.336Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-08T17:06:02.319Z",
+            "modified": "2024-12-02T16:57:50.299Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Le s\u00e9cateur pour tailler \u00e0 Apt. Long. 20cm. [...]"
+            "value": "Le s\u00e9cateur pour tailler \u00e0 Apt. [lu sekat'ur]\nLong. 20cm."
         },
         {
             "created": "2023-09-08T17:06:05.787Z",
@@ -37,15 +37,15 @@ order: 2
             "value": "Q???"
         },
         {
-            "type": "TextualBody",
-            "value": "Dessin : Marcel Gaillard",
-            "purpose": "identifying",
+            "created": "2023-09-08T17:20:08.176Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-08T17:20:08.176Z",
-            "modified": "2023-09-08T17:20:10.725Z"
+            "modified": "2023-09-08T17:20:10.725Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Dessin : Marcel Gaillard"
         }
     ],
     "id": "2b2dfabb-3d93-45a4-b4f8-d1009dac40cb.json",
@@ -60,7 +60,14 @@ order: 2
             "type": "FragmentSelector",
             "value": "xywh=3723.445068359375,220.1700897216797,577.368896484375,1166.2855987548828"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0322"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0322",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
