@@ -47,6 +47,16 @@ order: 6
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Sans localisation"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2531",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T14:48:00.607Z"
         }
     ],
     "id": "12793a9b-75f9-413f-a771-3273d1bec692.json",
