@@ -8,13 +8,13 @@ order: 6
         {
             "created": "2023-09-06T19:40:04.518Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-07T17:54:13.947Z",
+            "modified": "2024-12-02T11:56:24.657Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "La gerbe de paille de seigle assembl\u00e9e pour la confection des toitures de chaume \u00e0 La-Roche-des-Arnauds, Hautes-Alpes (point L38)  : [...]"
+            "value": "La gerbe de paille de seigle assembl\u00e9e pour la confection des toitures de chaume [lu klw'is]"
         },
         {
             "created": "2023-09-06T19:40:54.625Z",
@@ -62,7 +62,14 @@ order: 6
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"4044.53125,1192.3743896484375 4955.3837890625,1204.5596923828125 4937.451092571882,2545.0304617004645 4026.5985535093823,2532.8451589660895\" /></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0310"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0310",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
