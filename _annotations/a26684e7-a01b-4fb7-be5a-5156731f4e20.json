@@ -3,55 +3,62 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0313"
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Pierre \u00e0 battre en ardoise au Casset-en-Valgaudemar, Hautes-Alpes (hameau de la Chapelle-en-Valgaudemar, point L22 appel\u00e9e : [...]\nOn bat la gerbe avec le gourdin pos\u00e9 \u00e0 c\u00f4t\u00e9 : [...]\nL'action de battre se dit : [...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-07T17:59:11.351Z",
-            "modified": "2023-09-07T18:00:31.876Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-02T13:02:48.318Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Technique de battage : pierre \u00e0 battre en ardoise au Casset-en-Valgaudemar, Hautes-Alpes (hameau de la Chapelle-en-Valgaudemar, point L22 appel\u00e9e : [la l'awz\u0153]\nOn bat la gerbe avec le gourdin pos\u00e9 \u00e0 c\u00f4t\u00e9 : [lu t\u0280is\u02c8u]\nL'action de battre se dit : [eba\u0280b\u02c8a]"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L22",
+            "created": "2023-09-07T18:00:35.177Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-07T18:00:35.177Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L22"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q???",
+            "value": "Q969",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-09-07T18:01:10.559Z"
+            "created": "2024-12-02T13:02:57.401Z"
         }
     ],
+    "id": "a26684e7-a01b-4fb7-be5a-5156731f4e20.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0313",
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"4073.236328125,156.5420379638672 5039.5400390625,142.73770141601562 5052.555017271838,1053.7863199322544 4086.251306334337,1067.590656480106\" /></svg>"
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
         },
         "renderedVia": {
             "name": "annotorious-tilted-box"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
-            "type": "Manifest"
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"4073.236328125,156.5420379638672 5039.5400390625,142.73770141601562 5052.555017271838,1053.7863199322544 4086.251306334337,1067.590656480106\" /></svg>"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0313",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "a26684e7-a01b-4fb7-be5a-5156731f4e20.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
