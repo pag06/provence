@@ -3,52 +3,59 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0319"
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "[...] \nCarpentras, Vaucluse. Outil avec t\u00eate de frappe pour casser les mottes. Haut. 38cm., de face et de profil\nTous ces outils utilis\u00e9 aujourd'hui dans les travaux de jardinage l'\u00e9taient autrefois \u00e9galement dans les travaux des champs, et pourraient illustrer les cartes du volume 1",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T07:09:58.346Z",
-            "modified": "2023-09-08T07:17:24.163Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-02T15:04:22.269Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "[bet\u0283\u02c8as a t\u0280\u025bs b\u02c8an\u0254] Carpentras, Vaucluse. Outil avec t\u00eate de frappe pour casser les mottes. \nHaut. 38cm., de face et de profil"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L???",
+            "created": "2023-09-08T07:10:55.794Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-08T07:10:55.794Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L???"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
+            "created": "2023-09-08T07:11:01.862Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-08T07:11:01.862Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q???"
         }
     ],
+    "id": "b3d8b204-427c-4ead-80a2-c6eea4462f8d.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0319",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"4156.359375,137.32470703125 5076.24560546875,131.7496337890625 5098.5458984375,1620.2928466796875 4758.466796875,1603.567626953125 4797.4921875,1698.34375 5059.5205078125,1977.09716796875 5092.97119140625,3231.487548828125 4139.63427734375,3142.286376953125\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0319",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "b3d8b204-427c-4ead-80a2-c6eea4462f8d.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
