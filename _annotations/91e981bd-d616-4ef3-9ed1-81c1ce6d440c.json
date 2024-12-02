@@ -46,6 +46,16 @@ order: 3
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Dessin : Marcel Gaillard"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9727",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T17:02:06.676Z"
         }
     ],
     "id": "91e981bd-d616-4ef3-9ed1-81c1ce6d440c.json",
