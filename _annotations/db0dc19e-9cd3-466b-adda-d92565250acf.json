@@ -11,10 +11,10 @@ order: 2
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-12-02T14:19:05.088Z",
+            "modified": "2024-12-02T14:22:45.691Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "La meule en pierre du moulin (d\u00e9saffect\u00e9) du Ch\u00e2teau de Vitrolles, Vaucluse : [la p\u02c8\u025bjr\u0153 d\u0254w mul\u02c8i\u0303\u207f]"
+            "value": "La meule en pierre du moulin (d\u00e9saffect\u00e9) du Ch\u00e2teau de Vitrolles, Vaucluse [entre Villelaure et Manosque] : [la p\u02c8\u025bjr\u0153 d\u0254w mul\u02c8i\u0303\u207f]"
         },
         {
             "created": "2023-09-08T06:42:10.976Z",
@@ -27,16 +27,6 @@ order: 2
             "value": "Q6570"
         },
         {
-            "created": "2023-09-08T06:43:58.949Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
             "created": "2023-09-08T06:56:25.738Z",
             "creator": {
                 "id": "ej7320",
@@ -46,6 +36,26 @@ order: 2
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Pierre Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L127",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T14:22:57.354Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L113",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T14:23:01.894Z"
         }
     ],
     "id": "db0dc19e-9cd3-466b-adda-d92565250acf.json",
