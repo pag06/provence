@@ -3,66 +3,73 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0316"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "La roue \u00e0 aubes du moulin \u00e0 Ongles, avec, au fond, le conduit d'arriv\u00e9e d'eau et la vanne",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T06:25:19.191Z",
-            "modified": "2023-09-08T06:25:40.200Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-02T14:05:47.234Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "La roue \u00e0 aubes du moulin \u00e0 Ongles, avec, au fond, le conduit d'arriv\u00e9e d'eau et la vanne\ne = roue \u00e0 aubes\nk = (non explicit\u00e9)"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-08T06:25:46.166Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L87",
+            "type": "TextualBody",
+            "value": "L87"
+        },
+        {
+            "created": "2023-09-08T06:25:48.598Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-08T06:25:46.166Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q6798",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-08T06:25:48.598Z"
+            "type": "TextualBody",
+            "value": "Q6798"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel",
-            "purpose": "highlighting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T06:37:48.093Z",
-            "modified": "2023-09-08T06:37:51.626Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-08T06:37:51.626Z",
+            "purpose": "highlighting",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel"
         }
     ],
+    "id": "83dac03d-9f8a-4600-970e-7bfd39518428.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0316",
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"1395.0439453125,1109.33544921875 2350.729248046875,1104.991455078125 2355.031687071513,2051.534569237515 1399.346384337138,2055.87856337814\"></polygon></svg>"
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
         },
         "renderedVia": {
             "name": "annotorious-tilted-box"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
-            "type": "Manifest"
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"1395.0439453125,1109.33544921875 2350.729248046875,1104.991455078125 2355.031687071513,2051.534569237515 1399.346384337138,2055.87856337814\"></polygon></svg>"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0316",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "83dac03d-9f8a-4600-970e-7bfd39518428.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
