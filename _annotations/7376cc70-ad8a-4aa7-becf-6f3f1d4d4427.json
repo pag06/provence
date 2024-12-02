@@ -8,13 +8,13 @@ order: 5
         {
             "created": "2023-09-06T20:04:55.059Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-06T20:06:07.830Z",
+            "modified": "2024-12-02T12:15:10.401Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Rouleau cylindrique en bois de ch\u00eane, \u00e0 4 rang\u00e9es de 8 cha\u00eenes jouant, entournant, un r\u00f4le de batteurs. Le-Revest-des-Brousses (canton de Forcalquier)"
+            "value": "Rouleau cylindrique en bois de ch\u00eane, \u00e0 4 rang\u00e9es de 8 cha\u00eenes jouant, en tournant, un r\u00f4le de batteurs. Le-Revest-des-Brousses (canton de Forcalquier)"
         },
         {
             "created": "2023-09-06T20:06:19.899Z",
@@ -38,14 +38,14 @@ order: 5
             "value": "Photo : Pierre Martel"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L100",
+            "created": "2023-09-10T05:50:22.288Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-10T05:50:22.288Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L100"
         }
     ],
     "id": "7376cc70-ad8a-4aa7-becf-6f3f1d4d4427.json",
@@ -62,7 +62,14 @@ order: 5
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"2820.387451171875,3442.0400390625 1517.18017578125,3442.0400390625 1517.18017578125,2379.92626953125 2820.387451171875,2379.92626953125\" /></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0311"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0311",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
