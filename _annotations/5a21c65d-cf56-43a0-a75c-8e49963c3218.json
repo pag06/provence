@@ -17,24 +17,24 @@ order: 4
             "value": "[lu lit\u0283\u02c8e] \u00e0 Mazan, Vaucluse\nhauteur : 41 cm. ; tranchant 17 cm"
         },
         {
-            "created": "2023-09-08T07:03:24.134Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "L???"
+            "purpose": "tagging",
+            "value": "Q7489",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T14:57:55.245Z"
         },
         {
-            "created": "2023-09-08T07:03:28.458Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "Q8597"
+            "purpose": "tagging",
+            "value": "L92",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T14:59:05.103Z"
         }
     ],
     "id": "5a21c65d-cf56-43a0-a75c-8e49963c3218.json",
