@@ -3,63 +3,70 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0324"
 order: 5
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Essencier en cuivre \u00e0 Lagarde, contenant 4kg 300 d'essence. C'est dans ce r\u00e9cipient, fabriqu\u00e9 selon le principe du \"vase florentin\" que l'essence est s\u00e9par\u00e9e de l'eau.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T17:54:12.647Z",
-            "modified": "2023-09-08T17:55:01.384Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-02T17:26:58.421Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Essencier (\u00e0 lavande) en cuivre \u00e0 Lagarde, contenant 4kg 300 d'essence. \nC'est dans ce r\u00e9cipient, fabriqu\u00e9 selon le principe du \"vase florentin\" que l'essence est s\u00e9par\u00e9e de l'eau."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-08T17:55:04.497Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
+            "type": "TextualBody",
+            "value": "L???"
+        },
+        {
+            "created": "2023-09-08T17:55:06.308Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-08T17:55:04.497Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-08T17:55:06.308Z"
+            "type": "TextualBody",
+            "value": "Q???"
         },
         {
-            "type": "TextualBody",
-            "value": "Dessin : Marcel Gaillard",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T17:59:40.611Z",
-            "modified": "2023-09-08T17:59:43.225Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-08T17:59:43.225Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Dessin : Marcel Gaillard"
         }
     ],
+    "id": "1b754d31-95ff-4bb8-864f-1dcfdc899c82.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0324",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"2466.322265625,1859.2757568359375 3045.124755859375,1879.584716796875 3065.43359375,2150.369384765625 3725.471435546875,2421.154296875 3725.471435546875,2678.399658203125 3434.377685546875,2688.55419921875 3474.995361328125,3487.369140625 2374.932373046875,3490.75390625\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0324",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "1b754d31-95ff-4bb8-864f-1dcfdc899c82.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
