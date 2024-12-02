@@ -8,13 +8,13 @@ order: 7
         {
             "created": "2023-09-06T19:41:41.085Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-07T17:54:22.506Z",
+            "modified": "2024-12-02T12:00:11.568Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Les grands gerbiers sur les aires publiques \u00e0 Sisteron, Alpes-de-Hte-Provence (point L68) attendant d'\u00eatre battus vers la fin du si\u00e8cle dernier appel\u00e9s : [...]"
+            "value": "Les grands gerbiers sur les aires publiques \u00e0 Sisteron, Alpes-de-Hte-Provence, attendant d'\u00eatre battus vers la fin du si\u00e8cle dernier appel\u00e9s : [lej d\u0292arbj\u02c8\u025br\u0153]"
         },
         {
             "created": "2023-09-06T19:42:33.560Z",
@@ -46,6 +46,16 @@ order: 7
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Carte postale ancienne, auteur anonyme"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9815",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T12:00:41.767Z"
         }
     ],
     "id": "58f96514-1867-4759-9e59-147657b4e52b.json",
@@ -62,7 +72,14 @@ order: 7
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1391.1793212890625,2505.341796875 2746.79541015625,2511.4345703125 2742.386549525051,3492.387245893816 1386.7704606578636,3486.294472456316\" /></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0310"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0310",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
