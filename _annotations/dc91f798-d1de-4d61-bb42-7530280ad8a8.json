@@ -3,52 +3,55 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0190"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "D\u00e9tail du piquage des faisceaux de seigle de la ronce.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-06T19:21:35.261Z",
-            "modified": "2023-09-06T19:21:52.847Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L???",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-06T19:22:28.926Z"
+            "modified": "2023-09-06T19:21:52.847Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "D\u00e9tail du piquage des faisceaux de seigle de la ronce."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
+            "created": "2023-09-06T19:22:28.926Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-06T19:22:31.041Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L???"
+        },
+        {
+            "created": "2023-09-06T19:22:31.041Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q???"
         }
     ],
+    "id": "dc91f798-d1de-4d61-bb42-7530280ad8a8.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0190",
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0190",
+            "type": "Canvas"
+        },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"3652.621337890625,639.1476440429688 4099.5048828125,549.0780639648438 4400.8916015625,604.5054931640625 4529.06787109375,677.2539672851562 4785.41943359375,684.1824340820312 4795.81201171875,1283.4915771484375 3663.013916015625,1262.706298828125 3680.3349609375,743.0740966796875\"></polygon></svg>"
-        },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
-            "type": "Manifest"
+            "value": "<svg><polygon points=\"3681.1,633 4099.5,549.1 4400.9,604.5 4529.1,677.3 4785.4,684.2 4795.8,1283.5 3663,1262.7 3680.3,743.1\"></polygon></svg>"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "dc91f798-d1de-4d61-bb42-7530280ad8a8.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
