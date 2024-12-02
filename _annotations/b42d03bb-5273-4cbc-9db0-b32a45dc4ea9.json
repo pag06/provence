@@ -8,13 +8,13 @@ order: 4
         {
             "created": "2023-09-08T06:47:23.814Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-10T05:54:47.552Z",
+            "modified": "2024-12-02T14:40:31.008Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Scourtins moderne en nylon ou polypropyl\u00e8ne au moulin \u00e0 huile de Craison, Alpes-de-Hte-Provence (canton de M\u00e9es, point L90) [...]"
+            "value": "Scourtins moderne en nylon ou polypropyl\u00e8ne au moulin \u00e0 huile de Craison, Alpes-de-Hte-Provence (canton de M\u00e9es, point L90) [l\u025bjz \u025bskurt\u02c8i\u0303\u207f]"
         },
         {
             "created": "2023-09-08T06:48:35.083Z",
@@ -27,16 +27,6 @@ order: 4
             "value": "L90"
         },
         {
-            "created": "2023-09-08T06:48:47.938Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q???"
-        },
-        {
             "created": "2023-09-08T06:56:43.258Z",
             "creator": {
                 "id": "ej7320",
@@ -46,6 +36,16 @@ order: 4
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Claude Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q4642",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T14:39:55.920Z"
         }
     ],
     "id": "b42d03bb-5273-4cbc-9db0-b32a45dc4ea9.json",
@@ -60,7 +60,14 @@ order: 4
             "type": "FragmentSelector",
             "value": "xywh=1898.31640625,1091.7105712890625,1481.961669921875,878.4207763671875"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0317"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0317",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
