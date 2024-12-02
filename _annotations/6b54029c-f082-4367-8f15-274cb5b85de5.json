@@ -40,6 +40,13 @@ order: 1
     "id": "6b54029c-f082-4367-8f15-274cb5b85de5.json",
     "motivation": "commenting",
     "target": {
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"3574.9833984375,225.5137939453125 4926.28662109375,224.8052978515625 4926.732014208869,1074.2964342450928 3575.4287915526197,1075.0049303388428\"></polygon></svg>"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
@@ -47,13 +54,6 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0170",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"3574.9833984375,225.5137939453125 4926.28662109375,224.8052978515625 4926.732014208869,1074.2964342450928 3575.4287915526197,1075.0049303388428\"></polygon></svg>"
-        },
-        "renderedVia": {
-            "name": "annotorious-tilted-box"
         }
     },
     "type": "Annotation"
