@@ -38,14 +38,14 @@ order: 2
             "value": "Dessin : Marcel Gaillard"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9727",
+            "created": "2024-12-02T17:00:35.315Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-02T17:00:35.315Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9727"
         }
     ],
     "id": "2b2dfabb-3d93-45a4-b4f8-d1009dac40cb.json",
