@@ -3,52 +3,59 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0318"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Pioche de jardin \u00e0 Marseille (point L162) [...]\nlong. 32,5cm.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T06:59:33.125Z",
-            "modified": "2023-09-08T07:00:13.302Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-02T14:51:33.052Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Pioche de jardin \u00e0 Marseille [l ejs\u02c8ad\u0254]\nlong. 32,5cm."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L162",
+            "created": "2023-09-08T07:00:16.637Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-08T07:00:16.637Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L162"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8597",
+            "created": "2023-09-08T07:00:22.188Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-08T07:00:22.188Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8597"
         }
     ],
+    "id": "a6d6cbfe-f86a-47cf-a112-c3a599628edb.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0318",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1437.5345458984375,432.6371765136719 1413.6319580078125,3294.974365234375 2686.44580078125,3277.04736328125 2614.738037109375,2715.336181640625 2130.710205078125,2775.0927734375 2531.078857421875,384.83197021484375\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0318",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "a6d6cbfe-f86a-47cf-a112-c3a599628edb.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
