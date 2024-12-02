@@ -25,6 +25,16 @@ order: 1
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q9382"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L52",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T10:30:29.706Z"
         }
     ],
     "id": "be67487d-33a4-4975-b23d-fe3380dae500.json",
