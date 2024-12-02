@@ -38,14 +38,14 @@ order: 5
             "value": "Photo : Claude Martel"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L92",
+            "created": "2024-12-02T16:27:45.442Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-02T16:27:45.442Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L92"
         }
     ],
     "id": "007861e8-a9fc-4d60-971b-c9206c0f8ca3.json",
