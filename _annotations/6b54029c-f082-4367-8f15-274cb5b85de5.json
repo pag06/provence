@@ -27,30 +27,19 @@ order: 1
             "value": "Q8282"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L33",
+            "created": "2024-12-02T10:01:32.156Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-02T10:01:32.156Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L33"
         }
     ],
     "id": "6b54029c-f082-4367-8f15-274cb5b85de5.json",
     "motivation": "commenting",
     "target": {
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
-            "type": "Manifest"
-        },
-        "renderedVia": {
-            "name": "annotorious-tilted-box"
-        },
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"3562.5517578125,223.44186401367188 4937.84521484375,226.9060821533203 4935.672237441642,1089.5773929441696 3560.3787804103918,1086.1131748045211\" /></svg>"
-        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
@@ -58,6 +47,13 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0170",
             "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"3574.9833984375,225.5137939453125 4950.27685546875,228.97801208496094 4948.126630550575,1082.6165942707905 3572.8331735193246,1079.152376131142\"></polygon></svg>"
+        },
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
         }
     },
     "type": "Annotation"
