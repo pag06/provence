@@ -28,14 +28,24 @@ order: 7
             "value": "Photo : Claude Martel"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L70",
+            "created": "2024-12-02T16:31:25.260Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-02T16:31:25.260Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L70"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9727",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T16:33:19.218Z"
         }
     ],
     "id": "260f7142-794b-426e-baef-5ac1c4c5278d.json",
