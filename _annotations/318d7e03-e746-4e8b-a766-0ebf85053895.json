@@ -8,13 +8,13 @@ order: 3
         {
             "created": "2023-09-06T19:58:11.815Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-06T19:59:54.896Z",
+            "modified": "2024-12-02T12:11:24.756Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Rouleau tronconique en pierre-de-Marne (molasse) \u00e0 Saint-Michel-l'Observatoire, Alpes-de-Hte-Provence (canton de Forcalquier)\nlong. 70cm\ndiam\u00e8tre large : 156cm\ndiam\u00e8tre \u00e9troit : 140cm\n[\u2026]\n"
+            "value": "Rouleau tronconique en pierre-de-Marne (molasse) \u00e0 Saint-Michel-l'Observatoire, Alpes-de-Hte-Provence (canton de Forcalquier) [lu \u0280ul\u02c8\u025bw de p\u02c8ej\u0280\u0153]\nlong. 70cm\ndiam\u00e8tre large : 156cm\ndiam\u00e8tre \u00e9troit : 140cm\n"
         },
         {
             "created": "2023-09-06T20:00:17.775Z",
@@ -38,14 +38,14 @@ order: 3
             "value": "Photo : Pierre Martel"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L100",
+            "created": "2023-09-10T05:51:21.716Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-10T05:51:21.716Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L100"
         }
     ],
     "id": "318d7e03-e746-4e8b-a766-0ebf85053895.json",
@@ -62,7 +62,14 @@ order: 3
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1664.310546875,1477.1810302734375 2575.597412109375,1474.1932373046875 2578.516537519214,2364.5362670198083 1667.2296722848391,2367.5240599885583\" /></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0311"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0311",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
