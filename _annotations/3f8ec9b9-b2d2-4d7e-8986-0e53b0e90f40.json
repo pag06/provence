@@ -28,34 +28,44 @@ order: 3
             "value": "Photo : Pierre Martel"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q11531",
+            "created": "2024-12-02T14:27:43.131Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-02T14:27:43.131Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q11531"
+        },
+        {
+            "created": "2024-12-02T14:27:50.819Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8653"
+        },
+        {
+            "created": "2024-12-02T14:27:54.262Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L100"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q8653",
+            "value": "L136",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-02T14:27:50.819Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L100",
-            "creator": {
-                "id": "pag06",
-                "name": "pag06"
-            },
-            "created": "2024-12-02T14:27:54.262Z"
+            "created": "2024-12-02T14:30:12.592Z"
         }
     ],
     "id": "3f8ec9b9-b2d2-4d7e-8986-0e53b0e90f40.json",
