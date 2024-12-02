@@ -8,13 +8,13 @@ order: 3
         {
             "created": "2023-09-08T17:45:53.194Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-08T17:49:10.464Z",
+            "modified": "2024-12-02T17:23:05.393Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Balance romaine qui servait - entre autres usage - \u00e0 peser les trousses de fleurs de lavande, \u00e0 Lagarde d'Apt, Vaucluse, car le coupeur est pay\u00e9 au poids de fleurs coup\u00e9es. [...]"
+            "value": "Balance romaine qui servait - entre autres usage - \u00e0 peser les trousses de fleurs de lavande, \u00e0 Lagarde d'Apt, Vaucluse, car le coupeur est pay\u00e9 au poids de fleurs coup\u00e9es. [lu p\u025bs, la rum\u02c8ana]"
         },
         {
             "created": "2023-09-08T17:49:37.672Z",
@@ -38,14 +38,14 @@ order: 3
             "value": "Dessin : Marcel Gaillard"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L109",
+            "created": "2023-09-10T06:01:11.855Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-10T06:01:11.855Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L109"
         }
     ],
     "id": "ea328fcf-ee78-4db3-84f1-92feb83b3484.json",
@@ -59,7 +59,14 @@ order: 3
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"4828.41796875,1264.4478759765625 4529.6357421875,1264.4478759765625 3334.505126953125,1557.2548828125 2073.642578125,1605.06005859375 2067.6669921875,1760.427001953125 3908.167724609375,1915.7939453125 3961.94873046875,2429.699951171875 4959.88232421875,2447.626953125 4965.85791015625,2083.1123046875 4888.1748046875,1706.6461181640625 4804.515625,1712.621826171875 4786.58837890625,1611.03564453125 4882.19921875,1557.2548828125\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0324"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0324",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
