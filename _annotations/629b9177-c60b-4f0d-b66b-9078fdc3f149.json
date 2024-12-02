@@ -3,55 +3,62 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0313"
 order: 6
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Le battage m\u00e9canique \u00e0 la batteuse \u00e0 Forcalquier, Alpes-de-Hte-Provence (point L100) en 1922. On voit, \u00e0 gauche, le gerbier allong\u00e9 et \u00e0 droite, au fond, la meulle de paille, de m\u00eame forme. La batteuse est actionn\u00e9e par le volant d'un tracteur, qui commen\u00e7ait, \u00e0 cette \u00e9poque, \u00e0 remplacer la locomobile \u00e0 vapeur.\n-la batteuse : [\u2026]\n- la meule de paille : [\u2026]\n-le gerbier : [\u2026]\n-le personnage sur la batteuse (coupeur de gerbes) : [\u2026]\n-le personnage \u00e0 demi-cach\u00e9, sur la batteuse (l'engreneur) : [\u2026]\n-le personnage au pied de la batteuse, qui \"fait\" les sacs : [\u2026]\n-les sacs pleins, au 1er plan : [\u2026]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-07T18:03:29.413Z",
-            "modified": "2023-09-07T18:06:56.300Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-02T13:10:19.685Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Technique de battage : le battage m\u00e9canique \u00e0 la batteuse \u00e0 Forcalquier, Alpes-de-Hte-Provence (point L100) en 1922. \nOn voit, \u00e0 gauche, le gerbier allong\u00e9 et \u00e0 droite, au fond, la meulle de paille, de m\u00eame forme. La batteuse est actionn\u00e9e par le volant d'un tracteur, qui commen\u00e7ait, \u00e0 cette \u00e9poque, \u00e0 remplacer la locomobile \u00e0 vapeur.\n- la batteuse : [la ba\u02c8\u028fz\u0153]\n- la meule de paille : [la paj\u02cc\u025br\u0153]\n- le gerbier : [la \u0261arbj\u02c8\u025br\u0153]\n- le personnage sur la batteuse (coupeur de gerbes) : [lu kup\u02c8ajre]\n- le personnage \u00e0 demi-cach\u00e9, sur la batteuse (l'engreneur) : [l e\u0303\u0261ren\u02c8ajre]\n-le personnage au pied de la batteuse, qui \"fait\" les sacs : [l esak\u02c8ajre]\n-les sacs pleins, au 1er plan : [les s\u02c8at\u0283\u0153]"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L100",
+            "created": "2023-09-07T18:07:03.065Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-07T18:07:03.065Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L100"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q984",
+            "created": "2023-09-07T18:07:16.347Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-07T18:07:16.347Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q984"
         }
     ],
+    "id": "629b9177-c60b-4f0d-b66b-9078fdc3f149.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0313",
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"2561.660888671875,2247.89990234375 4518.42626953125,2244.44873046875 4520.550583195384,3448.904372384424 2563.785202336009,3452.355544259424\" /></svg>"
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
         },
         "renderedVia": {
             "name": "annotorious-tilted-box"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
-            "type": "Manifest"
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"2561.660888671875,2247.89990234375 4518.42626953125,2244.44873046875 4520.550583195384,3448.904372384424 2563.785202336009,3452.355544259424\" /></svg>"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0313",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "629b9177-c60b-4f0d-b66b-9078fdc3f149.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
