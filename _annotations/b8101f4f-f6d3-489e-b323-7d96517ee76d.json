@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0317"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Moulin \u00e0 huile \u00e0 Glandage, Dr\u00f4me (point L33) : la presse \u00e0 huile, avec la grosse vis en bois : [\u2026]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T06:39:45.295Z",
-            "modified": "2023-09-08T06:40:26.105Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-02T14:18:23.367Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Moulin \u00e0 huile \u00e0 Glandage, Dr\u00f4me (point L33) : la presse \u00e0 huile, avec la grosse vis en bois : [la p\u0280\u025bs a i \u0265\u02c8e\u0280i]"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-08T06:40:29.958Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L33",
+            "type": "TextualBody",
+            "value": "L33"
+        },
+        {
+            "created": "2023-09-08T06:40:34.526Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-08T06:40:29.958Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q6798",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-08T06:40:34.526Z"
+            "type": "TextualBody",
+            "value": "Q6798"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo :  J.C. Bouvier",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T06:55:56.968Z",
-            "modified": "2023-09-08T06:56:05.477Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-08T06:56:05.477Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo :  J.C. Bouvier"
         }
     ],
+    "id": "b8101f4f-f6d3-489e-b323-7d96517ee76d.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0317",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1526.57177734375,158.65359497070312,1349.899658203125,908.8965759277344"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1526.57177734375,158.65359497070312,1349.899658203125,908.8965759277344"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0317",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "b8101f4f-f6d3-489e-b323-7d96517ee76d.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
