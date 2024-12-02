@@ -8,13 +8,13 @@ order: 7
         {
             "created": "2023-09-08T17:16:42.368Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-08T17:18:29.980Z",
+            "modified": "2024-12-02T17:05:47.151Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "La serpette \u00e0 vigne : autres formes : [...]\nA : \u00e0 Apt, avec manche en corne : 21cm.\nB : \u00e0 Villars (canton d'Apt) avec manche en bois ; 24cm"
+            "value": "La serpette \u00e0 vigne : autres formes : [lu pud\u02c8e]\nA : \u00e0 Apt, avec manche en corne : 21cm.\nB : \u00e0 Villars (canton d'Apt) avec manche en bois ; 24cm"
         },
         {
             "created": "2023-09-08T17:18:36.130Z",
@@ -37,15 +37,15 @@ order: 7
             "value": "Q9385"
         },
         {
-            "type": "TextualBody",
-            "value": "Dessin : Marcel Gaillard",
-            "purpose": "identifying",
+            "created": "2023-09-08T17:20:18.998Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-08T17:20:18.998Z",
-            "modified": "2023-09-08T17:20:21.673Z"
+            "modified": "2023-09-08T17:20:21.673Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Dessin : Marcel Gaillard"
         }
     ],
     "id": "850cf73d-691c-4427-86cd-298e40003c73.json",
@@ -59,7 +59,14 @@ order: 7
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"2799.654541015625,1898.3896484375 3900.5048828125,1898.3896484375 3946.6943359375,3241.735107421875 3142.226806640625,3257.131591796875 3119.132080078125,2929.955810546875 3030.60205078125,2926.106689453125 2718.82275390625,3364.9072265625 2753.46484375,2571.98681640625 3326.98486328125,2564.28857421875 3115.282958984375,2291.000732421875 3142.226806640625,2194.7724609375 3065.244140625,2194.7724609375 2872.787841796875,2514.25\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0322"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0322",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
