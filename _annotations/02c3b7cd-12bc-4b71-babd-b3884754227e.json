@@ -3,55 +3,72 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0313"
 order: 5
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Le r\u00e2ble pour retirer le bl\u00e9 de l'aire \u00e0 St-Nazaire-le-D\u00e9sert, Dr\u00f4me (point L41) et la \"bounde\" en paille de seigle pour mettre le grain (voir aussi pl. VI) [...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-07T18:01:34.682Z",
-            "modified": "2023-09-07T18:02:42.060Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-02T13:05:53.939Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Le r\u00e2ble [\u0280j\u02c8able] pour retirer le bl\u00e9 de l'aire \u00e0 St-Nazaire-le-D\u00e9sert, Dr\u00f4me (point L41) et la \"bounde\" [b\u02c8u\u0303\u207fd\u0254] en paille de seigle pour mettre le grain."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L41",
+            "created": "2023-09-07T18:02:47.328Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-07T18:02:47.328Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L41"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8465",
+            "created": "2023-09-07T18:03:08.806Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-07T18:03:08.806Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8465"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2619",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T13:06:57.068Z"
         }
     ],
+    "id": "02c3b7cd-12bc-4b71-babd-b3884754227e.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0313",
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"4073.236328125,2082.247802734375 5039.5400390625,2085.69873046875 5042.6451306191775,1216.2335532844832 4076.341419681678,1212.7826255501082\" /></svg>"
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
         },
         "renderedVia": {
             "name": "annotorious-tilted-box"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
-            "type": "Manifest"
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"4073.236328125,2082.247802734375 5039.5400390625,2085.69873046875 5042.6451306191775,1216.2335532844832 4076.341419681678,1212.7826255501082\" /></svg>"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0313",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "02c3b7cd-12bc-4b71-babd-b3884754227e.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
