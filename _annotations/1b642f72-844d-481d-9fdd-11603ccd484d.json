@@ -27,16 +27,6 @@ order: 1
             "value": "L89"
         },
         {
-            "created": "2023-09-08T17:23:37.987Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q???"
-        },
-        {
             "created": "2023-09-08T17:40:57.987Z",
             "creator": {
                 "id": "ej7320",
@@ -46,11 +36,26 @@ order: 1
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Carte postale ancienne ; collection \"Alpes de Lumi\u00e8res\""
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5944",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T17:11:36.835Z"
         }
     ],
     "id": "1b642f72-844d-481d-9fdd-11603ccd484d.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1752.80419921875,270.3367919921875,1881.0687255859375,1056.5855102539062"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
@@ -58,11 +63,6 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0323",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1752.80419921875,270.3367919921875,1881.0687255859375,1056.5855102539062"
         }
     },
     "type": "Annotation"
