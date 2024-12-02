@@ -3,32 +3,60 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0314"
 order: 6
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Aucune l\u00e9gende",
-            "purpose": "questioning",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-07T18:21:01.061Z",
-            "modified": "2023-09-07T18:21:14.245Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-02T13:40:16.039Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "[pelle \u00e0 vanner]"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Pas d'identification sur la planche",
+            "purpose": "identifying",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T13:40:21.479Z",
+            "modified": "2024-12-02T13:40:38.396Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q7494",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T13:40:55.675Z"
         }
     ],
+    "id": "1c418592-7313-40dd-b301-dacb223170aa.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0314",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"4825.43017578125,648.955810546875 4825.43017578125,2304.21142578125 5004.69970703125,2704.580078125 4992.74853515625,3427.6337890625 4275.67041015625,3415.6826171875 4401.1591796875,2997.386962890625 4431.037109375,2459.578369140625 4628.23388671875,619.0775146484375\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0314",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "1c418592-7313-40dd-b301-dacb223170aa.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
