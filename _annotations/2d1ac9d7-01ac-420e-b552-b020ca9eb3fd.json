@@ -3,43 +3,61 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0155"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "L'\u00e9chelier, \u00e9chelle pointue",
-            "purpose": "commenting",
+            "created": "2023-09-06T19:17:02.094Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-06T19:17:02.094Z",
-            "modified": "2023-09-06T19:17:08.282Z"
+            "modified": "2023-09-06T19:17:08.282Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "L'\u00e9chelier, \u00e9chelle pointue"
+        },
+        {
+            "created": "2023-09-06T19:17:15.015Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q3623"
         },
         {
             "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q3623",
+            "value": "Sans localisation",
+            "purpose": "identifying",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-09-06T19:17:15.015Z"
+            "created": "2024-12-02T09:58:35.187Z",
+            "modified": "2024-12-02T09:58:45.204Z"
         }
     ],
+    "id": "2d1ac9d7-01ac-420e-b552-b020ca9eb3fd.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0155",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=796.3762817382812,1464.496826171875,344.68939208984375,703.235595703125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=796.3762817382812,1464.496826171875,344.68939208984375,703.235595703125"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0155",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "2d1ac9d7-01ac-420e-b552-b020ca9eb3fd.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
