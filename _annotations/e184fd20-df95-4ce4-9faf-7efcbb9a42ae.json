@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0323"
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Coupeurs de lavandin \u00e0 Simiane, Alpes-de-Hte-Provence en 1977. Le lavandin, hybride de la lavande (Lavandulavera) et de l'Aspic, (lavandula latifolia) a \u00e9t\u00e9 d\u00e9couvert au d\u00e9but de ce si\u00e8cle, d'abord comme curiosit\u00e9 botanique, ensuite comme esp\u00e8ce de culture, qui a rapidement concurrenc\u00e9 celle de la lavande, \u00e0 cause de la sup\u00e9riorit\u00e9 de son rendement. Les coupeurs coupent les tiges avec une faucille ordinaire et les lient en gerbes qu'ils laissent entre les raies. Ces gerbes sont ensuite redress\u00e9es pour les faire s\u00e9cher pendant 1 jour ou 2, puis charg\u00e9es sur les remorques des tracteurs, munies de hautes \u00e9chelettes, au moment d'\u00eatre apport\u00e9es \u00e0 la distillerie. Ce trabail se fait actuellement \u00e0 la machine dans beaucoup d'exploitations. Les coupeurs sont (ou \u00e9taient) la plupart du temps, des saisonniers espagnols ou portuguais.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T17:26:25.766Z",
-            "modified": "2023-09-08T17:30:48.783Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-02T17:13:47.227Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Coupeurs de lavandin \u00e0 Simiane, Alpes-de-Hte-Provence en 1977. \nLe lavandin, hybride de la lavande (Lavandulavera) et de l'Aspic, (lavandula latifolia) a \u00e9t\u00e9 d\u00e9couvert au d\u00e9but de ce si\u00e8cle, d'abord comme curiosit\u00e9 botanique, ensuite comme esp\u00e8ce de culture, qui a rapidement concurrenc\u00e9 celle de la lavande, \u00e0 cause de la sup\u00e9riorit\u00e9 de son rendement. Les coupeurs coupent les tiges avec une faucille ordinaire et les lient en gerbes qu'ils laissent entre les raies. Ces gerbes sont ensuite redress\u00e9es pour les faire s\u00e9cher pendant 1 jour ou 2, puis charg\u00e9es sur les remorques des tracteurs, munies de hautes \u00e9chelettes, au moment d'\u00eatre apport\u00e9es \u00e0 la distillerie. Ce trabail se fait actuellement \u00e0 la machine dans beaucoup d'exploitations. Les coupeurs sont (ou \u00e9taient) la plupart du temps, des saisonniers espagnols ou portuguais."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-08T17:31:19.453Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-08T17:31:39.575Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Photo : Jack Burot, Simiane",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T17:42:24.210Z",
-            "modified": "2023-09-08T17:42:37.696Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-08T17:42:37.696Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Jack Burot, Simiane"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5944",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T17:14:09.185Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L89",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T17:15:15.275Z"
         }
     ],
+    "id": "e184fd20-df95-4ce4-9faf-7efcbb9a42ae.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0323",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1991.4774169921875,1361.1041259765625,1520.8033447265625,1036.7755126953125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1991.4774169921875,1361.1041259765625,1520.8033447265625,1036.7755126953125"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0323",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "e184fd20-df95-4ce4-9faf-7efcbb9a42ae.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
