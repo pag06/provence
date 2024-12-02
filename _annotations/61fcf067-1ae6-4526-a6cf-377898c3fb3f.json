@@ -3,66 +3,83 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0310"
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Mode d'entassement des gerbes sur ce gerbier \u00e0 Barret-le-Bas.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-06T19:36:48.340Z",
-            "modified": "2023-09-06T19:37:12.427Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-02T11:52:43.365Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Mode d'entassement des gerbes sur ce gerbier."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-06T19:37:16.390Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L58",
+            "type": "TextualBody",
+            "value": "L58"
+        },
+        {
+            "created": "2023-09-06T19:37:22.120Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-06T19:37:16.390Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q5106",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-06T19:37:22.120Z"
+            "type": "TextualBody",
+            "value": "Q5106"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-06T19:47:02.518Z",
-            "modified": "2023-09-06T19:47:05.192Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-06T19:47:05.192Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9815",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T11:52:55.583Z"
         }
     ],
+    "id": "61fcf067-1ae6-4526-a6cf-377898c3fb3f.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0310",
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"4038.438720703125,199.27125549316406 4964.5224609375,202.3175811767578 4961.4561922078055,1134.4640122206465 4035.3724519734305,1131.4176865370528\" /></svg>"
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
         },
         "renderedVia": {
             "name": "annotorious-tilted-box"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
-            "type": "Manifest"
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"4038.438720703125,199.27125549316406 4964.5224609375,202.3175811767578 4961.4561922078055,1134.4640122206465 4035.3724519734305,1131.4176865370528\" /></svg>"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0310",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "61fcf067-1ae6-4526-a6cf-377898c3fb3f.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
