@@ -11,10 +11,10 @@ order: 8
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-12-02T12:01:33.079Z",
+            "modified": "2024-12-02T12:03:12.395Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Le gros gerbier de 100 \u00e0 120 gerbes de bl\u00e9 assembl\u00e9 sur le champ \u00e0 La Chapelle-en-Valgaudemar, Hautes-Alpes [lu dz\u025brbj\u02c8e]\nCe type de gerbier peut aller jusqu'\u00e0 200 gerbes selon les cas."
+            "value": "Le gros gerbier de 100 \u00e0 120 gerbes de bl\u00e9 assembl\u00e9 sur le champ \u00e0 La Chapelle-en-Valgaudemar, Hautes-Alpes [lu dz\u025b\u0280bj\u02c8e]\nCe type de gerbier peut aller jusqu'\u00e0 200 gerbes selon les cas."
         },
         {
             "created": "2023-09-06T19:44:10.687Z",
@@ -48,14 +48,14 @@ order: 8
             "value": "Photo : Claude Martel"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9815",
+            "created": "2024-12-02T12:01:46.844Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-02T12:01:46.844Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9815"
         }
     ],
     "id": "38031d03-6b16-4aa7-95f9-94d114c945fb.json",
