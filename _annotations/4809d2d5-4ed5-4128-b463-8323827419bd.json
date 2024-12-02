@@ -28,24 +28,24 @@ order: 2
             "value": "Dessin : Marcel Gaillard"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L109",
+            "created": "2024-12-02T12:49:11.385Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-02T12:49:11.385Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L109"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q969",
+            "created": "2024-12-02T12:49:18.242Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-02T12:49:18.242Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q969"
         }
     ],
     "id": "4809d2d5-4ed5-4128-b463-8323827419bd.json",
