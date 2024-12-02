@@ -27,15 +27,26 @@ order: 1
             "value": "Q4133"
         },
         {
+            "created": "2024-12-02T09:57:44.158Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-02T09:58:06.554Z",
+            "purpose": "identifying",
             "type": "TextualBody",
-            "value": "Sans localisation",
+            "value": "Sans localisation"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Dessin : Marcel Gaillard",
             "purpose": "identifying",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-02T09:57:44.158Z",
-            "modified": "2024-12-02T09:58:06.554Z"
+            "created": "2024-12-02T10:39:31.276Z",
+            "modified": "2024-12-02T10:39:38.024Z"
         }
     ],
     "id": "de0e6c42-84e9-4220-8b3a-27ffccdac649.json",
