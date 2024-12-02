@@ -3,52 +3,59 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0318"
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "[...] \u00e0 Embrun (Hautes-Alpes)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T07:00:42.348Z",
-            "modified": "2023-09-08T07:00:51.775Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-02T14:52:05.984Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "[lu bi\u0261\u02c8\u0254] \u00e0 Embrun (Hautes-Alpes)"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L???",
+            "created": "2023-09-08T07:02:05.838Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-08T07:02:05.838Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L???"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8597",
+            "created": "2023-09-08T07:02:12.066Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-08T07:02:12.066Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8597"
         }
     ],
+    "id": "4fa6971a-c574-480d-9d66-78a83aa7eca7.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0318",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"3612.671875,946.543212890625 3003.1552734375,2918.50830078125 2776.08056640625,2972.2890625 2788.031982421875,3432.414306640625 4234.1396484375,3456.31689453125 4156.4560546875,1233.37451171875\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0318",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "4fa6971a-c574-480d-9d66-78a83aa7eca7.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
