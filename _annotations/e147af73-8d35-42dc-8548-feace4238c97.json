@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0321"
 order: 9
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Vigne sur \u00e9chalas \u00e0 Chabrillan, Dr\u00f4me, (point L28) avec \u00e9chalas de diff\u00e9rentes tailles. Les gros piquets en t\u00eate de raie s'appellent [...]\nLes piques plus courtes au milieu [...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T16:52:58.886Z",
-            "modified": "2023-09-08T16:53:02.882Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-02T16:34:29.280Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Vigne sur \u00e9chalas \u00e0 Chabrillan, Dr\u00f4me, (point L28) avec \u00e9chalas de diff\u00e9rentes tailles. \nLes gros piquets en t\u00eate de raie s'appellent [lej pik\u02c8\u025bj]\nLes piques plus courtes au milieu [lej pal\u02c8\u025bj]"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-08T16:53:08.077Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L28",
+            "type": "TextualBody",
+            "value": "L28"
+        },
+        {
+            "created": "2023-09-08T16:53:11.648Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-08T16:53:08.077Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q10714",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-08T16:53:11.648Z"
+            "type": "TextualBody",
+            "value": "Q10714"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : J.C. Bouvier",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T16:54:49.361Z",
-            "modified": "2023-09-08T16:54:52.084Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-08T16:54:52.084Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : J.C. Bouvier"
         }
     ],
+    "id": "e147af73-8d35-42dc-8548-feace4238c97.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0321",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3856.777099609375,2388.468017578125,1236.960205078125,932.20166015625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3856.777099609375,2388.468017578125,1236.960205078125,932.20166015625"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0321",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "e147af73-8d35-42dc-8548-feace4238c97.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
