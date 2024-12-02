@@ -27,14 +27,24 @@ order: 1
             "value": "Q8597"
         },
         {
-            "created": "2023-09-08T06:59:04.201Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "L???"
+            "purpose": "tagging",
+            "value": "L80",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T14:50:49.901Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L81",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T14:50:53.845Z"
         }
     ],
     "id": "62285af6-8678-4012-ae32-6a7c90e50606.json",
