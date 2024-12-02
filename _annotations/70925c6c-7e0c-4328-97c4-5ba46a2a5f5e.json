@@ -27,16 +27,6 @@ order: 5
             "value": "L81"
         },
         {
-            "created": "2023-09-08T16:34:39.427Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q???"
-        },
-        {
             "created": "2023-09-08T16:39:53.100Z",
             "creator": {
                 "id": "ej7320",
@@ -46,6 +36,26 @@ order: 5
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Pierre Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8675",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T15:27:42.560Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8679",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T15:27:49.238Z"
         }
     ],
     "id": "70925c6c-7e0c-4328-97c4-5ba46a2a5f5e.json",
