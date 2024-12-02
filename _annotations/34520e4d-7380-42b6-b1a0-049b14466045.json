@@ -8,13 +8,13 @@ order: 3
         {
             "created": "2023-09-07T17:47:28.577Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-10T05:49:45.471Z",
+            "modified": "2024-12-02T12:53:35.750Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Tourniquet en fer pour deux chevaux \u00e0 St-Julien-le-Montagn\u00e9, Var (point L128)\nlong. 49cm\n[\u2026]"
+            "value": "Tourniquet en fer pour deux chevaux \u00e0 St-Julien-le-Montagn\u00e9, Var (point L128) [lu tu\u0280nik\u02c8e]\nlong. 49cm"
         },
         {
             "created": "2023-09-07T17:48:13.968Z",
@@ -27,16 +27,6 @@ order: 3
             "value": "L128"
         },
         {
-            "created": "2023-09-07T17:48:16.104Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q???"
-        },
-        {
             "created": "2023-09-07T17:50:51.669Z",
             "creator": {
                 "id": "ej7320",
@@ -46,6 +36,16 @@ order: 3
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Dessin : Marcel Gaillard"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q969",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T12:53:46.988Z"
         }
     ],
     "id": "34520e4d-7380-42b6-b1a0-049b14466045.json",
@@ -59,7 +59,14 @@ order: 3
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"2288.95947265625,1688.189453125 2495.64990234375,1683.268310546875 2530.098388671875,1983.461669921875 3420.8359375,2052.3583984375 3440.520751953125,3474.585693359375 2229.905029296875,3489.349365234375\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0312"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0312",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
