@@ -8,13 +8,13 @@ order: 3
         {
             "created": "2023-09-08T17:07:06.876Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-08T17:07:24.763Z",
+            "modified": "2024-12-02T17:01:00.496Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Le couteau scie utilis\u00e9 pour le jardin ou la vigne \u00e0 Apt, Vaucluse [...]"
+            "value": "Le couteau scie utilis\u00e9 pour le jardin ou la vigne \u00e0 Apt, Vaucluse [lu sar'e]"
         },
         {
             "created": "2023-09-08T17:07:28.840Z",
@@ -37,15 +37,15 @@ order: 3
             "value": "Q9245"
         },
         {
-            "type": "TextualBody",
-            "value": "Dessin : Marcel Gaillard",
-            "purpose": "identifying",
+            "created": "2023-09-08T17:20:13.855Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-08T17:20:13.855Z",
-            "modified": "2023-09-08T17:20:16.639Z"
+            "modified": "2023-09-08T17:20:16.639Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Dessin : Marcel Gaillard"
         }
     ],
     "id": "91e981bd-d616-4ef3-9ed1-81c1ce6d440c.json",
@@ -59,7 +59,14 @@ order: 3
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"4381.64599609375,266.359619140625 4955.166015625,262.5104675292969 4943.61865234375,1856.0491943359375 4666.4814453125,1906.087890625 4635.6884765625,2048.505615234375 4474.02490234375,2036.9581298828125\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0322"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0322",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
