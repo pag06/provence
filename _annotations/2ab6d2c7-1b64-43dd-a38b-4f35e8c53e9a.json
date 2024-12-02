@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-09-08T17:43:37.253Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-08T17:43:54.747Z",
+            "modified": "2024-12-02T17:18:18.651Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Alembic \u00e0 Lagarde-d'Apt, Vaucluse : [...]"
+            "value": "Alambic pour distiller la lavande \u00e0 Lagarde-d'Apt, Vaucluse : [...]"
         },
         {
             "created": "2023-09-08T17:44:10.205Z",
@@ -38,14 +38,14 @@ order: 1
             "value": "Dessin : Marcel Gaillard"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L109",
+            "created": "2023-09-10T06:00:58.381Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-10T06:00:58.381Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L109"
         }
     ],
     "id": "2ab6d2c7-1b64-43dd-a38b-4f35e8c53e9a.json",
@@ -59,7 +59,14 @@ order: 1
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1410.3453369140625,200.78189086914062 3394.26171875,242.6114501953125 3412.188720703125,1455.668701171875 2234.9853515625,1557.2548828125 1499.9801025390625,1527.3765869140625 1446.19921875,1389.9365234375 1392.4183349609375,1389.9365234375\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0324"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0324",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
