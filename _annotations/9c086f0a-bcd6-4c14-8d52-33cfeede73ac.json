@@ -27,16 +27,6 @@ order: 1
             "value": "L100"
         },
         {
-            "created": "2023-09-07T17:45:33.416Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q???"
-        },
-        {
             "created": "2023-09-07T17:50:17.105Z",
             "creator": {
                 "id": "ej7320",
@@ -46,6 +36,36 @@ order: 1
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Pierre Nalin 1912"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9035",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T12:21:31.193Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q7542",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T12:23:12.890Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q10131",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T12:24:05.147Z"
         }
     ],
     "id": "9c086f0a-bcd6-4c14-8d52-33cfeede73ac.json",
