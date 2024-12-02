@@ -27,25 +27,25 @@ order: 5
             "value": "L113"
         },
         {
-            "created": "2023-09-08T17:13:53.309Z",
+            "created": "2023-09-08T17:20:23.943Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "purpose": "tagging",
+            "modified": "2023-09-08T17:20:26.775Z",
+            "purpose": "identifying",
             "type": "TextualBody",
-            "value": "Q???"
+            "value": "Dessin : Marcel Gaillard"
         },
         {
             "type": "TextualBody",
-            "value": "Dessin : Marcel Gaillard",
-            "purpose": "identifying",
+            "purpose": "tagging",
+            "value": "Q9727",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-09-08T17:20:23.943Z",
-            "modified": "2023-09-08T17:20:26.775Z"
+            "created": "2024-12-02T17:02:22.692Z"
         }
     ],
     "id": "19d8aae3-bd63-4d77-bf61-d86ecc68c19f.json",
@@ -59,7 +59,14 @@ order: 5
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"4035.224365234375,1779.0667724609375 4620.2919921875,2448.81494140625 4651.0849609375,3403.3984375 4196.8876953125,3399.54931640625 3958.241943359375,1925.33349609375\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0322"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0322",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
