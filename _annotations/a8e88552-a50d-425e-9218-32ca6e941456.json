@@ -3,65 +3,72 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0313"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Planche \u00e0 battre la gerbe pos\u00e9e sur deux pieds au Lavercq, Alpes-de-Hte-Provence (canton du Lauzet point L49) ; long.1m. \nla planche [...]\ncelui qui fait le travail [...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-07T17:56:00.870Z",
-            "modified": "2023-09-07T17:56:51.603Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-02T13:00:44.947Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Technique de battage : planche \u00e0 battre la gerbe pos\u00e9e sur deux pieds au Lavercq, Alpes-de-Hte-Provence (canton du Lauzet point L49) [l esba\u0280bw\u02c8i\u0280\u0153]\nLong.1 m. \nCelui qui fait le travail [l esba\u0280b\u02c8aj\u0280e]"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L49",
+            "created": "2023-09-07T17:56:56.888Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-07T17:56:56.888Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L49"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C360",
+            "created": "2023-09-07T17:57:11.143Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-07T17:57:11.143Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C360"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q???",
+            "value": "Q969",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-09-07T17:57:12.542Z"
+            "created": "2024-12-02T13:01:00.205Z"
         }
     ],
+    "id": "a8e88552-a50d-425e-9218-32ca6e941456.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0313",
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"3021.679931640625,172.09877014160156 4046.205322265625,164.03163146972656 4057.2075732099024,1561.3158365545994 3032.6821825849024,1569.3829752264744\" /></svg>"
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
         },
         "renderedVia": {
             "name": "annotorious-tilted-box"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
-            "type": "Manifest"
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"3021.679931640625,172.09877014160156 4046.205322265625,164.03163146972656 4057.2075732099024,1561.3158365545994 3032.6821825849024,1569.3829752264744\" /></svg>"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0313",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "a8e88552-a50d-425e-9218-32ca6e941456.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
