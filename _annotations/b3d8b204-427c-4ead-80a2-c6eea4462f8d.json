@@ -17,24 +17,24 @@ order: 3
             "value": "[bet\u0283\u02c8as a t\u0280\u025bs b\u02c8an\u0254] Carpentras, Vaucluse. Outil avec t\u00eate de frappe pour casser les mottes. \nHaut. 38cm., de face et de profil"
         },
         {
-            "created": "2023-09-08T07:10:55.794Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "L???"
+            "purpose": "tagging",
+            "value": "L92",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T15:05:41.048Z"
         },
         {
-            "created": "2023-09-08T07:11:01.862Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "Q???"
+            "purpose": "tagging",
+            "value": "Q5562",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T15:05:55.760Z"
         }
     ],
     "id": "b3d8b204-427c-4ead-80a2-c6eea4462f8d.json",
