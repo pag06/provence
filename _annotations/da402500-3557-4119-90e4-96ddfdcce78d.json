@@ -8,13 +8,13 @@ order: 4
         {
             "created": "2023-09-08T17:09:25.136Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-08T17:11:07.835Z",
+            "modified": "2024-12-02T17:03:58.010Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "La serpette \u00e0 vigne qui sert \u00e9galement \u00e0 tailler les oliviers \u00e0 Apt. Long. : 35 cm.[...]"
+            "value": "La serpette \u00e0 vigne qui sert \u00e9galement \u00e0 tailler les oliviers \u00e0 Apt. [la pudadw'ir\u0254]\nLong. : 35 cm"
         },
         {
             "created": "2023-09-08T17:09:48.140Z",
@@ -37,15 +37,15 @@ order: 4
             "value": "Q9385"
         },
         {
-            "type": "TextualBody",
-            "value": "Dessin : Marcel Gaillard",
-            "purpose": "identifying",
+            "created": "2023-09-08T17:20:02.776Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-08T17:20:02.776Z",
-            "modified": "2023-09-08T17:20:05.448Z"
+            "modified": "2023-09-08T17:20:05.448Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Dessin : Marcel Gaillard"
         }
     ],
     "id": "da402500-3557-4119-90e4-96ddfdcce78d.json",
@@ -59,7 +59,14 @@ order: 4
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1648.7655029296875,1147.8096923828125 2718.82275390625,1163.2061767578125 2741.91748046875,2010.0142822265625 2349.306640625,2056.203857421875 2345.45751953125,2267.90576171875 1964.3939208984375,2291.00048828125\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0322"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0322",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
