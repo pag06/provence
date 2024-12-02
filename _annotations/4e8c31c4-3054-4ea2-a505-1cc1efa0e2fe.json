@@ -47,15 +47,15 @@ order: 1
             "value": "C668"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel",
-            "purpose": "commenting",
+            "created": "2024-12-02T10:42:48.488Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-02T10:42:48.488Z",
-            "modified": "2024-12-02T10:42:57.144Z"
+            "modified": "2024-12-02T10:42:57.144Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel"
         }
     ],
     "id": "4e8c31c4-3054-4ea2-a505-1cc1efa0e2fe.json",
