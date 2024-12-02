@@ -11,20 +11,10 @@ order: 1
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-12-02T17:18:18.651Z",
+            "modified": "2024-12-02T17:19:38.413Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Alambic pour distiller la lavande \u00e0 Lagarde-d'Apt, Vaucluse : [...]"
-        },
-        {
-            "created": "2023-09-08T17:44:10.205Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q???"
+            "value": "Alambic pour distiller la lavande \u00e0 Lagarde-d'Apt, Vaucluse : [l ala\u0303bi, lu pejr\u02c8\u0254w]"
         },
         {
             "created": "2023-09-08T17:59:15.986Z",
@@ -46,6 +36,16 @@ order: 1
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "L109"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q160",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T17:20:07.697Z"
         }
     ],
     "id": "2ab6d2c7-1b64-43dd-a38b-4f35e8c53e9a.json",
