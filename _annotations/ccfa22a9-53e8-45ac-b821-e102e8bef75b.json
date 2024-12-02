@@ -3,66 +3,73 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0315"
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Deux \"paillouses\" d'aire de 20 et 25l. \u00e0 la Javie, Alpes-de-Hte-Provence (point L69) : [...]\nElles servaient \u00e0 recevoir le grain vann\u00e9 et \u00e0 le mettre dans les sacs. Leur forme rappelle celles des \"[...]\", mesures de capacit\u00e9 d'environ 25l., ant\u00e9rieure au syst\u00e8me m\u00e9trique.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-07T18:27:51.550Z",
-            "modified": "2023-09-07T18:29:27.472Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-02T13:51:43.278Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Deux \"paillouses\" d'aire de 20 et 25l. \u00e0 la Javie, Alpes-de-Hte-Provence (point L69) : [les apaj\u02c8u\u0153]\nElles servaient \u00e0 recevoir le grain vann\u00e9 et \u00e0 le mettre dans les sacs. Leur forme rappelle celles des \"[pan\u02c8aw]\", mesures de capacit\u00e9 d'environ 25l., ant\u00e9rieure au syst\u00e8me m\u00e9trique."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-07T18:29:30.832Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L69",
+            "type": "TextualBody",
+            "value": "L69"
+        },
+        {
+            "created": "2023-09-07T18:29:46.780Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-07T18:29:30.832Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-07T18:29:46.780Z"
+            "type": "TextualBody",
+            "value": "Q???"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-07T18:35:34.666Z",
-            "modified": "2023-09-07T18:35:36.998Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-07T18:35:36.998Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel"
         }
     ],
+    "id": "ccfa22a9-53e8-45ac-b821-e102e8bef75b.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0315",
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"3681.093017578125,305.3558044433594 5094.33447265625,302.36798095703125 5096.816811587004,1476.5150811953235 3683.575356508879,1479.5029046816517\" /></svg>"
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
         },
         "renderedVia": {
             "name": "annotorious-tilted-box"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
-            "type": "Manifest"
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"3681.093017578125,305.3558044433594 5094.33447265625,302.36798095703125 5096.816811587004,1476.5150811953235 3683.575356508879,1479.5029046816517\" /></svg>"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0315",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "ccfa22a9-53e8-45ac-b821-e102e8bef75b.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
