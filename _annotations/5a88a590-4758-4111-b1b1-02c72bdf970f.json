@@ -17,26 +17,6 @@ order: 6
             "value": "Vigne de 10 ans environ taill\u00e9e \"au cou\u00e7on\" \u00e0 Mazan : on dit [yn\u0254 v\u02c8i\u0272\u0254 taj\u02c8ad\u0153 a l \u025bskw\u02c8a]"
         },
         {
-            "created": "2023-09-08T16:47:12.889Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
-            "created": "2023-09-08T16:47:26.448Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q9732???"
-        },
-        {
             "created": "2023-09-08T16:54:29.183Z",
             "creator": {
                 "id": "ej7320",
@@ -46,6 +26,26 @@ order: 6
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Claude Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L92",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T16:30:46.725Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q1239",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T16:30:51.511Z"
         }
     ],
     "id": "5a88a590-4758-4111-b1b1-02c72bdf970f.json",
