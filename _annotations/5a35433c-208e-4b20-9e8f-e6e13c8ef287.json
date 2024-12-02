@@ -27,16 +27,6 @@ order: 1
             "value": "L100"
         },
         {
-            "created": "2023-09-08T17:05:28.101Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q???"
-        },
-        {
             "created": "2023-09-08T17:19:54.909Z",
             "creator": {
                 "id": "ej7320",
@@ -46,6 +36,16 @@ order: 1
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Dessin : Marcel Gaillard"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q10189",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T16:56:58.550Z"
         }
     ],
     "id": "5a35433c-208e-4b20-9e8f-e6e13c8ef287.json",
