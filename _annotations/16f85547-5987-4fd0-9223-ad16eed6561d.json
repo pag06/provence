@@ -27,14 +27,25 @@ order: 2
             "value": "Serpette allong\u00e9e [lu \u0261w\u02c8arp]"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L52",
+            "created": "2024-12-02T10:31:13.929Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-02T10:31:13.929Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L52"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Dessin : Marcel Gaillard",
+            "purpose": "identifying",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T10:41:39.267Z",
+            "modified": "2024-12-02T10:41:44.313Z"
         }
     ],
     "id": "16f85547-5987-4fd0-9223-ad16eed6561d.json",
