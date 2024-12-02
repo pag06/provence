@@ -3,64 +3,72 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0317"
 order: 5
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Scourtin en fibre de coco, formant une poche que l'on emplissait de p\u00e2te (d'olive). La p\u00e2te press\u00e9e entre les scourtins s'apelle : [...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T06:49:07.271Z",
-            "modified": "2023-09-08T06:50:21.540Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-02T14:42:05.026Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Scourtin en fibre de coco, formant une poche que l'on emplissait de p\u00e2te (d'olive). La p\u00e2te press\u00e9e entre les scourtins s'appelle : [lu tu\u0280t\u02c8\u025bw]"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
+            "created": "2023-09-08T06:56:54.557Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-08T06:50:36.510Z"
+            "modified": "2023-09-08T06:56:57.031Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Claude Martel"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L???",
+            "value": "Q4642",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-09-08T06:50:38.853Z"
+            "created": "2024-12-02T14:40:53.182Z"
         },
         {
             "type": "TextualBody",
-            "value": "Photo : Claude Martel",
+            "value": "Sans localisation",
             "purpose": "identifying",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-09-08T06:56:54.557Z",
-            "modified": "2023-09-08T06:56:57.031Z"
+            "created": "2024-12-02T14:41:13.922Z",
+            "modified": "2024-12-02T14:41:29.408Z"
         }
     ],
+    "id": "a613c124-2d43-46e7-bda7-8a3e874320fd.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0317",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1539.77734375,2005.9852294921875,1147.3251953125,1452.0833740234375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1539.77734375,2005.9852294921875,1147.3251953125,1452.0833740234375"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0317",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "a613c124-2d43-46e7-bda7-8a3e874320fd.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
