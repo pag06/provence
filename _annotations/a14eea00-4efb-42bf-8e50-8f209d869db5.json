@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-09-06T19:50:18.667Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-07T17:54:58.263Z",
+            "modified": "2024-12-02T12:06:47.018Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Foulaison aux rouleaux vers 1910 \u00e0 Mane, Alpes-de-Hte-Provence (canton de Forcalquier, point L100). On remarque la forme circulaire de l'air\u00e9e et la r\u00e9serve de gerbes ensil\u00e9es en gerbier. Chaque cheval est attel\u00e9 \u00e0 un brancard courbe entrainant un rouleau en pierre vive. Le guidage du premier cheval se fait au moyen d'un \"tourniquet\". Le cheval est entrain\u00e9 par le premier au moyen d'une cordelette attach\u00e9e au premier rouleau. (Le personnage \u00e0 canotier semble \u00eatre un figurant, \u00e0 cause de sa tenue, mais aussi parce que la technique du tourniquet rend cette pr\u00e9sence inutile, sinon g\u00eanante.)\n-l'air\u00e9e : [...]\n-les gerbiers sur l'aire : [...]\n-le rouleau : [...]"
+            "value": "Foulaison aux rouleaux vers 1910 \u00e0 Mane, Alpes-de-Hte-Provence (canton de Forcalquier, point L100). \nOn remarque la forme circulaire de l'air\u00e9e et la r\u00e9serve de gerbes ensil\u00e9es en gerbier. Chaque cheval est attel\u00e9 \u00e0 un brancard courbe entrainant un rouleau en pierre vive. Le guidage du premier cheval se fait au moyen d'un \"tourniquet\". Le cheval est entrain\u00e9 par le premier au moyen d'une cordelette attach\u00e9e au premier rouleau. (Le personnage \u00e0 canotier semble \u00eatre un figurant, \u00e0 cause de sa tenue, mais aussi parce que la technique du tourniquet rend cette pr\u00e9sence inutile, sinon g\u00eanante.)\n-l'air\u00e9e : [l \u025bjr\u02c8\u0254w]\n-les gerbiers sur l'aire : [lu d\u0292\u025b\u0280bj\u02c8e]\n-le rouleau : [lu \u0280ul\u02c8\u025bw de p\u02c8ej\u0280\u0153]"
         },
         {
             "created": "2023-09-06T19:54:47.627Z",
@@ -62,7 +62,14 @@ order: 1
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1499.9801025390625,1438.33935546875 3531.70166015625,1432.36376953125 3527.896443871051,138.57600731057778 1496.1748862538632,144.55159324807778\" /></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0311"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0311",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
