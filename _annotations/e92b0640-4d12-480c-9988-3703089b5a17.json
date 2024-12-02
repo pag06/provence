@@ -3,74 +3,81 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0320"
 order: 6
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Echelle pour la cueillette des fruits \u00e0 Glandage, Dr\u00f4me (point L33) : [...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T16:34:58.667Z",
-            "modified": "2023-09-08T16:35:23.771Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-02T15:29:55.795Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Echelle pour la cueillette des fruits \u00e0 Glandage, Dr\u00f4me (point L33) : [\u025bst\u0283a\u0280as\u02c8u]"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-08T16:35:25.935Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L33",
+            "type": "TextualBody",
+            "value": "L33"
+        },
+        {
+            "created": "2023-09-08T16:36:13.958Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-08T16:35:25.935Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "C493",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-08T16:36:13.958Z"
+            "type": "TextualBody",
+            "value": "C493"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-08T16:36:15.491Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Photo : J.C. Bouvier",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T16:40:21.551Z",
-            "modified": "2023-09-08T16:40:24.575Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-08T16:40:24.575Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : J.C. Bouvier"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q3623",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T15:29:25.502Z"
         }
     ],
+    "id": "e92b0640-4d12-480c-9988-3703089b5a17.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0320",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1469.6468505859375,2210.3486328125,986.9967041015625,1262.64453125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1469.6468505859375,2210.3486328125,986.9967041015625,1262.64453125"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0320",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "e92b0640-4d12-480c-9988-3703089b5a17.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
