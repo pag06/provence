@@ -3,62 +3,69 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0083"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "[...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-06T19:10:33.272Z",
-            "modified": "2023-09-06T19:10:34.806Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-02T09:45:07.081Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Houe [lu bi\u0261\u02c8\u0254]\nUtilis\u00e9e pour sarcler"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L34",
+            "created": "2023-09-06T19:10:38.242Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-06T19:10:38.242Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L34"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9190",
+            "created": "2023-09-06T19:12:05.267Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-06T19:12:05.267Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9190"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C401",
+            "created": "2023-09-06T19:12:07.389Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-06T19:12:07.389Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C401"
         }
     ],
+    "id": "1cdd0ef2-8d99-455a-b5f5-775209450c04.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0083",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"600.7611083984375,1824.984375 743.9811401367188,1678.313232421875 1330.6656494140625,1655.8812255859375 1320.3123779296875,1845.69091796875 1009.7147216796875,1880.2017822265625 966.576171875,1919.88916015625 951.0462646484375,2035.5006103515625 599.0355224609375,1892.280517578125\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0083",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "1cdd0ef2-8d99-455a-b5f5-775209450c04.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
