@@ -46,6 +46,36 @@ order: 1
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo ancienne, auteur anonyme"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q151",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T12:08:29.822Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9815",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T12:08:37.257Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q993",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T12:08:44.977Z"
         }
     ],
     "id": "a14eea00-4efb-42bf-8e50-8f209d869db5.json",
