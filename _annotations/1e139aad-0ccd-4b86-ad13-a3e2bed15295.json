@@ -8,13 +8,13 @@ order: 4
         {
             "created": "2023-09-06T19:37:34.807Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-07T17:54:04.117Z",
+            "modified": "2024-12-02T11:54:00.423Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Petits gerberons de 5 \u00e0 6 gerbes \u00e0 St-Paul-sur-Ubaye, Alpes-de-Hte-Provence (point L37)\nLe gerberon d'une dizaine de gerbes (non repr\u00e9sent\u00e9) est [...]"
+            "value": "Petits gerberons de 5 \u00e0 6 gerbes."
         },
         {
             "created": "2023-09-06T19:38:38.447Z",
@@ -46,6 +46,16 @@ order: 4
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Pierre Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9816",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T11:54:48.801Z"
         }
     ],
     "id": "1e139aad-0ccd-4b86-ad13-a3e2bed15295.json",
@@ -62,7 +72,14 @@ order: 4
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1619.6539306640625,1372.1077880859375 2545.73779296875,1384.2930908203125 2533.589930690619,2307.5314758249424 1607.5060683859317,2295.3461730905674\" /></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0310"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0310",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
