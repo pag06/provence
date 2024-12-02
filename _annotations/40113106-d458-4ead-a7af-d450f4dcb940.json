@@ -3,64 +3,67 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0324"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Alembic \u00e0 Gordes, Vaucluse (point L105) avec le serpentin [...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T17:44:36.502Z",
-            "modified": "2023-09-08T17:44:57.209Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-02T17:22:02.991Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Alambic pour distiller la lavande \u00e0 Gordes, Vaucluse avec le serpentin [lu serpa\u0303t\u02c8i\u0303\u207f]"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-08T17:45:03.682Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L105",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-08T17:45:03.682Z"
+            "type": "TextualBody",
+            "value": "L105"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-08T17:45:05.648Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Photo : Dr Lefran\u00e7ois, Gordes",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T17:58:48.107Z",
-            "modified": "2023-09-08T17:59:02.436Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-08T17:59:02.436Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Dr Lefran\u00e7ois, Gordes"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q160",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T17:21:36.308Z"
         }
     ],
+    "id": "40113106-d458-4ead-a7af-d450f4dcb940.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0324",
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0324",
+            "type": "Canvas"
+        },
         "selector": {
             "type": "FragmentSelector",
             "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3430.11572265625,194.8062286376953,1565.62060546875,1039.7633514404297"
-        },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
-            "type": "Manifest"
+            "value": "xywh=3442.54736328125,184.44654846191406,1565.62060546875,1039.7633514404297"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "40113106-d458-4ead-a7af-d450f4dcb940.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
