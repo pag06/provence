@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0317"
 order: 6
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Comporte de bois sans couvercle dans laquelle on laissait reposer l'huile m\u00e9lang\u00e9e \u00e0 l'eau apr\u00e8s la pression : [...]\nOn ajoutait parfois du sel au m\u00e9lange huile-eau pour acc\u00e9l\u00e9rer la d\u00e9cantation. On enlevait ensuite l'huile qui montait \u00e0 la surface avec la \"feuille\", sorte de po\u00eale \u00e0 long manche ; on disait, en fran\u00e7ais r\u00e9gional \"cueillir l'huile\".\nHauteur : 87cm.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T06:50:58.324Z",
-            "modified": "2023-09-08T06:55:47.953Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-02T14:42:55.627Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Comporte de bois sans couvercle dans laquelle on laissait reposer l'huile m\u00e9lang\u00e9e \u00e0 l'eau apr\u00e8s la pression : [la ku\u0280n\u02c8yd\u0254]\nOn ajoutait parfois du sel au m\u00e9lange huile-eau pour acc\u00e9l\u00e9rer la d\u00e9cantation. On enlevait ensuite l'huile qui montait \u00e0 la surface avec la \"feuille\", sorte de po\u00eale \u00e0 long manche ; on disait, en fran\u00e7ais r\u00e9gional \"cueillir l'huile\".\nHauteur : 87cm."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-08T06:53:33.605Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
+            "type": "TextualBody",
+            "value": "L???"
+        },
+        {
+            "created": "2023-09-08T06:53:53.661Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-08T06:53:33.605Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-08T06:53:53.661Z"
+            "type": "TextualBody",
+            "value": "Q???"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Claude Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T06:56:48.970Z",
-            "modified": "2023-09-08T06:56:51.490Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-08T06:56:51.490Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Claude Martel"
         }
     ],
+    "id": "12793a9b-75f9-413f-a771-3273d1bec692.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0317",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2716.980712890625,1985.0704345703125,1159.2763671875,1481.9617919921875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2716.980712890625,1985.0704345703125,1159.2763671875,1481.9617919921875"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0317",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "12793a9b-75f9-413f-a771-3273d1bec692.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
