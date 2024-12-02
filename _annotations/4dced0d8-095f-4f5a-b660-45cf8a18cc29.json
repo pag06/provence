@@ -17,26 +17,6 @@ order: 7
             "value": "Comporte avec couvecle pour la conservation de l'huile  [la ku\u0280n\u02c8yd\u0254]\nAvec deux trous dans le couvercle : l'un pour l'entonnoir, l'autre pour la sortie de l'air au moment du remplissage.\nHauteur du mod\u00e8le : 87 cm."
         },
         {
-            "created": "2023-09-08T06:55:27.693Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
-            "created": "2023-09-08T06:55:29.904Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q???"
-        },
-        {
             "created": "2023-09-08T06:56:58.909Z",
             "creator": {
                 "id": "ej7320",
@@ -46,6 +26,37 @@ order: 7
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Claude Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2531",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T14:47:28.456Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8653",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T14:47:34.359Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Sans localisation",
+            "purpose": "replying",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T14:47:42.401Z",
+            "modified": "2024-12-02T14:47:48.359Z"
         }
     ],
     "id": "4dced0d8-095f-4f5a-b660-45cf8a18cc29.json",
