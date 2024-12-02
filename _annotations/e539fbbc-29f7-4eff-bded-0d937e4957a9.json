@@ -8,23 +8,13 @@ order: 4
         {
             "created": "2023-09-08T17:50:51.309Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-08T17:53:21.672Z",
+            "modified": "2024-12-02T17:26:12.270Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Essencier \u00e0 lavande en fer galvanis\u00e9 \u00e0 Lagarde, contenant 50kgs d'\"essence\" : [...]\nLe m\u00e9lange d'eau et d'essence de lavande qui sort de l'alambic coule dans l'essencier o\u00f9 l'essence - huile l\u00e9g\u00e8re et colatile - se s\u00e9pare de l'eau. Il faut distiller 100kg de fleurs pour obtenir 700 \u00e0 800 grammes d'essence de lavande. Cette essence est conserv\u00e9e au frais dans un bidon contenant g\u00e9n\u00e9ralement 50 \u00e0 55kg d'essence (du type de [...] ci-contre)"
-        },
-        {
-            "created": "2023-09-08T17:53:30.246Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q???"
+            "value": "Essencier \u00e0 lavande en fer galvanis\u00e9 \u00e0 Lagarde, contenant 50 kg d'\"essence\" : [l \u025bsta\u0272\u02c8u\u0303\u207f]\nLe m\u00e9lange d'eau et d'essence de lavande qui sort de l'alambic coule dans l'essencier o\u00f9 l'essence - huile l\u00e9g\u00e8re et colatile - se s\u00e9pare de l'eau. Il faut distiller 100kg de fleurs pour obtenir 700 \u00e0 800 grammes d'essence de lavande. Cette essence est conserv\u00e9e au frais dans un bidon contenant g\u00e9n\u00e9ralement 50 \u00e0 55 kg d'essence."
         },
         {
             "created": "2023-09-08T17:59:36.582Z",
@@ -38,14 +28,24 @@ order: 4
             "value": "Dessin : Marcel Gaillard"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L109",
+            "created": "2023-09-10T06:01:29.853Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-10T06:01:29.853Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L109"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5944",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T17:26:27.784Z"
         }
     ],
     "id": "e539fbbc-29f7-4eff-bded-0d937e4957a9.json",
@@ -59,7 +59,14 @@ order: 4
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"2438.2,2292.3 2414.3,2614.9 2426.2,3027.3 2408.3,3481.4 1380.5,3481.4 1392.4,1772.4 1697.2,1808.2 1733,1808.2 1804.7,1748.5 1864.5,1533.4 2013.9,1509.4 2079.6,1766.4 2444.1,1820.2\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0324"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0324",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
