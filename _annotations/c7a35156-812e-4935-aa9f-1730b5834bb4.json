@@ -3,65 +3,73 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0294"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "1. le gros s\u00e9cateur\n2. les petits s\u00e9cateurs (de taille et de cueillette)\n3. les gros ciseaux ou \"ciseaux \u00e0 deux mains\"\n4. les petits ciseaux\n5. le couteau-scie non pliant",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-06T19:26:48.507Z",
-            "modified": "2023-09-06T19:27:44.365Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9385",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-06T19:28:27.204Z"
+            "modified": "2023-09-06T19:27:44.365Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "1. le gros s\u00e9cateur\n2. les petits s\u00e9cateurs (de taille et de cueillette)\n3. les gros ciseaux ou \"ciseaux \u00e0 deux mains\"\n4. les petits ciseaux\n5. le couteau-scie non pliant"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L???",
+            "created": "2023-09-06T19:28:27.204Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-06T19:28:54.342Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9385"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C653",
+            "created": "2023-09-06T19:29:02.586Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-06T19:29:02.586Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "C653"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Sans localisation",
+            "purpose": "identifying",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-02T10:33:46.624Z",
+            "modified": "2024-12-02T10:33:59.616Z"
         }
     ],
+    "id": "c7a35156-812e-4935-aa9f-1730b5834bb4.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0294",
-        "selector": {
-            "type": "SvgSelector",
-            "value": "<svg><polygon points=\"204.40870666503906,2403.8916015625 1185.3265380859375,2403.8916015625 1185.3265380859375,3317.7900390625 204.40870666503906,3317.7900390625\" /></svg>"
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
         },
         "renderedVia": {
             "name": "annotorious-tilted-box"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
-            "type": "Manifest"
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"204.40870666503906,2403.8916015625 1185.3265380859375,2403.8916015625 1185.3265380859375,3317.7900390625 204.40870666503906,3317.7900390625\" /></svg>"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0294",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "c7a35156-812e-4935-aa9f-1730b5834bb4.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
