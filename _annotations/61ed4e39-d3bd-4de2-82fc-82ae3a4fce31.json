@@ -11,10 +11,10 @@ order: 1
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-12-03T14:08:30.233Z",
+            "modified": "2024-12-03T14:08:43.563Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "\"Le Cadet\" b\u00e9lier pilote du troupeau d'une ferme de St-Etienne-les-Orgues en estive au sommet de la Montagne de Lure (1966). Le collier ([lu t\u0283\u02c8a\u0303mbis]) supporte une grosse sonnaille du genre \"redon\" : [lu \u0280ed\u02c8u\u0303\u207f]"
+            "value": "\"Le Cadet\" b\u00e9lier pilote du troupeau d'une ferme de St-Etienne-les-Orgues en estive au sommet de la Montagne de Lure (1966). \nLe collier ([lu t\u0283\u02c8a\u0303mbis]) supporte une grosse sonnaille du genre \"redon\" : [lu \u0280ed\u02c8u\u0303\u207f]"
         },
         {
             "created": "2023-09-12T05:44:46.158Z",
@@ -46,6 +46,26 @@ order: 1
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Pierre Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2487",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T14:09:01.446Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2177",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T14:09:06.852Z"
         }
     ],
     "id": "61ed4e39-d3bd-4de2-82fc-82ae3a4fce31.json",
