@@ -17,16 +17,6 @@ order: 2
             "value": "Entr\u00e9e du domaine de la Manade Gillet en Haute-Crau, \u00e0 Aureille (Bouches-du-Rh\u00f4ne)\nAvec les am\u00e9nagements sp\u00e9cifiques pr\u00e9vus pour la r\u00e9ception du public : buvettes et barri\u00e8res de protection en bois."
         },
         {
-            "created": "2023-09-11T05:26:30.964Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
             "created": "2023-09-11T05:26:34.613Z",
             "creator": {
                 "id": "ej7320",
@@ -46,6 +36,26 @@ order: 2
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : J.N. Pelen"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L133",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T11:23:51.823Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L130",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T11:23:57.598Z"
         }
     ],
     "id": "6e641e9e-405d-4a56-9c03-1d349ffbc745.json",
