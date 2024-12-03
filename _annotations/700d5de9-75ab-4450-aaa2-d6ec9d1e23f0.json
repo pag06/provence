@@ -11,30 +11,10 @@ order: 1
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-12-03T09:13:50.809Z",
+            "modified": "2024-12-03T09:16:04.668Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Hache [...]\npoids : 4 kg \nhaut. : 37,5 cm"
-        },
-        {
-            "created": "2023-09-08T18:00:27.567Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
-            "created": "2023-09-08T18:00:32.448Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q???"
+            "value": "Hache [\u0261\u0280\u02c8\u025bs\u0254 dest\u0280\u02c8aw, d\u025bst\u0280al\u02c8as\u0254]\npoids : 4 kg \nhaut. : 37,5 cm"
         },
         {
             "created": "2023-09-08T18:13:28.407Z",
@@ -46,6 +26,37 @@ order: 1
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Dessin : Marcel Gaillard"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Sans localisation",
+            "purpose": "identifying",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T09:16:13.382Z",
+            "modified": "2024-12-03T09:16:37.403Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5442",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T09:16:47.991Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5445",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T09:16:52.880Z"
         }
     ],
     "id": "700d5de9-75ab-4450-aaa2-d6ec9d1e23f0.json",
