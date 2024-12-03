@@ -26,6 +26,26 @@ order: 7
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Pierre Gallocher"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L89",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T14:04:45.690Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q1091",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T14:04:52.649Z"
         }
     ],
     "id": "3ddf8105-362c-4bed-b686-2b486c8cfa76.json",
