@@ -3,63 +3,70 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0325"
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "[...]\nSault, Vaucluse (point L81) : outil servant \u00e0 couper les souches. Poids : environ 1kg ; haut : 31 cm. On l'appelle parfois : [...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T18:04:31.677Z",
-            "modified": "2023-09-08T18:05:10.653Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-03T09:19:47.974Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Pioche-hache [desmat\u02c8aj\u0280e]\nSault, Vaucluse (point L81) : outil servant \u00e0 couper les souches. Poids : environ 1kg ; haut : 31 cm. On l'appelle parfois : [\u025bjsep\u02c8aj\u0280e]"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-08T18:05:13.695Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L81",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-08T18:05:13.695Z"
+            "type": "TextualBody",
+            "value": "L81"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-08T18:05:15.992Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Dessin : Marcel Gaillard",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T18:13:36.494Z",
-            "modified": "2023-09-08T18:13:38.964Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-08T18:13:38.964Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Dessin : Marcel Gaillard"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q7724",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T09:20:00.232Z"
         }
     ],
+    "id": "b029efe6-c318-48da-9663-ac0757d5cb51.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0325",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"3877.41015625,60.43130111694336 5001.35546875,68.12955474853516 4932.07080078125,1161.28173828125 4847.39013671875,1222.8677978515625 4793.50244140625,1346.039794921875 3915.9013671875,1361.436279296875\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0325",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "b029efe6-c318-48da-9663-ac0757d5cb51.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
