@@ -48,14 +48,14 @@ order: 6
             "value": "Photo : coll. Vedel"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L100",
+            "created": "2024-12-03T11:48:47.723Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T11:48:47.723Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L100"
         }
     ],
     "id": "95ffc002-76bb-4d91-9295-e383cfb275e8.json",
