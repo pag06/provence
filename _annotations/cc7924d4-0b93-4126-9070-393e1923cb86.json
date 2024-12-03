@@ -3,53 +3,70 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0313"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "\"Vers la Montagne (Carte postale, vers 1905). Pr\u00e9c\u00e9d\u00e9 par les \u00e2nes et les boucs ([...]) munis de grosses sonnailles, le troupeau de moutons [...] quitte Digne dans la poussi\u00e8re vers le Col du Labouret.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-12T05:54:37.163Z",
-            "modified": "2023-09-12T05:55:31.653Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-03T14:23:13.262Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "\"Vers la Montagne (Carte postale, vers 1905). \nPr\u00e9c\u00e9d\u00e9 par les \u00e2nes et les boucs (menun) munis de grosses sonnailles, le troupeau de moutons [eskabw\u02c8\u0254] quitte Digne dans la poussi\u00e8re vers le Col du Labouret."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L???",
+            "created": "2023-09-12T05:55:55.283Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-12T05:55:39.512Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q10348"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q10348",
+            "value": "L78",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-09-12T05:55:55.283Z"
+            "created": "2024-12-03T14:23:59.130Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q10345",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T14:24:11.648Z"
         }
     ],
+    "id": "cc7924d4-0b93-4126-9070-393e1923cb86.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0313",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1518.504638671875,37.6466064453125,1441.3271484375,1016.4583740234375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1518.504638671875,37.6466064453125,1441.3271484375,1016.4583740234375"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0313",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "cc7924d4-0b93-4126-9070-393e1923cb86.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
