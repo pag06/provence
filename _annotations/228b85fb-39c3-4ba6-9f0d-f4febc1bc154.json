@@ -3,74 +3,81 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0314"
 order: 5
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "[...], b\u00e9lier chef du troupeau, avec ses flots de laine sur le dos, ornement dont la forme et les couleurs constituent avec les dessins qui entourent la marque du propri\u00e9taire, un d\u00e9cor attrayant. Le b\u00e9lier porte au cou [...], grosse sonnaille ronde.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-12T14:21:02.457Z",
-            "modified": "2023-09-12T14:22:04.978Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-03T14:41:04.446Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "[lu fl'uka], b\u00e9lier chef du troupeau\nAvec ses flots de laine sur le dos, ornement dont la forme et les couleurs constituent avec les dessins qui entourent la marque du propri\u00e9taire, un d\u00e9cor attrayant. Le b\u00e9lier porte au cou [lu \u0280ed\u02c8u\u0303\u207f], grosse sonnaille ronde."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-12T14:22:14.766Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
+            "type": "TextualBody",
+            "value": "L???"
+        },
+        {
+            "created": "2023-09-12T14:22:37.843Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-12T14:22:14.766Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q9550",
+            "type": "TextualBody",
+            "value": "Q9550"
+        },
+        {
+            "created": "2023-09-12T14:22:58.743Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-12T14:22:37.843Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q2177",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-12T14:22:58.743Z"
+            "type": "TextualBody",
+            "value": "Q2177"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-12T14:28:22.892Z",
-            "modified": "2023-09-12T14:28:25.039Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-12T14:28:25.039Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel"
         }
     ],
+    "id": "228b85fb-39c3-4ba6-9f0d-f4febc1bc154.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0314",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2709.199951171875,1383.6329345703125,1043.113525390625,1027.7171630859375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2709.199951171875,1383.6329345703125,1043.113525390625,1027.7171630859375"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0314",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "228b85fb-39c3-4ba6-9f0d-f4febc1bc154.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
