@@ -8,13 +8,13 @@ order: 7
         {
             "created": "2023-09-12T14:40:23.271Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-12T14:41:21.421Z",
+            "modified": "2024-12-03T14:58:16.860Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Cairns de sommet : limites de paturages \u00e9difi\u00e9es par les bergers en montagne et correspondant souvent aussi \u00e0 des limites de communes ou m\u00eame de cantons comme c'est le cas ici : [...]\n[...] cylindrique au sommet du Contras de Lure"
+            "value": "Cairns de sommet : limites de paturages \u00e9difi\u00e9es par les bergers en montagne et correspondant souvent aussi \u00e0 des limites de communes ou m\u00eame de cantons comme c'est le cas ici.\n[...] cylindrique au sommet du Contras de Lure"
         },
         {
             "created": "2023-09-12T14:41:34.758Z",
@@ -38,14 +38,14 @@ order: 7
             "value": "Photo : Pierre Martel"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q6074",
+            "created": "2024-12-03T14:57:50.311Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T14:57:50.311Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q6074"
         }
     ],
     "id": "14f96631-ba69-4b49-8d25-1494bfa31950.json",
