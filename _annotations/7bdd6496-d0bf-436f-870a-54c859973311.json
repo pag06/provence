@@ -28,17 +28,6 @@ order: 4
             "value": "Photo : PNRC"
         },
         {
-            "created": "2024-12-03T11:28:35.318Z",
-            "creator": {
-                "id": "pag06",
-                "name": "pag06"
-            },
-            "modified": "2024-12-03T11:28:41.085Z",
-            "purpose": "replying",
-            "type": "TextualBody",
-            "value": "Sans localisation"
-        },
-        {
             "created": "2024-12-03T11:29:36.475Z",
             "creator": {
                 "id": "pag06",
@@ -59,14 +48,24 @@ order: 4
             "value": "Q10344"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2221",
+            "created": "2024-12-03T11:30:15.563Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T11:30:15.563Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2221"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L152",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T11:30:50.949Z"
         }
     ],
     "id": "7bdd6496-d0bf-436f-870a-54c859973311.json",
