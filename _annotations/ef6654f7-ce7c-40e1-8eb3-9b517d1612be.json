@@ -8,13 +8,23 @@ order: 7
         {
             "created": "2023-09-12T06:02:08.579Z",
             "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-03T14:37:01.684Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "A la montagne : le berger Ernest, devant sa cabane en pierre s\u00e8che du Jas-de-Benjamin, \u00e0 la Rochegiron (Alpes-de-Hte-Provence)"
+        },
+        {
+            "created": "2023-09-12T06:03:07.131Z",
+            "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "modified": "2023-09-12T06:02:59.337Z",
-            "purpose": "commenting",
+            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "A la montagne : le berger Ernest, devant sa cabane en pierre s\u00e8che du Jas-de-Benjamin, \u00e0 la Rochegiron (Alpes-de-Hte-Provence) [...]"
+            "value": "L???"
         },
         {
             "created": "2023-09-12T06:03:24.827Z",
@@ -36,26 +46,6 @@ order: 7
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Pierre Martel, 1967"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L89",
-            "creator": {
-                "id": "pag06",
-                "name": "pag06"
-            },
-            "created": "2024-12-03T14:36:33.320Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q1091",
-            "creator": {
-                "id": "pag06",
-                "name": "pag06"
-            },
-            "created": "2024-12-03T14:36:40.638Z"
         }
     ],
     "id": "ef6654f7-ce7c-40e1-8eb3-9b517d1612be.json",
