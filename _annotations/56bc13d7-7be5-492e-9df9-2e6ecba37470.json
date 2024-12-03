@@ -3,53 +3,60 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0299"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Relev\u00e9 d'architecture d'une ferme de Haute-Provence : la place du cheval dans l'\u00e9table.\nCoupe en long\nOn voit sur cette coupe de gauche \u00e0 droite : la bergerie ([...]) vo\u00fbt\u00e9e avec r\u00e2teliers bas : 3 trav\u00e9es dont une est occup\u00e9e par la r\u00e9serve de paille qui s\u00e9pare les moutons du cheval ; la trav\u00e9e de droite est occup\u00e9e par le cheval (ou les chevaux), avec le ratelier haut. (Les 2 compartiments les plus \u00e0 droite sont des citernes). Au niveau sup\u00e9rieur, on voit successivement \u00e0 gauche, la chambre du berger, puis une grande grange \u00e0 fourrage ([...]) et une partie de l'appartement du ma\u00eetre (Chambre).",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-09T15:31:30.248Z",
-            "modified": "2023-09-09T15:34:34.220Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-03T10:29:52.856Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Relev\u00e9 d'architecture d'une ferme de Haute-Provence : la place du cheval dans l'\u00e9table [Le pavon, commune du Contadour-Redortiers, Alpes-de-Hte-Provence]\nCoupe en long\nOn voit sur cette coupe de gauche \u00e0 droite : la bergerie ([...]) vo\u00fbt\u00e9e avec r\u00e2teliers bas : 3 trav\u00e9es dont une est occup\u00e9e par la r\u00e9serve de paille qui s\u00e9pare les moutons du cheval ; la trav\u00e9e de droite est occup\u00e9e par le cheval (ou les chevaux), avec le ratelier haut. (Les 2 compartiments les plus \u00e0 droite sont des citernes). Au niveau sup\u00e9rieur, on voit successivement \u00e0 gauche, la chambre du berger, puis une grande grange \u00e0 fourrage ([...]) et une partie de l'appartement du ma\u00eetre (Chambre)."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L???",
+            "created": "2023-09-09T15:34:37.379Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-09T15:34:37.379Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L???"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q3711",
+            "created": "2023-09-09T15:35:06.241Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-09T15:35:06.241Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q3711"
         }
     ],
+    "id": "56bc13d7-7be5-492e-9df9-2e6ecba37470.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0299",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2798.4892578125,1204.69140625,1989.89208984375,1016.458251953125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2798.4892578125,1204.69140625,1989.89208984375,1016.458251953125"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0299",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "56bc13d7-7be5-492e-9df9-2e6ecba37470.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
