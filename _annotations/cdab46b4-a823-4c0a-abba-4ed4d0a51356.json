@@ -3,64 +3,81 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0304"
 order: 6
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "\"Le champ de foire\" c\u00e9l\u00e8bre march\u00e9 de Sisteron (Alpes-de-Hte-Provence), avec ses enclos pastoraux install\u00e9s la veille de la foire, vers 1910. (cp d'\u00e9poque). Les \"agneaux de Sisteron\", \u00e9lev\u00e9s sur les vastes parcours secs des Prealpes du Sud sont tr\u00e8s renomm\u00e9s pour la qualit\u00e9 de leur viande.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-10T06:13:29.331Z",
-            "modified": "2023-09-10T06:15:24.589Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-03T11:03:46.194Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "\"Le champ de foire\" c\u00e9l\u00e8bre march\u00e9 de Sisteron (Alpes-de-Hte-Provence).\nAvec ses enclos pastoraux install\u00e9s la veille de la foire, vers 1910. Les \"agneaux de Sisteron\", \u00e9lev\u00e9s sur les vastes parcours secs des Prealpes du Sud sont tr\u00e8s renomm\u00e9s pour la qualit\u00e9 de leur viande."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-10T06:15:40.839Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L68",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-10T06:15:40.839Z"
+            "type": "TextualBody",
+            "value": "L68"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-10T06:15:47.916Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Carte postale d'\u00e9poque",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-10T07:10:35.386Z",
-            "modified": "2023-09-10T07:11:13.521Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-10T07:11:13.521Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Carte postale d'\u00e9poque"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q4743",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T11:05:08.988Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q4744",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T11:05:13.555Z"
         }
     ],
+    "id": "cdab46b4-a823-4c0a-abba-4ed4d0a51356.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0304",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3417.189208984375,1499.10888671875,1595.499267578125,974.03125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3417.189208984375,1499.10888671875,1595.499267578125,974.03125"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0304",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "cdab46b4-a823-4c0a-abba-4ed4d0a51356.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
