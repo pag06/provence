@@ -8,13 +8,13 @@ order: 2
         {
             "created": "2023-09-09T15:17:43.384Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-09T15:18:34.531Z",
+            "modified": "2024-12-03T10:15:48.499Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Le retour des chasseurs \u00e0 Riez (Alpes-de-Hte-Provence) en 1887. Les chasseurs ont d\u00e9pos\u00e9 le gibier sur la table et prennent l'ap\u00e9ritif."
+            "value": "Le retour des chasseurs \u00e0 Riez (Alpes-de-Hte-Provence) en 1887. \nLes chasseurs ont d\u00e9pos\u00e9 le gibier sur la table et prennent l'ap\u00e9ritif."
         },
         {
             "created": "2023-09-09T15:18:58.277Z",
@@ -37,15 +37,15 @@ order: 2
             "value": "Q???"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo collection Chaix Clavi\u00e8re-Bouteuil",
-            "purpose": "identifying",
+            "created": "2023-09-09T15:24:19.224Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-09T15:24:19.224Z",
-            "modified": "2023-09-09T15:24:50.980Z"
+            "modified": "2023-09-09T15:24:50.980Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo collection Chaix Clavi\u00e8re-Bouteuil"
         }
     ],
     "id": "8cc8f430-131d-42e5-982a-d7a2c5ada5c3.json",
@@ -60,7 +60,14 @@ order: 2
             "type": "FragmentSelector",
             "value": "xywh=2946.087890625,9.561029434204102,1918.18408203125,1320.6190242767334"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0193"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0193",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
