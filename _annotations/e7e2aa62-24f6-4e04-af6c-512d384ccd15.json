@@ -17,16 +17,6 @@ order: 5
             "value": "Berger partant rejoindre son troupeau qu'il vient de l\u00e2cher ([lar\u0261a lej f\u02c8ed\u0254]) pour le faire sortir du pr\u00e9 et l'entra\u00eener vers les landes sauvages, aux Hautes-Ferrassi\u00e8res (Fr\u00f4me) en 1975."
         },
         {
-            "created": "2023-09-11T15:00:51.825Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
             "created": "2023-09-11T15:00:58.204Z",
             "creator": {
                 "id": "ej7320",
@@ -46,6 +36,26 @@ order: 5
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Pierre Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L67",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T12:24:39.856Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L81",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T12:24:42.256Z"
         }
     ],
     "id": "e7e2aa62-24f6-4e04-af6c-512d384ccd15.json",
