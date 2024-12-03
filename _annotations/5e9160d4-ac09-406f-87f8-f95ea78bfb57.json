@@ -17,26 +17,6 @@ order: 5
             "value": "Carraire de la Durance, sur un des trac\u00e9s de l'ancienne Voie \"Domitienne\" d'Espagne en Italie. Etat actuel dans les collines de Montfort (Alpes-de-Hte-Provence) : [la d\u0280\u02c8aj\u0153]"
         },
         {
-            "created": "2023-09-12T06:01:32.599Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
-            "created": "2023-09-12T06:01:34.082Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q???"
-        },
-        {
             "created": "2023-09-12T06:03:52.463Z",
             "creator": {
                 "id": "ej7320",
@@ -46,6 +26,26 @@ order: 5
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Pierre Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L90",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T14:34:55.084Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q10348",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T14:35:00.285Z"
         }
     ],
     "id": "5e9160d4-ac09-406f-87f8-f95ea78bfb57.json",
