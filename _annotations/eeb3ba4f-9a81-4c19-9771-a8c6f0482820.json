@@ -37,15 +37,26 @@ order: 4
             "value": "Q6386"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : P. Martel",
-            "purpose": "identifying",
+            "created": "2024-12-03T13:56:59.305Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T13:56:59.305Z",
-            "modified": "2024-12-03T13:58:15.255Z"
+            "modified": "2024-12-03T13:58:15.255Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : P. Martel"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Sans localisation",
+            "purpose": "replying",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T13:58:24.399Z",
+            "modified": "2024-12-03T13:58:29.547Z"
         }
     ],
     "id": "eeb3ba4f-9a81-4c19-9771-a8c6f0482820.json",
