@@ -38,15 +38,14 @@ order: 5
             "value": "L89"
         },
         {
-            "created": "2024-12-03T15:13:46.644Z",
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q10261",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-12-03T15:14:01.546Z",
-            "purpose": "identifying",
-            "type": "TextualBody",
-            "value": "Sans question correspondante"
+            "created": "2024-12-03T17:14:29.667Z"
         }
     ],
     "id": "19f523fe-1542-462d-938c-03c4cdcfffb6.json",
