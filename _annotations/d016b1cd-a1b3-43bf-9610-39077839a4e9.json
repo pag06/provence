@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0314"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "La mont\u00e9e d'un transhumant du Var (Aups) \u00e0 La Foux d'Allos (Alpes-de-Hte-Provence) le 21 juin 1975. Les b\u00eates gravissent la pente tr\u00e8s raide au-dessus du village pour se diriger vers le Col d'Allos (2240m)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-12T14:15:48.203Z",
-            "modified": "2023-09-12T14:16:54.083Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-03T14:37:48.957Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "La mont\u00e9e d'un transhumant du Var (Aups) \u00e0 La Foux d'Allos (Alpes-de-Hte-Provence) le 21 juin 1975. \nLes b\u00eates gravissent la pente tr\u00e8s raide au-dessus du village pour se diriger vers le Col d'Allos (2240m)"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-12T14:17:10.954Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "Q10344",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-12T14:16:59.912Z"
+            "type": "TextualBody",
+            "value": "L60"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L60",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-12T14:17:10.954Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-12T14:28:04.124Z",
-            "modified": "2023-09-12T14:28:06.723Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-12T14:28:06.723Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q10348",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T14:38:23.241Z"
         }
     ],
+    "id": "d016b1cd-a1b3-43bf-9610-39077839a4e9.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0314",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1454.384521484375,217.34739685058594,1062.359130859375,1046.962661743164"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1454.384521484375,217.34739685058594,1062.359130859375,1046.962661743164"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0314",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "d016b1cd-a1b3-43bf-9610-39077839a4e9.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
