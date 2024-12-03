@@ -38,14 +38,14 @@ order: 5
             "value": "Carte postale vers 1910, d'apr\u00e8s une photo d'Albert Perret"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q1093",
+            "created": "2024-12-03T12:09:27.285Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T12:09:27.285Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q1093"
         }
     ],
     "id": "38fc3654-490a-45e8-8dae-a3b300ab5356.json",
