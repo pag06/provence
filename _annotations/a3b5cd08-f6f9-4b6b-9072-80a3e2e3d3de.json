@@ -3,64 +3,81 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0310"
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "M\u00e9morial de berger en 1879 sur une pierrre de sa cabane, au bord du Lac d'Allos (Alpes-de-Hte-Provence).",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-11T14:58:32.086Z",
-            "modified": "2023-09-11T14:59:15.818Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-11T14:59:15.818Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "M\u00e9morial de berger en 1879 sur une pierrre de sa cabane, au bord du Lac d'Allos (Alpes-de-Hte-Provence)."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-11T14:59:24.173Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L60",
+            "type": "TextualBody",
+            "value": "L60"
+        },
+        {
+            "created": "2023-09-11T14:59:30.126Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-11T14:59:24.173Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q1612",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-11T14:59:30.126Z"
+            "type": "TextualBody",
+            "value": "Q1612"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-11T15:04:49.644Z",
-            "modified": "2023-09-11T15:04:51.755Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-11T15:04:51.755Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L1091",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T12:21:14.823Z"
         }
     ],
+    "id": "a3b5cd08-f6f9-4b6b-9072-80a3e2e3d3de.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0310",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3920.3955078125,1364.2215576171875,1094.69189453125,1073.9066162109375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3920.3955078125,1364.2215576171875,1094.69189453125,1073.9066162109375"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0310",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "a3b5cd08-f6f9-4b6b-9072-80a3e2e3d3de.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
