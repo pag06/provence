@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0316"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Petit r\u00e2telier portatif pour agneaux et chevaux : [...] dans une bergerie de Noyers-s/Jabron (point L71) en 1971.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-12T14:45:48.831Z",
-            "modified": "2023-09-12T14:46:31.117Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-12T14:46:31.117Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Petit r\u00e2telier portatif pour agneaux et chevaux : [...] dans une bergerie de Noyers-s/Jabron (point L71) en 1971."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-12T14:46:27.741Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L71",
+            "type": "TextualBody",
+            "value": "L71"
+        },
+        {
+            "created": "2023-09-12T14:47:05.284Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-12T14:46:27.741Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q8603",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-12T14:47:05.284Z"
+            "type": "TextualBody",
+            "value": "Q8603"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-12T14:58:08.149Z",
-            "modified": "2023-09-12T14:58:10.562Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-12T14:58:10.562Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel"
         }
     ],
+    "id": "c1691a99-612a-4673-983e-645d2e6b107a.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0316",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1459.7734375,202.65655517578125,1101.620361328125,1049.6570434570312"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1459.7734375,202.65655517578125,1101.620361328125,1049.6570434570312"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0316",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "c1691a99-612a-4673-983e-645d2e6b107a.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
