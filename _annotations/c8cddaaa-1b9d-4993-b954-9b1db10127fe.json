@@ -3,64 +3,81 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0314"
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Le repos des bergers au moment du repas au Col. Le fourgon qui les accompagne jusqu'aux premiers alpages transporte leur mat\u00e9riel, leur nourriture et les jeunes agneaux trop fragiles.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-12T14:19:44.679Z",
-            "modified": "2023-09-12T14:20:21.878Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-12T14:20:21.878Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Le repos des bergers au moment du repas au Col. Le fourgon qui les accompagne jusqu'aux premiers alpages transporte leur mat\u00e9riel, leur nourriture et les jeunes agneaux trop fragiles."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-12T14:20:25.621Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L60",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-12T14:20:25.621Z"
+            "type": "TextualBody",
+            "value": "L60"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q10344",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-12T14:20:33.131Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-12T14:28:27.002Z",
-            "modified": "2023-09-12T14:28:29.322Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-12T14:28:29.322Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q10348",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T14:39:53.661Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q1091",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T14:40:04.553Z"
         }
     ],
+    "id": "c8cddaaa-1b9d-4993-b954-9b1db10127fe.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0314",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1542.9144287109375,1391.331298828125,919.9415283203125,1043.113525390625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1542.9144287109375,1391.331298828125,919.9415283203125,1043.113525390625"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0314",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "c8cddaaa-1b9d-4993-b954-9b1db10127fe.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
