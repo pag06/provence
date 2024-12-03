@@ -17,16 +17,6 @@ order: 6
             "value": "[lu p\u02c8it\u0283\u0153 \u0261\u02c8\u0254\u0280d\u0292\u0153]\nLes Dourbes, canton de Digne, Alpes-de-Hte-Provence. Outil utilis\u00e9 pour creuser les troncs d'arbre en goutti\u00e8res servant \u00e0 recueillir les eaux toitures, et en gorges sali\u00e8res destin\u00e9es \u00e0 contenir le sel que l'on donne aux moutons. Outils : 31 cm ; largeur gouge : 5 cm."
         },
         {
-            "created": "2023-09-08T18:10:18.989Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
             "created": "2023-09-08T18:13:50.011Z",
             "creator": {
                 "id": "ej7320",
@@ -38,14 +28,34 @@ order: 6
             "value": "Dessin : Marcel Gaillard"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5503",
+            "created": "2024-12-03T09:26:44.432Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T09:26:44.432Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5503"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L78",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T09:28:25.325Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L88",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T09:28:28.575Z"
         }
     ],
     "id": "243a6a5d-5946-456d-bc95-6cb2e21601c7.json",
