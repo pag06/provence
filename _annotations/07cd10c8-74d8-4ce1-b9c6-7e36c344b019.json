@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0314"
 order: 7
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "La transhumance au d\u00e9but du si\u00e8cle : le repos des bergers au bord du Lac de Lignin, \u00e0 Colmars-les-Alpes.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-12T14:25:03.685Z",
-            "modified": "2023-09-12T14:25:36.886Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-12T14:25:36.886Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "La transhumance au d\u00e9but du si\u00e8cle : le repos des bergers au bord du Lac de Lignin, \u00e0 Colmars-les-Alpes."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-12T14:25:50.855Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
+            "type": "TextualBody",
+            "value": "L???"
+        },
+        {
+            "created": "2023-09-12T14:25:57.169Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-12T14:25:50.855Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q10344",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-12T14:25:57.169Z"
+            "type": "TextualBody",
+            "value": "Q10344"
         },
         {
-            "type": "TextualBody",
-            "value": "Carte postale, vers 1910, coll.Alpes de Lumi\u00e8re",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-12T14:28:45.761Z",
-            "modified": "2023-09-12T14:29:04.076Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-03T14:44:52.029Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Carte postale, vers 1910, coll. Alpes de Lumi\u00e8re"
         }
     ],
+    "id": "07cd10c8-74d8-4ce1-b9c6-7e36c344b019.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0314",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1877.78857421875,2549.91845703125,1562.74560546875,931.48876953125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1877.78857421875,2549.91845703125,1562.74560546875,931.48876953125"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0314",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "07cd10c8-74d8-4ce1-b9c6-7e36c344b019.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
