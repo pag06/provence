@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0316"
 order: 5
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Coupe-racines de type primitif, tr\u00e8s utilis\u00e9 partout avant l'arriv\u00e9e des machines automatiques, dans une ferme du Revest-des-Brousses, 1967.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-12T14:51:55.267Z",
-            "modified": "2023-09-12T14:52:28.476Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-03T15:10:40.026Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Coupe-racines de type primitif\nTr\u00e8s utilis\u00e9 partout avant l'arriv\u00e9e des machines automatiques, dans une ferme du Revest-des-Brousses, 1967."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-12T14:52:32.414Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
+            "type": "TextualBody",
+            "value": "L???"
+        },
+        {
+            "created": "2023-09-12T14:52:59.013Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-12T14:52:32.414Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-12T14:52:59.013Z"
+            "type": "TextualBody",
+            "value": "Q???"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Gallocher",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-12T14:59:35.091Z",
-            "modified": "2023-09-12T14:59:37.449Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-12T14:59:37.449Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Gallocher"
         }
     ],
+    "id": "19f523fe-1542-462d-938c-03c4cdcfffb6.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0316",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2801.55908203125,1295.39892578125,989.091064453125,1185.45458984375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2801.55908203125,1295.39892578125,989.091064453125,1185.45458984375"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0316",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "19f523fe-1542-462d-938c-03c4cdcfffb6.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
