@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0312"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Autre [...] avec [...] orn\u00e9 de resaces et portant les initiales du berger (L.G) \u00e0 St-Michel-l'Observatoire ; clavette tr\u00e9fl\u00e9e ([...])",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-12T05:45:30.739Z",
-            "modified": "2023-09-12T05:46:22.217Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-03T14:10:59.836Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Sonnaille\n[\u0280ed\u02c8u\u0303\u207f] avec [t\u0283\u02c8a\u0303mbis] orn\u00e9 de rosaces et portant les initiales du berger (L.G) \u00e0 St-Michel-l'Observatoire (Alpes-de-Hte-Provence)\n; clavette tr\u00e9fl\u00e9e ([...])"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-12T05:46:28.070Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "Q9514",
+            "type": "TextualBody",
+            "value": "Q9514"
+        },
+        {
+            "created": "2023-09-12T05:46:39.314Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-12T05:46:28.070Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-12T05:46:39.314Z"
+            "type": "TextualBody",
+            "value": "L???"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : F. X. Emery",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-12T05:53:32.739Z",
-            "modified": "2023-09-12T05:53:44.600Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-12T05:53:44.600Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : F. X. Emery"
         }
     ],
+    "id": "c1ae5567-23dd-4e83-ab34-788946067333.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0312",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2778.769775390625,236.63580322265625,1272.813720703125,1314.6433715820312"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2778.769775390625,236.63580322265625,1272.813720703125,1314.6433715820312"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0312",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "c1ae5567-23dd-4e83-ab34-788946067333.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
