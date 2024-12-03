@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-09-09T14:46:30.650Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-09T14:47:07.859Z",
+            "modified": "2024-12-03T09:50:35.199Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Riflard du XIXe si\u00e8cle \u00e0 Mane, Alpes-de-Hte-Provence (canton de Forcalquier) : [...]"
+            "value": "Riflard du XIXe si\u00e8cle \u00e0 Mane, Alpes-de-Hte-Provence (canton de Forcalquier) : [lu \u0280ifl\u02c8a\u0280]"
         },
         {
             "created": "2023-09-09T14:47:16.948Z",
@@ -37,15 +37,15 @@ order: 1
             "value": "Q???"
         },
         {
-            "type": "TextualBody",
-            "value": "Dessin : Marcel Gaillard",
-            "purpose": "identifying",
+            "created": "2023-09-09T14:58:20.783Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-09T14:58:20.783Z",
-            "modified": "2023-09-09T14:58:24.035Z"
+            "modified": "2023-09-09T14:58:24.035Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Dessin : Marcel Gaillard"
         }
     ],
     "id": "01722567-cfd4-4e32-a57b-f63004ecef87.json",
@@ -60,7 +60,14 @@ order: 1
             "type": "FragmentSelector",
             "value": "xywh=2181.20458984375,81.26889038085938,2228.918212890625,752.9320983886719"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0327"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0327",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
