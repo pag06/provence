@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0310"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "\"Retour de p\u00e2turage\" \u00e0 Pertuis.C'est plut\u00f4t la sortie du troupeau (il est 16h d'apr\u00e8s les ombres et le troupeau sort de la ville). Pour traverser l'agglom\u00e9ration, un berger s'est plac\u00e9 en t\u00eate du troupeau et un second \u00e0 l'arri\u00e8re, suivant les r\u00e8glements en vigueur. En t\u00eate du troupeau, deux b\u00e9liers, don un [...].",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-11T14:52:49.699Z",
-            "modified": "2023-09-11T14:54:24.043Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-03T12:13:42.916Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "\"Retour de p\u00e2turage\" \u00e0 Pertuis.\nC'est plut\u00f4t la sortie du troupeau (il est 16h d'apr\u00e8s les ombres et le troupeau sort de la ville). Pour traverser l'agglom\u00e9ration, un berger s'est plac\u00e9 en t\u00eate du troupeau et un second \u00e0 l'arri\u00e8re, suivant les r\u00e8glements en vigueur. En t\u00eate du troupeau, deux b\u00e9liers, dont un [fluk\u02c8a]."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-11T14:54:37.456Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
+            "type": "TextualBody",
+            "value": "L???"
+        },
+        {
+            "created": "2023-09-11T14:55:32.257Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-11T14:54:37.456Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q9550",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-11T14:55:32.257Z"
+            "type": "TextualBody",
+            "value": "Q9550"
         },
         {
-            "type": "TextualBody",
-            "value": "Carte postale vers 1910",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-11T15:04:03.368Z",
-            "modified": "2023-09-11T15:04:09.965Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-11T15:04:09.965Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Carte postale vers 1910"
         }
     ],
+    "id": "192ba9c7-e4b9-4160-aac9-3a4d4edf3061.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0310",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1463.2376708984375,207.8529052734375,1614.3240966796875,1066.9782104492188"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1463.2376708984375,207.8529052734375,1614.3240966796875,1066.9782104492188"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0310",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "192ba9c7-e4b9-4160-aac9-3a4d4edf3061.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
