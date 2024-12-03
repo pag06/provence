@@ -11,10 +11,10 @@ order: 2
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-12-03T13:51:33.832Z",
+            "modified": "2024-12-03T13:55:52.937Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Petit mat\u00e9riel du berger \u00e0 Bevons, en 1969\nDe gauche \u00e0 droite :\n- chaudron \u00e0 poix ([la p\u02c8\u025b\u0261\u0153]) pour le marquage des moutons\n- trois fers \u00e0 marquer, l'un annulaire, les deux autres avec la lettre L (Latil), \n- deux sonnailles\n- une cisaille \u00e0 tonder Leydet ([...]) \u00e0 lame triangulaire et \u00e0 petit ressort utilis\u00e9 aussi bien pour les moutons que pour les chevaux, les \u00e2nes et les mulets."
+            "value": "Petit mat\u00e9riel du berger \u00e0 Bevons (Alpes-de-Hte-Provence), en 1969\nDe gauche \u00e0 droite :\n- chaudron \u00e0 poix ([la p\u02c8\u025b\u0261\u0153]) pour le marquage des moutons\n- trois fers \u00e0 marquer, l'un annulaire, les deux autres avec la lettre L (Latil), \n- deux sonnailles\n- une cisaille \u00e0 tonder Leydet ([...]) \u00e0 lame triangulaire et \u00e0 petit ressort utilis\u00e9 aussi bien pour les moutons que pour les chevaux, les \u00e2nes et les mulets."
         },
         {
             "created": "2023-09-12T05:41:56.605Z",
@@ -28,54 +28,54 @@ order: 2
             "value": "Photo : Pierre Martel"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L71",
+            "created": "2024-12-03T13:54:55.453Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T13:54:55.453Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L71"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q7984",
+            "created": "2024-12-03T13:55:00.990Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T13:55:00.990Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q7984"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q6386",
+            "created": "2024-12-03T13:55:07.640Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T13:55:07.640Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q6386"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9514",
+            "created": "2024-12-03T13:55:12.423Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T13:55:12.423Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9514"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q11000",
+            "created": "2024-12-03T13:55:17.085Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T13:55:17.085Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q11000"
         }
     ],
     "id": "33a48aed-4c1e-4b3f-8e0b-b3e48b8b9f5e.json",
