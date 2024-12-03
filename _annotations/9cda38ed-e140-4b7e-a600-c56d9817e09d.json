@@ -27,16 +27,6 @@ order: 1
             "value": "L106"
         },
         {
-            "created": "2023-09-11T05:22:56.507Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q???"
-        },
-        {
             "created": "2023-09-11T05:33:00.015Z",
             "creator": {
                 "id": "ej7320",
@@ -46,6 +36,16 @@ order: 1
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : coll. famille d'Arnaud"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q551",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T11:09:53.065Z"
         }
     ],
     "id": "9cda38ed-e140-4b7e-a600-c56d9817e09d.json",
