@@ -48,14 +48,24 @@ order: 6
             "value": "Q1091"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L71",
+            "created": "2024-12-03T12:26:43.958Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T12:26:43.958Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L71"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q1093",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T12:27:00.709Z"
         }
     ],
     "id": "49ec741d-ffd1-4692-bf29-490d238ffce1.json",
