@@ -3,74 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0316"
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Mangeoire et r\u00e2telier \u00e0 tringles sur pied (au 1er plan), ou sans pieds, pour les agneaux (au 2eme plan) : [...].\nMangeoire \u00e0 agneaux (au sol, \u00e0 droite) : la planche qui la recouvre est destin\u00e9e \u00e0 emp\u00eacher les b\u00eates de pi\u00e9tiner leur nourriture. \nFerme du Revest-St-Martin (Alpes-de-Hte-Provence), 1967",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-12T14:48:26.501Z",
-            "modified": "2023-09-12T14:49:51.142Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-03T15:08:17.588Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Mangeoires et r\u00e2telier \u00e0 la ferme du Revest-St-Martin (Alpes-de-Hte-Provence), 1967\nR\u00e2telier \u00e0 tringles sur pied (au 1er plan), ou sans pieds, pour les agneaux (au 2eme plan) : [\u0280astelj\u02c8e].\nMangeoire \u00e0 agneaux (au sol, \u00e0 droite) : la planche qui la recouvre est destin\u00e9e \u00e0 emp\u00eacher les b\u00eates de pi\u00e9tiner leur nourriture. \n"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8603",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-12T14:50:01.615Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-12T14:50:35.003Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q6300???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-12T14:51:28.861Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-12T14:58:19.673Z",
-            "modified": "2023-09-12T14:58:21.681Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-12T14:58:21.681Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2859",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T15:05:59.121Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8605",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T15:06:09.253Z"
         }
     ],
+    "id": "280ec2e0-98db-40de-ba12-f06337c30cf2.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0316",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=4040.613525390625,213.04920959472656,942.266357421875,1049.6570892333984"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=4040.613525390625,213.04920959472656,942.266357421875,1049.6570892333984"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0316",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "280ec2e0-98db-40de-ba12-f06337c30cf2.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
