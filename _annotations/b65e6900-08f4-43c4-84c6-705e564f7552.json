@@ -3,53 +3,60 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0299"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Relev\u00e9s d'architecture d'une ferme de Haute-Provence : la place du cheval dans l'\u00e9table\nCoupe en long selon fa\u00e7ade\nEn fa\u00e7ade, on peut observer la r\u00e9partition des ouvertures : deux grandes portes ouvrant sur la bergerie, avec un volet mobile dans l'un des vantaux et une porte plus \u00e9troite \u00e0 droite, donnant acc\u00e8s \u00e0 la trav\u00e9e du cheval. La terrasse et l'appartement du ma\u00eetre sont en d\u00e9crochement sur cette fa\u00e7ade et constituent une aile perpendiculaire,  avec, au rez de chauss\u00e9e, la loge \u00e0 cochons ([...]), le coin des ch\u00e8vres et la basse-cour.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-09T15:35:29.346Z",
-            "modified": "2023-09-09T15:37:59.023Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-03T10:35:07.275Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Relev\u00e9s d'architecture d'une ferme de Haute-Provence : la place du cheval dans l'\u00e9table [Le Pavon, commune du Contadour-Redortiers, Alpes-de-Hte-Provence]\nCoupe en long selon fa\u00e7ade\nEn fa\u00e7ade, on peut observer la r\u00e9partition des ouvertures : deux grandes portes ouvrant sur la bergerie, avec un volet mobile dans l'un des vantaux et une porte plus \u00e9troite \u00e0 droite, donnant acc\u00e8s \u00e0 la trav\u00e9e du cheval. La terrasse et l'appartement du ma\u00eetre sont en d\u00e9crochement sur cette fa\u00e7ade et constituent une aile perpendiculaire,  avec, au rez de chauss\u00e9e, la loge \u00e0 cochons ([...]), le coin des ch\u00e8vres et la basse-cour."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L???",
+            "created": "2023-09-09T15:38:01.470Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-09T15:38:01.470Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L???"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q3711",
+            "created": "2023-09-09T15:38:05.701Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-09T15:38:05.701Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q3711"
         }
     ],
+    "id": "b65e6900-08f4-43c4-84c6-705e564f7552.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0299",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2770.0380859375,2240.1044921875,2022.76220703125,1084.492919921875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2770.0380859375,2240.1044921875,2022.76220703125,1084.492919921875"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0299",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "b65e6900-08f4-43c4-84c6-705e564f7552.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
