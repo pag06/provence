@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0308"
 order: 5
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Bergerie de Camargue : La Favouillane, Domaine du Radeau \u00e0 Port-St-Louis-du-Rh\u00f4ne (B.-D.-RH) avant sa restauration, en 1976.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-11T05:56:14.294Z",
-            "modified": "2023-09-11T05:58:07.685Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-11T05:58:07.685Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Bergerie de Camargue : La Favouillane, Domaine du Radeau \u00e0 Port-St-Louis-du-Rh\u00f4ne (B.-D.-RH) avant sa restauration, en 1976."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-11T05:57:38.560Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-11T05:57:38.560Z"
+            "type": "TextualBody",
+            "value": "L???"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-11T05:57:40.133Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Photo : PNRC",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-11T06:00:13.953Z",
-            "modified": "2023-09-11T06:00:16.017Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-11T06:00:16.017Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : PNRC"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q1093",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T11:57:42.948Z"
         }
     ],
+    "id": "0cd62128-2b86-465f-b705-d5ad100cfa25.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0308",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=157.2286376953125,2589.50048828125,1136.262451171875,893.767333984375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=157.2286376953125,2589.50048828125,1136.262451171875,893.767333984375"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0308",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "0cd62128-2b86-465f-b705-d5ad100cfa25.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
