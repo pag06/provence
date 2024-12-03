@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0326"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Chevalet pour scier le bois \u00e0 Monnieux, Vaucluse. Tr\u00e9pied constitu\u00e9 \u00e0 partir d'un tronc d'arbre maintenu par un pied. Deux chevilles de bois sont destin\u00e9es \u00e0 recevoir les branches \u00e0 scier [...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-09T14:32:17.323Z",
-            "modified": "2023-09-09T14:33:05.072Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-03T09:37:26.829Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Chevalet pour scier le bois \u00e0 Monnieux, Vaucluse [la k\u02c8ab\u0280\u0153]\nTr\u00e9pied constitu\u00e9 \u00e0 partir d'un tronc d'arbre maintenu par un pied. Deux chevilles de bois sont destin\u00e9es \u00e0 recevoir les branches \u00e0 scier."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-09T14:33:27.192Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
+            "type": "TextualBody",
+            "value": "L???"
+        },
+        {
+            "created": "2023-09-09T14:33:58.362Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-09T14:33:27.192Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q2228",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-09T14:33:58.362Z"
+            "type": "TextualBody",
+            "value": "Q2228"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-09T14:45:20.627Z",
-            "modified": "2023-09-09T14:45:24.508Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-09T14:45:24.508Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel"
         }
     ],
+    "id": "cb662e07-187a-4e85-870b-8980fade44b6.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0326",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1649.3714599609375,212.73318481445312,962.0799560546875,980.0069274902344"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1649.3714599609375,212.73318481445312,962.0799560546875,980.0069274902344"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0326",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "cb662e07-187a-4e85-870b-8980fade44b6.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
