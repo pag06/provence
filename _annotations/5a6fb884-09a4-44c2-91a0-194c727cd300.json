@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0309"
 order: 7
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Bergerie des Fraches \u00e0 Redortiers (Alpes-de-Hte-Provence), dans son \u00e9tat actuel : la toiture de lauses reposait sur une charpente rudimentaire et des arcs de pierre s\u00e8che en plein cintre.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-11T14:49:25.402Z",
-            "modified": "2023-09-11T14:50:05.673Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-03T12:12:13.589Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Bergerie des Fraches \u00e0 Redortiers (Alpes-de-Hte-Provence), dans son \u00e9tat actuel (1975)\nLa toiture de lauses reposait sur une charpente rudimentaire et des arcs de pierre s\u00e8che en plein cintre."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-11T14:50:18.311Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-11T14:50:20.858Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Photo : Guy Barruol, 1975",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-11T14:52:12.360Z",
-            "modified": "2023-09-11T14:52:25.512Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-11T14:52:25.512Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Guy Barruol, 1975"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L89",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T12:12:26.299Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q1093",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T12:12:30.117Z"
         }
     ],
+    "id": "5a6fb884-09a4-44c2-91a0-194c727cd300.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0309",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3316.592529296875,2331.41650390625,1073.906494140625,1056.58544921875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3316.592529296875,2331.41650390625,1073.906494140625,1056.58544921875"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0309",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "5a6fb884-09a4-44c2-91a0-194c727cd300.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
