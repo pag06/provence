@@ -17,26 +17,6 @@ order: 6
             "value": "Claies mobiles en bois pour fermer les cours \u00e9tables, ou enclos \u00e0 Barret-le-Haut (Hautes-Alpes, 1971)\nDu type de celles que fabriquaient les bergers eux-m\u00eames et que l'on trouvait \u00e0 peu pr\u00e8s partout dans les explotitations pastorales : [la kl\u02c8\u025bd\u0153], [la kl\u02c8ija]. "
         },
         {
-            "created": "2023-09-12T14:38:37.742Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
-            "created": "2023-09-12T14:38:47.777Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q???"
-        },
-        {
             "created": "2023-09-12T14:45:06.606Z",
             "creator": {
                 "id": "ej7320",
@@ -46,6 +26,26 @@ order: 6
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Claude Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2399",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T14:56:19.555Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L58",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T14:56:34.006Z"
         }
     ],
     "id": "399419c9-c91a-4826-8995-46fcbf286196.json",
