@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0317"
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Faisselier en fa\u00efence de la r\u00e9gion de Romans (Dr\u00f4me) : [...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-13T05:05:26.955Z",
-            "modified": "2023-09-13T05:05:51.602Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-13T05:05:51.602Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Faisselier en fa\u00efence de la r\u00e9gion de Romans (Dr\u00f4me) : [...]"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-13T05:05:55.272Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
+            "type": "TextualBody",
+            "value": "L???"
+        },
+        {
+            "created": "2023-09-13T05:05:57.907Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-13T05:05:55.272Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q4397",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-13T05:05:57.907Z"
+            "type": "TextualBody",
+            "value": "Q4397"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Mus\u00e9e de la Chaussure et d'Ethnographie R\u00e9gionale de Romans",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-13T05:16:42.023Z",
-            "modified": "2023-09-13T05:16:44.629Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-13T05:16:44.629Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Mus\u00e9e de la Chaussure et d'Ethnographie R\u00e9gionale de Romans"
         }
     ],
+    "id": "ea77e49a-6c30-4656-834b-c36b7f45adde.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0317",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3966.734619140625,53.56661605834961,1092.506591796875,772.6286964416504"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3966.734619140625,53.56661605834961,1092.506591796875,772.6286964416504"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0317",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "ea77e49a-6c30-4656-834b-c36b7f45adde.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
