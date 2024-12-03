@@ -27,16 +27,6 @@ order: 2
             "value": "L114"
         },
         {
-            "created": "2023-09-09T15:19:00.814Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q???"
-        },
-        {
             "created": "2023-09-09T15:24:19.224Z",
             "creator": {
                 "id": "ej7320",
@@ -46,6 +36,26 @@ order: 2
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo collection Chaix Clavi\u00e8re-Bouteuil"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2096",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T10:16:42.543Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2107",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T10:16:48.380Z"
         }
     ],
     "id": "8cc8f430-131d-42e5-982a-d7a2c5ada5c3.json",
