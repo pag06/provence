@@ -48,14 +48,14 @@ order: 3
             "value": "Q8605"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L87",
+            "created": "2024-12-03T15:09:30.706Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T15:09:30.706Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L87"
         }
     ],
     "id": "280ec2e0-98db-40de-ba12-f06337c30cf2.json",
