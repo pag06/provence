@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0317"
 order: 9
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Moule \u00e0 beurre de forme ovale \u00e0 Cord\u00e9ac (Is\u00e8re)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-13T05:12:17.141Z",
-            "modified": "2023-09-13T05:12:34.596Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-13T05:12:34.596Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Moule \u00e0 beurre de forme ovale \u00e0 Cord\u00e9ac (Is\u00e8re)"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-13T05:12:37.869Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L18",
+            "type": "TextualBody",
+            "value": "L18"
+        },
+        {
+            "created": "2023-09-13T05:12:50.611Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-13T05:12:37.869Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q6797",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-13T05:12:50.611Z"
+            "type": "TextualBody",
+            "value": "Q6797"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Gallocher",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-13T05:15:51.590Z",
-            "modified": "2023-09-13T05:15:57.490Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-13T05:15:57.490Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Gallocher"
         }
     ],
+    "id": "ec2140c2-7fa8-4ed8-a3b8-694687c1cc56.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0317",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2570.820068359375,2036.6278076171875,1195.13037109375,1326.5946044921875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2570.820068359375,2036.6278076171875,1195.13037109375,1326.5946044921875"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0317",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "ec2140c2-7fa8-4ed8-a3b8-694687c1cc56.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
