@@ -17,16 +17,6 @@ order: 8
             "value": "Cairns de sommet\nLimites de paturages \u00e9difi\u00e9es par les bergers en montagne et correspondant souvent aussi \u00e0 des limites de communes ou m\u00eame de cantons comme c'est le cas ici.\n[k'asu] tron\u00e7onnique au sommet du Sambuguet \u00e0 l'Hospitalet"
         },
         {
-            "created": "2023-09-12T14:42:32.903Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
             "created": "2023-09-12T14:45:21.417Z",
             "creator": {
                 "id": "ej7320",
@@ -38,14 +28,24 @@ order: 8
             "value": "Photo : Pierre Martel"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q6074",
+            "created": "2024-12-03T15:00:53.282Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T15:00:53.282Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q6074"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L89",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T15:01:47.900Z"
         }
     ],
     "id": "697a3ad7-db2e-440d-92fe-a8bd6a12bc70.json",
