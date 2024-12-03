@@ -49,14 +49,13 @@ order: 2
         },
         {
             "type": "TextualBody",
-            "value": "Pas de question correspondante",
-            "purpose": "replying",
+            "purpose": "tagging",
+            "value": "Q9847",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T11:26:45.768Z",
-            "modified": "2024-12-03T11:26:56.118Z"
+            "created": "2024-12-03T11:27:35.146Z"
         }
     ],
     "id": "6e641e9e-405d-4a56-9c03-1d349ffbc745.json",
