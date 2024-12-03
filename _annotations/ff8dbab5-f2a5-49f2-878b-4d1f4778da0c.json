@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0312"
 order: 7
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Sonnaille en bronze avec collier orn\u00e9 d'initiales et de d\u00e9cors g\u00e9om\u00e9triques au moyen de clous en laiton \u00e0 St-Calmas-Valdebicre (Alpes Maritimes)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-12T05:51:31.986Z",
-            "modified": "2023-09-12T05:52:22.084Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-03T14:18:23.652Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Sonnaille en bronze avec collier orn\u00e9 d'initiales et de d\u00e9cors g\u00e9om\u00e9triques au moyen de clous en laiton \u00e0 St-Dalmas-Valdeblore (Alpes Maritimes)"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-12T05:52:36.608Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
+            "type": "TextualBody",
+            "value": "L???"
+        },
+        {
+            "created": "2023-09-12T05:52:38.564Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-12T05:52:36.608Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q9514",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-12T05:52:38.564Z"
+            "type": "TextualBody",
+            "value": "Q9514"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-12T05:53:16.841Z",
-            "modified": "2023-09-12T05:53:19.650Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-12T05:53:19.650Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel"
         }
     ],
+    "id": "ff8dbab5-f2a5-49f2-878b-4d1f4778da0c.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0312",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1398.39404296875,1933.720947265625,1111.47119140625,1559.64501953125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1398.39404296875,1933.720947265625,1111.47119140625,1559.64501953125"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0312",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "ff8dbab5-f2a5-49f2-878b-4d1f4778da0c.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
