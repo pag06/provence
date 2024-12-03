@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0315"
 order: 5
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Enclos \u00e0 moutons de bois brut ([...]) ensemble de claies, certaines mobiles, pour ouvrir ou fermer \u00e0 volont\u00e9 le passage du troupeau dans les divers directions. St-Trinit (Vaucluse)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-12T14:35:03.193Z",
-            "modified": "2023-09-12T14:35:56.958Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-03T14:53:18.438Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Enclos \u00e0 moutons de bois brut ([lu kled'as]) St-Trinit (Vaucluse)\nEnsemble de claies, certaines mobiles, pour ouvrir ou fermer \u00e0 volont\u00e9 le passage du troupeau dans les divers directions. "
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-12T14:36:05.139Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
+            "type": "TextualBody",
+            "value": "L???"
+        },
+        {
+            "created": "2023-09-12T14:36:17.349Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-12T14:36:05.139Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q7330",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-12T14:36:17.349Z"
+            "type": "TextualBody",
+            "value": "Q7330"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-12T14:44:55.486Z",
-            "modified": "2023-09-12T14:44:57.679Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-12T14:44:57.679Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel"
         }
     ],
+    "id": "dc3cc2c1-4b23-4462-afe2-6cc1a7038813.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0315",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2575.25048828125,1286.955810546875,1357.97216796875,994.229736328125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2575.25048828125,1286.955810546875,1357.97216796875,994.229736328125"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0315",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "dc3cc2c1-4b23-4462-afe2-6cc1a7038813.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
