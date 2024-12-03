@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0308"
 order: 6
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Bergerie de Camargue : La Favouillane, Domaine du Radeau \u00e0 Port-St-Louis-du-Rh\u00f4ne (B.-D.-RH) apr\u00e8s sa restauration, en 1982.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-11T05:58:17.437Z",
-            "modified": "2023-09-11T05:58:26.830Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-11T05:58:26.830Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Bergerie de Camargue : La Favouillane, Domaine du Radeau \u00e0 Port-St-Louis-du-Rh\u00f4ne (B.-D.-RH) apr\u00e8s sa restauration, en 1982."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-11T05:58:29.872Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
+            "type": "TextualBody",
+            "value": "L???"
+        },
+        {
+            "created": "2023-09-11T05:58:30.985Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-11T05:58:29.872Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-11T05:58:30.985Z"
+            "type": "TextualBody",
+            "value": "Q???"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : PNRC",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-11T06:00:17.883Z",
-            "modified": "2023-09-11T06:00:20.392Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-11T06:00:20.392Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : PNRC"
         }
     ],
+    "id": "504dc4ef-09b3-48a2-ab7e-46a38cb8d694.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0308",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1470.166015625,2610.28564453125,1468.8271484375,879.91064453125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1470.166015625,2610.28564453125,1468.8271484375,879.91064453125"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0308",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "504dc4ef-09b3-48a2-ab7e-46a38cb8d694.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
