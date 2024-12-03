@@ -17,16 +17,6 @@ order: 2
             "value": "La masse en bois, le plot et le coin \u00e0 Ongles, Alpes-de-Hte-Provence. (canton de St-Etienne-les-Orgues).\n- la masse : [la b\u02c8u\u0280\u0153]\n- le plot : [lu pl\u02c8\u0254]\n- les coins : [les ku\u0272\u02c8e]"
         },
         {
-            "created": "2023-09-09T14:35:48.060Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q6402???"
-        },
-        {
             "created": "2023-09-09T14:45:41.459Z",
             "creator": {
                 "id": "ej7320",
@@ -46,6 +36,36 @@ order: 2
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "L87"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q6401",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T09:41:55.572Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q1153",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T09:41:59.731Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2457",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T09:42:04.236Z"
         }
     ],
     "id": "13db7971-8c9b-45af-860a-75bc8a6e0c90.json",
