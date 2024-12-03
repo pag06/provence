@@ -3,74 +3,81 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0314"
 order: 8
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Enclos de troupeau transhumant, pr\u00e8s du Pont-Rouge, dans le vallon du Lauzanier, \u00e0 Larche.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-12T14:26:18.807Z",
-            "modified": "2023-09-12T14:26:40.249Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-12T14:26:40.249Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Enclos de troupeau transhumant, pr\u00e8s du Pont-Rouge, dans le vallon du Lauzanier, \u00e0 Larche."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-12T14:26:55.239Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L46",
+            "type": "TextualBody",
+            "value": "L46"
+        },
+        {
+            "created": "2023-09-12T14:27:07.485Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-12T14:26:55.239Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q7330",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-12T14:27:07.485Z"
+            "type": "TextualBody",
+            "value": "Q7330"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q10344",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-12T14:27:14.032Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel, 1970",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-12T14:27:33.920Z",
-            "modified": "2023-09-12T14:28:39.150Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-12T14:28:39.150Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel, 1970"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q10348",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T14:46:27.402Z"
         }
     ],
+    "id": "5bca4839-4af8-42d3-b14a-4e43b0caa2e4.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0314",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3944.769775390625,2526.82373046875,1035.415283203125,958.4326171875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3944.769775390625,2526.82373046875,1035.415283203125,958.4326171875"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0314",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "5bca4839-4af8-42d3-b14a-4e43b0caa2e4.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
