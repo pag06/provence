@@ -3,74 +3,91 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0307"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Bouc balcn au milieu du troupeau de moutons et de ch\u00e8vres \u00e0 Redortiers (Alpes-de-Hte-Provence).",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-11T05:38:38.091Z",
-            "modified": "2023-09-11T05:38:57.542Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-03T11:40:41.048Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Bouc blanc au milieu du troupeau de moutons et de ch\u00e8vres \u00e0 Redortiers (Alpes-de-Hte-Provence)."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-11T05:39:18.517Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-11T05:39:05.490Z"
+            "type": "TextualBody",
+            "value": "C741"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "C741",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-11T05:39:18.517Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q1305???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-11T05:39:30.299Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Phot : J.F. Letavernier",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-11T05:48:32.251Z",
-            "modified": "2023-09-11T05:48:40.709Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-11T05:48:40.709Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Phot : J.F. Letavernier"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L89",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T11:40:15.979Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q1305",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T11:41:18.878Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q10345",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T11:41:25.690Z"
         }
     ],
+    "id": "03f4c8fc-b3dc-4eab-996c-b59217d54977.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0307",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3562.5517578125,43.30271530151367,1489.6123046875,1001.1581001281738"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3562.5517578125,43.30271530151367,1489.6123046875,1001.1581001281738"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0307",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "03f4c8fc-b3dc-4eab-996c-b59217d54977.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
