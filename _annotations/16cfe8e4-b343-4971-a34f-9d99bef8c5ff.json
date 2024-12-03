@@ -3,53 +3,61 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0095"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
+            "created": "2023-09-09T15:03:39.783Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-03T10:10:17.925Z",
+            "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Coupe du \"fourneau\"",
+            "value": "Coupe du \"fourneau\"\n1) le foyer avc porti\u00e8re de charge et de visite\n2) la chaudi\u00e8re contenant l'eau, le grain, les l\u00e9gumes, les \u00e9pluchures, le sel et autres assaisonnements. La flamme circule autour.\n3) la couronne que l'on enl\u00e8ve que pour charger la chaudi\u00e8re. Elle est munie d'une ouverture utilis\u00e9e pour surveiller la cuisson et remuer la soupe autant de fois que n\u00e9cessaire.\n4) le couvercle \u00e9vitant l'\u00e9vaporation\n5) la chemin\u00e9e d'\u00e9vacuation de la fum\u00e9e."
+        },
+        {
+            "created": "2023-09-09T15:05:01.201Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2143"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Sans localisation",
             "purpose": "commenting",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-09-09T15:03:39.783Z",
-            "modified": "2023-09-09T15:03:46.747Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-09T15:04:44.815Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2143",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-09T15:05:01.201Z"
+            "created": "2024-12-03T10:10:21.560Z",
+            "modified": "2024-12-03T10:10:26.286Z"
         }
     ],
+    "id": "16cfe8e4-b343-4971-a34f-9d99bef8c5ff.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0095",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1289.9359130859375,16.13426399230957,1220.8258056640625,653.4375133514404"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1289.9359130859375,16.13426399230957,1220.8258056640625,653.4375133514404"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0095",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "16cfe8e4-b343-4971-a34f-9d99bef8c5ff.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
