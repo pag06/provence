@@ -17,16 +17,6 @@ order: 7
             "value": "Cairns de sommet : limites de paturages \u00e9difi\u00e9es par les bergers en montagne et correspondant souvent aussi \u00e0 des limites de communes ou m\u00eame de cantons comme c'est le cas ici.\n[k'asu] cylindrique au sommet du Contras de Lure"
         },
         {
-            "created": "2023-09-12T14:41:34.758Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
             "created": "2023-09-12T14:45:17.542Z",
             "creator": {
                 "id": "ej7320",
@@ -46,6 +36,16 @@ order: 7
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q6074"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L71",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T14:59:48.514Z"
         }
     ],
     "id": "14f96631-ba69-4b49-8d25-1494bfa31950.json",
