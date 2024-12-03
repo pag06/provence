@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0313"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Troupeau transhumant en stationnement sur le Pr\u00e9-de-Foire de Riez en 1902. Les \u00e2nes ont \u00e9t\u00e9 d\u00e9b\u00e2t\u00e9s le temps de la halte",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-12T05:56:05.127Z",
-            "modified": "2023-09-12T05:56:44.294Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-12T05:56:44.294Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Troupeau transhumant en stationnement sur le Pr\u00e9-de-Foire de Riez en 1902. Les \u00e2nes ont \u00e9t\u00e9 d\u00e9b\u00e2t\u00e9s le temps de la halte"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-12T05:56:56.202Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L114",
+            "type": "TextualBody",
+            "value": "L114"
+        },
+        {
+            "created": "2023-09-12T05:57:07.123Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-12T05:56:56.202Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q10348",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-12T05:57:07.123Z"
+            "type": "TextualBody",
+            "value": "Q10348"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Fonds Chaix-Bouteuil",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-12T06:04:25.420Z",
-            "modified": "2023-09-12T06:04:42.351Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-12T06:04:42.351Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Fonds Chaix-Bouteuil"
         }
     ],
+    "id": "c812944d-c9b2-40c4-949b-3e6d45ff7b6b.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0313",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3436.09130859375,57.366241455078125,1523.791015625,1009.8851013183594"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3436.09130859375,57.366241455078125,1523.791015625,1009.8851013183594"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0313",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "c812944d-c9b2-40c4-949b-3e6d45ff7b6b.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
