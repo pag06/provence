@@ -11,30 +11,10 @@ order: 6
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-12-03T14:42:31.245Z",
+            "modified": "2024-12-03T14:43:09.459Z",
             "purpose": "commenting",
             "type": "TextualBody",
             "value": "L'\u00e2ne du troupeau, charg\u00e9 du b\u00e2t [lu b'ast] qui servira \u00e0 transporter le mat\u00e9riel n\u00e9cessaire aux bergers pendant l'estivage jusqu'\u00e0 la cabane d'alpage, \u00e0 partir du lieu o\u00f9 le fourgon ne pourra plus monter."
-        },
-        {
-            "created": "2023-09-12T14:24:33.933Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
-            "created": "2023-09-12T14:24:47.083Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q???"
         },
         {
             "created": "2023-09-12T14:28:18.472Z",
@@ -46,6 +26,16 @@ order: 6
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Pierre Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L60",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T14:43:20.531Z"
         }
     ],
     "id": "17487416-f435-408a-9bb0-68bf3cdbf997.json",
