@@ -17,16 +17,6 @@ order: 7
             "value": "Herminette [l \u025bjs\u02c8\u025bt\u0153 a \u0261am\u02c8at\u0250] Saignon, Vaucluse (canton d'Apt). \nOutil large, servant surtout \u00e0 creuser les auges et les abreuvoirs ou [\u0261am\u02c8at\u0153]"
         },
         {
-            "created": "2023-09-08T18:11:10.738Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
             "created": "2023-09-08T18:13:53.983Z",
             "creator": {
                 "id": "ej7320",
@@ -38,14 +28,24 @@ order: 7
             "value": "Dessin : Marcel Gaillard"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5503",
+            "created": "2024-12-03T09:31:00.689Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T09:31:00.689Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5503"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L109",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T09:31:50.146Z"
         }
     ],
     "id": "de297211-e131-429e-b5d3-7949a288bb16.json",
