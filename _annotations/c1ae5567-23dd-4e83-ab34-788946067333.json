@@ -27,16 +27,6 @@ order: 2
             "value": "Q9514"
         },
         {
-            "created": "2023-09-12T05:46:39.314Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
             "created": "2023-09-12T05:53:32.739Z",
             "creator": {
                 "id": "ej7320",
@@ -46,6 +36,16 @@ order: 2
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : F. X. Emery"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L100",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T14:12:05.561Z"
         }
     ],
     "id": "c1ae5567-23dd-4e83-ab34-788946067333.json",
