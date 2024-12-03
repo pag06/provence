@@ -38,14 +38,14 @@ order: 1
             "value": "Photo : coll. famille d'Arnaud"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q551",
+            "created": "2024-12-03T11:09:53.065Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T11:09:53.065Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q551"
         }
     ],
     "id": "9cda38ed-e140-4b7e-a600-c56d9817e09d.json",
