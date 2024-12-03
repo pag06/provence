@@ -3,64 +3,81 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0311"
 order: 5
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Troupeau \u00e0 l'\u00e9poque de la tonte : certaines b\u00eates sont encore rev\u00eatues de la laine d'hiver. Reillanne, avril 1965.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-12T05:36:42.458Z",
-            "modified": "2023-09-12T05:37:28.983Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-12T05:37:28.983Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Troupeau \u00e0 l'\u00e9poque de la tonte : certaines b\u00eates sont encore rev\u00eatues de la laine d'hiver. Reillanne, avril 1965."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-12T05:37:39.822Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "Q10050",
+            "type": "TextualBody",
+            "value": "Q10050"
+        },
+        {
+            "created": "2023-09-12T05:37:51.759Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-12T05:37:39.822Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L106",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-12T05:37:51.759Z"
+            "type": "TextualBody",
+            "value": "L106"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-12T05:42:24.170Z",
-            "modified": "2023-09-12T05:42:26.844Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-12T05:42:26.844Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q10345",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T14:02:21.751Z"
         }
     ],
+    "id": "fad335ed-f315-492b-a9ae-1bef8def2d69.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0311",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3919.50146484375,1097.1357421875,1123.42236328125,1057.6904296875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3919.50146484375,1097.1357421875,1123.42236328125,1057.6904296875"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0311",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "fad335ed-f315-492b-a9ae-1bef8def2d69.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
