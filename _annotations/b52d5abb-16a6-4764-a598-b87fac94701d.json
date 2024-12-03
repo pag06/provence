@@ -8,13 +8,13 @@ order: 3
         {
             "created": "2023-09-09T14:48:56.631Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-09T14:49:29.148Z",
+            "modified": "2024-12-03T09:54:12.472Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Bouvet \u00e0 rainurer \u00e0 Allos, Alpes-de-Hte-Provence (point L60) : [...]"
+            "value": "Bouvet \u00e0 rainurer \u00e0 Allos, Alpes-de-Hte-Provence (point L60) : [lu buv\u02c8\u025bt fem\u02c8\u025bw]"
         },
         {
             "created": "2023-09-09T14:49:33.111Z",
@@ -37,15 +37,15 @@ order: 3
             "value": "Q???"
         },
         {
-            "type": "TextualBody",
-            "value": "Dessin : Marcel Gaillard",
-            "purpose": "identifying",
+            "created": "2023-09-09T14:58:32.601Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-09T14:58:32.601Z",
-            "modified": "2023-09-09T14:58:35.142Z"
+            "modified": "2023-09-09T14:58:35.142Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Dessin : Marcel Gaillard"
         }
     ],
     "id": "b52d5abb-16a6-4764-a598-b87fac94701d.json",
@@ -59,7 +59,14 @@ order: 3
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"2665.232177734375,911.8844604492188 3728.898193359375,899.9331665039062 3991.826904296875,1395.9122314453125 3902.192138671875,1742.5 2796.696533203125,1712.621826171875\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0327"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0327",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
