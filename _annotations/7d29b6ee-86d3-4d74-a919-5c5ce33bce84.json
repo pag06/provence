@@ -11,10 +11,10 @@ order: 1
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-12-03T14:49:03.542Z",
+            "modified": "2024-12-03T14:51:18.256Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Enclos \u00e0 vaches \u00e0 Seyne-les-Alpes : d\u00e9tails des assemblages de cl\u00f4tures\nEntr\u00e9e principale de l'enclos, fermeture par une claie mobile en bois sommairement \u00e9quarri."
+            "value": "Enclos \u00e0 vaches \u00e0 Seyne-les-Alpes : entr\u00e9e principale de l'enclos, fermeture par une claie mobile en bois sommairement \u00e9quarri."
         },
         {
             "created": "2023-09-12T14:30:38.453Z",
