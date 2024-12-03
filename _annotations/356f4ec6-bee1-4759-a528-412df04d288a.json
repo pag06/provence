@@ -17,16 +17,6 @@ order: 5
             "value": "Garde-manger pour conserver les tommes dans la r\u00e9gion de Romans : [la \u0283az\u02c8\u025b\u0280\u0254]"
         },
         {
-            "created": "2023-09-13T05:08:40.435Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q???"
-        },
-        {
             "created": "2023-09-13T05:16:54.575Z",
             "creator": {
                 "id": "ej7320",
@@ -38,14 +28,24 @@ order: 5
             "value": "Photo : Mus\u00e9e de la Chaussure et d'Ethnographie R\u00e9gionale de Romans"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L10",
+            "created": "2024-12-03T15:28:02.135Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T15:28:02.135Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L10"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q1645",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T15:28:49.010Z"
         }
     ],
     "id": "356f4ec6-bee1-4759-a528-412df04d288a.json",
