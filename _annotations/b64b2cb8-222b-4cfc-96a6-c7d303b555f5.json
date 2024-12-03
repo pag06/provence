@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0307"
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Le coin de la ch\u00e8vre avec son chevrau dans l'\u00e9table avec son ratelier et sa mangeoire ([...]) \u00e0 St-Michel-l\u2019Observatoire (Alpes-de-Hte-Provence)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-11T05:39:50.559Z",
-            "modified": "2023-09-11T05:41:01.735Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-03T11:42:38.930Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Le coin de la ch\u00e8vre avec son chevrau dans l'\u00e9table avec son ratelier et sa mangeoire ([lu rastelj\u02c8\u025b e la k\u0280\u02c8ypi]) \u00e0 St-Michel-l\u2019Observatoire (Alpes-de-Hte-Provence)"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-11T05:41:14.662Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
+            "type": "TextualBody",
+            "value": "L???"
+        },
+        {
+            "created": "2023-09-11T05:41:56.750Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-11T05:41:14.662Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q2258",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-11T05:41:56.750Z"
+            "type": "TextualBody",
+            "value": "Q2258"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Gallocher",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-11T05:48:46.039Z",
-            "modified": "2023-09-11T05:48:48.834Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-11T05:48:48.834Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Gallocher"
         }
     ],
+    "id": "b64b2cb8-222b-4cfc-96a6-c7d303b555f5.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0307",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3448.23291015625,1075.6387939453125,1576.2177734375,1122.4056396484375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3448.23291015625,1075.6387939453125,1576.2177734375,1122.4056396484375"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0307",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "b64b2cb8-222b-4cfc-96a6-c7d303b555f5.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
