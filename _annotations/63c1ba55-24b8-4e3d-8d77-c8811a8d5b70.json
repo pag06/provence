@@ -38,14 +38,14 @@ order: 6
             "value": "L87"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q3493",
+            "created": "2024-12-03T15:16:51.108Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T15:16:51.108Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q3493"
         }
     ],
     "id": "63c1ba55-24b8-4e3d-8d77-c8811a8d5b70.json",
