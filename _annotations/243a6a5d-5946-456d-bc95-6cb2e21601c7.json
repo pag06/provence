@@ -3,63 +3,70 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0325"
 order: 6
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "[...]\nLes Dourbes, canton de Digne, Alpes-de-Hte-Provence. Outil utilis\u00e9 pour creuser les troncs d'arbre en goutti\u00e8res servant \u00e0 recueillir les eaux toitures, et en gorges sali\u00e8res destin\u00e9es \u00e0 contenir le sel que l'on donne aux moutons. Outils : 31 cm ; largeur gouge : 5cm.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T18:08:45.358Z",
-            "modified": "2023-09-08T18:10:13.820Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-03T09:26:52.926Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "[lu p\u02c8it\u0283\u0153 \u0261\u02c8\u0254\u0280d\u0292\u0153]\nLes Dourbes, canton de Digne, Alpes-de-Hte-Provence. Outil utilis\u00e9 pour creuser les troncs d'arbre en goutti\u00e8res servant \u00e0 recueillir les eaux toitures, et en gorges sali\u00e8res destin\u00e9es \u00e0 contenir le sel que l'on donne aux moutons. Outils : 31 cm ; largeur gouge : 5 cm."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-08T18:10:18.989Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-08T18:10:18.989Z"
+            "type": "TextualBody",
+            "value": "L???"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-08T18:10:20.965Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Dessin : Marcel Gaillard",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T18:13:50.011Z",
-            "modified": "2023-09-08T18:13:52.314Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-08T18:13:52.314Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Dessin : Marcel Gaillard"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5503",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T09:26:44.432Z"
         }
     ],
+    "id": "243a6a5d-5946-456d-bc95-6cb2e21601c7.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0325",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"1925.902587890625,2167.82861328125 2045.2255859375,2183.22509765625 2206.888916015625,3391.85107421875 1610.274169921875,3384.15283203125\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0325",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "243a6a5d-5946-456d-bc95-6cb2e21601c7.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
