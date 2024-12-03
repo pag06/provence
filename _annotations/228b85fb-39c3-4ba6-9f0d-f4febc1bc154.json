@@ -17,26 +17,6 @@ order: 5
             "value": "[lu fl'uka], b\u00e9lier chef du troupeau\nAvec ses flots de laine sur le dos, ornement dont la forme et les couleurs constituent avec les dessins qui entourent la marque du propri\u00e9taire, un d\u00e9cor attrayant. Le b\u00e9lier porte au cou [lu \u0280ed\u02c8u\u0303\u207f], grosse sonnaille ronde."
         },
         {
-            "created": "2023-09-12T14:22:14.766Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
-            "created": "2023-09-12T14:22:37.843Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q9550"
-        },
-        {
             "created": "2023-09-12T14:22:58.743Z",
             "creator": {
                 "id": "ej7320",
@@ -56,6 +36,26 @@ order: 5
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Pierre Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L60",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T14:41:32.761Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9514",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T14:42:11.876Z"
         }
     ],
     "id": "228b85fb-39c3-4ba6-9f0d-f4febc1bc154.json",
