@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0307"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Les ch\u00e8vres dans le troupeau de moutons : en Provence, l'\u00e9levage des ovins et des caprins est souvent combin\u00e9. Les petits troupeaux de brebis comptent g\u00e9n\u00e9ralement quelques ch\u00e8vres \u00e9lev\u00e9es pour leur lait et parfois un b\u00e9lier soit pour la reproduction, soit pour la conduite du troupeau de moutons ([...]). Ici, troupeau de race \"pr\u00e9alpes\u00e9 au Revest-des-Brousses (Alpes-de-Hte-Provence) ; au premier plan, une dalle \u00e0 sel.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-11T05:35:18.677Z",
-            "modified": "2023-09-11T05:37:08.054Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-03T11:34:22.934Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Les ch\u00e8vres dans le troupeau de moutons\nEn Provence, l'\u00e9levage des ovins et des caprins est souvent combin\u00e9. Les petits troupeaux de brebis comptent g\u00e9n\u00e9ralement quelques ch\u00e8vres \u00e9lev\u00e9es pour leur lait et parfois un b\u00e9lier soit pour la reproduction, soit pour la conduite du troupeau de moutons ([lu men\u02c8u\u0303\u207f]). Ici, troupeau de race \"pr\u00e9alpes\" au Revest-des-Brousses (Alpes-de-Hte-Provence) ; au premier plan, une dalle \u00e0 sel."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-11T05:37:22.812Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
+            "type": "TextualBody",
+            "value": "L???"
+        },
+        {
+            "created": "2023-09-11T05:37:57.434Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-11T05:37:22.812Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "C741",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-11T05:37:57.434Z"
+            "type": "TextualBody",
+            "value": "C741"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Gallocher",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-11T05:48:22.764Z",
-            "modified": "2023-09-11T05:48:25.283Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-11T05:48:25.283Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Gallocher"
         }
     ],
+    "id": "9a854446-e75a-41cd-8e12-0fd38eeb0f27.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0307",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1681.483154296875,53.69532775878906,1163.97607421875,1562.360824584961"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1681.483154296875,53.69532775878906,1163.97607421875,1562.360824584961"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0307",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "9a854446-e75a-41cd-8e12-0fd38eeb0f27.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
