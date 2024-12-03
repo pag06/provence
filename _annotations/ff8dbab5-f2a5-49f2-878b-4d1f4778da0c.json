@@ -51,15 +51,6 @@ order: 7
     "id": "ff8dbab5-f2a5-49f2-878b-4d1f4778da0c.json",
     "motivation": "commenting",
     "target": {
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
-            "type": "Manifest"
-        },
-        "selector": {
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "type": "FragmentSelector",
-            "value": "xywh=1398.39404296875,1933.720947265625,1111.47119140625,1559.64501953125"
-        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
@@ -67,6 +58,11 @@ order: 7
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0312",
             "type": "Canvas"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1403.99169921875,1948.6578369140625,1105.87353515625,1544.7081298828125"
         }
     },
     "type": "Annotation"
