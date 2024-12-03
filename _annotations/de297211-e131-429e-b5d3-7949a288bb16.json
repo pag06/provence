@@ -3,63 +3,70 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0325"
 order: 7
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "[...] Saignon, Vaucluse (canton d'Apt). M\u00eame outil que le pr\u00e9c\u00e9dent, mais plus large, servant surtout \u00e0 creuser les auges et les abreuvoirs ou [...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T18:10:34.337Z",
-            "modified": "2023-09-08T18:11:06.597Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-03T09:30:46.952Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Herminette [l \u025bjs\u02c8\u025bt\u0153 a \u0261am\u02c8at\u0250] Saignon, Vaucluse (canton d'Apt). \nOutil large, servant surtout \u00e0 creuser les auges et les abreuvoirs ou [\u0261am\u02c8at\u0153]"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-08T18:11:10.738Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-08T18:11:10.738Z"
+            "type": "TextualBody",
+            "value": "L???"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-08T18:11:12.493Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Dessin : Marcel Gaillard",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T18:13:53.983Z",
-            "modified": "2023-09-08T18:13:56.232Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-08T18:13:56.232Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Dessin : Marcel Gaillard"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5503",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T09:31:00.689Z"
         }
     ],
+    "id": "de297211-e131-429e-b5d3-7949a288bb16.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0325",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"3061.395263671875,2121.638916015625 3184.567138671875,2291.00048828125 3015.20556640625,3418.794921875 2372.4013671875,3353.359619140625 2287.720458984375,2891.46435546875\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0325",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "de297211-e131-429e-b5d3-7949a288bb16.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
