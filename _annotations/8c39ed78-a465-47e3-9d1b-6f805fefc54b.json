@@ -17,16 +17,6 @@ order: 3
             "value": "Carraire de Moustier par o\u00f9 transitaient les troupeaux de Provence en direction du Haut-Verdon et ceux du Var en direction de la vall\u00e9e de l'Ubaye. \u00c9tat actuel au Col de Courchon, entre Moustier et V\u00e9nascle = [la d\u0280\u02c8aj\u0153]"
         },
         {
-            "created": "2023-09-12T05:58:43.411Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
             "created": "2023-09-12T05:58:46.026Z",
             "creator": {
                 "id": "ej7320",
@@ -46,6 +36,16 @@ order: 3
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Pierre Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L118",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T14:27:46.836Z"
         }
     ],
     "id": "8c39ed78-a465-47e3-9d1b-6f805fefc54b.json",
