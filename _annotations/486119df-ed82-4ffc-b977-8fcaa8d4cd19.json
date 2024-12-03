@@ -27,16 +27,6 @@ order: 2
             "value": "L62"
         },
         {
-            "created": "2023-09-11T14:57:03.383Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q9550"
-        },
-        {
             "created": "2023-09-11T15:04:14.930Z",
             "creator": {
                 "id": "ej7320",
@@ -46,6 +36,36 @@ order: 2
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Carte postale vers 1905"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q1093",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T12:18:05.786Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q1091",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T12:18:09.865Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q10345",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T12:18:17.132Z"
         }
     ],
     "id": "486119df-ed82-4ffc-b977-8fcaa8d4cd19.json",
