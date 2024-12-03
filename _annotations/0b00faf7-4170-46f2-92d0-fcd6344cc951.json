@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0308"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Bergerie de l'abbaye de S\u00e9nanque \u00e0 Gordes (Vaucluse) \u00e0 l'\u00e9poque o\u00f9 elle abritait encore des moutons.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-11T05:51:33.459Z",
-            "modified": "2023-09-11T05:52:01.257Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-11T05:52:01.257Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Bergerie de l'abbaye de S\u00e9nanque \u00e0 Gordes (Vaucluse) \u00e0 l'\u00e9poque o\u00f9 elle abritait encore des moutons."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-11T05:52:16.013Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L105",
+            "type": "TextualBody",
+            "value": "L105"
+        },
+        {
+            "created": "2023-09-11T05:52:29.123Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-11T05:52:16.013Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-11T05:52:29.123Z"
+            "type": "TextualBody",
+            "value": "Q???"
         },
         {
-            "type": "TextualBody",
-            "value": "Phot : J. Lefran\u00e7ois, vers 1900",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-11T05:59:15.088Z",
-            "modified": "2023-09-11T05:59:29.298Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-11T05:59:29.298Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Phot : J. Lefran\u00e7ois, vers 1900"
         }
     ],
+    "id": "0b00faf7-4170-46f2-92d0-fcd6344cc951.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0308",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1477.094482421875,237.2987060546875,1465.36279296875,1018.4791259765625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1477.094482421875,237.2987060546875,1465.36279296875,1018.4791259765625"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0308",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "0b00faf7-4170-46f2-92d0-fcd6344cc951.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
