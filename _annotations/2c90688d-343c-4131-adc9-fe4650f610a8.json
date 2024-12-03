@@ -3,74 +3,81 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0100"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "L'auge dont on se sert pour tuer le cochon \u00e0 la Roche-des-Arnauds (Hautes-Alpes) en 1968. Renvers\u00e9e en forme de table, elle re\u00e7oit le cochon pour la saign\u00e9e. On la retourne ensuite en position d'auge et on y plonge le cochon pour l'\u00e9bouillanter, le laver et assouplir la couenne ; on la remet de nouveau en position de table pour l'\u00e9pilage des soies. ",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-09T15:06:16.425Z",
-            "modified": "2023-09-09T15:07:46.033Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-03T10:11:47.640Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "L'auge dont on se sert pour tuer le cochon \u00e0 la Roche-des-Arnauds (Hautes-Alpes) en 1968. \nRenvers\u00e9e en forme de table, elle re\u00e7oit le cochon pour la saign\u00e9e. On la retourne ensuite en position d'auge et on y plonge le cochon pour l'\u00e9bouillanter, le laver et assouplir la couenne ; on la remet de nouveau en position de table pour l'\u00e9pilage des soies. "
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-09T15:07:57.737Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "C791",
+            "type": "TextualBody",
+            "value": "C791"
+        },
+        {
+            "created": "2023-09-09T15:08:24.249Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-09T15:07:57.737Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q825",
+            "type": "TextualBody",
+            "value": "Q825"
+        },
+        {
+            "created": "2023-09-09T15:09:38.254Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-09T15:08:24.249Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L38",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-09T15:09:38.254Z"
+            "type": "TextualBody",
+            "value": "L38"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Claude Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-09T15:13:50.332Z",
-            "modified": "2023-09-09T15:13:53.011Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-09T15:13:53.011Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Claude Martel"
         }
     ],
+    "id": "2c90688d-343c-4131-adc9-fe4650f610a8.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0100",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=260.03240966796875,1948.6600341796875,893.3599243164062,1329.5826416015625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=260.03240966796875,1948.6600341796875,893.3599243164062,1329.5826416015625"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0100",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "2c90688d-343c-4131-adc9-fe4650f610a8.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
