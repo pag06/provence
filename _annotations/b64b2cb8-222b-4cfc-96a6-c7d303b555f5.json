@@ -17,16 +17,6 @@ order: 3
             "value": "Le coin de la ch\u00e8vre avec son chevrau dans l'\u00e9table avec son ratelier et sa mangeoire ([lu rastelj\u02c8\u025b e la k\u0280\u02c8ypi]) \u00e0 St-Michel-l\u2019Observatoire (Alpes-de-Hte-Provence)"
         },
         {
-            "created": "2023-09-11T05:41:14.662Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
             "created": "2023-09-11T05:41:56.750Z",
             "creator": {
                 "id": "ej7320",
@@ -46,6 +36,46 @@ order: 3
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Pierre Gallocher"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L100",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T11:42:57.695Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L106",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T11:43:01.646Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8605",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T11:44:24.192Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2859",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T11:44:29.541Z"
         }
     ],
     "id": "b64b2cb8-222b-4cfc-96a6-c7d303b555f5.json",
