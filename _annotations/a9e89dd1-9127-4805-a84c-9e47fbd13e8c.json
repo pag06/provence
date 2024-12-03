@@ -8,13 +8,13 @@ order: 6
         {
             "created": "2023-09-09T14:53:50.623Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-09T14:54:17.977Z",
+            "modified": "2024-12-03T09:59:09.541Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Vilebrequin avec m\u00e8che \u00e0 3 pointes \u00e0 Digne, Alpes-de-Hte-Provence : [...]"
+            "value": "Vilebrequin avec m\u00e8che \u00e0 3 pointes \u00e0 Digne, Alpes-de-Hte-Provence : [lu vir\u0254bruk\u02c8i\u0303\u207f]"
         },
         {
             "created": "2023-09-09T14:54:46.686Z",
@@ -37,15 +37,15 @@ order: 6
             "value": "Q10722"
         },
         {
-            "type": "TextualBody",
-            "value": "Dessin : Marcel Gaillard",
-            "purpose": "identifying",
+            "created": "2023-09-09T14:59:18.988Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-09T14:59:18.988Z",
-            "modified": "2023-09-09T14:59:21.305Z"
+            "modified": "2023-09-09T14:59:21.305Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Dessin : Marcel Gaillard"
         }
     ],
     "id": "a9e89dd1-9127-4805-a84c-9e47fbd13e8c.json",
@@ -59,7 +59,14 @@ order: 6
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"5067.4443359375,505.5401611328125 5061.46875,2507.383544921875 4804.515625,2507.383544921875 4798.5400390625,2112.990478515625 4284.6337890625,2101.0390625 4302.56103515625,917.860107421875\"></polygon></svg>"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0327"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0327",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
