@@ -27,16 +27,6 @@ order: 1
             "value": "L105"
         },
         {
-            "created": "2023-09-11T05:52:29.123Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q???"
-        },
-        {
             "created": "2023-09-11T05:59:15.088Z",
             "creator": {
                 "id": "ej7320",
@@ -46,6 +36,16 @@ order: 1
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Phot : J. Lefran\u00e7ois, vers 1900"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q1093",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T11:50:32.334Z"
         }
     ],
     "id": "0b00faf7-4170-46f2-92d0-fcd6344cc951.json",
