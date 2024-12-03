@@ -8,13 +8,13 @@ order: 5
         {
             "created": "2023-09-09T14:52:03.366Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-09T14:52:39.865Z",
+            "modified": "2024-12-03T09:57:09.802Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Tari\u00e8re et taret \u00e0 Noyers-sur-Jabror (point L71) : [...]"
+            "value": "Tari\u00e8re et taret \u00e0 Noyers-sur-Jabror (point L71) : [lu tar\u02c8ajre e lu pit\u0283\u02c8u\u0303\u207f tar\u02c8ajre]"
         },
         {
             "created": "2023-09-09T14:52:45.883Z",
@@ -37,15 +37,15 @@ order: 5
             "value": "Q9785"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel",
-            "purpose": "identifying",
+            "created": "2023-09-09T14:59:31.062Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-09T14:59:31.062Z",
-            "modified": "2023-09-09T14:59:33.853Z"
+            "modified": "2023-09-09T14:59:33.853Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel"
         }
     ],
     "id": "516aa18d-940c-42e2-8f2d-e47ac0be7742.json",
@@ -60,7 +60,14 @@ order: 5
             "type": "FragmentSelector",
             "value": "xywh=1541.8096923828125,2250.430419921875,944.1529541015625,920.25048828125"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0327"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0327",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
