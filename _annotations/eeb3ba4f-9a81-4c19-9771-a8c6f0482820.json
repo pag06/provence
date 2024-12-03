@@ -3,63 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0311"
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Les brebis (race m\u00e9rinos) et le b\u00e9lier [...] tondus et marqu\u00e9s au d\u00e9but de l'estivage (juin) : remarquer la tonte particuli\u00e8re du b\u00e9lier qui conduit le troupeau ; l'encre du marquage est de couleur rouge-brun.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-12T05:34:42.965Z",
-            "modified": "2023-09-12T05:36:02.863Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-03T13:56:38.669Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Les brebis (race m\u00e9rinos) et le b\u00e9lier [fluk'a] tondus et marqu\u00e9s au d\u00e9but de l'estivage (juin).\nRemarquer la tonte particuli\u00e8re du b\u00e9lier qui conduit le troupeau ; l'encre du marquage est de couleur rouge-brun."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L???",
+            "created": "2023-09-12T05:36:19.394Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-12T05:36:08.904Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q10050"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q10050",
+            "created": "2023-09-12T05:41:37.578Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-12T05:36:19.394Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q6386"
         },
         {
             "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q6386",
+            "value": "Photo : P. Martel",
+            "purpose": "identifying",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-09-12T05:41:37.578Z"
+            "created": "2024-12-03T13:56:59.305Z",
+            "modified": "2024-12-03T13:58:15.255Z"
         }
     ],
+    "id": "eeb3ba4f-9a81-4c19-9771-a8c6f0482820.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0311",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3919.501220703125,27.494033813476562,1135.373779296875,866.4695281982422"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3919.501220703125,27.494033813476562,1135.373779296875,866.4695281982422"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0311",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "eeb3ba4f-9a81-4c19-9771-a8c6f0482820.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
