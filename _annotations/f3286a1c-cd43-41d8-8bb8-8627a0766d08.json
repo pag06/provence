@@ -3,64 +3,81 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0304"
 order: 8
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "\"Le march\u00e9 aux moutons\" \u00e0 Apt (Vaucluse) ",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-10T07:09:21.387Z",
-            "modified": "2023-09-10T07:09:32.179Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-10T07:09:32.179Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "\"Le march\u00e9 aux moutons\" \u00e0 Apt (Vaucluse) "
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-10T07:09:36.264Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L109",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-10T07:09:36.264Z"
+            "type": "TextualBody",
+            "value": "L109"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-10T07:09:49.770Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Carte postale ancienne",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-10T07:11:40.529Z",
-            "modified": "2023-09-10T07:11:42.623Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-10T07:11:42.623Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Carte postale ancienne"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q4743",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T11:07:45.234Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q4744",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T11:07:49.718Z"
         }
     ],
+    "id": "f3286a1c-cd43-41d8-8bb8-8627a0766d08.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0304",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3421.813232421875,2527.21142578125,1577.572021484375,956.104248046875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3421.813232421875,2527.21142578125,1577.572021484375,956.104248046875"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0304",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "f3286a1c-cd43-41d8-8bb8-8627a0766d08.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
