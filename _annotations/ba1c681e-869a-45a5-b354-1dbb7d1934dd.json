@@ -17,16 +17,6 @@ order: 2
             "value": "Rabot \u00e0 moulure pour les fen\u00eatres \u00e0 Avignon, Vaucluse : [lu rab\u02c8o]"
         },
         {
-            "created": "2023-09-09T14:48:25.161Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
             "created": "2023-09-09T14:48:38.376Z",
             "creator": {
                 "id": "ej7320",
@@ -46,6 +36,16 @@ order: 2
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Dessin : Marcel Gaillard"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L98",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T09:53:37.517Z"
         }
     ],
     "id": "ba1c681e-869a-45a5-b354-1dbb7d1934dd.json",
