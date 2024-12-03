@@ -17,24 +17,35 @@ order: 1
             "value": "Chasse \u00e0 la grive\nAutrefois, les chasseurs montaient dans l'arbre non sans pein pour aller fixer les \"cimeaux\", [li sim\u02c8ew]. Le terme signifiait aussi bien des grives empaill\u00e9es ou sculpt\u00e9es dans le bois que la tige fix\u00e9e au sommet des arbres qui la supportaient et au pied de laquelle ils avaient leur \"agachon\" ([l a\u0261at\u0283\u02c8u\u0303\u207f]) et leurs \"appelants\" ([lejz apel\u02c8a\u0303\u207f]), grives en cage. Depuis la derni\u00e8re guerre sont apprus des proc\u00e9d\u00e9s plus \u00e9volu\u00e9s (tiges t\u00e9lescopiques, longues barres de bois basculantes et command\u00e9es par un cabestan \u00e0 manivelle comme sur la figure."
         },
         {
-            "created": "2023-09-09T15:30:13.740Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "L???"
+            "value": "Sans localisation",
+            "purpose": "commenting",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T10:23:49.324Z",
+            "modified": "2024-12-03T10:23:55.195Z"
         },
         {
-            "created": "2023-09-09T15:30:15.381Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "Q???"
+            "purpose": "tagging",
+            "value": "Q5353",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T10:24:10.165Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2096",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T10:24:15.820Z"
         }
     ],
     "id": "f5649d44-829c-457c-817f-160b64f5ed4a.json",
