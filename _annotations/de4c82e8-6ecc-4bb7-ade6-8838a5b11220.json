@@ -27,14 +27,15 @@ order: 8
             "value": "L71"
         },
         {
-            "created": "2023-09-08T18:13:15.058Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "Q???"
+            "value": "Pas de question correspondante",
+            "purpose": "identifying",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T09:36:02.948Z",
+            "modified": "2024-12-03T09:36:25.307Z"
         }
     ],
     "id": "de4c82e8-6ecc-4bb7-ade6-8838a5b11220.json",
