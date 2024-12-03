@@ -28,14 +28,24 @@ order: 8
             "value": "Photo : J.F. Letavernier, 1967"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L68",
+            "created": "2024-12-03T15:20:24.060Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T15:20:24.060Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L68"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q3493",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T15:20:40.193Z"
         }
     ],
     "id": "699b92bb-7737-429b-ab33-1a758e026cf9.json",
