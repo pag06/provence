@@ -17,26 +17,6 @@ order: 8
             "value": "Gorge \u00e0 sel creus\u00e9e dans un tronc d'arbre \u00e0 Volonne (Alpes-de-Hte-Provence)"
         },
         {
-            "created": "2023-09-12T14:56:58.050Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
-            "created": "2023-09-12T14:56:59.218Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q???"
-        },
-        {
             "created": "2023-09-12T14:59:19.361Z",
             "creator": {
                 "id": "ej7320",
@@ -46,6 +26,16 @@ order: 8
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : J.F. Letavernier, 1967"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L68",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T15:20:24.060Z"
         }
     ],
     "id": "699b92bb-7737-429b-ab33-1a758e026cf9.json",
