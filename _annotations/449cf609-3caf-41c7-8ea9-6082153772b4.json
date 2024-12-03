@@ -3,64 +3,81 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0101"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Cabestan sp\u00e9cial en bois pour hausser le cochon en carcasse apr\u00e8s la saign\u00e9e, en vue du d\u00e9pe\u00e7age. En Vallouise, 1973.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-09T15:10:05.425Z",
-            "modified": "2023-09-09T15:10:47.410Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-09T15:10:47.410Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Cabestan sp\u00e9cial en bois pour hausser le cochon en carcasse apr\u00e8s la saign\u00e9e, en vue du d\u00e9pe\u00e7age. En Vallouise, 1973."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-09T15:11:05.120Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L17",
+            "type": "TextualBody",
+            "value": "L17"
+        },
+        {
+            "created": "2023-09-09T15:12:53.089Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-09T15:11:05.120Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q825",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-09T15:12:53.089Z"
+            "type": "TextualBody",
+            "value": "Q825"
         },
         {
-            "type": "TextualBody",
-            "value": "Dessin: Pierre Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-09T15:13:21.710Z",
-            "modified": "2023-09-09T15:13:28.911Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-09T15:13:28.911Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Dessin: Pierre Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9667",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T10:15:11.037Z"
         }
     ],
+    "id": "449cf609-3caf-41c7-8ea9-6082153772b4.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0101",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=173.9830322265625,1578.4683837890625,1137.46533203125,938.4761962890625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=173.9830322265625,1578.4683837890625,1137.46533203125,938.4761962890625"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0101",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "449cf609-3caf-41c7-8ea9-6082153772b4.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
