@@ -28,14 +28,24 @@ order: 7
             "value": "Carte postale, vers 1910, coll. Alpes de Lumi\u00e8re"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q10348",
+            "created": "2024-12-03T14:45:11.215Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T14:45:11.215Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q10348"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L77",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T14:46:09.157Z"
         }
     ],
     "id": "07cd10c8-74d8-4ce1-b9c6-7e36c344b019.json",
