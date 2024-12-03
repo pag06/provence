@@ -15,6 +15,36 @@ order: 6
             "purpose": "commenting",
             "type": "TextualBody",
             "value": "March\u00e9 aux bovins \u00e0 Seyne-les-Alpes (Alpes de Hte-Provence) vers 1910."
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L55",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T11:13:47.350Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q4744",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T11:13:55.492Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q4743",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T11:14:00.832Z"
         }
     ],
     "id": "bfdfa8ab-eabe-4727-a0d5-f43a952f7727.json",
