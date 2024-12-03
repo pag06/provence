@@ -17,16 +17,6 @@ order: 5
             "value": "Enclos \u00e0 moutons de bois brut ([lu kled'as]) St-Trinit (Vaucluse)\nEnsemble de claies, certaines mobiles, pour ouvrir ou fermer \u00e0 volont\u00e9 le passage du troupeau dans les divers directions. "
         },
         {
-            "created": "2023-09-12T14:36:05.139Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
             "created": "2023-09-12T14:36:17.349Z",
             "creator": {
                 "id": "ej7320",
@@ -46,6 +36,16 @@ order: 5
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Pierre Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L81",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T14:53:57.491Z"
         }
     ],
     "id": "dc3cc2c1-4b23-4462-afe2-6cc1a7038813.json",
