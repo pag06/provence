@@ -28,24 +28,24 @@ order: 7
             "value": "Photo : Guy Barruol, 1975"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L89",
+            "created": "2024-12-03T12:12:26.299Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T12:12:26.299Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L89"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q1093",
+            "created": "2024-12-03T12:12:30.117Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T12:12:30.117Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q1093"
         }
     ],
     "id": "5a6fb884-09a4-44c2-91a0-194c727cd300.json",
