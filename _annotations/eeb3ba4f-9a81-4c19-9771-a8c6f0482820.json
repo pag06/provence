@@ -57,6 +57,16 @@ order: 4
             "purpose": "replying",
             "type": "TextualBody",
             "value": "Sans localisation"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2177",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T13:59:46.100Z"
         }
     ],
     "id": "eeb3ba4f-9a81-4c19-9771-a8c6f0482820.json",
