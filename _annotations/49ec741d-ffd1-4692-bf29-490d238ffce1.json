@@ -58,14 +58,14 @@ order: 6
             "value": "L71"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q1093",
+            "created": "2024-12-03T12:27:00.709Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T12:27:00.709Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q1093"
         }
     ],
     "id": "49ec741d-ffd1-4692-bf29-490d238ffce1.json",
