@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-09-12T14:45:48.831Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-12T14:46:31.117Z",
+            "modified": "2024-12-03T15:04:35.041Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Petit r\u00e2telier portatif pour agneaux et chevaux : [...] dans une bergerie de Noyers-s/Jabron (point L71) en 1971."
+            "value": "Petit r\u00e2telier portatif pour agneaux et chevaux : [lu \u0280astelj\u02c8e] dans une bergerie de Noyers-sur-Jabron (point L71) en 1971."
         },
         {
             "created": "2023-09-12T14:46:27.741Z",
@@ -27,16 +27,6 @@ order: 1
             "value": "L71"
         },
         {
-            "created": "2023-09-12T14:47:05.284Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q8603"
-        },
-        {
             "created": "2023-09-12T14:58:08.149Z",
             "creator": {
                 "id": "ej7320",
@@ -46,6 +36,16 @@ order: 1
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Pierre Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8605",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T15:03:54.768Z"
         }
     ],
     "id": "c1691a99-612a-4673-983e-645d2e6b107a.json",
