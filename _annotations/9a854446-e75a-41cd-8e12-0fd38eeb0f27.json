@@ -38,24 +38,44 @@ order: 1
             "value": "Photo : Pierre Gallocher"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L89",
+            "created": "2024-12-03T11:35:16.442Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T11:35:16.442Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L89"
+        },
+        {
+            "created": "2024-12-03T11:35:25.158Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L10345"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L10345",
+            "value": "Q2177",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T11:35:25.158Z"
+            "created": "2024-12-03T11:37:07.737Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q3493",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T11:38:40.333Z"
         }
     ],
     "id": "9a854446-e75a-41cd-8e12-0fd38eeb0f27.json",
