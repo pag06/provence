@@ -17,16 +17,6 @@ order: 2
             "value": "Troupeau de \"Prealpes\" en p\u00e2turage d'hiver \u00e0 St-Michel-l'Observatoire (Alpes-de-Hte-Provence) en 1967."
         },
         {
-            "created": "2023-09-10T06:10:00.016Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q10344"
-        },
-        {
             "created": "2023-09-10T07:10:19.206Z",
             "creator": {
                 "id": "ej7320",
@@ -38,24 +28,34 @@ order: 2
             "value": "Photo : Pierre Martel"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L100",
+            "created": "2024-12-03T11:00:00.368Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T11:00:00.368Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L100"
+        },
+        {
+            "created": "2024-12-03T11:00:03.735Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L106"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L106",
+            "value": "Q10345",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T11:00:03.735Z"
+            "created": "2024-12-03T11:00:25.816Z"
         }
     ],
     "id": "3de8caf8-46af-45ad-9a13-9f46a43a1993.json",
