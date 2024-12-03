@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0304"
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Troupeau de M\u00e9rinos d'Arles en Crau.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-10T06:11:57.407Z",
-            "modified": "2023-09-10T06:12:35.524Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L???",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-10T06:12:23.537Z"
+            "modified": "2023-09-10T06:12:35.524Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Troupeau de M\u00e9rinos d'Arles en Crau."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q10344",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-10T06:12:26.072Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Photo : J.N. Pelen",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-10T07:10:40.233Z",
-            "modified": "2023-09-10T07:10:50.989Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-10T07:10:50.989Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : J.N. Pelen"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q10345",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T11:01:38.561Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L139",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T11:02:28.286Z"
         }
     ],
+    "id": "e4ad820c-59df-4a1c-8966-e108c2acd92a.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0304",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1559.5008544921875,1456.1566162109375,1572.5364990234375,1033.8775634765625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1559.5008544921875,1456.1566162109375,1572.5364990234375,1033.8775634765625"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0304",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "e4ad820c-59df-4a1c-8966-e108c2acd92a.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
