@@ -11,10 +11,10 @@ order: 2
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-12-03T10:38:30.109Z",
+            "modified": "2024-12-03T10:41:28.913Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Relev\u00e9s d'architecture d'une ferme de Haute-Provence : la place du cheval dans l'\u00e9table [Le Pavon, commune du Contadour-Redortiers, Alpes-de-Hte-Provence]\nCoupe en long selon fa\u00e7ade\nEn fa\u00e7ade, on peut observer la r\u00e9partition des ouvertures : deux grandes portes ouvrant sur la bergerie, avec un volet mobile dans l'un des vantaux et une porte plus \u00e9troite \u00e0 droite, donnant acc\u00e8s \u00e0 la trav\u00e9e du cheval. La terrasse et l'appartement du ma\u00eetre sont en d\u00e9crochement sur cette fa\u00e7ade et constituent une aile perpendiculaire,  avec, au rez de chauss\u00e9e, la loge \u00e0 cochons ([...]), le coin des ch\u00e8vres et la basse-cour."
+            "value": "Relev\u00e9s d'architecture d'une ferme de Haute-Provence : la place du cheval dans l'\u00e9table [Le Pavon, commune du Contadour-Redortiers, Alpes-de-Hte-Provence]\nCoupe en long selon fa\u00e7ade\nEn fa\u00e7ade, on peut observer la r\u00e9partition des ouvertures : deux grandes portes ouvrant sur la bergerie, avec un volet mobile dans l'un des vantaux et une porte plus \u00e9troite \u00e0 droite, donnant acc\u00e8s \u00e0 la trav\u00e9e du cheval. La terrasse et l'appartement du ma\u00eetre sont en d\u00e9crochement sur cette fa\u00e7ade et constituent une aile perpendiculaire,  avec, au rez de chauss\u00e9e, la loge \u00e0 cochons ([purs\u02c8iw]), le coin des ch\u00e8vres et la basse-cour."
         },
         {
             "created": "2023-09-09T15:38:05.701Z",
@@ -47,34 +47,34 @@ order: 2
             "value": "Q1093"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q920",
+            "created": "2024-12-03T10:40:42.501Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T10:40:42.501Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q920"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q11837",
+            "created": "2024-12-03T10:40:48.236Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T10:40:48.236Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q11837"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2258",
+            "created": "2024-12-03T10:40:52.636Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T10:40:52.636Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2258"
         }
     ],
     "id": "b65e6900-08f4-43c4-84c6-705e564f7552.json",
