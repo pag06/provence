@@ -26,6 +26,36 @@ order: 4
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : G. Barruol"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L89",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T11:45:11.700Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2250",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T11:46:20.852Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q88",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T11:46:24.195Z"
         }
     ],
     "id": "4b7c68e3-8284-43b2-81f6-2dd315f97ee3.json",
