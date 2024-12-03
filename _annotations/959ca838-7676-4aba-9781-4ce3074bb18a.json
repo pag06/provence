@@ -11,7 +11,7 @@ order: 6
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-12-03T09:48:23.957Z",
+            "modified": "2024-12-03T09:49:40.126Z",
             "purpose": "commenting",
             "type": "TextualBody",
             "value": "B\u00fbcher dans la grange en montagne, \u00e0 St-Paul-sur-Ubaye, Alpes-de-Hte-Provence (point L37), sur la [tawv\u02c8ena].\nCe bois est souvent entrepos\u00e9 sur un balcon de bois : [l \u02c8\u025bst\u0280a]"
@@ -38,24 +38,24 @@ order: 6
             "value": "Photo : Pierre Martel"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q1564",
+            "created": "2024-12-03T09:48:51.585Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T09:48:51.585Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q1564"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q798",
+            "created": "2024-12-03T09:49:15.696Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T09:49:15.696Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q798"
         }
     ],
     "id": "959ca838-7676-4aba-9781-4ce3074bb18a.json",
