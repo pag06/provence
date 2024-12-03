@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0317"
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Faisselle en fa\u00efence sur \u00e9gouttoir en bois de ch\u00eane \u00e0 Simiane-la-Rotonde.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-13T05:06:21.030Z",
-            "modified": "2023-09-13T05:06:57.838Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-13T05:06:57.838Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Faisselle en fa\u00efence sur \u00e9gouttoir en bois de ch\u00eane \u00e0 Simiane-la-Rotonde."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-13T05:07:06.378Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "Q4395",
+            "type": "TextualBody",
+            "value": "Q4395"
+        },
+        {
+            "created": "2023-09-13T05:07:20.240Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-13T05:07:06.378Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-13T05:07:20.240Z"
+            "type": "TextualBody",
+            "value": "L???"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel 1964",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-13T05:15:05.202Z",
-            "modified": "2023-09-13T05:15:11.938Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-13T05:15:11.938Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel 1964"
         }
     ],
+    "id": "1cec76ad-ea7c-4d02-a148-d31a6ad18aa0.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0317",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2559.27099609375,1091.940185546875,1259.82763671875,944.8707275390625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2559.27099609375,1091.940185546875,1259.82763671875,944.8707275390625"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0317",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "1cec76ad-ea7c-4d02-a148-d31a6ad18aa0.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
