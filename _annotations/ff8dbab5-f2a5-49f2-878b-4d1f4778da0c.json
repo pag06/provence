@@ -17,16 +17,6 @@ order: 7
             "value": "Sonnaille en bronze avec collier orn\u00e9 d'initiales et de d\u00e9cors g\u00e9om\u00e9triques au moyen de clous en laiton \u00e0 St-Dalmas-Valdeblore (Alpes Maritimes)"
         },
         {
-            "created": "2023-09-12T05:52:36.608Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
             "created": "2023-09-12T05:52:38.564Z",
             "creator": {
                 "id": "ej7320",
@@ -46,6 +36,16 @@ order: 7
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Pierre Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L85",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T14:19:50.914Z"
         }
     ],
     "id": "ff8dbab5-f2a5-49f2-878b-4d1f4778da0c.json",
