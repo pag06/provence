@@ -8,23 +8,13 @@ order: 2
         {
             "created": "2023-09-11T05:52:46.353Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-11T05:53:38.146Z",
+            "modified": "2024-12-03T11:53:45.026Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Bergerie de la Crau de Salon, au carrefour de la Samatan (B.-D.-RH), grand b\u00e2timent isol\u00e9 au milieu des terres caillouteuses de la Crau."
-        },
-        {
-            "created": "2023-09-11T05:53:54.983Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
+            "value": "Bergerie de la Crau de Salon, au carrefour de la Samatane (B.-D.-RH), grand b\u00e2timent isol\u00e9 au milieu des terres caillouteuses de la Crau."
         },
         {
             "created": "2023-09-11T05:59:43.167Z",
@@ -38,14 +28,24 @@ order: 2
             "value": "Photo : J.N. Pelen, 1966"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q1093",
+            "created": "2024-12-03T11:50:49.358Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T11:50:49.358Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q1093"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L130",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T11:53:55.103Z"
         }
     ],
     "id": "86db9f25-0483-4fb2-9d38-533a6b32d40c.json",
