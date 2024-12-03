@@ -17,16 +17,6 @@ order: 6
             "value": "Berger \"estr\u00e9mant\" ([estrem'a]) son troupeau dans le Jas-des-Agneaux, au sommet des Fraches de Lure en fin de matin\u00e9e par un jour de canicule, en 1955. \nLa [l\u02c8\u025bd\u0254] est utilis\u00e9e ici pour fermer la bergerie en \u00e9t\u00e9 tout en la laissant suffisamment a\u00e9r\u00e9e."
         },
         {
-            "created": "2023-09-11T15:02:29.099Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
             "created": "2023-09-11T15:02:34.403Z",
             "creator": {
                 "id": "ej7320",
@@ -48,14 +38,24 @@ order: 6
             "value": "Photo : G. Barruol"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q1091",
+            "created": "2024-12-03T12:25:03.772Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T12:25:03.772Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q1091"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L71",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T12:26:43.958Z"
         }
     ],
     "id": "49ec741d-ffd1-4692-bf29-490d238ffce1.json",
