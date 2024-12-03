@@ -48,14 +48,14 @@ order: 4
             "value": "L89"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q3741",
+            "created": "2024-12-03T15:30:52.523Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T15:30:52.523Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q3741"
         }
     ],
     "id": "1cec76ad-ea7c-4d02-a148-d31a6ad18aa0.json",
