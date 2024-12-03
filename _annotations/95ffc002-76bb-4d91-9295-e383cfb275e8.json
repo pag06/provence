@@ -3,74 +3,81 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0307"
 order: 6
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Traite de la ch\u00e8vre \u00e0 Niozelles (Alpes-de-Hte-Provence) en 1910.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-11T05:46:19.010Z",
-            "modified": "2023-09-11T05:46:33.030Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-11T05:46:33.030Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Traite de la ch\u00e8vre \u00e0 Niozelles (Alpes-de-Hte-Provence) en 1910."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-11T05:46:53.253Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "Q10188",
+            "type": "TextualBody",
+            "value": "Q10188"
+        },
+        {
+            "created": "2023-09-11T05:47:02.540Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-11T05:46:53.253Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q2250",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-11T05:47:02.540Z"
+            "type": "TextualBody",
+            "value": "Q2250"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-11T05:47:11.297Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Photo : coll. Vedel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-11T05:49:42.153Z",
-            "modified": "2023-09-11T05:49:54.281Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-11T05:49:54.281Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : coll. Vedel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L100",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T11:48:47.723Z"
         }
     ],
+    "id": "95ffc002-76bb-4d91-9295-e383cfb275e8.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0307",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=217.41200256347656,2429.26220703125,1118.596420288086,900.78369140625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=217.41200256347656,2429.26220703125,1118.596420288086,900.78369140625"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0307",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "95ffc002-76bb-4d91-9295-e383cfb275e8.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
