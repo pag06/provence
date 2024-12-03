@@ -17,26 +17,6 @@ order: 1
             "value": "Une garenne \u00e0 M\u00e9nerbes (Vaucluse)\nImmense enclos de pierre s\u00e8che dans lequel les lapins \u00e9taient en libert\u00e9. Le mur d'enseinte est muni d'un double encorbellement : l'un \u00e0 l'int\u00e9rieur pour emp\u00eacher les lapins de sortir, l'autre \u00e0 l'ext\u00e9rieur pour emp\u00eacher les renards (ou autrefois les loups) de sauter dans la garenne. Il est aussi perc\u00e9 de meurtir\u00e8res de tir par lesquelles on pouvait tirer les lapins depuis l'ext\u00e9rieur du mur sans \u00eatre vu."
         },
         {
-            "created": "2023-09-09T15:22:35.366Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
-            "created": "2023-09-09T15:23:09.895Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q???"
-        },
-        {
             "created": "2023-09-09T15:23:20.746Z",
             "creator": {
                 "id": "ej7320",
@@ -46,6 +26,26 @@ order: 1
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Pierre Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L115",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T10:19:00.896Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5038",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T10:19:26.967Z"
         }
     ],
     "id": "508eff55-9fb2-486e-b689-f3aa5b0910b1.json",
