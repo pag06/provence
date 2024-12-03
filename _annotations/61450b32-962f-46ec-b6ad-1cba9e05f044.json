@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0311"
 order: 6
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Int\u00e9rieur d'une bergerie \u00e0 Bevons en 1969. On peut remarquer un pain de sel sur la mangeoire (\u00e0 grains, \u00e0 glands ou \u00e0 sel) au centre ; une \u00e9tag\u00e8re, la caisse contenant les fers et crayons \u00e0 marquer et des bouteilles \u00e0 demi-pleines d'huile de \"cade\" (gen\u00e9vrier), pour les soins du troupeau.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-12T05:38:08.167Z",
-            "modified": "2023-09-12T05:39:23.453Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-03T14:03:12.269Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Int\u00e9rieur d'une bergerie \u00e0 Bevons en 1969. \nOn peut remarquer un pain de sel sur la mangeoire (\u00e0 grains, \u00e0 glands ou \u00e0 sel) au centre ; une \u00e9tag\u00e8re, la caisse contenant les fers et crayons \u00e0 marquer et des bouteilles \u00e0 demi-pleines d'huile de \"cade\" (gen\u00e9vrier), pour les soins du troupeau."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-12T05:39:29.357Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-12T05:39:32.472Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-12T05:42:08.732Z",
-            "modified": "2023-09-12T05:42:11.893Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-12T05:42:11.893Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L71",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T14:02:42.835Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q1093",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T14:02:48.246Z"
         }
     ],
+    "id": "61450b32-962f-46ec-b6ad-1cba9e05f044.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0311",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2049.122314453125,2232.509521484375,962.079833984375,1051.714599609375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2049.122314453125,2232.509521484375,962.079833984375,1051.714599609375"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0311",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "61450b32-962f-46ec-b6ad-1cba9e05f044.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
