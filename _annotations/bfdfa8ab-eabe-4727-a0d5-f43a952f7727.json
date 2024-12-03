@@ -4,21 +4,27 @@ order: 6
 ---
 {
     "@context": "http://www.w3.org/ns/anno.jsonld",
-    "type": "Annotation",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "March\u00e9 aux bovins \u00e0 Seyne-les-Alpes (Alpes de Hte-Provence) vers 1910.",
-            "purpose": "commenting",
+            "created": "2024-12-03T11:11:04.672Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T11:11:04.672Z",
-            "modified": "2024-12-03T11:11:47.960Z"
+            "modified": "2024-12-03T11:11:47.960Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "March\u00e9 aux bovins \u00e0 Seyne-les-Alpes (Alpes de Hte-Provence) vers 1910."
         }
     ],
+    "id": "bfdfa8ab-eabe-4727-a0d5-f43a952f7727.json",
+    "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3301.88720703125,46.41147994995117,1719.708984375,1151.9976997375488"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
@@ -26,13 +32,7 @@ order: 6
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0305",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3301.88720703125,46.41147994995117,1719.708984375,1151.9976997375488"
         }
     },
-    "id": "bfdfa8ab-eabe-4727-a0d5-f43a952f7727.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
