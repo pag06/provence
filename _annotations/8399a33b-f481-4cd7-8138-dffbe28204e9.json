@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0309"
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Bergerie isol\u00e9e au milieu des collines dominant le village : le \"Jas\" de La Chaumette \u00e0 Saumane (Alpes-de-Hte-Provence) : l'habitation du berger, \u00e0 droite est s\u00e9par\u00e9e ici de la bergerie elle-m\u00eame. Le terme [...] d\u00e9signe cependant l'ensemble de ces b\u00e2timents.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-11T14:43:10.928Z",
-            "modified": "2023-09-11T14:44:28.921Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-03T12:08:34.071Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Bergerie isol\u00e9e au milieu des collines dominant le village : le \"Jas\" de La Chaumette \u00e0 Saumane (Alpes-de-Hte-Provence)\nL'habitation du berger, \u00e0 droite est s\u00e9par\u00e9e ici de la bergerie elle-m\u00eame. Le terme [\u0292as] d\u00e9signe cependant l'ensemble de ces b\u00e2timents."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-11T14:44:39.429Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L101",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-11T14:44:39.429Z"
+            "type": "TextualBody",
+            "value": "L101"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-11T14:44:41.199Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel, 1962",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-11T14:51:13.005Z",
-            "modified": "2023-09-11T14:51:22.178Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-11T14:51:22.178Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel, 1962"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q1093",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T12:08:04.753Z"
         }
     ],
+    "id": "8399a33b-f481-4cd7-8138-dffbe28204e9.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0309",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1515.2008056640625,1176.1009521484375,1025.4075927734375,1053.1212158203125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1515.2008056640625,1176.1009521484375,1025.4075927734375,1053.1212158203125"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0309",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "8399a33b-f481-4cd7-8138-dffbe28204e9.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
