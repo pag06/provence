@@ -8,23 +8,13 @@ order: 5
         {
             "created": "2023-09-11T05:56:14.294Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-11T05:58:07.685Z",
+            "modified": "2024-12-03T11:59:29.467Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Bergerie de Camargue : La Favouillane, Domaine du Radeau \u00e0 Port-St-Louis-du-Rh\u00f4ne (B.-D.-RH) avant sa restauration, en 1976."
-        },
-        {
-            "created": "2023-09-11T05:57:38.560Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
+            "value": "Bergerie de Camargue : La Favouillane, Domaine du Radeau \u00e0 Port-St-Louis-du-Rh\u00f4ne (Bouches-du-Rh\u00f4ne) avant sa restauration, en 1976."
         },
         {
             "created": "2023-09-11T06:00:13.953Z",
@@ -38,14 +28,24 @@ order: 5
             "value": "Photo : PNRC"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q1093",
+            "created": "2024-12-03T11:57:42.948Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T11:57:42.948Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q1093"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L152",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T11:59:05.971Z"
         }
     ],
     "id": "0cd62128-2b86-465f-b705-d5ad100cfa25.json",
