@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0305"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Attelage de deux \"coubles\" : une \"couble\" ded mulet et une de boeufs pour un labour de d\u00e9fon\u00e7age \u00e0 Reillanne (Alpes-de-Hte-Provence) vers 1900. Il y a tr\u00e8s longtemps que l'on n'utilise plus de boeufs pour le labour dans  cette r\u00e9gion o\u00f9 l'\u00e9levage des bovins est souvent consid\u00e9r\u00e9 par les t\u00e9moins comme n'ayant jamais exist\u00e9, alors qu'on trouve des fers \u00e0 boeufs  du XVIIIe et du XIXe si\u00e8cles un peu partout dans la nature en Haute-Provence.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-11T05:18:48.663Z",
-            "modified": "2023-09-11T05:21:12.217Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-03T11:09:18.694Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Attelage de deux \"coubles\" (mulets et b\u0153ufs)\nUne \"couble\" ded mulet et une de boeufs pour un labour de d\u00e9fon\u00e7age \u00e0 Reillanne (Alpes-de-Hte-Provence) vers 1900. Il y a tr\u00e8s longtemps que l'on n'utilise plus de boeufs pour le labour dans  cette r\u00e9gion o\u00f9 l'\u00e9levage des bovins est souvent consid\u00e9r\u00e9 par les t\u00e9moins comme n'ayant jamais exist\u00e9, alors qu'on trouve des fers \u00e0 boeufs  du XVIIIe et du XIXe si\u00e8cles un peu partout dans la nature en Haute-Provence."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-11T05:21:51.813Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L106",
+            "type": "TextualBody",
+            "value": "L106"
+        },
+        {
+            "created": "2023-09-11T05:22:56.507Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-11T05:21:51.813Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-11T05:22:56.507Z"
+            "type": "TextualBody",
+            "value": "Q???"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : coll. famille d'Arnaud",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-11T05:33:00.015Z",
-            "modified": "2023-09-11T05:33:14.505Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-11T05:33:14.505Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : coll. famille d'Arnaud"
         }
     ],
+    "id": "9cda38ed-e140-4b7e-a600-c56d9817e09d.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0305",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1452.844970703125,22.51739501953125,1666.287353515625,1091.2277221679688"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1452.844970703125,22.51739501953125,1666.287353515625,1091.2277221679688"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0305",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "9cda38ed-e140-4b7e-a600-c56d9817e09d.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
