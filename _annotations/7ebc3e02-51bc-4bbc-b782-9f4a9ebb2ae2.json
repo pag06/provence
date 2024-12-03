@@ -11,10 +11,10 @@ order: 5
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-12-03T11:47:03.527Z",
+            "modified": "2024-12-03T11:49:47.898Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "L'\u00e9levage des caprins seuls se pratique de fa\u00e7on traditionnelle en Haute-Provence (Dr\u00f4me, Alpes-de-Hte-Provence, Haut-Var) depuis les temps les plus anciens. Il a \u00e9t\u00e9 en recul au profit de l'\u00e9levage des ovins, m\u00eame si les chevriers r\u00e9cemment install\u00e9s dans cette r\u00e9gion ont remis \u00e0 l'honneur la production du fromage de ch\u00e8vre. Troupeau de ch\u00e8vre \u00e0 Mane en 1955."
+            "value": "Troupeau de ch\u00e8vre \u00e0 Mane (Alpes-de-Hte-Provence) en 1955.\nL'\u00e9levage des caprins seuls se pratique de fa\u00e7on traditionnelle en Haute-Provence (Dr\u00f4me, Alpes-de-Hte-Provence, Haut-Var) depuis les temps les plus anciens. Il a \u00e9t\u00e9 en recul au profit de l'\u00e9levage des ovins, m\u00eame si les chevriers r\u00e9cemment install\u00e9s dans cette r\u00e9gion ont remis \u00e0 l'honneur la production du fromage de ch\u00e8vre."
         },
         {
             "created": "2023-09-11T05:45:39.911Z",
@@ -48,14 +48,14 @@ order: 5
             "value": "Photo : Pierre Martel"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L100",
+            "created": "2024-12-03T11:47:37.286Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T11:47:37.286Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L100"
         }
     ],
     "id": "7ebc3e02-51bc-4bbc-b782-9f4a9ebb2ae2.json",
