@@ -17,16 +17,6 @@ order: 6
             "value": "Vilebrequin avec m\u00e8che \u00e0 3 pointes \u00e0 Digne, Alpes-de-Hte-Provence : [lu vir\u0254bruk\u02c8i\u0303\u207f]"
         },
         {
-            "created": "2023-09-09T14:54:46.686Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
             "created": "2023-09-09T14:55:03.547Z",
             "creator": {
                 "id": "ej7320",
@@ -46,6 +36,16 @@ order: 6
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Dessin : Marcel Gaillard"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L78",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T09:59:56.680Z"
         }
     ],
     "id": "a9e89dd1-9127-4805-a84c-9e47fbd13e8c.json",
