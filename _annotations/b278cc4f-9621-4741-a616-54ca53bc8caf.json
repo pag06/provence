@@ -38,14 +38,14 @@ order: 1
             "value": "Photo : Mus\u00e9e de la Chaussure et d'Ethnographie R\u00e9gionale de Romans"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L10",
+            "created": "2024-12-03T15:26:14.008Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T15:26:14.008Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L10"
         }
     ],
     "id": "b278cc4f-9621-4741-a616-54ca53bc8caf.json",
