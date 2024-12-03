@@ -11,20 +11,10 @@ order: 3
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-12-03T14:00:13.233Z",
+            "modified": "2024-12-03T14:01:52.275Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Deux cisailles \u00e0 trondre les moutons ([...]) au Revest-St-Martin en 1960 (coll. M.Tabouret)\nMod\u00e8le \u00e0 grand ressort et \u00e0 lame triangulaire et mod\u00e8le \u00e0 ressort moyen et \u00e0 lames longues."
-        },
-        {
-            "created": "2023-09-12T05:33:48.508Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
+            "value": "Deux cisailles \u00e0 trondre les moutons ([fw\u02c8\u0254se, fw\u02c8\u0254si]) au Revest-St-Martin en 1960 (coll. M.Tabouret)\nMod\u00e8le \u00e0 grand ressort et \u00e0 lame triangulaire et mod\u00e8le \u00e0 ressort moyen et \u00e0 lames longues."
         },
         {
             "created": "2023-09-12T05:34:24.478Z",
@@ -46,6 +36,16 @@ order: 3
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Pierre Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L87",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T14:01:21.118Z"
         }
     ],
     "id": "51d07256-1141-4759-b5bc-c975017e26a6.json",
