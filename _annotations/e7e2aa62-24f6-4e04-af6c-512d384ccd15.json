@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0310"
 order: 5
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Berger partant rejoindre son troupeau qu'il vient de l\u00e2cher ([...]) pour le faire sortir du pr\u00e9 et l'entrapiner vers les landes sauvages, aux Hautes-Ferrassi\u00e8res (Fr\u00f4me) en 1975.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-11T14:59:46.634Z",
-            "modified": "2023-09-11T15:00:43.886Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-03T12:23:53.695Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Berger partant rejoindre son troupeau qu'il vient de l\u00e2cher ([lar\u0261a lej f\u02c8ed\u0254]) pour le faire sortir du pr\u00e9 et l'entra\u00eener vers les landes sauvages, aux Hautes-Ferrassi\u00e8res (Fr\u00f4me) en 1975."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-11T15:00:51.825Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
+            "type": "TextualBody",
+            "value": "L???"
+        },
+        {
+            "created": "2023-09-11T15:00:58.204Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-11T15:00:51.825Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q9550",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-11T15:00:58.204Z"
+            "type": "TextualBody",
+            "value": "Q9550"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-11T15:05:00.640Z",
-            "modified": "2023-09-11T15:05:02.720Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-11T15:05:02.720Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel"
         }
     ],
+    "id": "e7e2aa62-24f6-4e04-af6c-512d384ccd15.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0310",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1481.58837890625,2507.412353515625,1046.19287109375,997.69384765625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1481.58837890625,2507.412353515625,1046.19287109375,997.69384765625"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0310",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "e7e2aa62-24f6-4e04-af6c-512d384ccd15.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
