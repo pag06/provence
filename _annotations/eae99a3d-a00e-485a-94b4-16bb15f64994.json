@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0311"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Fer \u00e0 marquer les moutons \u00e0 Seyne-les-Alpes : Le R est l'initiale du propri\u00e9taire (R\u00e9muzat).",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-12T05:26:38.071Z",
-            "modified": "2023-09-12T05:27:03.584Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-12T05:27:03.584Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Fer \u00e0 marquer les moutons \u00e0 Seyne-les-Alpes : Le R est l'initiale du propri\u00e9taire (R\u00e9muzat)."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-12T05:28:27.100Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "Q4501",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-12T05:28:00.226Z"
+            "type": "TextualBody",
+            "value": "L55"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L55",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-12T05:28:27.100Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-12T05:41:49.777Z",
-            "modified": "2023-09-12T05:41:53.118Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-12T05:41:53.118Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q6386",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T13:49:06.149Z"
         }
     ],
+    "id": "eae99a3d-a00e-485a-94b4-16bb15f64994.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0311",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1441.717529296875,46.95867156982422,1063.666015625,830.615608215332"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1441.717529296875,46.95867156982422,1063.666015625,830.615608215332"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0311",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "eae99a3d-a00e-485a-94b4-16bb15f64994.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
