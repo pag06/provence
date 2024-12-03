@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0325"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "[...]\nA villars, Vaucluse (canton d'Apt, point L109) : outil \u00e9quilibr\u00e9 autour de son manche et destin\u00e9 \u00e0 couper les ch\u00eanes verts et les oliviers. L'ouvrier frappe avec le tranchant ou la t\u00eate pour faire \u00e9clater le bois trop dur pour \u00eatre coup\u00e9, vers la souche. Poids : 3kgs 600 ; haut : 37cm.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T18:02:31.227Z",
-            "modified": "2023-09-08T18:03:54.112Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-03T09:18:07.333Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Pioche-hache [d\u025bsmatar\u02c8\u025bla]\nA villars, Vaucluse (canton d'Apt, point L109) : outil \u00e9quilibr\u00e9 autour de son manche et destin\u00e9 \u00e0 couper les ch\u00eanes verts et les oliviers. L'ouvrier frappe avec le tranchant ou la t\u00eate pour faire \u00e9clater le bois trop dur pour \u00eatre coup\u00e9, vers la souche. Poids : 3,6 k\u0261 ; haut : 37 cm."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-08T18:03:57.675Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L169",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-08T18:03:57.675Z"
+            "type": "TextualBody",
+            "value": "L169"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-08T18:04:00.789Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Dessin : Marcel Gaillard",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T18:13:32.439Z",
-            "modified": "2023-09-08T18:13:34.465Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-08T18:13:34.465Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Dessin : Marcel Gaillard"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q7724",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T09:18:23.872Z"
         }
     ],
+    "id": "191bb692-d866-47bd-b553-1bbbaa2b3f03.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0325",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2830.447509765625,145.1121063232422,723.635986328125,1208.6260070800781"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2830.447509765625,145.1121063232422,723.635986328125,1208.6260070800781"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0325",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "191bb692-d866-47bd-b553-1bbbaa2b3f03.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
