@@ -3,64 +3,81 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0313"
 order: 7
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "A la montagne : le berger Ernest, devant sa cabane en pierre s\u00e8che du Jas-de-Benjamin, \u00e0 la Rochegiron (Alpes-de-Hte-Provence) [...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-12T06:02:08.579Z",
-            "modified": "2023-09-12T06:02:59.337Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-12T06:02:59.337Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "A la montagne : le berger Ernest, devant sa cabane en pierre s\u00e8che du Jas-de-Benjamin, \u00e0 la Rochegiron (Alpes-de-Hte-Provence) [...]"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-12T06:03:24.827Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-12T06:03:07.131Z"
+            "type": "TextualBody",
+            "value": "Q1612"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q1612",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-12T06:03:24.827Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel, 1967",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-12T06:04:01.243Z",
-            "modified": "2023-09-12T06:04:07.682Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-12T06:04:07.682Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel, 1967"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L89",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T14:36:33.320Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q1091",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T14:36:40.638Z"
         }
     ],
+    "id": "ef6654f7-ce7c-40e1-8eb3-9b517d1612be.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0313",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3639.98388671875,2289.2041015625,1058.33251953125,1089.00927734375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3639.98388671875,2289.2041015625,1058.33251953125,1089.00927734375"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0313",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "ef6654f7-ce7c-40e1-8eb3-9b517d1612be.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
