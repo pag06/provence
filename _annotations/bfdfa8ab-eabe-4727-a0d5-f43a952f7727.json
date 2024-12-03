@@ -11,40 +11,40 @@ order: 6
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-12-03T11:11:47.960Z",
+            "modified": "2024-12-03T11:15:41.105Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "March\u00e9 aux bovins \u00e0 Seyne-les-Alpes (Alpes de Hte-Provence) vers 1910."
+            "value": "March\u00e9 aux bovins \u00e0 Seyne-les-Alpes (Alpes de Hte-Provence) vers 1910\nLa zone montagneuse des Pr\u00e9alpes de Provence a \u00e9t\u00e9 le cadre d'un important \u00e9levage de bovins. Aujourd'hui se c\u00f4toient dans cette r\u00e9gion l'\u00e9levage des vaches (de plus en plus r\u00e9duit) et celui des moutons."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L55",
+            "created": "2024-12-03T11:13:47.350Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T11:13:47.350Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L55"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4744",
+            "created": "2024-12-03T11:13:55.492Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T11:13:55.492Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4744"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q4743",
+            "created": "2024-12-03T11:14:00.832Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T11:14:00.832Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q4743"
         }
     ],
     "id": "bfdfa8ab-eabe-4727-a0d5-f43a952f7727.json",
