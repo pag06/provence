@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0313"
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Petite transhumance : troupeau de Redortiers transhumant de juin \u00e0 novembre dans les alpages des Fraches, sur la m\u00eame commune.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-12T05:58:53.798Z",
-            "modified": "2023-09-12T05:59:35.992Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-12T05:59:35.992Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Petite transhumance : troupeau de Redortiers transhumant de juin \u00e0 novembre dans les alpages des Fraches, sur la m\u00eame commune."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-12T05:59:41.694Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "Q10348",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-12T05:59:41.694Z"
+            "type": "TextualBody",
+            "value": "Q10348"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-12T05:59:56.875Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Photo : Guy Barruol, 1950",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-12T06:04:49.981Z",
-            "modified": "2023-09-12T06:05:00.457Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-12T06:05:00.457Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Guy Barruol, 1950"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L89",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T14:28:11.424Z"
         }
     ],
+    "id": "3117ffcb-8e03-44bd-b930-a73f2af7fc56.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0313",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3430.11572265625,1174.8131103515625,1505.8642578125,1063.6661376953125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3430.11572265625,1174.8131103515625,1505.8642578125,1063.6661376953125"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0313",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "3117ffcb-8e03-44bd-b930-a73f2af7fc56.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
