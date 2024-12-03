@@ -17,16 +17,6 @@ order: 3
             "value": "Faisselier en fa\u00efence de la r\u00e9gion de Romans (Dr\u00f4me) : [...]"
         },
         {
-            "created": "2023-09-13T05:05:55.272Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
             "created": "2023-09-13T05:05:57.907Z",
             "creator": {
                 "id": "ej7320",
@@ -46,6 +36,16 @@ order: 3
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Mus\u00e9e de la Chaussure et d'Ethnographie R\u00e9gionale de Romans"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L10",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T15:27:09.945Z"
         }
     ],
     "id": "ea77e49a-6c30-4656-834b-c36b7f45adde.json",
