@@ -38,34 +38,34 @@ order: 2
             "value": "Phot : J.F. Letavernier"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L89",
+            "created": "2024-12-03T11:40:15.979Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T11:40:15.979Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L89"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q1305",
+            "created": "2024-12-03T11:41:18.878Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T11:41:18.878Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q1305"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q10345",
+            "created": "2024-12-03T11:41:25.690Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T11:41:25.690Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q10345"
         }
     ],
     "id": "03f4c8fc-b3dc-4eab-996c-b59217d54977.json",
