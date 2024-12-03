@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0311"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Petit mat\u00e9riel du berger \u00e0 Bevons, en 1969 : de gauche \u00e0 droite.\nchaudron \u00e0 poix ([...]) pour le marquage des moutons avec 3fers \u00e0 marquer, l'un annulaire, les deux autres avec la lettre L (Latil), 2 sonnailles et une cisaille \u00e0 tonder Leydet ([...]) \u00e0 lame triangulaire et \u00e0 petit ressort utilis\u00e9 aussibien pour les moutons que pour les chevaux, les \u00e2nes et les mulets.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-12T05:28:44.133Z",
-            "modified": "2023-09-12T05:30:38.755Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-03T13:51:33.832Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Petit mat\u00e9riel du berger \u00e0 Bevons, en 1969\nDe gauche \u00e0 droite :\n- chaudron \u00e0 poix ([la p\u02c8\u025b\u0261\u0153]) pour le marquage des moutons\n- trois fers \u00e0 marquer, l'un annulaire, les deux autres avec la lettre L (Latil), \n- deux sonnailles\n- une cisaille \u00e0 tonder Leydet ([...]) \u00e0 lame triangulaire et \u00e0 petit ressort utilis\u00e9 aussi bien pour les moutons que pour les chevaux, les \u00e2nes et les mulets."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-12T05:30:51.814Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
+            "type": "TextualBody",
+            "value": "L???"
+        },
+        {
+            "created": "2023-09-12T05:31:10.150Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-12T05:30:51.814Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-12T05:31:10.150Z"
+            "type": "TextualBody",
+            "value": "Q???"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-12T05:41:56.605Z",
-            "modified": "2023-09-12T05:42:00.127Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-12T05:42:00.127Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel"
         }
     ],
+    "id": "33a48aed-4c1e-4b3f-8e0b-b3e48b8b9f5e.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0311",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2526.27880859375,42.637290954589844,1376.599609375,843.5986709594727"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2526.27880859375,42.637290954589844,1376.599609375,843.5986709594727"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0311",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "33a48aed-4c1e-4b3f-8e0b-b3e48b8b9f5e.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
