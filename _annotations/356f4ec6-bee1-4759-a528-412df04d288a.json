@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0317"
 order: 5
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Garde-manger pour conserver les tommes dans la r\u00e9gion de Romans : [...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-13T05:07:30.191Z",
-            "modified": "2023-09-13T05:07:53.268Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-03T15:27:50.354Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Garde-manger pour conserver les tommes dans la r\u00e9gion de Romans : [la \u0283az\u02c8\u025b\u0280\u0254]"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-13T05:08:40.435Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-13T05:07:59.226Z"
+            "type": "TextualBody",
+            "value": "Q???"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-13T05:08:40.435Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Photo : Mus\u00e9e de la Chaussure et d'Ethnographie R\u00e9gionale de Romans",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-13T05:16:54.575Z",
-            "modified": "2023-09-13T05:16:57.014Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-13T05:16:57.014Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Mus\u00e9e de la Chaussure et d'Ethnographie R\u00e9gionale de Romans"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L10",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T15:28:02.135Z"
         }
     ],
+    "id": "356f4ec6-bee1-4759-a528-412df04d288a.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0317",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1522.452392578125,1125.6031494140625,978.95068359375,953.6873779296875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1522.452392578125,1125.6031494140625,978.95068359375,953.6873779296875"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0317",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "356f4ec6-bee1-4759-a528-412df04d288a.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
