@@ -17,16 +17,6 @@ order: 2
             "value": "Relev\u00e9s d'architecture d'une ferme de Haute-Provence : la place du cheval dans l'\u00e9table [Le Pavon, commune du Contadour-Redortiers, Alpes-de-Hte-Provence]\nCoupe en long selon fa\u00e7ade\nEn fa\u00e7ade, on peut observer la r\u00e9partition des ouvertures : deux grandes portes ouvrant sur la bergerie, avec un volet mobile dans l'un des vantaux et une porte plus \u00e9troite \u00e0 droite, donnant acc\u00e8s \u00e0 la trav\u00e9e du cheval. La terrasse et l'appartement du ma\u00eetre sont en d\u00e9crochement sur cette fa\u00e7ade et constituent une aile perpendiculaire,  avec, au rez de chauss\u00e9e, la loge \u00e0 cochons ([...]), le coin des ch\u00e8vres et la basse-cour."
         },
         {
-            "created": "2023-09-09T15:38:01.470Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
             "created": "2023-09-09T15:38:05.701Z",
             "creator": {
                 "id": "ej7320",
@@ -35,6 +25,26 @@ order: 2
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q3711"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L89",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T10:38:42.889Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q1093",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T10:38:49.349Z"
         }
     ],
     "id": "b65e6900-08f4-43c4-84c6-705e564f7552.json",
