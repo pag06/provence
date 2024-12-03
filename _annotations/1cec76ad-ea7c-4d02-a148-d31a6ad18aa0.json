@@ -8,13 +8,13 @@ order: 4
         {
             "created": "2023-09-13T05:06:21.030Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-13T05:06:57.838Z",
+            "modified": "2024-12-03T15:30:12.345Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Faisselle en fa\u00efence sur \u00e9gouttoir en bois de ch\u00eane \u00e0 Simiane-la-Rotonde."
+            "value": "Faisselle en fa\u00efence sur \u00e9gouttoir en bois de ch\u00eane \u00e0 Simiane-la-Rotonde (Alpes-de-Hte-Provence)."
         },
         {
             "created": "2023-09-13T05:07:06.378Z",
@@ -27,16 +27,6 @@ order: 4
             "value": "Q4395"
         },
         {
-            "created": "2023-09-13T05:07:20.240Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
             "created": "2023-09-13T05:15:05.202Z",
             "creator": {
                 "id": "ej7320",
@@ -46,6 +36,16 @@ order: 4
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Pierre Martel 1964"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L89",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T15:29:43.639Z"
         }
     ],
     "id": "1cec76ad-ea7c-4d02-a148-d31a6ad18aa0.json",
