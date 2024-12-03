@@ -11,10 +11,10 @@ order: 3
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-12-03T09:54:12.472Z",
+            "modified": "2024-12-03T09:55:31.914Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Bouvet \u00e0 rainurer \u00e0 Allos, Alpes-de-Hte-Provence (point L60) : [lu buv\u02c8\u025bt fem\u02c8\u025bw]"
+            "value": "Bouvet \u00e0 rainurer \u00e0 Allos, Alpes-de-Hte-Provence (point L60) : [lu buv\u02c8\u025bt fem\u02c8\u025bw] (outil de menuisier)"
         },
         {
             "created": "2023-09-09T14:49:33.111Z",
@@ -27,16 +27,6 @@ order: 3
             "value": "L60"
         },
         {
-            "created": "2023-09-09T14:49:45.070Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q???"
-        },
-        {
             "created": "2023-09-09T14:58:32.601Z",
             "creator": {
                 "id": "ej7320",
@@ -46,6 +36,16 @@ order: 3
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Dessin : Marcel Gaillard"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q6484",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T09:55:55.653Z"
         }
     ],
     "id": "b52d5abb-16a6-4764-a598-b87fac94701d.json",
