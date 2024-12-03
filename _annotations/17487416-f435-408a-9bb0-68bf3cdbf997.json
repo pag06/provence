@@ -28,14 +28,24 @@ order: 6
             "value": "Photo : Pierre Martel"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L60",
+            "created": "2024-12-03T14:43:20.531Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T14:43:20.531Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L60"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q10348",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T14:43:36.111Z"
         }
     ],
     "id": "17487416-f435-408a-9bb0-68bf3cdbf997.json",
