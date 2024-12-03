@@ -3,63 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0313"
 order: 6
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Carraire de la Durance, sur un des trac\u00e9s de l'ancienne Voie \"Domitienne\" d'Espagne en Italie. Etat actuel dans les collines de Montfort (Alpes-de-Hte-Provence) : [...]",
+            "created": "2023-09-12T06:01:46.150Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
             "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Carraire de la Durance, sur un des trac\u00e9s de l'ancienne Voie \"Domitienne\" d'Espagne en Italie. Etat actuel dans les collines de Montfort (Alpes-de-Hte-Provence) : [la d\u0280\u02c8aj\u0153]",
+            "modified": "2024-12-03T14:33:55.187Z"
+        },
+        {
+            "created": "2023-09-12T06:01:48.753Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-12T06:01:46.150Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L???",
+            "type": "TextualBody",
+            "value": "L???"
+        },
+        {
+            "created": "2023-09-12T06:01:50.086Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-12T06:01:48.753Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-12T06:01:50.086Z"
+            "type": "TextualBody",
+            "value": "Q???"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-12T06:03:56.325Z",
-            "modified": "2023-09-12T06:03:58.920Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-12T06:03:58.920Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel"
         }
     ],
+    "id": "6aaf5b9e-b72e-4709-860a-33b9eecc4ae3.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0313",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1688.2032470703125,2285.369384765625,1035.3258056640625,1035.32568359375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1688.2032470703125,2285.369384765625,1035.3258056640625,1035.32568359375"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0313",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "6aaf5b9e-b72e-4709-860a-33b9eecc4ae3.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
