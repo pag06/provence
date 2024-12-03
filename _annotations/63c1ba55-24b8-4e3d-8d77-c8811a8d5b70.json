@@ -3,64 +3,61 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0316"
 order: 6
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Dalles et gorges \u00e0 sel [...] au hameau de La Blache, Revest-St-Martin (Alpes-de-Hte-Provence), 1966, pr\u00e8s d'une bergerie recouverte en \"lauses\" (dalles de pierre)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-12T14:53:13.933Z",
-            "modified": "2023-09-12T14:54:08.635Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L???",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-12T14:54:14.899Z"
+            "modified": "2023-09-12T14:54:08.635Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Dalles et gorges \u00e0 sel [...] au hameau de La Blache, Revest-St-Martin (Alpes-de-Hte-Provence), 1966, pr\u00e8s d'une bergerie recouverte en \"lauses\" (dalles de pierre)"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-12T14:54:43.648Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-12T14:58:32.636Z",
-            "modified": "2023-09-12T14:58:35.169Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-12T14:58:35.169Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L87",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T15:14:40.335Z"
         }
     ],
+    "id": "63c1ba55-24b8-4e3d-8d77-c8811a8d5b70.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0316",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3928.831787109375,1375.39892578125,1061.818115234375,1047.272705078125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3928.831787109375,1375.39892578125,1061.818115234375,1047.272705078125"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0316",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "63c1ba55-24b8-4e3d-8d77-c8811a8d5b70.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
