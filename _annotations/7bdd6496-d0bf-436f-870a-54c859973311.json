@@ -17,26 +17,6 @@ order: 4
             "value": "Troupeau de taureaux et de chevaux en Camargue : l'alliance de ces deux b\u00eates aux couleurs oppos\u00e9es (le taureau noir et le cheval blanc) est charg\u00e9 ici,particuli\u00e8rement depuis le XIXe s. d'une tr\u00e8s forte port\u00e9e symbolique. Ils sont, aux yeux des Camargais et plus encore, peut-\u00eatre des \u00e9trangers, l'embl\u00e8me m\u00eame de cette r\u00e9gion."
         },
         {
-            "created": "2023-09-11T05:31:35.819Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q9857"
-        },
-        {
-            "created": "2023-09-11T05:31:55.457Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q???"
-        },
-        {
             "created": "2023-09-11T05:34:33.877Z",
             "creator": {
                 "id": "ej7320",
@@ -57,6 +37,26 @@ order: 4
             "purpose": "replying",
             "type": "TextualBody",
             "value": "Sans localisation"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9847",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T11:29:36.475Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q10344",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T11:29:44.173Z"
         }
     ],
     "id": "7bdd6496-d0bf-436f-870a-54c859973311.json",
