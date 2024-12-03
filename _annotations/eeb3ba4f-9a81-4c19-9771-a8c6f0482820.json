@@ -48,15 +48,15 @@ order: 4
             "value": "Photo : P. Martel"
         },
         {
-            "type": "TextualBody",
-            "value": "Sans localisation",
-            "purpose": "replying",
+            "created": "2024-12-03T13:58:24.399Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T13:58:24.399Z",
-            "modified": "2024-12-03T13:58:29.547Z"
+            "modified": "2024-12-03T13:58:29.547Z",
+            "purpose": "replying",
+            "type": "TextualBody",
+            "value": "Sans localisation"
         }
     ],
     "id": "eeb3ba4f-9a81-4c19-9771-a8c6f0482820.json",
