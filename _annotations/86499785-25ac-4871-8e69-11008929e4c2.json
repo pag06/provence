@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0316"
 order: 7
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Auges d'abreuvage et gorge \u00e0 sel [...] au domaine de Bel-Air \u00e0 Sigonce (Alpes-de-Hte-Provence) 1966",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-12T14:54:59.830Z",
-            "modified": "2023-09-12T14:55:34.388Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-03T15:17:37.892Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Auges d'abreuvage et gorge \u00e0 sel [lu bat\u0283\u02c8as, l asalj\u02c8ajre] au domaine de Bel-Air \u00e0 Sigonce (Alpes-de-Hte-Provence) 1966"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-12T14:55:48.562Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
+            "type": "TextualBody",
+            "value": "L???"
+        },
+        {
+            "created": "2023-09-12T14:56:09.380Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-12T14:55:48.562Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q603???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-12T14:56:09.380Z"
+            "type": "TextualBody",
+            "value": "Q603???"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-12T14:58:41.682Z",
-            "modified": "2023-09-12T14:58:43.936Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-12T14:58:43.936Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel"
         }
     ],
+    "id": "86499785-25ac-4871-8e69-11008929e4c2.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0316",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1481.5592041015625,2528.126220703125,927.2728271484375,963.63623046875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1481.5592041015625,2528.126220703125,927.2728271484375,963.63623046875"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0316",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "86499785-25ac-4871-8e69-11008929e4c2.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
