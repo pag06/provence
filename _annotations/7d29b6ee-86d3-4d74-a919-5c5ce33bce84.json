@@ -48,14 +48,14 @@ order: 1
             "value": "Photo : Pierre Martel, 1981"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q7330",
+            "created": "2024-12-03T14:49:16.253Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T14:49:16.253Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q7330"
         }
     ],
     "id": "7d29b6ee-86d3-4d74-a919-5c5ce33bce84.json",
