@@ -27,15 +27,15 @@ order: 1
             "value": "Q2143"
         },
         {
-            "type": "TextualBody",
-            "value": "Sans localisation",
-            "purpose": "commenting",
+            "created": "2024-12-03T10:10:21.560Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T10:10:21.560Z",
-            "modified": "2024-12-03T10:10:26.286Z"
+            "modified": "2024-12-03T10:10:26.286Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Sans localisation"
         }
     ],
     "id": "16cfe8e4-b343-4971-a34f-9d99bef8c5ff.json",
