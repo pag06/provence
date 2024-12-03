@@ -11,10 +11,10 @@ order: 2
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-12-03T11:17:06.676Z",
+            "modified": "2024-12-03T11:25:20.364Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Entr\u00e9e du domaine de la Manade Gillet en Haute-Crau, \u00e0 Aureille (Bouches-du-Rh\u00f4ne)\nAvec les am\u00e9nagements sp\u00e9cifiques pr\u00e9vus pour la r\u00e9ception du public : buvettes et barri\u00e8res de protection en bois."
+            "value": "Panneau embl\u00e9matique d'une manade de Haute-Crau : peinture du \"peintre Camarguais\" J. Marignan, repr\u00e9sentant les tauraux vedettes de la manade. Au premier plan, \"Lou Garri\" avec ses cornes en forme de lyre en l'escoussure (marque du propri\u00e9taire dessin\u00e9e selon une entaille particuli\u00e8re) \u00e0 l'oreille droite."
         },
         {
             "created": "2023-09-11T05:26:34.613Z",
@@ -38,24 +38,24 @@ order: 2
             "value": "Photo : J.N. Pelen"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L133",
+            "created": "2024-12-03T11:23:51.823Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T11:23:51.823Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L133"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L130",
+            "created": "2024-12-03T11:23:57.598Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T11:23:57.598Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L130"
         }
     ],
     "id": "6e641e9e-405d-4a56-9c03-1d349ffbc745.json",
