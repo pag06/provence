@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0315"
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "ENCLOS A VACHES \u00e0 Seyne-les-Alpes : D\u00e9tails des assemblages de cl\u00f4tures\nFermeture de l'enclos par des barres coulissantes.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-12T14:32:57.662Z",
-            "modified": "2023-09-12T14:33:12.795Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-03T14:52:07.923Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Enclos \u00e0 vaches \u00e0 Seyne-les-Alpes : fermeture de l'enclos par des barres coulissantes."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-12T14:33:15.636Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L55",
+            "type": "TextualBody",
+            "value": "L55"
+        },
+        {
+            "created": "2023-09-12T14:34:03.675Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-12T14:33:15.636Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q2399",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-12T14:34:03.675Z"
+            "type": "TextualBody",
+            "value": "Q2399"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel, 1981",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-12T14:44:41.728Z",
-            "modified": "2023-09-12T14:44:43.725Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-12T14:44:43.725Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel, 1981"
         }
     ],
+    "id": "b6d5b6b3-3449-4d7f-bd36-0557d1cda7d6.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0315",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3964.400634765625,60.62377166748047,1063.513916015625,1046.1928787231445"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3964.400634765625,60.62377166748047,1063.513916015625,1046.1928787231445"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0315",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "b6d5b6b3-3449-4d7f-bd36-0557d1cda7d6.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
