@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0312"
 order: 5
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "\"Pique\" ou \"Piquon\", longue sonnaille en bronze pour l'\u00e2ne de transhumance ([...]) \u00e0 St-Michel-l'Observatoire, coll. Y. Jaume.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-12T05:49:42.403Z",
-            "modified": "2023-09-12T05:50:29.061Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-03T14:16:36.641Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "\"Pique\" ou \"Piquon\", longue sonnaille en bronze pour l'\u00e2ne de transhumance ([la p'ik\u0153, lu pik\u02c8u\u0303\u207f]) \u00e0 St-Michel-l'Observatoire, coll. Y. Jaume."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-12T05:50:37.051Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-12T05:50:34.136Z"
+            "type": "TextualBody",
+            "value": "Q9514"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9514",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-12T05:50:37.051Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Photo : F. X. Emery",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-12T05:53:49.138Z",
-            "modified": "2023-09-12T05:53:51.278Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-12T05:53:51.278Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : F. X. Emery"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L100",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T14:16:47.122Z"
         }
     ],
+    "id": "fe000330-7304-492c-a6cb-62b96c6c91d2.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0312",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2557.67041015625,2561.164306640625,1153.30078125,932.20166015625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2557.67041015625,2561.164306640625,1153.30078125,932.20166015625"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0312",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "fe000330-7304-492c-a6cb-62b96c6c91d2.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
