@@ -3,63 +3,70 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0325"
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "[...]\nSault, Vaucluse. Outil \u00e0 deux tranchants qui sert \u00e0 \u00e9brancher les arbres et les arbustes. Le manche est souvent en bois, ici, il est fait de rondelles de cuir emil\u00e9es. Poids : 600gr, haut : 35cm.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T18:05:34.567Z",
-            "modified": "2023-09-08T18:06:34.716Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-03T09:22:51.560Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Serpette [\u0261uj\u02c8a\u0280]\nSault, Vaucluse. Outil \u00e0 deux tranchants qui sert \u00e0 \u00e9brancher les arbres et les arbustes. Le manche est souvent en bois, ici, il est fait de rondelles de cuir emil\u00e9es. Poids : 600 g, haut : 35 cm."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-08T18:06:40.533Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L81",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-08T18:06:40.533Z"
+            "type": "TextualBody",
+            "value": "L81"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-08T18:06:41.635Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Dessin : Marcel Gaillard",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-08T18:13:58.235Z",
-            "modified": "2023-09-08T18:14:00.246Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-08T18:14:00.246Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Dessin : Marcel Gaillard"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9382",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T09:22:32.553Z"
         }
     ],
+    "id": "c7fc4810-060a-4f0b-98b5-22277b85f066.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0325",
+        "dcterms:isPartOf": {
+            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+            "type": "Manifest"
+        },
         "selector": {
             "type": "SvgSelector",
             "value": "<svg><polygon points=\"3273.09716796875,1440.3433837890625 3658.009765625,1440.3433837890625 3681.104736328125,2483.45703125 3253.8515625,2475.758544921875 3103.735595703125,1648.1962890625\"></polygon></svg>"
         },
-        "dcterms:isPartOf": {
-            "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
-            "type": "Manifest"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0325",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "c7fc4810-060a-4f0b-98b5-22277b85f066.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
