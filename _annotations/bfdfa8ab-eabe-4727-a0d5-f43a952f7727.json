@@ -45,6 +45,17 @@ order: 6
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q4743"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Photo : coll. Alpes de Lumi\u00e8re",
+            "purpose": "commenting",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-03T11:16:12.989Z",
+            "modified": "2024-12-03T11:16:27.260Z"
         }
     ],
     "id": "bfdfa8ab-eabe-4727-a0d5-f43a952f7727.json",
