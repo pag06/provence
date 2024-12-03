@@ -8,13 +8,13 @@ order: 6
         {
             "created": "2023-09-12T14:53:13.933Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-12T14:54:08.635Z",
+            "modified": "2024-12-03T15:15:57.967Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Dalles et gorges \u00e0 sel [...] au hameau de La Blache, Revest-St-Martin (Alpes-de-Hte-Provence), 1966, pr\u00e8s d'une bergerie recouverte en \"lauses\" (dalles de pierre)"
+            "value": "Dalles et gorges \u00e0 sel [la l'awz\u0153, l asalj'aj\u0280e] au hameau de La Blache, Revest-St-Martin (Alpes-de-Hte-Provence), 1966, \nPr\u00e8s d'une bergerie recouverte en \"lauses\" (dalles de pierre)"
         },
         {
             "created": "2023-09-12T14:58:32.636Z",
@@ -28,14 +28,14 @@ order: 6
             "value": "Photo : Pierre Martel"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L87",
+            "created": "2024-12-03T15:14:40.335Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T15:14:40.335Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L87"
         }
     ],
     "id": "63c1ba55-24b8-4e3d-8d77-c8811a8d5b70.json",
