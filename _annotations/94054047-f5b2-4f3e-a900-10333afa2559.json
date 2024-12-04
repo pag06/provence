@@ -11,41 +11,51 @@ order: 9
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-12-04T10:09:12.628Z",
+            "modified": "2024-12-04T10:11:38.419Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Trois boulins en terre cuite : de gauche \u00e0 droite. Pigeonnier du Jas-de-Porch\u00e8res \u00e0 St-Michel ; pigeonnier des Raffins \u00e0 Lurs ; Pigeonner des Mouli\u00e8res \u00e0 Montfort (Alpes-de-Hte-Provence)"
+            "value": "Trois boulins en terre cuite : de gauche \u00e0 droite. Pigeonnier du Jas-de-Porch\u00e8res \u00e0 St-Michel ; pigeonnier des Raffins \u00e0 Lurs ; Pigeonner des Mouli\u00e8res \u00e0 Montfort (Alpes-de-Hte-Provence)\nBoulins donn\u00e9s \u00e0 Alpes de Lumi\u00e8re par les propri\u00e9taires et d\u00e9pos\u00e9s au Conservatoire Ethnologique de la Haute Provence \u00e0 Salagon, Mane (Alpes-de-Hte-Provence)"
         },
         {
             "created": "2023-09-14T06:00:28.177Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-14T06:00:30.617Z",
+            "modified": "2024-12-04T10:11:32.705Z",
             "purpose": "identifying",
             "type": "TextualBody",
-            "value": "Photo : Pierre Martel\nBoulins donn\u00e9s \u00e0 Alpes de Lumi\u00e8re par les propri\u00e9taires et d\u00e9pos\u00e9s au Conservatoire Ethnologique de la Haute Provence \u00e0 Salagon, Mane (Alpes-de-Hte-Provence)"
+            "value": "Photo : Pierre Martel"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L100",
+            "created": "2024-12-04T10:09:25.983Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-04T10:09:25.983Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L100"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q7697",
+            "created": "2024-12-04T10:09:35.683Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-04T10:09:35.683Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q7697"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L90",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T10:11:22.105Z"
         }
     ],
     "id": "94054047-f5b2-4f3e-a900-10333afa2559.json",
