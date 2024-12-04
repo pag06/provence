@@ -17,16 +17,6 @@ order: 3
             "value": "Rucher \u00e0 Blieux (Alpes-de-Hte-Provence) en 1970. \nIl est constitu\u00e9 d'une quarantaine de ruches-caisses entre pommiers et ch\u00e2taigners ; elles sont couvertes de tuiles."
         },
         {
-            "created": "2023-09-14T05:36:06.150Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
             "created": "2023-09-14T05:36:09.037Z",
             "creator": {
                 "id": "ej7320",
@@ -48,14 +38,24 @@ order: 3
             "value": "Photo : Alpes de Lumi\u00e8re"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9059",
+            "created": "2024-12-04T09:45:39.439Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-04T09:45:39.439Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9059"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L107",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T09:48:10.460Z"
         }
     ],
     "id": "46355a03-a959-47ca-8e0a-a01a5a1bc9b2.json",
