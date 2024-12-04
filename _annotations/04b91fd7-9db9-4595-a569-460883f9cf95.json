@@ -3,64 +3,61 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0325"
 order: 5
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Int\u00e9rieur d'un pigeonnier \u00e0 Sigonce (Alpes-de-Hte-Provence) en 1966. Une \u00e9chelle mobile, tournant sur un axe central, permet une visite facile de tous les boulins en ma\u00e7onnerie.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T06:07:47.221Z",
-            "modified": "2023-09-14T06:08:42.562Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-04T10:26:41.846Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Int\u00e9rieur d'un pigeonnier \u00e0 Sigonce (Alpes-de-Hte-Provence) en 1966. \nUne \u00e9chelle mobile, tournant sur un axe central, permet une visite facile de tous les boulins en ma\u00e7onnerie."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q6797",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-14T06:08:45.537Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-14T06:08:47.988Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T06:16:06.250Z",
-            "modified": "2023-09-14T06:16:10.764Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-14T06:16:10.764Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q7697",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T10:26:54.166Z"
         }
     ],
+    "id": "04b91fd7-9db9-4595-a569-460883f9cf95.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0325",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=289.0244445800781,2407.401611328125,913.1961364746094,908.178466796875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=289.0244445800781,2407.401611328125,913.1961364746094,908.178466796875"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0325",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "04b91fd7-9db9-4595-a569-460883f9cf95.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
