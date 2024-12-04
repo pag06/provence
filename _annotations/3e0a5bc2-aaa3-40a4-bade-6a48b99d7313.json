@@ -8,23 +8,13 @@ order: 7
         {
             "created": "2023-09-13T05:49:03.453Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-13T05:49:48.322Z",
+            "modified": "2024-12-04T08:53:47.456Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Une fois nettoy\u00e9 le cochon est suspendu \u00e0 l'\u00e9chelle par les pattes arri\u00e8re pour \u00eatre d\u00e9pec\u00e9.\nValsaintes (commune de Simiane, Alpes-de-Hte-Provence)"
-        },
-        {
-            "created": "2023-09-13T05:49:55.791Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
+            "value": "Une fois nettoy\u00e9 le cochon est suspendu \u00e0 l'\u00e9chelle par les pattes arri\u00e8re pour \u00eatre d\u00e9pec\u00e9. Valsaintes (commune de Simiane, Alpes-de-Hte-Provence)"
         },
         {
             "created": "2023-09-13T05:50:01.897Z",
@@ -46,6 +36,16 @@ order: 7
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Jack Burlot"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L89",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T08:53:56.035Z"
         }
     ],
     "id": "3e0a5bc2-aaa3-40a4-bade-6a48b99d7313.json",
