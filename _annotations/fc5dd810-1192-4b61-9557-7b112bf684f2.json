@@ -3,64 +3,81 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0320"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Le \"saigneur\" [...] attend le cochon. La place du couteau \u00e0 saigner ([...]) entre ses dents, n'est pas celle d'une pose humoristique prise pour le photographe : quand le saigneur doit lib\u00e9rer ses deux mains, il tient effectivement le couteau dans sa bouche, comme on le voit par exemple sur la photo n\u00b0 9\nValsaintes (commune de Simiane, Alpes-de-Hte-Provence)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-13T05:37:32.769Z",
-            "modified": "2023-09-13T05:39:26.977Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-13T05:39:26.977Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Le \"saigneur\" [...] attend le cochon. La place du couteau \u00e0 saigner ([...]) entre ses dents, n'est pas celle d'une pose humoristique prise pour le photographe : quand le saigneur doit lib\u00e9rer ses deux mains, il tient effectivement le couteau dans sa bouche, comme on le voit par exemple sur la photo n\u00b0 9\nValsaintes (commune de Simiane, Alpes-de-Hte-Provence)"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-13T05:40:13.431Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-13T05:39:59.787Z"
+            "type": "TextualBody",
+            "value": "Q9126"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9126",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-13T05:40:13.431Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Photo : Jack Buriot",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-13T05:51:45.460Z",
-            "modified": "2023-09-13T05:52:03.325Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-13T05:52:03.325Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Jack Buriot"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L89",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T08:33:04.086Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2803",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T08:33:10.854Z"
         }
     ],
+    "id": "fc5dd810-1192-4b61-9557-7b112bf684f2.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0320",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1432.455322265625,306.5509338378906,1210.0693359375,838.9815368652344"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1432.455322265625,306.5509338378906,1210.0693359375,838.9815368652344"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0320",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "fc5dd810-1192-4b61-9557-7b112bf684f2.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
