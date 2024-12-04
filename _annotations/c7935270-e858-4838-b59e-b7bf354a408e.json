@@ -17,26 +17,6 @@ order: 2
             "value": "Pigeonnier isol\u00e9 dans la campagne, au milieu des anciennes terres \u00e0 bl\u00e9, \u00e0 St-Andr\u00e9 de la Grosse Pierre \u00e0 l'Escale (Alpes-de-Hte-Provence). \nDeux grilles d'envol, la plus grande ouvrant sur une grande loggia abrit\u00e9e, pour le repos des pigeons ; elle est appel\u00e9e, selon les endroits [lu ka\u0272\u02c8a\u0280, lu sulejad\u02c8u]"
         },
         {
-            "created": "2023-09-14T06:04:23.355Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
-            "created": "2023-09-14T06:04:36.336Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q6797"
-        },
-        {
             "created": "2023-09-14T06:15:39.017Z",
             "creator": {
                 "id": "ej7320",
@@ -46,6 +26,26 @@ order: 2
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Pierre Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L78",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T10:23:11.373Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q7697",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T10:23:21.428Z"
         }
     ],
     "id": "c7935270-e858-4838-b59e-b7bf354a408e.json",
