@@ -17,26 +17,6 @@ order: 3
             "value": "Boulins en terre cuite align\u00e9s sous un auvent sur la fa\u00e7ade m\u00e9ridionale d'une maison \u00e0 St-Martin-de-Noyers (Alpes-de-Hte-Provence) en 1960."
         },
         {
-            "created": "2023-09-14T05:50:44.072Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
-            "created": "2023-09-14T05:51:01.602Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q???"
-        },
-        {
             "created": "2023-09-14T05:58:18.395Z",
             "creator": {
                 "id": "pag06",
@@ -46,6 +26,26 @@ order: 3
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Pierre Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L71",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T10:03:03.872Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q7697",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T10:03:09.386Z"
         }
     ],
     "id": "1b995463-6563-49d4-b587-5c51add6dfa1.json",
