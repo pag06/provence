@@ -8,23 +8,13 @@ order: 1
         {
             "created": "2023-09-13T05:53:20.412Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-13T05:54:08.600Z",
+            "modified": "2024-12-04T09:06:15.898Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "La truie \u00e0 la recherche des truffes \u00e0 Montagnac : la carte postale (vers 1909 \u00e9voque \u00e0 la fois l'importance de cette cueillette et l'une des fonctions importantes remplies par les truies dans cette r\u00e9gion : [...]"
-        },
-        {
-            "created": "2023-09-13T05:54:23.044Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
+            "value": "La truie \u00e0 la recherche des truffes \u00e0 Montagnac (Alpes-de-Hte-Provence)\nLa carte postale (vers 1909) \u00e9voque \u00e0 la fois l'importance de cette cueillette et l'une des fonctions importantes remplies par les truies dans cette r\u00e9gion : [la t\u0280w\u02c8ej\u0254 p\u025br li \u0280ab\u02c8as\u0153, la t\u0280w\u02c8ej\u0254 rabasj\u02c8\u025br\u0153]"
         },
         {
             "created": "2023-09-13T05:54:41.671Z",
@@ -35,11 +25,37 @@ order: 1
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q2278"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L114",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T09:04:20.363Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Carte postale ancienne",
+            "purpose": "commenting",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T09:04:57.609Z",
+            "modified": "2024-12-04T09:05:04.352Z"
         }
     ],
     "id": "9acd13ed-6829-425a-90f0-8cd3605d693e.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1553.7078857421875,81.79379272460938,1729.3543701171875,1194.7735900878906"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
@@ -47,11 +63,6 @@ order: 1
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0321",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1553.7078857421875,81.79379272460938,1729.3543701171875,1194.7735900878906"
         }
     },
     "type": "Annotation"
