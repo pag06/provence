@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0324"
 order: 5
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Autre type de nid en vannerie provenant de Limans (Alpes-de-Hte-Provence)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T05:52:17.126Z",
-            "modified": "2023-09-14T05:52:34.468Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-04T10:04:48.508Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Autre type de nid en vannerie provenant de Limans (Alpes-de-Hte-Provence)\nBoulins donn\u00e9s \u00e0 Alpes de Lumi\u00e8re par les propri\u00e9taires et d\u00e9pos\u00e9s au Conservatoire Ethnologique de la Haute Provence \u00e0 Salagon, Mane (Alpes-de-Hte-Provence)"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-14T05:52:47.642Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
+            "type": "TextualBody",
+            "value": "L???"
+        },
+        {
+            "created": "2023-09-14T05:52:48.718Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-14T05:52:47.642Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-14T05:52:48.718Z"
+            "type": "TextualBody",
+            "value": "Q???"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel\nBoulins donn\u00e9s \u00e0 Alpes de Lumi\u00e8re par les propri\u00e9taires et d\u00e9pos\u00e9s au Conservatoire Ethnologique de la Haute Provence \u00e0 Salagon, Mane (Alpes-de-Hte-Provence)",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T06:00:15.372Z",
-            "modified": "2023-09-14T06:00:17.937Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-04T10:04:43.324Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel"
         }
     ],
+    "id": "f32c6f98-b453-4578-adf6-2011b116c069.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0324",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2702.11767578125,1354.512939453125,1035.32568359375,1035.32568359375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2702.11767578125,1354.512939453125,1035.32568359375,1035.32568359375"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0324",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "f32c6f98-b453-4578-adf6-2011b116c069.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
