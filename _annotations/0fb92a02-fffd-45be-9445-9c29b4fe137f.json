@@ -11,10 +11,10 @@ order: 2
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-12-04T09:07:42.809Z",
+            "modified": "2024-12-04T09:08:55.577Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Une [t\u0280\u0265\u02c8ej\u0153 \u0280abasj\u02c8\u025br\u0153] \u00e0 Puimoisson vers 1900."
+            "value": "Une [t\u0280\u0265\u02c8ej\u0153 \u0280abasj\u02c8\u025br\u0153] \u00e0 Puimoisson (Alpes-de-Hte-Provence) vers 1900."
         },
         {
             "created": "2023-09-13T05:55:12.517Z",
@@ -38,14 +38,14 @@ order: 2
             "value": "Coll. J. Valon"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L114",
+            "created": "2024-12-04T09:08:24.277Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-04T09:08:24.277Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L114"
         }
     ],
     "id": "0fb92a02-fffd-45be-9445-9c29b4fe137f.json",
