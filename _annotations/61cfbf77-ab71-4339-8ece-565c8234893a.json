@@ -38,14 +38,14 @@ order: 5
             "value": "Photo : Pierre Martel"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L89",
+            "created": "2024-12-04T09:50:10.458Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-04T09:50:10.458Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L89"
         }
     ],
     "id": "61cfbf77-ab71-4339-8ece-565c8234893a.json",
