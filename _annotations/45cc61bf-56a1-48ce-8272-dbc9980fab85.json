@@ -3,64 +3,81 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0320"
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Apr\u00e8s avoir \u00e9t\u00e9 saign\u00e9, le cochon est \u00e9bouillant\u00e9 ([...]) dans [...] ([...]), grande auge en bois qui jouent aussi le r\u00f4le de racloir et commencent \u00e0 d\u00e9tacher les soies.\nValsaintes (commune de Simiane, Alpes-de-Hte-Provence)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-13T05:42:47.059Z",
-            "modified": "2023-09-13T05:46:14.587Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-13T05:46:14.587Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Apr\u00e8s avoir \u00e9t\u00e9 saign\u00e9, le cochon est \u00e9bouillant\u00e9 ([...]) dans [...] ([...]), grande auge en bois qui jouent aussi le r\u00f4le de racloir et commencent \u00e0 d\u00e9tacher les soies.\nValsaintes (commune de Simiane, Alpes-de-Hte-Provence)"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-13T05:44:07.377Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-13T05:43:36.352Z"
+            "type": "TextualBody",
+            "value": "Q3620"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q3620",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-13T05:44:07.377Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Photo : Jack Buriot",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-13T05:52:34.597Z",
-            "modified": "2023-09-13T05:52:36.823Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-13T05:52:36.823Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Jack Buriot"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L89",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T08:38:37.386Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q825",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T08:39:49.626Z"
         }
     ],
+    "id": "45cc61bf-56a1-48ce-8272-dbc9980fab85.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0320",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=4180.8505859375,206.1626434326172,807.55419921875,1225.1353302001953"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=4180.8505859375,206.1626434326172,807.55419921875,1225.1353302001953"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0320",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "45cc61bf-56a1-48ce-8272-dbc9980fab85.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
