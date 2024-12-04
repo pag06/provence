@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0325"
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Int\u00e9rieur d'un pigeonnier \u00e0 Mane (Alpes-de-Hte-Provence), avec la queue de morue sal\u00e9e destin\u00e9e \u00e0 retenir les pigeons au colombier ou \u00e0 en attirer de nouveaux.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T06:04:57.397Z",
-            "modified": "2023-09-14T06:05:49.139Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-04T10:23:55.049Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Int\u00e9rieur d'un pigeonnier \u00e0 Mane (Alpes-de-Hte-Provence)\nAvec la queue de morue sal\u00e9e destin\u00e9e \u00e0 retenir les pigeons au colombier ou \u00e0 en attirer de nouveaux."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-14T06:05:57.200Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
+            "type": "TextualBody",
+            "value": "L???"
+        },
+        {
+            "created": "2023-09-14T06:06:00.627Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-14T06:05:57.200Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q6797",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-14T06:06:00.627Z"
+            "type": "TextualBody",
+            "value": "Q6797"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel, 1963",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T06:15:45.518Z",
-            "modified": "2023-09-14T06:15:54.124Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-14T06:15:54.124Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel, 1963"
         }
     ],
+    "id": "16eae2b1-db57-4970-8e4a-d7cad767b218.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0325",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1475.092041015625,1175.84521484375,930.489990234375,918.760986328125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1475.092041015625,1175.84521484375,930.489990234375,918.760986328125"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0325",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "16eae2b1-db57-4970-8e4a-d7cad767b218.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
