@@ -8,13 +8,13 @@ order: 4
         {
             "created": "2023-09-12T14:50:43.360Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-12T14:51:00.427Z",
+            "modified": "2024-12-04T11:36:48.036Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Mangeoire \u00e0 glands [...] dans une ferme de Redortiers, 1975"
+            "value": "Mangeoire \u00e0 glands [la \u0261av\u02c8\u025bd\u0153] dans une ferme de Redortiers, 1975"
         },
         {
             "created": "2023-09-12T14:58:24.930Z",
@@ -28,24 +28,24 @@ order: 4
             "value": "Photo : Pierre Martel"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2859",
+            "created": "2024-12-03T15:10:10.892Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T15:10:10.892Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2859"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L89",
+            "created": "2024-12-03T15:10:15.623Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T15:10:15.623Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L89"
         }
     ],
     "id": "77965734-1753-4507-9771-31565b088c31.json",
