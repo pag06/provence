@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0322"
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Ruche en ch\u00eane li\u00e8ge, XIXe si\u00e8cle, du type de celles qui \u00e9taient fabriqu\u00e9es autour de la Londe-les-Maures (Var) et vendues sur les foires de la Provence et des Alpes du Sud [...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T05:15:57.900Z",
-            "modified": "2023-09-14T05:17:53.697Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-04T09:32:28.375Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Ruche en ch\u00eane li\u00e8ge, XIXe si\u00e8cle\nDu type de celles qui \u00e9taient fabriqu\u00e9es autour de la Londe-les-Maures (Var) et vendues sur les foires de la Provence et des Alpes du Sud [lu b\u0280\u02c8ysk]."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-14T05:18:04.182Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
+            "type": "TextualBody",
+            "value": "L???"
+        },
+        {
+            "created": "2023-09-14T05:18:19.328Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-14T05:18:04.182Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q9057",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-14T05:18:19.328Z"
+            "type": "TextualBody",
+            "value": "Q9057"
         },
         {
-            "type": "TextualBody",
-            "value": "Coll. P. Bresc \u00e0 Viens",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T05:27:01.347Z",
-            "modified": "2023-09-14T05:27:39.561Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-14T05:27:39.561Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Coll. P. Bresc \u00e0 Viens"
         }
     ],
+    "id": "b889f2dd-ade7-4654-a40e-38db37501f9c.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0322",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=4232.89599609375,210.89703369140625,748.0224609375,1028.5311889648438"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=4232.89599609375,210.89703369140625,748.0224609375,1028.5311889648438"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0322",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "b889f2dd-ade7-4654-a40e-38db37501f9c.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
