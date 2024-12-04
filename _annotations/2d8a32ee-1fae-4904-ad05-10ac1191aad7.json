@@ -3,64 +3,82 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0318"
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Plat \u00e0 lait, avec son bec tr\u00e8s \u00e9chancr\u00e9 (\u00e0 gauche), utilis\u00e9 ici comme support \u00e0 des moules \u00e0 fromage en c\u00e9ramique.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-13T05:25:44.482Z",
-            "modified": "2023-09-13T05:26:14.967Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-13T05:26:44.407Z"
+            "modified": "2023-09-13T05:26:14.967Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Plat \u00e0 lait, avec son bec tr\u00e8s \u00e9chancr\u00e9 (\u00e0 gauche), utilis\u00e9 ici comme support \u00e0 des moules \u00e0 fromage en c\u00e9ramique."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-13T05:26:50.016Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Coll. et photo du Mus\u00e9e de Romans, Dr\u00f4me",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-13T05:34:22.985Z",
-            "modified": "2023-09-13T05:34:42.634Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-13T05:34:42.634Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Coll. et photo du Mus\u00e9e de Romans, Dr\u00f4me"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Sans localisation",
+            "purpose": "replying",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T08:16:12.288Z",
+            "modified": "2024-12-04T08:16:18.956Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8666",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T08:16:41.521Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q6796",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T08:18:11.307Z"
         }
     ],
+    "id": "2d8a32ee-1fae-4904-ad05-10ac1191aad7.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0318",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1416.62109375,1356.620361328125,1461.761474609375,1075.392822265625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1416.62109375,1356.620361328125,1461.761474609375,1075.392822265625"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0318",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "2d8a32ee-1fae-4904-ad05-10ac1191aad7.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
