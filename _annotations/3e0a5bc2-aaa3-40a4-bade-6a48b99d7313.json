@@ -17,16 +17,6 @@ order: 7
             "value": "Une fois nettoy\u00e9 le cochon est suspendu \u00e0 l'\u00e9chelle par les pattes arri\u00e8re pour \u00eatre d\u00e9pec\u00e9. Valsaintes (commune de Simiane, Alpes-de-Hte-Provence)"
         },
         {
-            "created": "2023-09-13T05:50:01.897Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q???"
-        },
-        {
             "created": "2023-09-13T05:52:19.527Z",
             "creator": {
                 "id": "pag06",
@@ -38,14 +28,24 @@ order: 7
             "value": "Photo : Jack Burlot"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L89",
+            "created": "2024-12-04T08:53:56.035Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-04T08:53:56.035Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L89"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q890",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T08:57:18.089Z"
         }
     ],
     "id": "3e0a5bc2-aaa3-40a4-bade-6a48b99d7313.json",
