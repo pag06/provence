@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0325"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Pigeonnier incorpor\u00e9 dans la ferme \u00e0 Joucas (Vaucluse). Grille d'envol entour\u00e9e de carreaux verniss\u00e9s pour interdire le passage aux rats, loirs ou belettes.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T06:01:14.219Z",
-            "modified": "2023-09-14T06:01:51.352Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-04T10:14:14.121Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Pigeonnier incorpor\u00e9 dans la ferme \u00e0 Joucas (Vaucluse).\nGrille d'envol entour\u00e9e de carreaux verniss\u00e9s pour interdire le passage aux rats, loirs ou belettes."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-14T06:02:13.843Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "Q7697",
+            "type": "TextualBody",
+            "value": "Q7697"
+        },
+        {
+            "created": "2023-09-14T06:02:23.508Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-14T06:02:13.843Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-14T06:02:23.508Z"
+            "type": "TextualBody",
+            "value": "L???"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel, 1967",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T06:15:24.364Z",
-            "modified": "2023-09-14T06:15:35.559Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-14T06:15:35.559Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel, 1967"
         }
     ],
+    "id": "8fb9400f-db72-4930-a56d-04b1a3b3ec59.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0325",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1448.5894775390625,53.780879974365234,1543.5108642578125,992.2569618225098"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1448.5894775390625,53.780879974365234,1543.5108642578125,992.2569618225098"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0325",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "8fb9400f-db72-4930-a56d-04b1a3b3ec59.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
