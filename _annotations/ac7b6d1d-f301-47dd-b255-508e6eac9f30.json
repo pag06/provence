@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0327"
 order: 5
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Grand pi\u00e8ge \u00e0 ressort puissant (L. 48cm) qui, rev\u00eatu d'un filet \u00e9tait utilis\u00e9 pour la capture des buses ou des aigles : [...] Ongles, 1970.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T17:39:08.295Z",
-            "modified": "2023-09-14T17:39:47.861Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-04T11:10:53.625Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Grand pi\u00e8ge \u00e0 ressort puissant \u00e0 Ongles, 1970.\n(L. 48cm) qui, rev\u00eatu d'un filet \u00e9tait utilis\u00e9 pour la capture des buses ou des aigles : [...] "
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-14T17:40:02.372Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
+            "type": "TextualBody",
+            "value": "L???"
+        },
+        {
+            "created": "2023-09-14T17:40:07.096Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-14T17:40:02.372Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q7667",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-14T17:40:07.096Z"
+            "type": "TextualBody",
+            "value": "Q7667"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T17:45:36.129Z",
-            "modified": "2023-09-14T17:45:38.250Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-14T17:45:38.250Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel"
         }
     ],
+    "id": "ac7b6d1d-f301-47dd-b255-508e6eac9f30.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0327",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1542.91455078125,2184.187255859375,1115.47705078125,1157.0478515625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1542.91455078125,2184.187255859375,1115.47705078125,1157.0478515625"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0327",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "ac7b6d1d-f301-47dd-b255-508e6eac9f30.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
