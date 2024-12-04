@@ -8,13 +8,13 @@ order: 7
         {
             "created": "2023-09-14T17:22:18.682Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-14T17:24:31.541Z",
+            "modified": "2024-12-04T10:58:56.447Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "La l\u00e8que [...], assomoir \u00e0 grives, pi\u00e8ges tr\u00e8s utilis\u00e9 en Provence et Haute-Provence, constitu\u00e9 d'une dalle en pierre maintenue en \u00e9quilibre instable par un \u00e9chaffaudage astucieux de baguettes se disloquant d\u00e8s l'arriv\u00e9e de l'oiseau. La pierre verticale s'appelle ici [...], la grosse pierre de chaque c\u00f4t\u00e9: [...] ; les deux petites pierres sous la [...] : [...] ; le b\u00e2ton vertical est [...] et les b\u00e2tons horizontaux : [...]\nA Bouvi\u00e8res (Dr\u00f4me)."
+            "value": "La l\u00e8que [la l\u02c8etsjo], assommoir \u00e0 grives \u00e0 Bouvi\u00e8res (Dr\u00f4me).\nPi\u00e8ge tr\u00e8s utilis\u00e9 en Provence et Haute-Provence, constitu\u00e9 d'une dalle en pierre maintenue en \u00e9quilibre instable par un \u00e9chaffaudage astucieux de baguettes se disloquant d\u00e8s l'arriv\u00e9e de l'oiseau. La pierre verticale s'appelle ici [la l\u02c8awz\u0254], la grosse pierre de devant horizontale [lu sep\u02c8u\u0303] ; les deux pierres de chaque c\u00f4t\u00e9 [le \u0261\u02c8arde] ; les deux petites pierres sous la [l\u02c8awz\u0254] [le dejdzal\u02c8ow] ; le b\u00e2ton vertical est [la kl\u02c8aw] et les b\u00e2tons horizontaux : [le te\u0303]"
         },
         {
             "created": "2023-09-14T17:25:48.097Z",
@@ -38,14 +38,14 @@ order: 7
             "value": "L41"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q7667",
+            "created": "2024-12-04T10:53:56.652Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-04T10:53:56.652Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q7667"
         }
     ],
     "id": "48712f83-e0ce-4c76-9fa8-795b70d22b2b.json",
