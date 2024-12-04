@@ -17,26 +17,6 @@ order: 5
             "value": "Le r\u00e2clage des soies \u00e0 Valsaintes (commune de Simiane, Alpes-de-Hte-Provence)\nApr\u00e8s que l'ensemble des soies aient \u00e9t\u00e9 enlev\u00e9es, on sort le cochon du [n\u02c8aw] pour le coucher sur une \u00e9chelle ([esk\u02c8al\u0153]) o\u00f9 on termine le raclage au couteau autour des oreilles, des pattes, de la queue, tout en continuant \u00e0 le rincer \u00e0 l'eau ti\u00e8de."
         },
         {
-            "created": "2023-09-13T05:47:49.418Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
-            "created": "2023-09-13T05:48:01.922Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q1548"
-        },
-        {
             "created": "2023-09-13T05:52:14.572Z",
             "creator": {
                 "id": "pag06",
@@ -46,6 +26,26 @@ order: 5
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Jack Burlot"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L89",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T08:51:33.200Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8486",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T08:51:56.636Z"
         }
     ],
     "id": "48767c24-54d1-41e4-987d-6f1050fe8e11.json",
