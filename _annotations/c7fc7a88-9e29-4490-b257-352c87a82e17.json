@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0324"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Alignement de boulins en terre cuite enrob\u00e9s dans une fa\u00e7ade de pl\u00e2tre ; pigeonnier \u00e0 Montfort",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T05:48:41.443Z",
-            "modified": "2023-09-14T05:49:08.690Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-14T05:49:08.690Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Alignement de boulins en terre cuite enrob\u00e9s dans une fa\u00e7ade de pl\u00e2tre ; pigeonnier \u00e0 Montfort"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-14T05:49:20.377Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-14T05:49:10.816Z"
+            "type": "TextualBody",
+            "value": "Q7697"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q7697",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-14T05:49:20.377Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel 1967",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T05:58:12.270Z",
-            "modified": "2023-09-14T05:58:35.065Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-14T05:58:35.065Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel 1967"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L90",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T10:01:27.988Z"
         }
     ],
+    "id": "c7fc7a88-9e29-4490-b257-352c87a82e17.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0324",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2701.086181640625,170.90362548828125,1069.6416015625,1051.7146606445312"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2701.086181640625,170.90362548828125,1069.6416015625,1051.7146606445312"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0324",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "c7fc7a88-9e29-4490-b257-352c87a82e17.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
