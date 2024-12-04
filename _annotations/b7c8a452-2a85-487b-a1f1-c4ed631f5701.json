@@ -17,16 +17,6 @@ order: 5
             "value": "Ruche-tronc, couverte de tuiles, dans un verger \u00e0 St-Martin-de-Noyers (Alpes-de-Hte-Provence) en juin 1971."
         },
         {
-            "created": "2023-09-14T05:20:34.917Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
             "created": "2023-09-14T05:26:34.484Z",
             "creator": {
                 "id": "ej7320",
@@ -46,6 +36,16 @@ order: 5
             "purpose": "tagging",
             "type": "TextualBody",
             "value": "Q9058"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L71",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T09:37:02.761Z"
         }
     ],
     "id": "b7c8a452-2a85-487b-a1f1-c4ed631f5701.json",
