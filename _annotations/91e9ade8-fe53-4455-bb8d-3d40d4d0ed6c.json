@@ -3,64 +3,61 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0325"
 order: 6
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Int\u00e9rieur du pigeonnier du ch\u00e2teau de la Gabelle \u00e0 Ferrassi\u00e8res (Dr\u00f4me; v\u00e9ritable ville, avec 2 400 boulins en pl\u00e2tre arm\u00e9 de chevilles, profond\u00e9ment ancr\u00e9es dans le mur ; longue \u00e9chelle de visite mobile. \u00c9tat en 1966.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T06:08:56.161Z",
-            "modified": "2023-09-14T06:10:15.569Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-04T10:28:07.193Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Int\u00e9rieur du pigeonnier du ch\u00e2teau de la Gabelle \u00e0 Ferrassi\u00e8res (Dr\u00f4me), en 1966.\nV\u00e9ritable ville, avec 2 400 boulins en pl\u00e2tre arm\u00e9 de chevilles, profond\u00e9ment ancr\u00e9es dans le mur ; longue \u00e9chelle de visite mobile."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-14T06:10:37.172Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q6797",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-14T06:10:40.077Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T06:16:13.599Z",
-            "modified": "2023-09-14T06:16:15.939Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-14T06:16:15.939Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q7697",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T10:28:19.877Z"
         }
     ],
+    "id": "91e9ade8-fe53-4455-bb8d-3d40d4d0ed6c.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0325",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1493.239013671875,2186.62890625,1073.758056640625,1123.93359375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1493.239013671875,2186.62890625,1073.758056640625,1123.93359375"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0325",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "91e9ade8-fe53-4455-bb8d-3d40d4d0ed6c.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
