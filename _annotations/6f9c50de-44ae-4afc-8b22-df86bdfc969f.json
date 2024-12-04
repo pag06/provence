@@ -58,14 +58,24 @@ order: 2
             "value": "Photo : J.C. Bouvier, 1964"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8666",
+            "created": "2024-12-04T08:12:35.549Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-04T08:12:35.549Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8666"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q4397",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T08:13:25.492Z"
         }
     ],
     "id": "6f9c50de-44ae-4afc-8b22-df86bdfc969f.json",
