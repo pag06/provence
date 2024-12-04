@@ -17,16 +17,6 @@ order: 7
             "value": "Croc \u00e0 salaison tir\u00e9 d'une branche de pin sylvestre \u00e0 Montfuron (Vaucluse), en 1966."
         },
         {
-            "created": "2023-09-13T06:03:03.818Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
             "created": "2023-09-13T06:03:06.611Z",
             "creator": {
                 "id": "ej7320",
@@ -46,6 +36,16 @@ order: 7
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Pierre Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L106",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T09:22:02.855Z"
         }
     ],
     "id": "f0474df6-f6ff-4702-936b-6244334333f8.json",
