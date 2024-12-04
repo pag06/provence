@@ -11,10 +11,10 @@ order: 9
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-12-04T08:58:32.337Z",
+            "modified": "2024-12-04T11:22:17.773Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Il sort les tripes ([...]) qui sont recueillies dans un grand sac de coton blanc par deux aides. Valsaintes (commune de Simiane, Alpes-de-Hte-Provence)"
+            "value": "Il sort les tripes ([les t\u0280\u02c8ip\u0153s]) qui sont recueillies dans un grand sac de coton blanc par deux aides. Valsaintes (commune de Simiane, Alpes-de-Hte-Provence)"
         },
         {
             "created": "2023-09-13T05:52:42.539Z",
@@ -28,24 +28,24 @@ order: 9
             "value": "Photo : Jack Burlot"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L89",
+            "created": "2024-12-04T08:58:41.475Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-04T08:58:41.475Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L89"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q10296",
+            "created": "2024-12-04T08:58:52.504Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-04T08:58:52.504Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q10296"
         }
     ],
     "id": "a263addd-87b4-44e1-8738-b6fb7162ce8d.json",
