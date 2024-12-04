@@ -11,10 +11,10 @@ order: 4
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-12-04T08:46:32.080Z",
+            "modified": "2024-12-04T08:49:03.231Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Le r\u00e2clage des soies \u00e0 Valsaintes (commune de Simiane, Alpes-de-Hte-Provence)\nOn r\u00e2cle les soies du dos \u00e0 l'aide de divers instruments m\u00e9talliques affut\u00e9s, de vieux cuillers, que l'on appelle [...]. Au fur et \u00e0 mesure de l'op\u00e9ration, on verse de l'eau chaude sur le cochon avec des casseroles.\nValsaintes (commune de Simiane, Alpes-de-Hte-Provence)"
+            "value": "Le r\u00e2clage des soies \u00e0 Valsaintes (commune de Simiane, Alpes-de-Hte-Provence)\nOn r\u00e2cle les soies du dos \u00e0 l'aide de divers instruments m\u00e9talliques affut\u00e9s, de vieux cuillers. Au fur et \u00e0 mesure de l'op\u00e9ration, on verse de l'eau chaude sur le cochon avec des casseroles."
         },
         {
             "created": "2023-09-13T05:52:09.793Z",
@@ -38,14 +38,14 @@ order: 4
             "value": "L89"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8486",
+            "created": "2024-12-04T08:46:05.049Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-04T08:46:05.049Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8486"
         }
     ],
     "id": "89bc19c0-e545-4673-80e1-9c420c73b3be.json",
