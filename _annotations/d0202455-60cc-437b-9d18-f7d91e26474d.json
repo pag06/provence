@@ -11,10 +11,10 @@ order: 2
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-12-04T09:29:56.963Z",
+            "modified": "2024-12-04T11:21:16.645Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Collecte d'un essaim \u00e0 St-Michel-l\u2019Observatoire (Alpes-de-Hte-Provence) en 1963.\nL'essaim avait \u00e9lu domicile derri\u00e8re les volets d'une maison. L'apiculteur Delepierre le recueille au moyen d'une ruche en paille de seigle tress\u00e9e [...]"
+            "value": "Collecte d'un essaim \u00e0 St-Michel-l\u2019Observatoire (Alpes-de-Hte-Provence) en 1963.\nL'essaim avait \u00e9lu domicile derri\u00e8re les volets d'une maison. L'apiculteur Delepierre le recueille au moyen d'une ruche en paille de seigle tress\u00e9e [la paj'uz\u0153]"
         },
         {
             "created": "2023-09-14T05:15:40.131Z",
@@ -38,24 +38,24 @@ order: 2
             "value": "Photo : Pierre Martel"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L100",
+            "created": "2024-12-04T09:30:48.519Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-04T09:30:48.519Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L100"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9057",
+            "created": "2024-12-04T09:30:59.142Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-04T09:30:59.142Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9057"
         }
     ],
     "id": "d0202455-60cc-437b-9d18-f7d91e26474d.json",
