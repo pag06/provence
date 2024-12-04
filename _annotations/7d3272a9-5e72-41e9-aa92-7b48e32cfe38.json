@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0325"
 order: 7
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "\"Les trois soldats\" curieux ensemble de cabanes en pierres s\u00e8ches dont deux munies de grilles d'envol pour les pigeons, \u00e0 Gordes (Vaucluse). \u00c9tat en 1967;",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T06:11:16.825Z",
-            "modified": "2023-09-14T06:12:34.626Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-14T06:12:34.626Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "\"Les trois soldats\" curieux ensemble de cabanes en pierres s\u00e8ches dont deux munies de grilles d'envol pour les pigeons, \u00e0 Gordes (Vaucluse). \u00c9tat en 1967;"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-14T06:12:49.489Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L105",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-14T06:12:49.489Z"
+            "type": "TextualBody",
+            "value": "L105"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q6797",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-14T06:12:51.932Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T06:16:17.875Z",
-            "modified": "2023-09-14T06:16:21.106Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-14T06:16:21.106Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q7697",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T10:29:34.055Z"
         }
     ],
+    "id": "7d3272a9-5e72-41e9-aa92-7b48e32cfe38.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0325",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2619.465087890625,2271.395263671875,1177.203369140625,1075.6171875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2619.465087890625,2271.395263671875,1177.203369140625,1075.6171875"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0325",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "7d3272a9-5e72-41e9-aa92-7b48e32cfe38.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
