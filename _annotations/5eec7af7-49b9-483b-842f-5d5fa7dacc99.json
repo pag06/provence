@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0324"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Alignement de nids en pierre de taille, dans le pigeonnier du Mas d'Auge \u00e0 Fontvieille (Bouches du Rh\u00f4ne)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T05:47:08.220Z",
-            "modified": "2023-09-14T05:47:43.831Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-14T05:47:43.831Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Alignement de nids en pierre de taille, dans le pigeonnier du Mas d'Auge \u00e0 Fontvieille (Bouches du Rh\u00f4ne)"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-14T05:48:30.969Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-14T05:47:56.828Z"
+            "type": "TextualBody",
+            "value": "Q7697"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q7697",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-14T05:48:30.969Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel, 1967",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T05:59:00.611Z",
-            "modified": "2023-09-14T05:59:07.937Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-14T05:59:07.937Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel, 1967"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L139",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T10:00:27.476Z"
         }
     ],
+    "id": "5eec7af7-49b9-483b-842f-5d5fa7dacc99.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0324",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1475.47998046875,155.96450805664062,1059.483154296875,1064.8611755371094"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1475.47998046875,155.96450805664062,1059.483154296875,1064.8611755371094"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0324",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "5eec7af7-49b9-483b-842f-5d5fa7dacc99.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
