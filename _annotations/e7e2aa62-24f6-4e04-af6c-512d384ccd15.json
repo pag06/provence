@@ -11,10 +11,10 @@ order: 5
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-12-03T12:23:53.695Z",
+            "modified": "2024-12-04T09:53:25.702Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Berger partant rejoindre son troupeau qu'il vient de l\u00e2cher ([lar\u0261a lej f\u02c8ed\u0254]) pour le faire sortir du pr\u00e9 et l'entra\u00eener vers les landes sauvages, aux Hautes-Ferrassi\u00e8res (Fr\u00f4me) en 1975."
+            "value": "Berger partant rejoindre son troupeau qu'il vient de l\u00e2cher ([lar\u0261a lej f\u02c8ed\u0254]) pour le faire sortir du pr\u00e9 et l'entra\u00eener vers les landes sauvages, aux Hautes-Ferrassi\u00e8res (Dr\u00f4me) en 1975."
         },
         {
             "created": "2023-09-11T15:00:58.204Z",
@@ -58,14 +58,14 @@ order: 5
             "value": "L81"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q1091",
+            "created": "2024-12-03T12:24:55.729Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T12:24:55.729Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q1091"
         }
     ],
     "id": "e7e2aa62-24f6-4e04-af6c-512d384ccd15.json",
