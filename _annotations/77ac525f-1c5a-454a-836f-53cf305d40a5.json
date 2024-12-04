@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0320"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Le cochon [...] sort de sa loge ([...]) attach\u00e9 par la patte arri\u00e8re ; la corde qui le maintient servira \u00e0 lui tirer les pattes pour le maintenir solidement.\nValsaintes (commune de Simiane, Alpes-de-Hte-Provence)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-13T05:40:43.755Z",
-            "modified": "2023-09-13T05:46:00.320Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-04T08:36:58.735Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Le cochon [lu pw\u02c8\u0254\u0280] sort de sa loge ([lu pusj\u02c8ew]) attach\u00e9 par la patte arri\u00e8re \u00e0 Valsaintes (commune de Simiane, Alpes-de-Hte-Provence)\nLa corde qui le maintient servira \u00e0 lui tirer les pattes pour le maintenir solidement."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-13T05:42:26.633Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-13T05:41:55.823Z"
+            "type": "TextualBody",
+            "value": "Q2428"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2428",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-13T05:42:26.633Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Photo : Jack Buriot",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-13T05:52:05.342Z",
-            "modified": "2023-09-13T05:52:07.706Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-13T05:52:07.706Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Jack Buriot"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L89",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T08:37:15.751Z"
         }
     ],
+    "id": "77ac525f-1c5a-454a-836f-53cf305d40a5.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0320",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2990.22607421875,199.26046752929688,831.711669921875,1228.5864562988281"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2990.22607421875,199.26046752929688,831.711669921875,1228.5864562988281"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0320",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "77ac525f-1c5a-454a-836f-53cf305d40a5.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
