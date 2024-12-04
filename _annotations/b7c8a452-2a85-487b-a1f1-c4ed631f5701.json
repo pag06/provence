@@ -38,14 +38,14 @@ order: 5
             "value": "Photo : Pierre Martel"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9058",
+            "created": "2023-09-14T05:32:14.848Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-14T05:32:14.848Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9058"
         }
     ],
     "id": "b7c8a452-2a85-487b-a1f1-c4ed631f5701.json",
@@ -60,7 +60,14 @@ order: 5
             "type": "FragmentSelector",
             "value": "xywh=2691.863037109375,1358.244384765625,1045.739013671875,1045.739013671875"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0322"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0322",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
