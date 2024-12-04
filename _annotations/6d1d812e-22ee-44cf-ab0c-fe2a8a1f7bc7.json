@@ -8,13 +8,13 @@ order: 2
         {
             "created": "2023-09-14T07:54:49.679Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-14T17:14:03.897Z",
+            "modified": "2024-12-04T10:41:55.420Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Capes \u00e0 grives [...] au moment des nettoyages et r\u00e9vision d'octobre avant les premiers \"passages\" de grives de novembre. Les grives vivantes sont prises les premiers jours au moyen de \"varguettes\" [...] (gluaux, baguettes d'am\u00e9lanchier ou de sureau, enduites de glu). On gardera comme \"appelants\" toutes celles qui chantent bien et on mangera les autres, les muettes [..]. Chaque grive a sa cage, avec sa mangeoire remplie de figues s\u00e9ches hach\u00e9es et sa petite cruche en terre cuite [...] que le chasseur remplit r\u00e9guli\u00e8rement car l'eau est indispensable \u00e0 l'oiseau pour chanter."
+            "value": "Capes \u00e0 grives [lej \u0261\u02c8abi] \nAu moment des nettoyages et r\u00e9vision d'octobre avant les premiers \"passages\" de grives de novembre. Les grives vivantes sont prises les premiers jours au moyen de \"varguettes\" [li var\u0261\u02c8\u025bt\u0153] (gluaux, baguettes d'am\u00e9lanchier ou de sureau, enduites de glu). On gardera comme \"appelants\" toutes celles qui chantent bien et on mangera les autres, les muettes [lej m\u02c8yt\u0153]. Chaque grive a sa cage, avec sa mangeoire remplie de figues s\u00e9ches hach\u00e9es et sa petite cruche en terre cuite [la du\u0280\u0261\u02c8\u025bt\u0153] que le chasseur remplit r\u00e9guli\u00e8rement car l'eau est indispensable \u00e0 l'oiseau pour chanter."
         },
         {
             "created": "2023-09-14T17:14:57.996Z",
@@ -38,25 +38,25 @@ order: 2
             "value": "Photo : Pierre Martel"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2096",
+            "created": "2024-12-04T10:39:30.492Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-04T10:39:30.492Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2096"
         },
         {
-            "type": "TextualBody",
-            "value": "Sans localisation",
-            "purpose": "identifying",
+            "created": "2024-12-04T10:39:53.633Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-04T10:39:53.633Z",
-            "modified": "2024-12-04T10:40:02.864Z"
+            "modified": "2024-12-04T10:40:02.864Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Sans localisation"
         }
     ],
     "id": "6d1d812e-22ee-44cf-ab0c-fe2a8a1f7bc7.json",
