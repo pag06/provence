@@ -3,64 +3,82 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0326"
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "La \"cabane\" ou \"poste\" en branchages ou tiges de gen\u00eats abritant et masquant le chasseur \u00e0 l'aff\u00fbt \u00e0 l'or\u00e9e du bois. On appelle plut\u00f4t ce type d'abri [...] en dialecte. Des lucarnes de tir sont m\u00e9nag\u00e9es en direction des arbres les plus \u00e9lev\u00e9s o\u00f9 se posent les grives de passage.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T17:15:10.347Z",
-            "modified": "2023-09-14T17:16:28.648Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-04T10:44:33.108Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "La \"cabane\" ou \"poste\" en branchages ou tiges de gen\u00eats abritant et masquant le chasseur \u00e0 l'aff\u00fbt \u00e0 l'or\u00e9e du bois. \nOn appelle plut\u00f4t ce type d'abri [l a\u0261at\u0283\u02c8u\u0303\u207f] en dialecte. Des lucarnes de tir sont m\u00e9nag\u00e9es en direction des arbres les plus \u00e9lev\u00e9s o\u00f9 se posent les grives de passage."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-14T17:17:00.479Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-14T17:17:01.583Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T17:25:39.140Z",
-            "modified": "2023-09-14T17:25:42.356Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-14T17:25:42.356Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Sans localisation",
+            "purpose": "replying",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T10:43:36.454Z",
+            "modified": "2024-12-04T10:43:40.742Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2096",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T10:43:52.192Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q1615",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T10:43:57.536Z"
         }
     ],
+    "id": "16146549-a2fe-4d3d-9273-44c2df76bdaa.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0326",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1428.595458984375,1432.4527587890625,1309.47314453125,918.0169677734375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1428.595458984375,1432.4527587890625,1309.47314453125,918.0169677734375"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0326",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "16146549-a2fe-4d3d-9273-44c2df76bdaa.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
