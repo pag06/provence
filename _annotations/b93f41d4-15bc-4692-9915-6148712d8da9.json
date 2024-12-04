@@ -3,64 +3,72 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0327"
 order: 6
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Regroupement de plusieurs pi\u00e8ges en vue d'une exposition : de gauche \u00e0 droite.\nPi\u00e8ges \u00e0 renards, trappe \u00e0 belette, trappe \u00e0 renard, trappe \u00e0 souris [...] ; au dessus, sourici\u00e8res de divers types ; au 1er plan est suspendu un \"panneau\" [...], filet de chanvre utilis\u00e9 pour la capture des lapins \u00e0 la sortie de leurs trous quand on les chasse au furet.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T17:40:13.504Z",
-            "modified": "2023-09-14T17:41:55.511Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L???",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-14T17:41:58.888Z"
+            "modified": "2023-09-14T17:41:55.511Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Regroupement de plusieurs pi\u00e8ges en vue d'une exposition : de gauche \u00e0 droite.\nPi\u00e8ges \u00e0 renards, trappe \u00e0 belette, trappe \u00e0 renard, trappe \u00e0 souris [...] ; au dessus, sourici\u00e8res de divers types ; au 1er plan est suspendu un \"panneau\" [...], filet de chanvre utilis\u00e9 pour la capture des lapins \u00e0 la sortie de leurs trous quand on les chasse au furet."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q7667",
+            "created": "2023-09-14T17:42:02.503Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-14T17:42:02.503Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q7667"
+        },
+        {
+            "created": "2023-09-14T17:45:45.807Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-14T17:45:52.757Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel, 1979"
         },
         {
             "type": "TextualBody",
-            "value": "Photo : Pierre Martel, 1979",
+            "value": "Sans localisation",
             "purpose": "identifying",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-09-14T17:45:45.807Z",
-            "modified": "2023-09-14T17:45:52.757Z"
+            "created": "2024-12-04T11:13:56.386Z",
+            "modified": "2024-12-04T11:14:06.983Z"
         }
     ],
+    "id": "b93f41d4-15bc-4692-9915-6148712d8da9.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0327",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2786.567626953125,2288.11376953125,1042.728759765625,1042.728759765625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2786.567626953125,2288.11376953125,1042.728759765625,1042.728759765625"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0327",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "b93f41d4-15bc-4692-9915-6148712d8da9.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
