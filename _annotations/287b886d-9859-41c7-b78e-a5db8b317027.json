@@ -28,14 +28,24 @@ order: 2
             "value": "Photo : Et. Sved"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q11014",
+            "created": "2024-12-04T11:02:30.885Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-04T11:02:30.885Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q11014"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L148",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T11:05:08.821Z"
         }
     ],
     "id": "287b886d-9859-41c7-b78e-a5db8b317027.json",
