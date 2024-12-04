@@ -8,13 +8,13 @@ order: 5
         {
             "created": "2023-09-13T05:59:42.224Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-13T06:00:44.983Z",
+            "modified": "2024-12-04T09:18:25.220Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Saloir, conque en bois dans laquelle on roule la viande dans le sel avant de l'en recouvrir pendant plusieurs jours. [...] Revest-du-Bion (Alpes-de-Hte-Provence) 1964"
+            "value": "Saloir \u00e0 Revest-du-Bion (Alpes-de-Hte-Provence) 1964\nConque en bois dans laquelle on roule la viande dans le sel avant de l'en recouvrir pendant plusieurs jours. [lu salw\u02c8a\u0280] "
         },
         {
             "created": "2023-09-13T06:00:47.794Z",
@@ -51,6 +51,11 @@ order: 5
     "id": "6d81d168-c460-4a7f-88b4-d2273175ab0d.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3910.951416015625,1335.23291015625,1085.454833984375,956.363525390625"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
@@ -58,11 +63,6 @@ order: 5
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0321",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3910.951416015625,1335.23291015625,1085.454833984375,956.363525390625"
         }
     },
     "type": "Annotation"
