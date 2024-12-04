@@ -38,6 +38,16 @@ order: 2
             "value": "Photo : Alpes de Lumi\u00e8re"
         },
         {
+            "created": "2024-12-04T09:42:26.620Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9059"
+        },
+        {
             "type": "TextualBody",
             "purpose": "tagging",
             "value": "L93",
@@ -45,7 +55,7 @@ order: 2
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-04T09:44:09.719Z"
+            "created": "2024-12-04T09:44:25.187Z"
         }
     ],
     "id": "aafd9abd-8908-470e-ae77-2bb6a2cd7d4f.json",
