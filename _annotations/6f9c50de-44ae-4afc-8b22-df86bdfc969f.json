@@ -3,74 +3,91 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0318"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Trois ustensiles de laiterie, regroup\u00e9s dans la cour d'un \u00e9leveur de Chabrillan (Dr\u00f4me). De gauche \u00e0 droite : Biche ([...]), faisselle ([...]) ; sur son support-\u00e9gouttoir ([...]) ; seau \u00e0 traire les ch\u00e8vres ([...]).",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-13T05:18:37.336Z",
-            "modified": "2023-09-13T05:19:44.291Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-04T08:11:37.411Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Trois ustensiles de laiterie, regroup\u00e9s dans la cour d'un \u00e9leveur de Chabrillan (Dr\u00f4me). \nDe gauche \u00e0 droite : Biche ([la b'its\u0254]), faisselle ([la fes\u02c8\u025bl\u0254]) ; sur son support-\u00e9gouttoir ([lu fesel\u02c8e]) ; seau \u00e0 traire les ch\u00e8vres ([la s\u02c8el\u0254])."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-13T05:19:57.960Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L28",
+            "type": "TextualBody",
+            "value": "L28"
+        },
+        {
+            "created": "2023-09-13T05:20:01.179Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-13T05:19:57.960Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q9275",
+            "type": "TextualBody",
+            "value": "Q9275"
+        },
+        {
+            "created": "2023-09-13T05:20:47.896Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-13T05:20:01.179Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q4395",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-13T05:20:47.896Z"
+            "type": "TextualBody",
+            "value": "Q4395"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : J.C. Bouvier, 1964",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-13T05:36:45.785Z",
-            "modified": "2023-09-13T05:36:53.462Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-13T05:36:53.462Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : J.C. Bouvier, 1964"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8666",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T08:12:35.549Z"
         }
     ],
+    "id": "6f9c50de-44ae-4afc-8b22-df86bdfc969f.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0318",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2720.638427734375,188.5657196044922,1035.32568359375,1069.8365020751953"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2720.638427734375,188.5657196044922,1035.32568359375,1069.8365020751953"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0318",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "6f9c50de-44ae-4afc-8b22-df86bdfc969f.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
