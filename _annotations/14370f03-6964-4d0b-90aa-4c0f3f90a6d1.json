@@ -8,12 +8,13 @@ order: 6
         {
             "created": "2023-09-13T05:48:33.718Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Apr\u00e8s que l'ensemble des soies aient \u00e9t\u00e9 enlev\u00e9es, on sort le cochon du [...] pour le coucher sur une \u00e9chelle ([...]) o\u00f9 on termine le raclage au couteau autour des oreilles, des pattes, de la queue, tout en continuant \u00e0 le rincer \u00e0 l'eau ti\u00e8de.\nValsaintes (commune de Simiane, Alpes-de-Hte-Provence)"
+            "value": "Le r\u00e2clage des soies \u00e0 Valsaintes (commune de Simiane, Alpes-de-Hte-Provence)\nApr\u00e8s que l'ensemble des soies aient \u00e9t\u00e9 enlev\u00e9es, on sort le cochon du [n\u02c8aw] pour le coucher sur une \u00e9chelle ([esk\u02c8al\u0153]) o\u00f9 on termine le raclage au couteau autour des oreilles, des pattes, de la queue, tout en continuant \u00e0 le rincer \u00e0 l'eau ti\u00e8de.",
+            "modified": "2024-12-04T08:51:06.916Z"
         },
         {
             "created": "2023-09-13T05:48:36.630Z",
