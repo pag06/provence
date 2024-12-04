@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0327"
 order: 8
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Assommoir \u00e0 rats [...] : une lourde planche est maintenue en l'air par un fil reli\u00e9 \u00e0 un app\u00e2t pos\u00e9 dans le caisson plac\u00e9 en-dessous, Allos (Alpes-de-Hte-Provence)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T17:43:46.078Z",
-            "modified": "2023-09-14T17:44:46.188Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-04T11:17:13.672Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Assommoir \u00e0 rats [lu pj\u02c8\u025bd\u0292i a \u0261\u02c8a\u0280i] \u00e0 Allos (Alpes-de-Hte-Provence)\nUne lourde planche est maintenue en l'air par un fil reli\u00e9 \u00e0 un app\u00e2t pos\u00e9 dans le caisson plac\u00e9 en-dessous, "
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-14T17:44:56.438Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L60",
+            "type": "TextualBody",
+            "value": "L60"
+        },
+        {
+            "created": "2023-09-14T17:44:59.688Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-14T17:44:56.438Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q7667",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-14T17:44:59.688Z"
+            "type": "TextualBody",
+            "value": "Q7667"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T17:45:54.465Z",
-            "modified": "2023-09-14T17:45:56.693Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-14T17:45:56.693Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel"
         }
     ],
+    "id": "5d35e2d0-2a63-4824-a841-379846061bea.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0327",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3974.79345703125,1855.0870361328125,1063.513671875,1503.4691162109375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3974.79345703125,1855.0870361328125,1063.513671875,1503.4691162109375"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0327",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "5d35e2d0-2a63-4824-a841-379846061bea.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
