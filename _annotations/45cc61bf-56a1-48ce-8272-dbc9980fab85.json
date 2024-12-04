@@ -8,13 +8,13 @@ order: 3
         {
             "created": "2023-09-13T05:42:47.059Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-13T05:46:14.587Z",
+            "modified": "2024-12-04T08:42:31.320Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Apr\u00e8s avoir \u00e9t\u00e9 saign\u00e9, le cochon est \u00e9bouillant\u00e9 ([...]) dans [...] ([...]), grande auge en bois qui jouent aussi le r\u00f4le de racloir et commencent \u00e0 d\u00e9tacher les soies.\nValsaintes (commune de Simiane, Alpes-de-Hte-Provence)"
+            "value": "Apr\u00e8s avoir \u00e9t\u00e9 saign\u00e9, le cochon est \u00e9bouillant\u00e9 ([\u025bsbuje\u0303t\u02c8a]) dans [lu n\u02c8aw] ([la m\u02c8astr\u0153]), grande auge en bois. Valsaintes (commune de Simiane, Alpes-de-Hte-Provence)\nOn le remue dans l'eau tr\u00e8s chaude \u00e0 l'aide de cha\u00eenes qui jouent aussi le r\u00f4le de racloir et commencent \u00e0 d\u00e9tacher les soies.\n"
         },
         {
             "created": "2023-09-13T05:44:07.377Z",
@@ -38,24 +38,24 @@ order: 3
             "value": "Photo : Jack Buriot"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L89",
+            "created": "2024-12-04T08:38:37.386Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-04T08:38:37.386Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L89"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q825",
+            "created": "2024-12-04T08:39:49.626Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-04T08:39:49.626Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q825"
         }
     ],
     "id": "45cc61bf-56a1-48ce-8272-dbc9980fab85.json",
