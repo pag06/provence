@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0327"
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Pi\u00e8ge \u00e0 palette pour capturer les renards, vu en position ferm\u00e9e. On rattache le pi\u00e8ge \u00e0 un arbuste ou \u00e0 un pieu solide et on l'installe sur un \"passage\" [...] piste par o\u00f9 la b\u00eate a l'habitude de passer. Pour l'ouvrir, on abaisse l'annelle terminant le ressort qui tient les m\u00e2choires ferm\u00e9es. Pour des raisons de s\u00e9curit\u00e9, on bloque ce ressort au moyen d'un crochet mobile pendant la manipulation et on d\u00e9bloque quand le pi\u00e8ge est install\u00e9 et recouvert de terre et d'herbe. Toutes ces op\u00e9rations sont efficaces si l'on a pris la pr\u00e9caution de s'enfumer les mains ou de les parfumer \u00e0 l'essence de lavande, pour \"supprimer l'odeur de l'homme\" qui \u00e9loignerait le renard rendu m\u00e9fiant. (Enqu\u00eate chez M. Latil \u00e0 Bevons, Alpes-de-Hte-Provence, en 1969)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T17:34:26.125Z",
-            "modified": "2023-09-14T17:38:13.929Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-04T11:09:04.211Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Pi\u00e8ge \u00e0 palette pour capturer les renards, (enqu\u00eate chez M. Latil \u00e0 Bevons, Alpes-de-Hte-Provence, en 1969)\nVu en position ferm\u00e9e. On rattache le pi\u00e8ge \u00e0 un arbuste ou \u00e0 un pieu solide et on l'installe sur un \"passage\" [la t\u0280\u02c8as\u0254, la pj\u02c8ad\u0254] piste par o\u00f9 la b\u00eate a l'habitude de passer. Pour l'ouvrir, on abaisse l'annelle terminant le ressort qui tient les m\u00e2choires ferm\u00e9es. Pour des raisons de s\u00e9curit\u00e9, on bloque ce ressort au moyen d'un crochet mobile pendant la manipulation et on d\u00e9bloque quand le pi\u00e8ge est install\u00e9 et recouvert de terre et d'herbe. Toutes ces op\u00e9rations sont efficaces si l'on a pris la pr\u00e9caution de s'enfumer les mains ou de les parfumer \u00e0 l'essence de lavande, pour \"supprimer l'odeur de l'homme\" qui \u00e9loignerait le renard rendu m\u00e9fiant. "
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-14T17:38:23.827Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
+            "type": "TextualBody",
+            "value": "L???"
+        },
+        {
+            "created": "2023-09-14T17:38:36.392Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-14T17:38:23.827Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q7667",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-14T17:38:36.392Z"
+            "type": "TextualBody",
+            "value": "Q7667"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T17:45:31.686Z",
-            "modified": "2023-09-14T17:45:33.805Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-14T17:45:33.805Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel"
         }
     ],
+    "id": "83184167-23bc-4c5f-99ba-8b1dfa78bc56.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0327",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1529.0577392578125,1214.2071533203125,1371.8289794921875,890.3033447265625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1529.0577392578125,1214.2071533203125,1371.8289794921875,890.3033447265625"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0327",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "83184167-23bc-4c5f-99ba-8b1dfa78bc56.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
