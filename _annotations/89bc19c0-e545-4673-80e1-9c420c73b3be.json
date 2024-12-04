@@ -17,16 +17,6 @@ order: 4
             "value": "Le r\u00e2clage des soies : on r\u00e2cle les soies du dos \u00e0 l'aide de divers instruments m\u00e9talliques affut\u00e9s, de vieux cuillers, que l'on appelle [...]. Au fur et \u00e0 mesure de l'op\u00e9ration, on verse de l'eau chaude sur le cochon avec des casseroles.\nValsaintes (commune de Simiane, Alpes-de-Hte-Provence)"
         },
         {
-            "created": "2023-09-13T05:45:35.225Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
             "created": "2023-09-13T05:45:50.463Z",
             "creator": {
                 "id": "ej7320",
@@ -46,6 +36,16 @@ order: 4
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Jack Burlot"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L89",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T08:45:18.772Z"
         }
     ],
     "id": "89bc19c0-e545-4673-80e1-9c420c73b3be.json",
