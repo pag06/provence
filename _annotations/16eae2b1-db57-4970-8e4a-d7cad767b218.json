@@ -17,26 +17,6 @@ order: 3
             "value": "Int\u00e9rieur d'un pigeonnier \u00e0 Mane (Alpes-de-Hte-Provence)\nAvec la queue de morue sal\u00e9e destin\u00e9e \u00e0 retenir les pigeons au colombier ou \u00e0 en attirer de nouveaux."
         },
         {
-            "created": "2023-09-14T06:05:57.200Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
-            "created": "2023-09-14T06:06:00.627Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q6797"
-        },
-        {
             "created": "2023-09-14T06:15:45.518Z",
             "creator": {
                 "id": "ej7320",
@@ -46,6 +26,26 @@ order: 3
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Pierre Martel, 1963"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L100",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T10:24:41.823Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q7697",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T10:24:48.150Z"
         }
     ],
     "id": "16eae2b1-db57-4970-8e4a-d7cad767b218.json",
