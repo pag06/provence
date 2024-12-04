@@ -8,13 +8,13 @@ order: 7
         {
             "created": "2023-09-13T06:02:14.945Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-13T06:02:50.937Z",
+            "modified": "2024-12-04T09:20:52.860Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Croc \u00e0 salaison tir\u00e9 d'une branche de pin sylvestre \u00e0 Montfuron (Vaucluse) , en 1966."
+            "value": "Croc \u00e0 salaison tir\u00e9 d'une branche de pin sylvestre \u00e0 Montfuron (Vaucluse), en 1966."
         },
         {
             "created": "2023-09-13T06:03:03.818Z",
@@ -51,6 +51,11 @@ order: 7
     "id": "f0474df6-f6ff-4702-936b-6244334333f8.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3411.595458984375,2472.505615234375,859.355712890625,840"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
@@ -58,11 +63,6 @@ order: 7
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0321",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3411.595458984375,2472.505615234375,859.355712890625,840"
         }
     },
     "type": "Annotation"
