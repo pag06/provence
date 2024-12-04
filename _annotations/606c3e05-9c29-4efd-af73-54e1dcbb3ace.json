@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0325"
 order: 8
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Grand pigeonnier dit du \"Cur\u00e9 Martin\" \u00e0 Limans (Alpes-de-Hte-Provence), dat\u00e9 de 1553 ; quatre niveaux d'occupation superpos\u00e9s : une \u00e9curie, un grenier, un rucher d'hiver et le colombier proprement dit au sommet, sans compter [...], constitu\u00e9 par le toit abrit\u00e9 du vent.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T06:13:00.097Z",
-            "modified": "2023-09-14T06:14:41.077Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-04T10:30:27.100Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Grand pigeonnier dit du \"Cur\u00e9 Martin\" \u00e0 Limans (Alpes-de-Hte-Provence), dat\u00e9 de 1553.\nQuatre niveaux d'occupation superpos\u00e9s : une \u00e9curie, un grenier, un rucher d'hiver et le colombier proprement dit au sommet, sans compter [lu sulejad\u02c8u\u0280], constitu\u00e9 par le toit abrit\u00e9 du vent."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-14T06:14:46.776Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "Q6797",
+            "type": "TextualBody",
+            "value": "Q6797"
+        },
+        {
+            "created": "2023-09-14T06:14:55.475Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-14T06:14:46.776Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-14T06:14:55.475Z"
+            "type": "TextualBody",
+            "value": "L???"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel, 1966",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T06:16:23.265Z",
-            "modified": "2023-09-14T06:16:31.297Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-14T06:16:31.297Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel, 1966"
         }
     ],
+    "id": "606c3e05-9c29-4efd-af73-54e1dcbb3ace.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0325",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3850.449462890625,1602.1221923828125,1195.130126953125,1135.3739013671875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3850.449462890625,1602.1221923828125,1195.130126953125,1135.3739013671875"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0325",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "606c3e05-9c29-4efd-af73-54e1dcbb3ace.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
