@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0322"
 order: 6
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Ruches-caisses, simples assemblages de 6 planches \u00e9ventuellement superposables ; en transit dans la rue \u00e0 St-Etienne-les-Orgues (Alpes-de-Hte-Provence) en 1967\n",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T05:20:51.115Z",
-            "modified": "2023-09-14T05:21:54.197Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-14T05:21:54.197Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Ruches-caisses, simples assemblages de 6 planches \u00e9ventuellement superposables ; en transit dans la rue \u00e0 St-Etienne-les-Orgues (Alpes-de-Hte-Provence) en 1967\n"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-14T05:22:07.833Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L87",
+            "type": "TextualBody",
+            "value": "L87"
+        },
+        {
+            "created": "2023-09-14T05:22:10.662Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-14T05:22:07.833Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q9057",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-14T05:22:10.662Z"
+            "type": "TextualBody",
+            "value": "Q9057"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T05:26:38.219Z",
-            "modified": "2023-09-14T05:26:40.636Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-14T05:26:40.636Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel"
         }
     ],
+    "id": "0267711c-5d02-45f3-9744-2bc180198fe4.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0322",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3857.115234375,1256.6583251953125,1171.22802734375,985.9825439453125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3857.115234375,1256.6583251953125,1171.22802734375,985.9825439453125"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0322",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "0267711c-5d02-45f3-9744-2bc180198fe4.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
