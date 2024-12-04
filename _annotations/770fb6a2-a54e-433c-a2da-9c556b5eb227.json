@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0322"
 order: 8
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Ruche en paille de seigle tress\u00e9e avec du fil de fer, type cylindrique, en 2 \u00e9lements chevill\u00e9s, assez r\u00e9pandu autrefois dans les vall\u00e9es alpines. Le Rosier, \u00e0 Nevache (Hautes-Alpes)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T05:23:43.171Z",
-            "modified": "2023-09-14T05:24:47.309Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-04T09:38:18.549Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Ruche en paille de seigle tress\u00e9e avec du fil de fer, type cylindrique, en 2 \u00e9l\u00e9ments chevill\u00e9s, assez r\u00e9pandu autrefois dans les vall\u00e9es alpines. Le Rosier, \u00e0 Nevache (Hautes-Alpes)"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-14T05:24:54.593Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "Q9057",
+            "type": "TextualBody",
+            "value": "Q9057"
+        },
+        {
+            "created": "2023-09-14T05:25:05.788Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-14T05:24:54.593Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L5",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-14T05:25:05.788Z"
+            "type": "TextualBody",
+            "value": "L5"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T05:26:46.947Z",
-            "modified": "2023-09-14T05:26:49.161Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-14T05:26:49.161Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel"
         }
     ],
+    "id": "770fb6a2-a54e-433c-a2da-9c556b5eb227.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0322",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2823.734619140625,2464.154541015625,1146.822265625,1020.845458984375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2823.734619140625,2464.154541015625,1146.822265625,1020.845458984375"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0322",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "770fb6a2-a54e-433c-a2da-9c556b5eb227.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
