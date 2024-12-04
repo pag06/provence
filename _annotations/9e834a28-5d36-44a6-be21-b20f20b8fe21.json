@@ -17,16 +17,6 @@ order: 7
             "value": "Cabane et abri de rucher \u00e0 Monieux (Vaucluse) en 1967. \nLe site \u00e9tant tr\u00e8s expos\u00e9 au mistral, on abritait les ruches par un mur de 2m. de haut, en force d'\u00e9trave pour faire un coupe-vent efficace."
         },
         {
-            "created": "2023-09-14T05:42:53.918Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
             "created": "2023-09-14T05:42:57.926Z",
             "creator": {
                 "id": "ej7320",
@@ -48,14 +38,24 @@ order: 7
             "value": "Photo : Pierre Martel"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q9059",
+            "created": "2024-12-04T09:54:29.419Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-04T09:54:29.419Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q9059"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L81",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T09:55:14.789Z"
         }
     ],
     "id": "9e834a28-5d36-44a6-be21-b20f20b8fe21.json",
