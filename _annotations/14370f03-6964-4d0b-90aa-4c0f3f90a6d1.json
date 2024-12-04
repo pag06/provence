@@ -11,30 +11,10 @@ order: 6
                 "id": "pag06",
                 "name": "pag06"
             },
+            "modified": "2024-12-04T08:51:06.916Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Le r\u00e2clage des soies \u00e0 Valsaintes (commune de Simiane, Alpes-de-Hte-Provence)\nApr\u00e8s que l'ensemble des soies aient \u00e9t\u00e9 enlev\u00e9es, on sort le cochon du [n\u02c8aw] pour le coucher sur une \u00e9chelle ([esk\u02c8al\u0153]) o\u00f9 on termine le raclage au couteau autour des oreilles, des pattes, de la queue, tout en continuant \u00e0 le rincer \u00e0 l'eau ti\u00e8de.",
-            "modified": "2024-12-04T08:51:06.916Z"
-        },
-        {
-            "created": "2023-09-13T05:48:36.630Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
-            "created": "2023-09-13T05:48:40.019Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q1548"
+            "value": "Le r\u00e2clage des soies \u00e0 Valsaintes (commune de Simiane, Alpes-de-Hte-Provence)\nApr\u00e8s que l'ensemble des soies aient \u00e9t\u00e9 enlev\u00e9es, on sort le cochon du [n\u02c8aw] pour le coucher sur une \u00e9chelle ([esk\u02c8al\u0153]) o\u00f9 on termine le raclage au couteau autour des oreilles, des pattes, de la queue, tout en continuant \u00e0 le rincer \u00e0 l'eau ti\u00e8de."
         },
         {
             "created": "2023-09-13T05:52:38.509Z",
@@ -46,6 +26,26 @@ order: 6
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Jack Burlot"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L89",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T08:53:15.653Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8486",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T08:53:19.612Z"
         }
     ],
     "id": "14370f03-6964-4d0b-90aa-4c0f3f90a6d1.json",
