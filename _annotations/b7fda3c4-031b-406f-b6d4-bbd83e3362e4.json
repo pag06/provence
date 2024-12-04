@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-09-14T05:28:16.871Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-14T05:30:07.587Z",
+            "modified": "2024-12-04T09:40:31.232Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Rucher \"primitif\", dans la vall\u00e9e du Jabron, pr\u00e8s de Sisteron. Les ruches-troncs sont align\u00e9es au soleil, au milieu des buis, des gen\u00eats et de colonies d'une papilionac\u00e9e tr\u00e8s mellif\u00e8re, le Dorycne, bien connu des apiculteurs sous le nom de \"faux thym\", et m\u00eame cultiv\u00e9 parfois par eux \u00e0 proximit\u00e9 des ruchers. Les ruches reposent sur des \"lauses\" [...], et sont aussi couvertes de lauses. "
+            "value": "Rucher \"primitif\", dans la vall\u00e9e du Jabron, pr\u00e8s de Sisteron. \nLes ruches-troncs sont align\u00e9es au soleil, au milieu des buis, des gen\u00eats et de colonies d'une papilionac\u00e9e tr\u00e8s mellif\u00e8re, le Dorycne, bien connu des apiculteurs sous le nom de \"faux thym\", et m\u00eame cultiv\u00e9 parfois par eux \u00e0 proximit\u00e9 des ruchers. Les ruches reposent sur des \"lauses\" [...], et sont aussi couvertes de lauses. "
         },
         {
             "created": "2023-09-14T05:30:36.103Z",
@@ -37,15 +37,25 @@ order: 1
             "value": "L68"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Guy Barruol, vers 1950",
-            "purpose": "identifying",
+            "created": "2023-09-14T05:46:29.837Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-14T05:46:29.837Z",
-            "modified": "2023-09-14T05:46:45.724Z"
+            "modified": "2023-09-14T05:46:45.724Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Guy Barruol, vers 1950"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9059",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T09:40:40.053Z"
         }
     ],
     "id": "b7fda3c4-031b-406f-b6d4-bbd83e3362e4.json",
@@ -60,7 +70,14 @@ order: 1
             "type": "FragmentSelector",
             "value": "xywh=1529.2608642578125,56.46990966796875,1500.4862060546875,1040.6597290039062"
         },
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0323"
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0323",
+            "type": "Canvas"
+        }
     },
     "type": "Annotation"
 }
