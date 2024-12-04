@@ -17,16 +17,6 @@ order: 9
             "value": "Ruche en paille de seigle tress\u00e9e avec de la ronce mont\u00e9e sur caisson quadrangulaire, type r\u00e9pandu dans la Montagne de Lure."
         },
         {
-            "created": "2023-09-14T05:25:55.005Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
             "created": "2023-09-14T05:25:56.846Z",
             "creator": {
                 "id": "ej7320",
@@ -46,6 +36,16 @@ order: 9
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Pierre Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L71",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T09:39:23.760Z"
         }
     ],
     "id": "9ac3512a-c720-46db-80b5-1604c327b372.json",
