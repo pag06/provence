@@ -17,16 +17,6 @@ order: 4
             "value": "Couronnement de pigeonnier dans la haute ville \u00e0 Ch\u00e2teau-Arnoux (Alpes-de-Hte-Provence). \nLes pigeons peuvent \"prendre le soleil sur deux [ka\u0272\u02c8a\u0280] (toitures abrit\u00e9es du vent) ; une rang\u00e9e de carreaux verniss\u00e9s encercle tout le pigeonnier."
         },
         {
-            "created": "2023-09-14T06:07:31.401Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
             "created": "2023-09-14T06:15:56.444Z",
             "creator": {
                 "id": "ej7320",
@@ -38,14 +28,24 @@ order: 4
             "value": "Photo : Pierre Martel, 1979"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q7697",
+            "created": "2024-12-04T10:26:06.895Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-04T10:26:06.895Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q7697"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L78",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T10:26:23.447Z"
         }
     ],
     "id": "55ac3c2d-b2ac-4d0e-9d9e-e6bf846c35a4.json",
