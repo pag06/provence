@@ -8,13 +8,13 @@ order: 3
         {
             "created": "2023-09-13T05:05:26.955Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-13T05:05:51.602Z",
+            "modified": "2024-12-04T11:32:03.360Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Faisselier en fa\u00efence de la r\u00e9gion de Romans (Dr\u00f4me) : [...]"
+            "value": "Faisselier en fa\u00efence de la r\u00e9gion de Romans (Dr\u00f4me) : [lu fese\u028e\u02c8e, lu t\u0254mj\u02c8e]"
         },
         {
             "created": "2023-09-13T05:05:57.907Z",
@@ -38,14 +38,14 @@ order: 3
             "value": "Photo : Mus\u00e9e de la Chaussure et d'Ethnographie R\u00e9gionale de Romans"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L10",
+            "created": "2024-12-03T15:27:09.945Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T15:27:09.945Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L10"
         }
     ],
     "id": "ea77e49a-6c30-4656-834b-c36b7f45adde.json",
