@@ -17,16 +17,6 @@ order: 2
             "value": "Le cochon [lu pw\u02c8\u0254\u0280] sort de sa loge ([lu pusj\u02c8ew]) attach\u00e9 par la patte arri\u00e8re \u00e0 Valsaintes (commune de Simiane, Alpes-de-Hte-Provence)\nLa corde qui le maintient servira \u00e0 lui tirer les pattes pour le maintenir solidement."
         },
         {
-            "created": "2023-09-13T05:42:26.633Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q2428"
-        },
-        {
             "created": "2023-09-13T05:52:05.342Z",
             "creator": {
                 "id": "ej7320",
@@ -38,14 +28,34 @@ order: 2
             "value": "Photo : Jack Buriot"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L89",
+            "created": "2024-12-04T08:37:15.751Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-04T08:37:15.751Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L89"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8020",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T08:37:52.364Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q11837",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T08:37:57.867Z"
         }
     ],
     "id": "77ac525f-1c5a-454a-836f-53cf305d40a5.json",
