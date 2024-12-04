@@ -28,14 +28,24 @@ order: 7
             "value": "Photo : J.C. Bouvier"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L41",
+            "created": "2024-12-04T10:53:25.035Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-04T10:53:25.035Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L41"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q7667",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T10:53:56.652Z"
         }
     ],
     "id": "48712f83-e0ce-4c76-9fa8-795b70d22b2b.json",
