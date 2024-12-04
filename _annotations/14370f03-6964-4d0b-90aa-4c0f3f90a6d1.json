@@ -3,63 +3,70 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0320"
 order: 6
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Apr\u00e8s que l'ensemble des soies aient \u00e9t\u00e9 enlev\u00e9es, on sort le cochon du [...] pour le coucher sur une \u00e9chelle ([...]) o\u00f9 on termine le raclage au couteau autour des oreilles, des pattes, de la queue, tout en continuant \u00e0 le rincer \u00e0 l'eau ti\u00e8de.\nValsaintes (commune de Simiane, Alpes-de-Hte-Provence)",
+            "created": "2023-09-13T05:48:33.718Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Apr\u00e8s que l'ensemble des soies aient \u00e9t\u00e9 enlev\u00e9es, on sort le cochon du [...] pour le coucher sur une \u00e9chelle ([...]) o\u00f9 on termine le raclage au couteau autour des oreilles, des pattes, de la queue, tout en continuant \u00e0 le rincer \u00e0 l'eau ti\u00e8de.\nValsaintes (commune de Simiane, Alpes-de-Hte-Provence)"
+        },
+        {
+            "created": "2023-09-13T05:48:36.630Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-13T05:48:33.718Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "L???",
+            "type": "TextualBody",
+            "value": "L???"
+        },
+        {
+            "created": "2023-09-13T05:48:40.019Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-13T05:48:36.630Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q1548",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-13T05:48:40.019Z"
+            "type": "TextualBody",
+            "value": "Q1548"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Jack Buriot",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-13T05:52:38.509Z",
-            "modified": "2023-09-13T05:52:40.898Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-04T08:44:07.730Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Jack Burlot"
         }
     ],
+    "id": "14370f03-6964-4d0b-90aa-4c0f3f90a6d1.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0320",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3735.66064453125,1453.614990234375,1259.64599609375,807.553955078125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3735.66064453125,1453.614990234375,1259.64599609375,807.553955078125"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0320",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "14370f03-6964-4d0b-90aa-4c0f3f90a6d1.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
