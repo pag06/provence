@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0318"
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Biche \u00e0 lait : c'est une jarre \u00e0 ouverture large et \u00e0 bec tr\u00e8s \u00e9chancr\u00e9. On y d\u00e9pose le lait pour le faire \"reposer\" pendant quelques heures jusqu'\u00e0 ce que la cr\u00e8me soit \"mont\u00e9e\". On penche alors la biche du c\u00f4t\u00e9 du bec, en pontant ce dernier avec l'index, dont la fonction sera de retenir la cr\u00e8me alors que le lait \u00e9cr\u00e9m\u00e9 passera sous le \"pont\". On refait au besoin l'op\u00e9ration une seconde fois un peu plus tard. Cette deuxi\u00e8me op\u00e9ration se fait en g\u00e9n\u00e9ral avec un plat \u00e0 lait qui permet d'\u00e9taler le lait sur une surface plus grande encore et de faciliter ainsi le d\u00e9p\u00f4t de la cr\u00e8me (voir ci-apr\u00e8s)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-13T05:21:30.263Z",
-            "modified": "2023-09-13T05:24:38.630Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-04T08:14:19.056Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Biche \u00e0 lait \nC'est une jarre \u00e0 ouverture large et \u00e0 bec tr\u00e8s \u00e9chancr\u00e9. On y d\u00e9pose le lait pour le faire \"reposer\" pendant quelques heures jusqu'\u00e0 ce que la cr\u00e8me soit \"mont\u00e9e\". On penche alors la biche du c\u00f4t\u00e9 du bec, en pontant ce dernier avec l'index, dont la fonction sera de retenir la cr\u00e8me alors que le lait \u00e9cr\u00e9m\u00e9 passera sous le \"pont\". On refait au besoin l'op\u00e9ration une seconde fois un peu plus tard. Cette deuxi\u00e8me op\u00e9ration se fait en g\u00e9n\u00e9ral avec un plat \u00e0 lait qui permet d'\u00e9taler le lait sur une surface plus grande encore et de faciliter ainsi le d\u00e9p\u00f4t de la cr\u00e8me."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-13T05:24:53.308Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L7",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-13T05:24:53.308Z"
+            "type": "TextualBody",
+            "value": "L7"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q1130???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-13T05:25:19.212Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Photo : J.C. Bouvier, \u00e0 Jaillans, Dr\u00f4me, en 1965",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-13T05:33:44.957Z",
-            "modified": "2023-09-13T05:34:12.054Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-13T05:34:12.054Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : J.C. Bouvier, \u00e0 Jaillans, Dr\u00f4me, en 1965"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8666",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T08:15:46.050Z"
         }
     ],
+    "id": "45402229-4344-4c7a-95ab-b387dfb2af1e.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0318",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3960.927490234375,223.96444702148438,1023.117919921875,1040.8341369628906"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3960.927490234375,223.96444702148438,1023.117919921875,1040.8341369628906"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0318",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "45402229-4344-4c7a-95ab-b387dfb2af1e.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
