@@ -11,30 +11,30 @@ order: 1
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-12-04T10:36:16.959Z",
+            "modified": "2024-12-04T10:38:51.376Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "\"Chasse \u00e0 la grive\" \u00e0 l'Etang au Revest-du-Bion (Alpes-de-Hte-Provence), carte postale vers 1910. \nCette photo est un document tr\u00e8s int\u00e9ressant. Chaque hiver, le bois de peupliers qui entoure cet \u00e9tang attire les grives et donc les chasseurs.. Quelques-uns posent ici pour le photographe et refont devant l'objectif les diff\u00e9rents gestes de la chasse : au bord m\u00eame de l'\u00e9tang, deux hommes posent des \"cimeaux\" (oiseaux empaill\u00e9s : [...]) dans les arbres afin d'attirer les grives de passage. Le premier, \u00e0 gauche, redescend de l'arbre o\u00f9 il en a pos\u00e9 deux ou trois. Le second, juch\u00e9 sur une \u00e9chelle, va poser un autre qu'il tient au bout d'une longue tige de bois ; deux cages d'\"appelants\" ([...]), grives vivantes servant d'appeaux, sont accroch\u00e9es \u00e0 l'arbre sous l'\u00e9chelle. Dans le bosquet, deux groupes de chasseurs, partiellement arbitr\u00e9s par des aff\u00fbts sommaires en branches de gen\u00eats ([...]) s'accroupissent ou se dressent comme pour tirer vers le sommet des arbres. On distingue plusieurs autres cages d'appelants pos\u00e9es au pied des peupliers ou accroch\u00e9es sur leurs troncs."
+            "value": "\"Chasse \u00e0 la grive\" \u00e0 l'Etang au Revest-du-Bion (Alpes-de-Hte-Provence), carte postale vers 1910. \nCette photo est un document tr\u00e8s int\u00e9ressant. Chaque hiver, le bois de peupliers qui entoure cet \u00e9tang attire les grives et donc les chasseurs.. Quelques-uns posent ici pour le photographe et refont devant l'objectif les diff\u00e9rents gestes de la chasse : au bord m\u00eame de l'\u00e9tang, deux hommes posent des \"cimeaux\" (oiseaux empaill\u00e9s : [li sim\u02c8\u025bw]) dans les arbres afin d'attirer les grives de passage. Le premier, \u00e0 gauche, redescend de l'arbre o\u00f9 il en a pos\u00e9 deux ou trois. Le second, juch\u00e9 sur une \u00e9chelle, va poser un autre qu'il tient au bout d'une longue tige de bois ; deux cages d'\"appelants\" ([leis apel\u02c8a\u0303\u207f]), grives vivantes servant d'appeaux, sont accroch\u00e9es \u00e0 l'arbre sous l'\u00e9chelle. Dans le bosquet, deux groupes de chasseurs, partiellement arbitr\u00e9s par des aff\u00fbts sommaires en branches de gen\u00eats ([l a\u0261at\u0283\u02c8u\u0303\u207f]) s'accroupissent ou se dressent comme pour tirer vers le sommet des arbres. On distingue plusieurs autres cages d'appelants pos\u00e9es au pied des peupliers ou accroch\u00e9es sur leurs troncs."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L89",
+            "created": "2024-12-04T10:36:53.645Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-04T10:36:53.645Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L89"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2096",
+            "created": "2024-12-04T10:36:59.774Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-04T10:36:59.774Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2096"
         }
     ],
     "id": "9bc7c47e-995d-4c2a-9410-fa28d9218839.json",
