@@ -8,13 +8,13 @@ order: 2
         {
             "created": "2023-09-13T05:54:58.426Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-13T05:55:36.115Z",
+            "modified": "2024-12-04T09:06:38.943Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Une autre [...] \u00e0 Puimoisson vers 1900."
+            "value": "Une [...] \u00e0 Puimoisson vers 1900."
         },
         {
             "created": "2023-09-13T05:55:12.517Z",
@@ -51,6 +51,11 @@ order: 2
     "id": "0fb92a02-fffd-45be-9445-9c29b4fe137f.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3633.607177734375,81.79379272460938,1378.809814453125,1197.6948547363281"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
@@ -58,11 +63,6 @@ order: 2
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0321",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3633.607177734375,81.79379272460938,1378.809814453125,1197.6948547363281"
         }
     },
     "type": "Annotation"
