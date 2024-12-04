@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0323"
 order: 8
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Mur-rucher du Moulin de Giono au Contadour (Alpes-de-Hte-Provence). Les ruches \u00e9taient abrit\u00e9es deux par deux sous des arcs-de-d\u00e9charger profonds dans une \u00e9paisse muraille oppos\u00e9e au mistral.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T05:43:15.342Z",
-            "modified": "2023-09-14T05:44:11.024Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-04T09:55:39.204Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Mur-rucher du Moulin de Giono au Contadour (Alpes-de-Hte-Provence). \nLes ruches \u00e9taient abrit\u00e9es deux par deux sous des arcs-de-d\u00e9charger profonds dans une \u00e9paisse muraille oppos\u00e9e au mistral."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-14T05:44:27.260Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-14T05:44:27.260Z"
+            "type": "TextualBody",
+            "value": "L???"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-14T05:44:52.256Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T05:45:52.970Z",
-            "modified": "2023-09-14T05:45:55.246Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-14T05:45:55.246Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9059",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T09:55:31.332Z"
         }
     ],
+    "id": "020000f8-886f-4ca7-a308-b4be0c5c39b6.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0323",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3976.179931640625,2305.3759765625,1058.058349609375,1038.37353515625"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3976.179931640625,2305.3759765625,1058.058349609375,1038.37353515625"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0323",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "020000f8-886f-4ca7-a308-b4be0c5c39b6.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
