@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0325"
 order: 4
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Couronnement de pigeonnier dans la haute ville \u00e0 Ch\u00e2teau-Arnoux. Les pigeons peuvent \"prendre le soleil sur deux [...] (toitures abrit\u00e9es du vent) ; une rang\u00e9e de carreaux verniss\u00e9s encercle tout le pigeonnier.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T06:06:09.756Z",
-            "modified": "2023-09-14T06:07:23.672Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-04T10:25:45.993Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Couronnement de pigeonnier dans la haute ville \u00e0 Ch\u00e2teau-Arnoux (Alpes-de-Hte-Provence). \nLes pigeons peuvent \"prendre le soleil sur deux [ka\u0272\u02c8a\u0280] (toitures abrit\u00e9es du vent) ; une rang\u00e9e de carreaux verniss\u00e9s encercle tout le pigeonnier."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-14T06:07:31.401Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-14T06:07:31.401Z"
+            "type": "TextualBody",
+            "value": "L???"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q6797",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-14T06:07:33.924Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel, 1979",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T06:15:56.444Z",
-            "modified": "2023-09-14T06:16:03.368Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-14T06:16:03.368Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel, 1979"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q7697",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T10:26:06.895Z"
         }
     ],
+    "id": "55ac3c2d-b2ac-4d0e-9d9e-e6bf846c35a4.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0325",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2476.680908203125,1168.06396484375,1294.53076171875,963.371826171875"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2476.680908203125,1168.06396484375,1294.53076171875,963.371826171875"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0325",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "55ac3c2d-b2ac-4d0e-9d9e-e6bf846c35a4.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
