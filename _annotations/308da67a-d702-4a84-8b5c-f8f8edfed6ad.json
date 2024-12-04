@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0327"
 order: 7
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Petit pi\u00e8ge (L.18cm.) \u00e0 double rang\u00e9e de machoire, confectionn\u00e9 contre les rats, loirs ou belettes, Provenance : Malijai (Alpes-de-Hte-Provence). \nColl. Alpes de Lumi\u00e8re",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T17:42:25.925Z",
-            "modified": "2023-09-14T17:43:16.758Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-14T17:43:16.758Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Petit pi\u00e8ge (L.18cm.) \u00e0 double rang\u00e9e de machoire, confectionn\u00e9 contre les rats, loirs ou belettes, Provenance : Malijai (Alpes-de-Hte-Provence). \nColl. Alpes de Lumi\u00e8re"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-14T17:43:24.754Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-14T17:43:22.110Z"
+            "type": "TextualBody",
+            "value": "Q7667"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q7667",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-14T17:43:24.754Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Photo : P.Garcin",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T17:46:20.117Z",
-            "modified": "2023-09-14T17:46:27.205Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-14T17:46:27.205Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : P.Garcin"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L78",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T12:44:07.163Z"
         }
     ],
+    "id": "308da67a-d702-4a84-8b5c-f8f8edfed6ad.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0327",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3825.83203125,1193.4219970703125,1233.2607421875,623.55859375"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3825.83203125,1193.4219970703125,1233.2607421875,623.55859375"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0327",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "308da67a-d702-4a84-8b5c-f8f8edfed6ad.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
