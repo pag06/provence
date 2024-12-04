@@ -3,64 +3,81 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0322"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Collecte d'un essaim qui avait \u00e9lu domicile derri\u00e8re les volets d'une maison, \u00e0 St-Michel-l\u2019Observatoire (Alpes-de-Hte-Provence) en 1963. L'apiculteur Delepierre le recueille au moyen d'une ruche en paille de seigle tress\u00e9e [...]",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T05:14:13.875Z",
-            "modified": "2023-09-14T05:15:25.307Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-04T09:29:56.963Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Collecte d'un essaim \u00e0 St-Michel-l\u2019Observatoire (Alpes-de-Hte-Provence) en 1963.\nL'essaim avait \u00e9lu domicile derri\u00e8re les volets d'une maison. L'apiculteur Delepierre le recueille au moyen d'une ruche en paille de seigle tress\u00e9e [...]"
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-14T05:15:40.131Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-14T05:15:37.760Z"
+            "type": "TextualBody",
+            "value": "Q3036"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q3036",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-14T05:15:40.131Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T05:26:24.902Z",
-            "modified": "2023-09-14T05:26:28.119Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-14T05:26:28.119Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L100",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T09:30:48.519Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9057",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T09:30:59.142Z"
         }
     ],
+    "id": "d0202455-60cc-437b-9d18-f7d91e26474d.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0322",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2682.06787109375,196.7582244873047,1039.16015625,1058.3328399658203"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2682.06787109375,196.7582244873047,1039.16015625,1058.3328399658203"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0322",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "d0202455-60cc-437b-9d18-f7d91e26474d.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
