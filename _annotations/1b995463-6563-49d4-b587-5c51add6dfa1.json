@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0324"
 order: 3
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Boulins en terre cuite align\u00e9s sous un auvent sur la fa\u00e7ade m\u00e9ridionale d'une maison \u00e0 St-Martin-de-Noyers (Alpes-de-Hte-Provence)",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T05:49:57.662Z",
-            "modified": "2023-09-14T05:50:38.433Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-04T10:02:44.691Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Boulins en terre cuite align\u00e9s sous un auvent sur la fa\u00e7ade m\u00e9ridionale d'une maison \u00e0 St-Martin-de-Noyers (Alpes-de-Hte-Provence) en 1960."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-14T05:50:44.072Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
+            "type": "TextualBody",
+            "value": "L???"
+        },
+        {
+            "created": "2023-09-14T05:51:01.602Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-14T05:50:44.072Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-14T05:51:01.602Z"
+            "type": "TextualBody",
+            "value": "Q???"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel, 1960",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T05:58:18.395Z",
-            "modified": "2023-09-14T05:58:54.320Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-04T10:02:52.127Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel"
         }
     ],
+    "id": "1b995463-6563-49d4-b587-5c51add6dfa1.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0324",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3955.97314453125,200.78189086914062,1039.76318359375,1416.2294616699219"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3955.97314453125,200.78189086914062,1039.76318359375,1416.2294616699219"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0324",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "1b995463-6563-49d4-b587-5c51add6dfa1.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
