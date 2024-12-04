@@ -3,64 +3,81 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0318"
 order: 6
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Entonnoir en fa\u00efence, que l'on recouvrait d'un tissu de lin pour passer le lait. \u00c9tait utilis\u00e9 \u00e0 Banon par le laitier Martin avant la guerre de 14.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-13T05:28:34.630Z",
-            "modified": "2023-09-13T05:29:19.631Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-04T08:19:42.705Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Entonnoir en fa\u00efence, que l'on recouvrait d'un tissu de lin pour passer le lait. \u00c9tait utilis\u00e9 \u00e0 Banon par le laitier Martin avant la guerre de 1914."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-13T05:29:30.082Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L89",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-13T05:29:30.082Z"
+            "type": "TextualBody",
+            "value": "L89"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-13T05:29:43.927Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Coll. et photo : Pierre Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-13T05:35:41.241Z",
-            "modified": "2023-09-13T05:35:53.678Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-13T05:35:53.678Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Coll. et photo : Pierre Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q4009",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T08:19:57.555Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q4215",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T08:20:03.445Z"
         }
     ],
+    "id": "fb697fc4-5bd5-47eb-bdd7-311e90540ab2.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0318",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3965.140625,1368.0716552734375,1015.8212890625,1034.546142578125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3965.140625,1368.0716552734375,1015.8212890625,1034.546142578125"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0318",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "fb697fc4-5bd5-47eb-bdd7-311e90540ab2.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
