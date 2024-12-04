@@ -17,16 +17,6 @@ order: 4
             "value": "Pi\u00e8ge \u00e0 palette pour capturer les renards, (enqu\u00eate chez M. Latil \u00e0 Bevons, Alpes-de-Hte-Provence, en 1969)\nVu en position ferm\u00e9e. On rattache le pi\u00e8ge \u00e0 un arbuste ou \u00e0 un pieu solide et on l'installe sur un \"passage\" [la t\u0280\u02c8as\u0254, la pj\u02c8ad\u0254] piste par o\u00f9 la b\u00eate a l'habitude de passer. Pour l'ouvrir, on abaisse l'annelle terminant le ressort qui tient les m\u00e2choires ferm\u00e9es. Pour des raisons de s\u00e9curit\u00e9, on bloque ce ressort au moyen d'un crochet mobile pendant la manipulation et on d\u00e9bloque quand le pi\u00e8ge est install\u00e9 et recouvert de terre et d'herbe. Toutes ces op\u00e9rations sont efficaces si l'on a pris la pr\u00e9caution de s'enfumer les mains ou de les parfumer \u00e0 l'essence de lavande, pour \"supprimer l'odeur de l'homme\" qui \u00e9loignerait le renard rendu m\u00e9fiant. "
         },
         {
-            "created": "2023-09-14T17:38:23.827Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
             "created": "2023-09-14T17:38:36.392Z",
             "creator": {
                 "id": "ej7320",
@@ -46,6 +36,16 @@ order: 4
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Pierre Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L71",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T11:10:06.151Z"
         }
     ],
     "id": "83184167-23bc-4c5f-99ba-8b1dfa78bc56.json",
