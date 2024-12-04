@@ -8,13 +8,13 @@ order: 5
         {
             "created": "2023-09-14T17:19:20.602Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-14T17:20:56.808Z",
+            "modified": "2024-12-04T10:49:27.862Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Arbre \u00e0 cimeaux [...], faux arbres plac\u00e9 au dessus d'un fourr\u00e9 de gen\u00e9vrier pour servir de perchoir facile aux grives \u00e0 la recherche de grains de geni\u00e8vre. On plante un tronc d'arbre mort dans le sol et on le garnit de branches basculantes sur lesquelles on fixe les cimeaux [...], grives empaill\u00e9es ou en bois. St-Christol (Vaucluse), 1965"
+            "value": "Arbre \u00e0 cimeaux [awb\u0280\u02c8et, sim\u02c8\u025bw] \u00e0 St-Christol (Vaucluse), 1965.\nFaux arbres plac\u00e9 au dessus d'un fourr\u00e9 de gen\u00e9vrier pour servir de perchoir facile aux grives \u00e0 la recherche de grains de geni\u00e8vre. On plante un tronc d'arbre mort dans le sol et on le garnit de branches basculantes sur lesquelles on fixe les cimeaux [li sim\u02c8\u025bw], grives empaill\u00e9es ou en bois."
         },
         {
             "created": "2023-09-14T17:25:33.912Z",
@@ -28,24 +28,24 @@ order: 5
             "value": "Photo : Pierre Martel"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L89",
+            "created": "2024-12-04T10:47:59.949Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-04T10:47:59.949Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L89"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2096",
+            "created": "2024-12-04T10:48:08.375Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-04T10:48:08.375Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2096"
         }
     ],
     "id": "acb5fe36-2e68-4e33-9eac-d2508db80f20.json",
