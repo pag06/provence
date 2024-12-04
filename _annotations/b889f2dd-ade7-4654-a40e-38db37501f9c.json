@@ -17,16 +17,6 @@ order: 3
             "value": "Ruche en ch\u00eane li\u00e8ge, XIXe si\u00e8cle\nDu type de celles qui \u00e9taient fabriqu\u00e9es autour de la Londe-les-Maures (Var) et vendues sur les foires de la Provence et des Alpes du Sud [lu b\u0280\u02c8ysk]."
         },
         {
-            "created": "2023-09-14T05:18:04.182Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
             "created": "2023-09-14T05:18:19.328Z",
             "creator": {
                 "id": "ej7320",
@@ -46,6 +36,16 @@ order: 3
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Coll. P. Bresc \u00e0 Viens"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L106",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T09:34:03.207Z"
         }
     ],
     "id": "b889f2dd-ade7-4654-a40e-38db37501f9c.json",
