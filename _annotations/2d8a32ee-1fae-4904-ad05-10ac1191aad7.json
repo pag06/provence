@@ -28,35 +28,35 @@ order: 4
             "value": "Coll. et photo du Mus\u00e9e de Romans, Dr\u00f4me"
         },
         {
-            "type": "TextualBody",
-            "value": "Sans localisation",
-            "purpose": "replying",
-            "creator": {
-                "id": "pag06",
-                "name": "pag06"
-            },
             "created": "2024-12-04T08:16:12.288Z",
-            "modified": "2024-12-04T08:16:18.956Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q8666",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-04T08:16:41.521Z"
+            "modified": "2024-12-04T08:18:58.878Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Sans localisation"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q6796",
+            "created": "2024-12-04T08:16:41.521Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-04T08:18:11.307Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8666"
+        },
+        {
+            "created": "2024-12-04T08:18:11.307Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q6796"
         }
     ],
     "id": "2d8a32ee-1fae-4904-ad05-10ac1191aad7.json",
