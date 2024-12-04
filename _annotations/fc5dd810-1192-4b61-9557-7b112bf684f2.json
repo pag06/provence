@@ -8,13 +8,13 @@ order: 1
         {
             "created": "2023-09-13T05:37:32.769Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-13T05:39:26.977Z",
+            "modified": "2024-12-04T08:35:34.866Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Le \"saigneur\" [...] attend le cochon. La place du couteau \u00e0 saigner ([...]) entre ses dents, n'est pas celle d'une pose humoristique prise pour le photographe : quand le saigneur doit lib\u00e9rer ses deux mains, il tient effectivement le couteau dans sa bouche, comme on le voit par exemple sur la photo n\u00b0 9\nValsaintes (commune de Simiane, Alpes-de-Hte-Provence)"
+            "value": "Le \"saigneur\" [lu s\u0254wn\u02c8aj\u0280e] attend le cochon, \u00e0 Valsaintes (commune de Simiane, Alpes-de-Hte-Provence)\nLa place du couteau \u00e0 saigner ([lu kut\u02c8\u025bw s\u0254wn\u02c8aj\u0280e]) entre ses dents, n'est pas celle d'une pose humoristique prise pour le photographe : quand le saigneur doit lib\u00e9rer ses deux mains, il tient le couteau dans sa bouche."
         },
         {
             "created": "2023-09-13T05:40:13.431Z",
@@ -38,24 +38,24 @@ order: 1
             "value": "Photo : Jack Buriot"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L89",
+            "created": "2024-12-04T08:33:04.086Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-04T08:33:04.086Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L89"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2803",
+            "created": "2024-12-04T08:33:10.854Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-04T08:33:10.854Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2803"
         }
     ],
     "id": "fc5dd810-1192-4b61-9557-7b112bf684f2.json",
