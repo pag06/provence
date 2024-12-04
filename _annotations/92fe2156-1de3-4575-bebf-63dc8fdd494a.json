@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0318"
 order: 7
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Louche \u00e0 lait en buis, utilis\u00e9e par le berger Tabouret, au Revest-Saint-Martin, pr\u00e8s de Forcalquier pendant la derni\u00e8re guerre.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-13T05:30:09.359Z",
-            "modified": "2023-09-13T05:30:46.885Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-13T05:30:46.885Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Louche \u00e0 lait en buis, utilis\u00e9e par le berger Tabouret, au Revest-Saint-Martin, pr\u00e8s de Forcalquier pendant la derni\u00e8re guerre."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-13T05:31:05.298Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L100",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-13T05:31:05.298Z"
+            "type": "TextualBody",
+            "value": "L100"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q6131",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-13T05:31:20.716Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Coll. et photo : Pierre Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-13T05:35:56.685Z",
-            "modified": "2023-09-13T05:36:05.772Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-13T05:36:05.772Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Coll. et photo : Pierre Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q6137",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T08:20:55.188Z"
         }
     ],
+    "id": "92fe2156-1de3-4575-bebf-63dc8fdd494a.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0318",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1846.6888427734375,2526.8681640625,561.7113037109375,971.04345703125"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1846.6888427734375,2526.8681640625,561.7113037109375,971.04345703125"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0318",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "92fe2156-1de3-4575-bebf-63dc8fdd494a.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
