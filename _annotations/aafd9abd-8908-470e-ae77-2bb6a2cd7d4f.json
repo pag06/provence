@@ -3,64 +3,81 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0323"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Rucher de l'abb\u00e9 Angelin Coullet, \u00e0 Vergons (Alpes-de-Hte-Provence) vers 1920-30. Le rucher est constitu\u00e9 d'un trentaine de ruches \u00e0 cadres, dont ce cur\u00e9, c\u00e9l\u00e8bre parmi les apiculteurs, a \u00e9t\u00e9 le vulgarisateur dans les Basses-Alpes.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T05:33:13.229Z",
-            "modified": "2023-09-14T05:34:44.719Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-14T05:34:44.719Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Rucher de l'abb\u00e9 Angelin Coullet, \u00e0 Vergons (Alpes-de-Hte-Provence) vers 1920-30. Le rucher est constitu\u00e9 d'un trentaine de ruches \u00e0 cadres, dont ce cur\u00e9, c\u00e9l\u00e8bre parmi les apiculteurs, a \u00e9t\u00e9 le vulgarisateur dans les Basses-Alpes."
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-14T05:34:55.903Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L???",
+            "type": "TextualBody",
+            "value": "L???"
+        },
+        {
+            "created": "2023-09-14T05:34:58.852Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-14T05:34:55.903Z"
-        },
-        {
-            "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q9057",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-14T05:34:58.852Z"
+            "type": "TextualBody",
+            "value": "Q9057"
         },
         {
-            "type": "TextualBody",
-            "value": "Photo : Alpes de Lumi\u00e8re",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T05:46:16.730Z",
-            "modified": "2023-09-14T05:46:19.029Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-14T05:46:19.029Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Alpes de Lumi\u00e8re"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q9059",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T09:42:26.620Z"
         }
     ],
+    "id": "aafd9abd-8908-470e-ae77-2bb6a2cd7d4f.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0323",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3513.774658203125,86.04938507080078,1538.133056640625,1107.8857955932617"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3513.774658203125,86.04938507080078,1538.133056640625,1107.8857955932617"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0323",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "aafd9abd-8908-470e-ae77-2bb6a2cd7d4f.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
