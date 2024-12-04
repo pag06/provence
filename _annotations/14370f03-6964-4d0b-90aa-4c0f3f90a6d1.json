@@ -28,24 +28,34 @@ order: 6
             "value": "Photo : Jack Burlot"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L89",
+            "created": "2024-12-04T08:53:15.653Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-04T08:53:15.653Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L89"
+        },
+        {
+            "created": "2024-12-04T08:53:19.612Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q8486"
         },
         {
             "type": "TextualBody",
             "purpose": "tagging",
-            "value": "Q8486",
+            "value": "Q890",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-04T08:53:19.612Z"
+            "created": "2024-12-04T08:57:30.955Z"
         }
     ],
     "id": "14370f03-6964-4d0b-90aa-4c0f3f90a6d1.json",
