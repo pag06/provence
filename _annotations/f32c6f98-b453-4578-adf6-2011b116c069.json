@@ -17,26 +17,6 @@ order: 5
             "value": "Autre type de nid en vannerie provenant de Limans (Alpes-de-Hte-Provence)\nBoulins donn\u00e9s \u00e0 Alpes de Lumi\u00e8re par les propri\u00e9taires et d\u00e9pos\u00e9s au Conservatoire Ethnologique de la Haute Provence \u00e0 Salagon, Mane (Alpes-de-Hte-Provence)"
         },
         {
-            "created": "2023-09-14T05:52:47.642Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
-            "created": "2023-09-14T05:52:48.718Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q???"
-        },
-        {
             "created": "2023-09-14T06:00:15.372Z",
             "creator": {
                 "id": "pag06",
@@ -46,6 +26,36 @@ order: 5
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Pierre Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L100",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T10:05:31.372Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L136",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T10:05:35.176Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q7697",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T10:05:40.808Z"
         }
     ],
     "id": "f32c6f98-b453-4578-adf6-2011b116c069.json",
