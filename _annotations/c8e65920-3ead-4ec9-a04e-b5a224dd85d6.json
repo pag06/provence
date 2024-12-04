@@ -17,16 +17,6 @@ order: 5
             "value": "Couloir \u00e0 lait, passoire dont la grille est renforc\u00e9e par une toile de fil de lin pour un filtrage parfait du lait."
         },
         {
-            "created": "2023-09-13T05:28:10.488Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q???"
-        },
-        {
             "created": "2023-09-13T05:34:45.616Z",
             "creator": {
                 "id": "ej7320",
@@ -38,15 +28,35 @@ order: 5
             "value": "Coll. et photo du Mus\u00e9e de Romans, Dr\u00f4me"
         },
         {
-            "type": "TextualBody",
-            "value": "Sans localisation",
-            "purpose": "identifying",
+            "created": "2024-12-04T08:18:37.095Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-04T08:18:37.095Z",
-            "modified": "2024-12-04T08:18:48.403Z"
+            "modified": "2024-12-04T08:18:48.403Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Sans localisation"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q2714",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T08:19:13.008Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q4215",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T08:19:17.654Z"
         }
     ],
     "id": "c8e65920-3ead-4ec9-a04e-b5a224dd85d6.json",
