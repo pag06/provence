@@ -8,23 +8,13 @@ order: 4
         {
             "created": "2023-09-13T05:44:21.305Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-13T05:45:32.488Z",
+            "modified": "2024-12-04T08:46:32.080Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Le r\u00e2clage des soies : on r\u00e2cle les soies du dos \u00e0 l'aide de divers instruments m\u00e9talliques affut\u00e9s, de vieux cuillers, que l'on appelle [...]. Au fur et \u00e0 mesure de l'op\u00e9ration, on verse de l'eau chaude sur le cochon avec des casseroles.\nValsaintes (commune de Simiane, Alpes-de-Hte-Provence)"
-        },
-        {
-            "created": "2023-09-13T05:45:50.463Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q1548"
+            "value": "Le r\u00e2clage des soies \u00e0 Valsaintes (commune de Simiane, Alpes-de-Hte-Provence)\nOn r\u00e2cle les soies du dos \u00e0 l'aide de divers instruments m\u00e9talliques affut\u00e9s, de vieux cuillers, que l'on appelle [...]. Au fur et \u00e0 mesure de l'op\u00e9ration, on verse de l'eau chaude sur le cochon avec des casseroles.\nValsaintes (commune de Simiane, Alpes-de-Hte-Provence)"
         },
         {
             "created": "2023-09-13T05:52:09.793Z",
@@ -38,14 +28,24 @@ order: 4
             "value": "Photo : Jack Burlot"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L89",
+            "created": "2024-12-04T08:45:18.772Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-04T08:45:18.772Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L89"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q8486",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T08:46:05.049Z"
         }
     ],
     "id": "89bc19c0-e545-4673-80e1-9c420c73b3be.json",
