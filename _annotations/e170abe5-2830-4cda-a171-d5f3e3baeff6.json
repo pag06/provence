@@ -3,64 +3,71 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0327"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Collier \u00e0 pointes de fer que l'on mettait au cou des chiens louvetiers et des chiens de berger pour emp\u00eacher les loups de les atteindre \u00e0 la nuque ; type \u00e0 3 rang\u00e9es de plaques ac\u00e9r\u00e9es, long.62cm. Sault-de-Vaucluse",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T17:30:31.349Z",
-            "modified": "2023-09-14T17:31:28.987Z"
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "modified": "2024-12-04T11:01:31.244Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Collier \u00e0 pointes de fer (chien) (Sault-de-Vaucluse)\nMis au cou des chiens louvetiers et des chiens de berger pour emp\u00eacher les loups de les atteindre \u00e0 la nuque ; type \u00e0 3 rang\u00e9es de plaques ac\u00e9r\u00e9es, long. 62 cm. "
         },
         {
-            "type": "TextualBody",
+            "created": "2023-09-14T17:31:44.441Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
             "purpose": "tagging",
-            "value": "L81",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-14T17:31:44.441Z"
+            "type": "TextualBody",
+            "value": "L81"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q???",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "created": "2023-09-14T17:31:59.478Z"
-        },
-        {
-            "type": "TextualBody",
-            "value": "Photo : Pierre Martel",
-            "purpose": "identifying",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T17:45:22.761Z",
-            "modified": "2023-09-14T17:45:24.713Z"
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-14T17:45:24.713Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q11014",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T11:00:30.151Z"
         }
     ],
+    "id": "e170abe5-2830-4cda-a171-d5f3e3baeff6.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0327",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=1522.1292724609375,60.62376022338867,699.7713623046875,1049.6571235656738"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=1522.1292724609375,60.62376022338867,699.7713623046875,1049.6571235656738"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0327",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "e170abe5-2830-4cda-a171-d5f3e3baeff6.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
