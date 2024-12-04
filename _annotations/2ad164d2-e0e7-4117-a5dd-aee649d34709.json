@@ -8,13 +8,13 @@ order: 6
         {
             "created": "2023-09-13T05:09:07.157Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "modified": "2023-09-13T05:10:02.174Z",
+            "modified": "2024-12-04T11:35:37.208Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Faisselles en fa\u00efence sur un grand \u00e9gouttoir de bois au Revest-de-Bion (Alpes-de-Hte-Provence) [...]\nColl. Guy Barruol"
+            "value": "Faisselles en fa\u00efence sur un grand \u00e9gouttoir de bois au Revest-de-Bion (Alpes-de-Hte-Provence) [la fe\u025fs\u02c8\u025bl\u0153, lu p\u02c8\u0254rt\u0153 fejs\u02c8\u025bl\u0153]\nColl. Guy Barruol"
         },
         {
             "created": "2023-09-13T05:10:10.244Z",
@@ -48,14 +48,14 @@ order: 6
             "value": "Q3741"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L89",
+            "created": "2024-12-03T15:31:50.510Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T15:31:50.510Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "L89"
         }
     ],
     "id": "2ad164d2-e0e7-4117-a5dd-aee649d34709.json",
