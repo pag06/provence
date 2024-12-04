@@ -6,34 +6,15 @@ order: 4
     "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "created": "2023-09-13T05:58:50.736Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
             "created": "2023-09-13T05:59:04.110Z",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Saloir servant d'abord de r\u00e9cipient pour saler la viande que l'on suspend ensuite en position de garde-manger pour la conserver. St-Didier-du-Biion (Hautes-Alpes)"
-        },
-        {
-            "created": "2023-09-13T05:59:11.900Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "Q9165"
+            "value": "Saloir servant d'abord de r\u00e9cipient pour saler la viande que l'on suspend ensuite en position de garde-manger pour la conserver. St-Disdier--en-D\u00e9voluy (Hautes-Alpes)",
+            "modified": "2024-12-04T09:16:59.685Z"
         },
         {
             "created": "2023-09-13T06:03:48.319Z",
@@ -45,11 +26,36 @@ order: 4
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Pierre Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L29",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T09:17:11.842Z"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q5031",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T09:17:17.870Z"
         }
     ],
     "id": "1e24f523-34b9-47bd-8864-91604c8a397b.json",
     "motivation": "commenting",
     "target": {
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=2860.042236328125,1337.960205078125,949.091064453125,961.818115234375"
+        },
         "source": {
             "partOf": {
                 "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
@@ -57,11 +63,6 @@ order: 4
             },
             "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0321",
             "type": "Canvas"
-        },
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=2860.042236328125,1337.960205078125,949.091064453125,961.818115234375"
         }
     },
     "type": "Annotation"
