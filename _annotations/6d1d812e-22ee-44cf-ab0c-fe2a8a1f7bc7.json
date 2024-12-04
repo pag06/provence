@@ -3,64 +3,82 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0326"
 order: 2
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "Capes \u00e0 grives [...] au moment des nettoyages et r\u00e9vision d'octobre avant les premiers \"passages\" de grives de novembre. Les grives vivantes sont prises les premiers jours au moyen de \"varguettes\" [...] (gluaux, baguettes d'am\u00e9lanchier ou de sureau, enduites de glu). On gardera comme \"appelants\" toutes celles qui chantent bien et on mangera les autres, les muettes [..]. Chaque grive a sa cage, avec sa mangeoire remplie de figues s\u00e9ches hach\u00e9es et sa petite cruche en terre cuite [...] que le chasseur remplit r\u00e9guli\u00e8rement car l'eau est indispensable \u00e0 l'oiseau pour chanter.",
-            "purpose": "commenting",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
             "created": "2023-09-14T07:54:49.679Z",
-            "modified": "2023-09-14T17:14:03.897Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "L???",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-14T17:14:08.748Z"
+            "modified": "2023-09-14T17:14:03.897Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Capes \u00e0 grives [...] au moment des nettoyages et r\u00e9vision d'octobre avant les premiers \"passages\" de grives de novembre. Les grives vivantes sont prises les premiers jours au moyen de \"varguettes\" [...] (gluaux, baguettes d'am\u00e9lanchier ou de sureau, enduites de glu). On gardera comme \"appelants\" toutes celles qui chantent bien et on mangera les autres, les muettes [..]. Chaque grive a sa cage, avec sa mangeoire remplie de figues s\u00e9ches hach\u00e9es et sa petite cruche en terre cuite [...] que le chasseur remplit r\u00e9guli\u00e8rement car l'eau est indispensable \u00e0 l'oiseau pour chanter."
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q1647",
+            "created": "2023-09-14T17:14:57.996Z",
             "creator": {
                 "id": "ej7320",
                 "name": "Eulalie"
             },
-            "created": "2023-09-14T17:14:57.996Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q1647"
+        },
+        {
+            "created": "2023-09-14T17:25:29.243Z",
+            "creator": {
+                "id": "ej7320",
+                "name": "Eulalie"
+            },
+            "modified": "2023-09-14T17:25:32.135Z",
+            "purpose": "identifying",
+            "type": "TextualBody",
+            "value": "Photo : Pierre Martel"
         },
         {
             "type": "TextualBody",
-            "value": "Photo : Pierre Martel",
+            "purpose": "tagging",
+            "value": "Q2096",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T10:39:30.492Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Sans localisation",
             "purpose": "identifying",
             "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
+                "id": "pag06",
+                "name": "pag06"
             },
-            "created": "2023-09-14T17:25:29.243Z",
-            "modified": "2023-09-14T17:25:32.135Z"
+            "created": "2024-12-04T10:39:53.633Z",
+            "modified": "2024-12-04T10:40:02.864Z"
         }
     ],
+    "id": "6d1d812e-22ee-44cf-ab0c-fe2a8a1f7bc7.json",
+    "motivation": "commenting",
     "target": {
-        "source": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0326",
-        "selector": {
-            "type": "FragmentSelector",
-            "conformsTo": "http://www.w3.org/TR/media-frags/",
-            "value": "xywh=3978.25732421875,206.12078857421875,1018.4794921875,997.6939086914062"
-        },
         "dcterms:isPartOf": {
             "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
             "type": "Manifest"
+        },
+        "selector": {
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "type": "FragmentSelector",
+            "value": "xywh=3978.25732421875,206.12078857421875,1018.4794921875,997.6939086914062"
+        },
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0326",
+            "type": "Canvas"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "6d1d812e-22ee-44cf-ab0c-fe2a8a1f7bc7.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
