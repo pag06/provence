@@ -11,20 +11,10 @@ order: 5
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-12-04T11:10:53.625Z",
+            "modified": "2024-12-04T11:12:58.521Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Grand pi\u00e8ge \u00e0 ressort puissant \u00e0 Ongles, 1970.\n(L. 48cm) qui, rev\u00eatu d'un filet \u00e9tait utilis\u00e9 pour la capture des buses ou des aigles : [...] "
-        },
-        {
-            "created": "2023-09-14T17:40:02.372Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
+            "value": "Grand pi\u00e8ge \u00e0 ressort puissant \u00e0 Ongles, Alpes-de-Hte-Provence, 1970.\nRev\u00eatu d'un filet, il \u00e9tait utilis\u00e9 pour la capture des buses ou des aigles : [l a\u0280k\u02c8e]. L. 48 cm"
         },
         {
             "created": "2023-09-14T17:40:07.096Z",
@@ -46,6 +36,16 @@ order: 5
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Photo : Pierre Martel"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L87",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T11:13:22.196Z"
         }
     ],
     "id": "ac7b6d1d-f301-47dd-b255-508e6eac9f30.json",
