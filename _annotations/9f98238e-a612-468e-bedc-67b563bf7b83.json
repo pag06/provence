@@ -38,14 +38,14 @@ order: 3
             "value": "L92"
         },
         {
-            "created": "2024-12-02T16:22:55.482Z",
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q10716",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L10716"
+            "created": "2024-12-04T11:19:16.479Z"
         }
     ],
     "id": "9f98238e-a612-468e-bedc-67b563bf7b83.json",
