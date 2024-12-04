@@ -27,16 +27,6 @@ order: 2
             "value": "Q2278"
         },
         {
-            "created": "2023-09-13T05:55:46.889Z",
-            "creator": {
-                "id": "ej7320",
-                "name": "Eulalie"
-            },
-            "purpose": "tagging",
-            "type": "TextualBody",
-            "value": "L???"
-        },
-        {
             "created": "2023-09-13T06:04:36.122Z",
             "creator": {
                 "id": "ej7320",
@@ -46,6 +36,16 @@ order: 2
             "purpose": "identifying",
             "type": "TextualBody",
             "value": "Coll. J. Valon"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "L114",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "created": "2024-12-04T09:08:24.277Z"
         }
     ],
     "id": "0fb92a02-fffd-45be-9445-9c29b4fe137f.json",
