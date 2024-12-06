@@ -1,5 +1,5 @@
 ---
-canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0317"
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0319"
 order: 8
 ---
 {
@@ -65,7 +65,7 @@ order: 8
                 "id": "https://pag06.github.io/provence/manifests/iiif/ALP3/manifest.json",
                 "type": "Manifest"
             },
-            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0317",
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0319",
             "type": "Canvas"
         }
     },

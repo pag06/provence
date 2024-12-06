@@ -1,8 +1,8 @@
 ---
-canvas_id: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0317"
+canvas_id: "https://bcl-180.unice.fr:11280/iiif/ALP3/canvas/ALP_3_0319"
 ---
 {% assign annotations = site.annotations | where: "canvas", page.canvas_id | sort: "order" | map: "content" %}
-{
+
 "@context": "http://iiif.io/api/presentation/3/context.json",
 "id": "{{ site.url }}{{ site.baseurl }}{{page.url}}",
 "type": "AnnotationPage",
