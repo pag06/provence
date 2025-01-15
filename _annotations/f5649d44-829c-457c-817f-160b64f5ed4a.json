@@ -11,41 +11,41 @@ order: 1
                 "id": "pag06",
                 "name": "pag06"
             },
-            "modified": "2024-12-03T10:22:21.881Z",
+            "modified": "2025-01-15T12:32:45.346Z",
             "purpose": "commenting",
             "type": "TextualBody",
-            "value": "Chasse \u00e0 la grive\nAutrefois, les chasseurs montaient dans l'arbre non sans pein pour aller fixer les \"cimeaux\", [li sim\u02c8ew]. Le terme signifiait aussi bien des grives empaill\u00e9es ou sculpt\u00e9es dans le bois que la tige fix\u00e9e au sommet des arbres qui la supportaient et au pied de laquelle ils avaient leur \"agachon\" ([l a\u0261at\u0283\u02c8u\u0303\u207f]) et leurs \"appelants\" ([lejz apel\u02c8a\u0303\u207f]), grives en cage. Depuis la derni\u00e8re guerre sont apprus des proc\u00e9d\u00e9s plus \u00e9volu\u00e9s (tiges t\u00e9lescopiques, longues barres de bois basculantes et command\u00e9es par un cabestan \u00e0 manivelle comme sur la figure."
+            "value": "Chasse \u00e0 la grive : syst\u00e8me de levage du \u00ab\u00a0cimeau\u00a0\u00bb\nAutrefois, les chasseurs montaient dans l'arbre non sans pein pour aller fixer les \"cimeaux\", [li sim\u02c8ew]. Le terme signifiait aussi bien des grives empaill\u00e9es ou sculpt\u00e9es dans le bois que la tige fix\u00e9e au sommet des arbres qui la supportaient et au pied de laquelle ils avaient leur \"agachon\" ([l a\u0261at\u0283\u02c8u\u0303\u207f]) et leurs \"appelants\" ([lejz apel\u02c8a\u0303\u207f]), grives en cage. Depuis la derni\u00e8re guerre sont apprus des proc\u00e9d\u00e9s plus \u00e9volu\u00e9s (tiges t\u00e9lescopiques, longues barres de bois basculantes et command\u00e9es par un cabestan \u00e0 manivelle comme sur la figure."
         },
         {
-            "type": "TextualBody",
-            "value": "Sans localisation",
-            "purpose": "commenting",
-            "creator": {
-                "id": "pag06",
-                "name": "pag06"
-            },
             "created": "2024-12-03T10:23:49.324Z",
-            "modified": "2024-12-03T10:23:55.195Z"
-        },
-        {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q5353",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T10:24:10.165Z"
+            "modified": "2024-12-03T10:23:55.195Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "Sans localisation"
         },
         {
-            "type": "TextualBody",
-            "purpose": "tagging",
-            "value": "Q2096",
+            "created": "2024-12-03T10:24:10.165Z",
             "creator": {
                 "id": "pag06",
                 "name": "pag06"
             },
-            "created": "2024-12-03T10:24:15.820Z"
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q5353"
+        },
+        {
+            "created": "2024-12-03T10:24:15.820Z",
+            "creator": {
+                "id": "pag06",
+                "name": "pag06"
+            },
+            "purpose": "tagging",
+            "type": "TextualBody",
+            "value": "Q2096"
         }
     ],
     "id": "f5649d44-829c-457c-817f-160b64f5ed4a.json",
