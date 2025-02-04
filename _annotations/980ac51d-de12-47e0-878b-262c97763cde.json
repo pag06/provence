@@ -1,0 +1,40 @@
+---
+canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0030"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "tioti",
+            "purpose": "commenting",
+            "creator": {
+                "id": "Pigeo",
+                "name": "Pierre-Aur\u00e9lien Georges"
+            },
+            "created": "2025-02-04T14:34:29.682Z",
+            "modified": "2025-02-04T14:34:29.918Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "partOf": {
+                "id": "https://pag06.github.io/provence/manifests/iiif/ALP2/manifest.json",
+                "type": "Manifest"
+            },
+            "id": "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0030",
+            "type": "Canvas"
+        },
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><polygon points=\"385.1556396484375,1911.1929931640625 359.35552978515625,3006.70556640625 1514.9342924641473,3033.920278278116 1540.7344023274286,1938.4077050359285\" /></svg>"
+        },
+        "renderedVia": {
+            "name": "annotorious-tilted-box"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "980ac51d-de12-47e0-878b-262c97763cde.json",
+    "motivation": "commenting"
+}
