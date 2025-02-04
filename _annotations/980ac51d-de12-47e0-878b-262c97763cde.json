@@ -28,15 +28,36 @@ order: 1
             "value": "C336"
         },
         {
+            "created": "2025-02-04T14:40:57.914Z",
+            "creator": {
+                "id": "Pigeo",
+                "name": "Pierre-Aur\u00e9lien Georges"
+            },
+            "modified": "2025-02-04T14:40:58.099Z",
+            "purpose": "tagging",
             "type": "TextualBody",
-            "value": "Q6676",
+            "value": "Q6676"
+        },
+        {
+            "type": "TextualBody",
+            "purpose": "tagging",
+            "value": "Q4117",
+            "creator": {
+                "id": "Pigeo",
+                "name": "Pierre-Aur\u00e9lien Georges"
+            },
+            "created": "2025-02-04T14:46:17.191Z"
+        },
+        {
+            "type": "TextualBody",
+            "value": "Q10223",
             "purpose": "tagging",
             "creator": {
                 "id": "Pigeo",
                 "name": "Pierre-Aur\u00e9lien Georges"
             },
-            "created": "2025-02-04T14:40:57.914Z",
-            "modified": "2025-02-04T14:40:58.099Z"
+            "created": "2025-02-04T14:50:22.835Z",
+            "modified": "2025-02-04T14:50:23.722Z"
         }
     ],
     "id": "980ac51d-de12-47e0-878b-262c97763cde.json",
