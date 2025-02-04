@@ -3,20 +3,22 @@ canvas: "https://bcl-180.unice.fr:11280/iiif/ALP2/canvas/ALP_2_0030"
 order: 1
 ---
 {
-    "type": "Annotation",
+    "@context": "http://www.w3.org/ns/anno.jsonld",
     "body": [
         {
-            "type": "TextualBody",
-            "value": "tioti",
-            "purpose": "commenting",
+            "created": "2025-02-04T14:34:29.682Z",
             "creator": {
                 "id": "Pigeo",
                 "name": "Pierre-Aur\u00e9lien Georges"
             },
-            "created": "2025-02-04T14:34:29.682Z",
-            "modified": "2025-02-04T14:34:29.918Z"
+            "modified": "2025-02-04T14:34:29.918Z",
+            "purpose": "commenting",
+            "type": "TextualBody",
+            "value": "tioti"
         }
     ],
+    "id": "980ac51d-de12-47e0-878b-262c97763cde.json",
+    "motivation": "commenting",
     "target": {
         "source": {
             "partOf": {
@@ -28,13 +30,11 @@ order: 1
         },
         "selector": {
             "type": "SvgSelector",
-            "value": "<svg><polygon points=\"385.1556396484375,1911.1929931640625 359.35552978515625,3006.70556640625 1514.9342924641473,3033.920278278116 1540.7344023274286,1938.4077050359285\" /></svg>"
+            "value": "<svg><polygon points=\"378.7919921875,1910.2838134765625 364.2433166503906,3004.474365234375 1520.0403349974672,3019.8421782534842 1534.5890105345766,1925.6516264956717\"></polygon></svg>"
         },
         "renderedVia": {
             "name": "annotorious-tilted-box"
         }
     },
-    "@context": "http://www.w3.org/ns/anno.jsonld",
-    "id": "980ac51d-de12-47e0-878b-262c97763cde.json",
-    "motivation": "commenting"
+    "type": "Annotation"
 }
