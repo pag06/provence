@@ -15,6 +15,17 @@ order: 1
             "purpose": "commenting",
             "type": "TextualBody",
             "value": "Migrations des travailleurs saisonniers pour la moisson\n\nDans beaucoup de cas, les moissonneurs \u00e9taient des saisonniers venus d'ailleurs.\n\nA l'aide des r\u00e9ponses donn\u00e9es par les informateurs, nous\navons \u00e9tabli cette carte, qui donne quelques indications sur le sens dans lequel s'effectuaient les principales migrations des travailleurs.\n\nA Romans, Valence, de v\u00e9ritables \u00abfoires aux moissonneurs\u00bb avaient lieu au moment des moissons sur le Pont-Vieux \u00e0 Romans le vendredi et le dimanche, sur la place St-Jean \u00e0 Valence tous les jours. Les Ard\u00e9chois se rassemblaient d\u00e8s l'aube avec leur enclume et leur marteau\n\u00e0 l'\u00e9paule et attendaient d'\u00eatre recrut\u00e9s par les paysans\ndr\u00f4mois. L'enclume et le marteau servaient de gages et\n\u00e9taient rendus apr\u00e8s le travail."
+        },
+        {
+            "type": "TextualBody",
+            "value": "C336",
+            "purpose": "tagging",
+            "creator": {
+                "id": "Pigeo",
+                "name": "Pierre-Aur\u00e9lien Georges"
+            },
+            "created": "2025-02-04T14:39:10.468Z",
+            "modified": "2025-02-04T14:39:12.939Z"
         }
     ],
     "id": "980ac51d-de12-47e0-878b-262c97763cde.json",
